@@ -1,0 +1,121 @@
+is_global = true
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Trener
+build_property.ProjectDir = C:\Users\janst\source\repos\Trener\Trener\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/janst/source/repos/Trener/Trener/ActionPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.ActionPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ActionPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ActionPage.xaml
+
+[C:/Users/janst/source/repos/Trener/Trener/ActionPage2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.ActionPage2.xaml
+build_metadata.AdditionalFiles.TargetPath = ActionPage2.xaml
+build_metadata.AdditionalFiles.RelativePath = ActionPage2.xaml
+
+[C:/Users/janst/source/repos/Trener/Trener/ActionPage3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.ActionPage3.xaml
+build_metadata.AdditionalFiles.TargetPath = ActionPage3.xaml
+build_metadata.AdditionalFiles.RelativePath = ActionPage3.xaml
+
+[C:/Users/janst/source/repos/Trener/Trener/AdvaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.AdvaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AdvaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AdvaPage.xaml
+
+[C:/Users/janst/source/repos/Trener/Trener/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/janst/source/repos/Trener/Trener/AppPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.AppPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AppPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AppPage.xaml
+
+[C:/Users/janst/source/repos/Trener/Trener/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/janst/source/repos/Trener/Trener/BegiPage2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.BegiPage2.xaml
+build_metadata.AdditionalFiles.TargetPath = BegiPage2.xaml
+build_metadata.AdditionalFiles.RelativePath = BegiPage2.xaml
+
+[C:/Users/janst/source/repos/Trener/Trener/ComboBPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.ComboBPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ComboBPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ComboBPage.xaml
+
+[C:/Users/janst/source/repos/Trener/Trener/FightLPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.FightLPage.xaml
+build_metadata.AdditionalFiles.TargetPath = FightLPage.xaml
+build_metadata.AdditionalFiles.RelativePath = FightLPage.xaml
+
+[C:/Users/janst/source/repos/Trener/Trener/FitPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.FitPage.xaml
+build_metadata.AdditionalFiles.TargetPath = FitPage.xaml
+build_metadata.AdditionalFiles.RelativePath = FitPage.xaml
+
+[C:/Users/janst/source/repos/Trener/Trener/MenuPage0.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.MenuPage0.xaml
+build_metadata.AdditionalFiles.TargetPath = MenuPage0.xaml
+build_metadata.AdditionalFiles.RelativePath = MenuPage0.xaml
+
+[C:/Users/janst/source/repos/Trener/Trener/MenuPage1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.MenuPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = MenuPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = MenuPage1.xaml
+
+[C:/Users/janst/source/repos/Trener/Trener/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/janst/source/repos/Trener/Trener/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/janst/source/repos/Trener/Trener/StartPage1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.StartPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = StartPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = StartPage1.xaml
+
+[C:/Users/janst/source/repos/Trener/Trener/StylPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.StylPage.xaml
+build_metadata.AdditionalFiles.TargetPath = StylPage.xaml
+build_metadata.AdditionalFiles.RelativePath = StylPage.xaml
+
+[C:/Users/janst/source/repos/Trener/Trener/TechPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.TechPage.xaml
+build_metadata.AdditionalFiles.TargetPath = TechPage.xaml
+build_metadata.AdditionalFiles.RelativePath = TechPage.xaml

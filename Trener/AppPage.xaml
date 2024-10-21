@@ -1,0 +1,26 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Trener.AppPage"
+             Title="O aplikaci">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <ScrollView Grid.Row="0">
+            <StackLayout>
+                <Label 
+                    Text="Aplikační software (zkráceně aplikace, slangově apka nebo appka[1]) je v informatice programové vybavení počítače (tj. software), které umožňuje provádět nějakou užitečnou činnost (řešení konkrétního problému, interaktivní tvorbu uživatele – např. textový procesor apod.).[2] Aplikace využívají pro interakci s uživatelem grafické nebo textové rozhraní, případně příkazový řádek. Aplikace se může skládat z několika počítačových programů. Mezi aplikace neřadíme systémový software (tj. jádro a další součásti operačního systému, např. služba Windows, démon).ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssAplikační software (zkráceně aplikace, slangově apka nebo appka[1]) je v informatice programové vybavení počítače (tj. software), které umožňuje provádět nějakou užitečnou činnost (řešení konkrétního problému, interaktivní tvorbu uživatele – např. textový procesor apod.).[2] Aplikace využívají pro interakci s uživatelem grafické nebo textové rozhraní, případně příkazový řádek. Aplikace se může skládat z několika počítačových programů. Mezi aplikace neřadíme systémový software (tj. jádro a další součásti operačního systému, např. služba Windows, démon).ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss Aplikační software (zkráceně aplikace, slangově apka nebo appka[1]) je v informatice programové vybavení počítače (tj. software), které umožňuje provádět nějakou užitečnou činnost (řešení konkrétního problému, interaktivní tvorbu uživatele – např. textový procesor apod.).[2] Aplikace využívají pro interakci s uživatelem grafické nebo textové rozhraní, případně příkazový řádek. Aplikace se může skládat z několika počítačových programů. Mezi aplikace neřadíme systémový software (tj. jádro a další součásti operačního systému, např. služba Windows, démon).ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center" 
+                    WidthRequest="300"/>
+            </StackLayout>
+        </ScrollView>
+
+        <Button Grid.Row="1"
+                Text ="Zpět"
+                Clicked="Click"/>
+    </Grid>
+</ContentPage>

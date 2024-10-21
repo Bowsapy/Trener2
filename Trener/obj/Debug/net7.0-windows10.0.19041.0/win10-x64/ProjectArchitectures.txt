@@ -1,0 +1,1 @@
+C:\Users\janst\source\repos\Trener\Trener\Trener.csproj;x64
