@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Trener.ProgressPage"
+             Title="ProgressPage"
+             xmlns:local="clr-namespace:Trener">
+
+    <ContentPage.BindingContext>
+        <local:YourViewModel />
+    </ContentPage.BindingContext>
+
+    <StackLayout Padding="20">
+        <!-- Nadpis s uživatelským jménem -->
+        <Label x:Name="name_label"
+               Text="Uživatelské jméno"
+               FontSize="24"
+               HorizontalOptions="Center" />
+
+        <!-- Seznam workoutů -->
+        <ListView x:Name="workoutListView"
+                  SeparatorVisibility="Default"
+                  HasUnevenRows="True">
+            <!-- Šablona pro zobrazení workoutu -->
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding WorkoutName}" x:Name="workout_label" FontSize="18" />
+                            <Label Text="{Binding Date}" FontSize="14" x:Name="date_label" TextColor="Gray" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

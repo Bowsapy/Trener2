@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Trener.Menu1Page"
+            xmlns:local="clr-namespace:Trener"
+
+             Title="MenuPage1">
+    
+    
+    <ContentPage.BindingContext>
+        <local:YourViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <!-- Obrázek -->
+        <Image Source="gym.png" 
+           Aspect="AspectFill" 
+           HorizontalOptions="FillAndExpand" 
+           VerticalOptions="FillAndExpand"/>
+
+        <!-- Tlačítka s absolutním pozicováním -->
+        <StackLayout Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" Margin="10,20" >
+
+            <Button Text="LEARN TECHNIQUE"  FontSize="25"
+                BackgroundColor="Red" 
+                BorderColor="White"
+                BorderWidth="2" 
+                FontAttributes="Bold"
+                Margin="10,10"
+                Command="{Binding NavigateCommandToRight}" 
+                CommandParameter="TECH"    
+                    
+                />
+            <Button Text="GET FIT FOR BOXING"  FontSize="25"
+      BackgroundColor="Red" 
+      BorderColor="White"
+      BorderWidth="2" 
+      FontAttributes="Bold"
+      Margin="10,10"
+            Command="{Binding NavigateCommandToRight}" 
+      CommandParameter="FIT"                
+      />
+    
+            
+            <!-- Tlačítko zpět -->
+            <Button Text="Back" FontSize="40"
+                BackgroundColor="Red"
+                BorderColor="White"
+                BorderWidth="2" 
+                TextColor="White"
+                FontAttributes="Bold"
+                Margin="10,10"
+                             Command="{Binding NavigateCommandToLeft}" 
+         CommandParameter="MENU"
+                    
+                    />
+            
+        </StackLayout>
+
+    </Grid>
+</ContentPage>

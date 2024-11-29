@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.trener">
+	<!-- Ujistěte se, že je zde správný balíček -->
+	<!-- Definice povolení pro aplikaci -->
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<!-- Definice aplikace -->
+	<application android:allowBackup="true" android:icon="@mipmap/appicon" android:supportsRtl="true" android:debuggable="true" android:label="TRENER ">
+		<!-- Používá se pouze v debugovacím režimu -->
+		<!-- Můžete přidat aktivity, služby, přijímače a další zde -->
+	</application>
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33" />
+</manifest>
