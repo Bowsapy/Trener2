@@ -60,6 +60,9 @@ namespace Trener
                 case "POWER":
                     pageToNavigate = new CoreAndPower();
                     break;
+                case "OWN":
+                    pageToNavigate = new MakeYourOwnPage();
+                    break;
                 case "QUIT":
                     Application.Current.Quit();
                     return;

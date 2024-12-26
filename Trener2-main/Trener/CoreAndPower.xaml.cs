@@ -9,4 +9,5 @@ public partial class CoreAndPower : ContentPage
 	}
 
 
+
 }

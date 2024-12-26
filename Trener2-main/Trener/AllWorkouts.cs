@@ -498,9 +498,9 @@ namespace Trener
         public static class TechWorkouts
         {
 
-            public static WorkoutClass workout0 = new WorkoutClass("",new List<ComboClass> { AllCombos.Combos3s.c_1_sr_rs, AllCombos.Combos6s.c_1_2_3_rs_2_3b, AllCombos.Combos2s.c_1_ls, AllCombos.Combos1p.c_1b, AllCombos.Combos2s.c_2_3, AllCombos.Combos2s.c_1_4, AllCombos.Combos1p.c_4, AllCombos.Combos3s.c_1_2_3 }, 3);
-            public static WorkoutClass workout1 = new WorkoutClass("",new List<ComboClass> { AllCombos.Combos1p.c_1b, AllCombos.Combos1p.c_2, AllCombos.Combos1p.c_3, AllCombos.CombosDefence.c_rslip, }, 3);
-            public static WorkoutClass workout2 = new WorkoutClass("", new List<ComboClass> { AllCombos.Combos1p.c_1, AllCombos.Combos2s.c_1_2, AllCombos.Combos3s.c_1_2_3, AllCombos.Combos4s.c_1_2_3_2, AllCombos.Combos1p.c_1, AllCombos.Combos2s.c_1_ls, AllCombos.Combos3s.c_1_ls_3, AllCombos.Combos4s.c_1_ls_3_sr, AllCombos.Combos5s.c_1_ls_3_sr_2, AllCombos.Combos1p.c_6, AllCombos.CombosDefence.c_pull, AllCombos.Combos2s.c_1_2, }, 3);
+            public static WorkoutClass workout0 = new WorkoutClass("0",new List<ComboClass> { AllCombos.Combos3s.c_1_sr_rs, AllCombos.Combos6s.c_1_2_3_rs_2_3b, AllCombos.Combos2s.c_1_ls, AllCombos.Combos1p.c_1b, AllCombos.Combos2s.c_2_3, AllCombos.Combos2s.c_1_4, AllCombos.Combos1p.c_4, AllCombos.Combos3s.c_1_2_3 }, 3);
+            public static WorkoutClass workout1 = new WorkoutClass("1",new List<ComboClass> { AllCombos.Combos1p.c_1b, AllCombos.Combos1p.c_2, AllCombos.Combos1p.c_3, AllCombos.CombosDefence.c_rslip, }, 3);
+            public static WorkoutClass workout2 = new WorkoutClass("2", new List<ComboClass> { AllCombos.Combos1p.c_1, AllCombos.Combos2s.c_1_2, AllCombos.Combos3s.c_1_2_3, AllCombos.Combos4s.c_1_2_3_2, AllCombos.Combos1p.c_1, AllCombos.Combos2s.c_1_ls, AllCombos.Combos3s.c_1_ls_3, AllCombos.Combos4s.c_1_ls_3_sr, AllCombos.Combos5s.c_1_ls_3_sr_2, AllCombos.Combos1p.c_6, AllCombos.CombosDefence.c_pull, AllCombos.Combos2s.c_1_2, }, 3);
 
             public static class Technique1
             {

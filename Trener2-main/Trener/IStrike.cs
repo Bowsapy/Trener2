@@ -16,6 +16,7 @@ namespace Trener
         public  string sound
         { get; set; }
     
+        public string type {  get; set; }
 
     }
 }

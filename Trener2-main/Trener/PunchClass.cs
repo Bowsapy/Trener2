@@ -1,8 +1,10 @@
 ﻿using Plugin.Maui.Audio;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
@@ -12,28 +14,38 @@ namespace Trener
 {
     public class PunchClass : IStrike
     {
-        private string id;
-        private string name;
-        private string sound;
+        public string id { get; set; }
+        public string name { get; set; }
+        public string sound { get; set; }
+        public string type { get; set; } = "punch";  // Veřejná vlastnost
 
 
+        [JsonConstructor]
         public PunchClass(string id, string name, string sound)
         {
             this.id = id;
             this.name = name;
             this.sound = sound;
+
         }
 
         string IStrike.id { get => id.ToString(); set => id = (value); }
         string IStrike.name { get => name; set => name = value; }
         string IStrike.sound { get => sound; set => sound = value; }
+        string IStrike.type { get; set; } = "punch";
+
     }
+
     public class MoveClass : IStrike
     {
-        private string id;
-        private string name;
-        private string sound;
+        public string id { get; set; }
+        public string name { get; set; }
+        public string sound { get; set; }
+        public string type { get; set; } = "move";  // Veřejná vlastnost
 
+
+
+        [JsonConstructor]
 
         public MoveClass(string id, string name, string sound)
         {
@@ -45,16 +57,27 @@ namespace Trener
         string IStrike.id { get => id.ToString(); set => id = value; }
         string IStrike.name { get => name; set => name = value; }
         string IStrike.sound { get => sound; set => sound = value; }
+        string IStrike.type { get; set; } = "move";
+
     }
     public class DefenceClass : IStrike
     {
-        private string id;
-        private string name;
-        private string sound;
+        public string id { get; set; }
+        public string name { get; set; }
+        public string sound { get; set; }
+        public string type { get; set; } = "defence";  // Veřejná vlastnost
+
+
+
 
         string IStrike.id { get => id.ToString(); set => id = value; }
         string IStrike.name { get => name; set => name = value; }
         string IStrike.sound { get => sound; set => sound = value; }
+
+        string IStrike.type { get; set; } = "defence";
+
+        [JsonConstructor]
+
         public DefenceClass(string id, string name, string sound)
         {
             this.id = id;
@@ -66,14 +89,19 @@ namespace Trener
     }
     public class AdviceClass : IStrike
     {
-        private string id = " ";
-        private string name;
-        private string sound;
+        public string id { get; set; }
+        public string name { get; set; }
+        public string sound { get; set; }
+        public string Type { get; set; } = "advice";
 
-        string IStrike.id { get => id.ToString(); set => id = value; }
+
         string IStrike.name { get => name; set => name = value; }
         string IStrike.sound { get => sound; set => sound = value; }
-        public AdviceClass(string name, string sound)
+        string IStrike.type { get; set; } = "advice";
+
+        [JsonConstructor]
+
+        public AdviceClass( string name, string sound)
         {
             this.id = id;
             this.name = name;
@@ -90,6 +118,9 @@ namespace Trener
         string IStrike.name { get => name; set => name = value; }
         string IStrike.sound { get => sound; set => sound = value; }
 
+        string IStrike.type { get; set; } = "exercise";
+
+
         public ExerciseClass(string id, string name, string sound)
         {
             this.id = id;
@@ -100,146 +131,141 @@ namespace Trener
 
     }
 
-    public class ComboClass
+
+public class ComboClass
     {
-        private List<IStrike> strikes = new List<IStrike>();
-        private string name;
-        private int reps;
-        private int time;
-        private int intro_time;
-        private int type;
-        private int id;
-        private int exercise_time;
+        [JsonPropertyName("strikes")]
+        [JsonConverter(typeof(IStrikeJsonConverter))]  // Použití konvertoru pro správnou deserializaci
 
-        public ComboClass(List<IStrike> strikes, int reps, int time, int intro_time)
+        public List<IStrike> Strikes { get; set; } = new List<IStrike>();
+
+        [JsonPropertyName("name")]
+        public string Name => GenerateName();
+
+        [JsonPropertyName("reps")]
+        public int Reps { get; set; }
+
+        [JsonPropertyName("time")]
+        public int Time { get; set; }
+
+        [JsonPropertyName("intro_time")]
+        public int IntroTime { get; set; }
+
+        [JsonPropertyName("type")]
+        public int Type { get; set; }
+
+        [JsonPropertyName("id")]
+        public int Id { get; set; }
+
+        [JsonPropertyName("exercise_time")]
+        public int ExerciseTime { get; set; }
+
+        public ComboClass(List<IStrike> strikes, int reps, int time, int introTime)
         {
-            this.strikes = strikes;
-            this.time = time;
-            this.reps = reps;
-            this.intro_time = intro_time;
+            Strikes = strikes;
+            Reps = reps;
+            Time = time;
+            IntroTime = introTime;
         }
 
-        public ComboClass(List<IStrike> strikes, int exercise_time)
+        public ComboClass(List<IStrike> strikes, int exerciseTime)
         {
-            this.strikes = strikes;
-            this.exercise_time = exercise_time;
 
+            Strikes = strikes;
+            ExerciseTime = exerciseTime;
         }
-        public int Getreps() { return reps; }
-        public int Gettime() { return time; }
-        public int GetType() { return type; }
-        public int GetId() { return id; }
-        public int GetExercise_time() { return exercise_time; }
-
-
-        public List<IStrike> GetStrikes() {
-            return strikes;
-
-        }
-        public string GetName()
+        public ComboClass()
         {
-            string name1 = "";
-            for (int i = 0; i < strikes.Count; i++)
-            {
-                name1 += strikes[i].name;
-                if (i == strikes.Count - 1 || strikes.Count == 1)
-                {
-
-                }
-                else
-                {
-                    name1 += "-";
-
-                }
-
-            }
-            return name1;
-
+ 
         }
+
+        private string GenerateName()
+        {
+            return string.Join("-", Strikes.ConvertAll(s => s.name));
+        }
+
         public async Task PlaySound(CancellationToken token)
         {
-            for (int i = 0; i < strikes.Count; i++)
+            foreach (var strike in Strikes)
             {
-                // Zkontroluj, zda byl zrušen token
                 if (token.IsCancellationRequested)
                     return;
 
-                var audioPlayer = AudioManager.Current.CreatePlayer(await FileSystem.OpenAppPackageFileAsync(strikes[i].sound));
+                var audioPlayer = AudioManager.Current.CreatePlayer(await FileSystem.OpenAppPackageFileAsync(strike.sound));
                 var tcs = new TaskCompletionSource<bool>();
 
-                // Připoj se k události PlaybackEnded
-                audioPlayer.PlaybackEnded += (sender, e) =>
-                {
-                    tcs.TrySetResult(true); // Když přehrávání skončí, označ úkol jako dokončený
-                };
+                audioPlayer.PlaybackEnded += (sender, e) => tcs.TrySetResult(true);
 
-                // Spusť zvuk
                 audioPlayer.Play();
 
-                // Čekej na dokončení přehrávání nebo zrušení
                 await Task.WhenAny(tcs.Task, Task.Delay(Timeout.Infinite, token));
 
-                // Pokud byl požadavek zrušen, zastav přehrávání a ukonči
                 if (token.IsCancellationRequested)
                 {
                     audioPlayer.Stop();
                     return;
                 }
 
-                // Po přehrání každého zvuku čekej další 600ms
                 await Task.Delay(600, token);
             }
 
-            // Pokud nebylo zrušeno, čekej dalších `intro_time` ms po přehrání všech zvuků
             if (!token.IsCancellationRequested)
             {
-                await Task.Delay(intro_time, token);
+                await Task.Delay(IntroTime, token);
             }
         }
 
-        public int GetNumOfStrikes() {
-
-            return strikes.Count;
+        public int GetNumOfStrikes()
+        {
+            return Strikes.Count;
         }
+    }
 
-
-
-
+    public static class AllWorkoutClassCounter
+    {
+        private static int count = 20;
+        public static void Add()
+        {
+        }
+        public static int GetCount()
+        {
+            return count;
+        }
 
     }
-    public class WorkoutClass
+
+
+public class WorkoutClass
     {
-        private List<ComboClass> combos = new List<ComboClass>();
-        private int num_of_rounds;
-        private string id;
-       
+        public List<ComboClass> Combos { get; set; } = new List<ComboClass>();
+        public int NumOfRounds { get; set; }
+        public string Id { get; set; }
 
-        public WorkoutClass(string id, List<ComboClass> combos, int num_of_rounds)
+        public WorkoutClass() { }
+
+        public WorkoutClass(string id, List<ComboClass> combos, int numOfRounds)
         {
-            this.combos = combos;
-            this.num_of_rounds = num_of_rounds;
-            this.id = id;
+            Combos = combos;
+            NumOfRounds = numOfRounds;
+            Id = id;
+
+            // Simulace počítadla
         }
 
-        public string GetId()
+        public void AddCombo(ComboClass combo)
         {
-            return id;
+            Combos.Add(combo);
         }
-        public List<ComboClass> GetCombos()
-        {
-            return combos;
-        }
+
         public int TotalNumOfCombos()
         {
-            return combos.Count;
+            return Combos.Count;
         }
-        public int GetNumOfRounds()
-        {
-            return num_of_rounds;
-        }
-
-
     }
+
+  
+
+
     public class FitnessWorkoutClass : WorkoutClass
     {
         private int break_time;

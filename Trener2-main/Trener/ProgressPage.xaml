@@ -16,6 +16,10 @@
                FontSize="24"
                HorizontalOptions="Center" />
 
+        <Label x:Name="progress_label"
+          Text="Uživatelské jméno"
+          FontSize="24"
+          HorizontalOptions="Center" />
         <!-- Seznam workoutů -->
         <ListView x:Name="workoutListView"
                   SeparatorVisibility="Default"

@@ -33,7 +33,7 @@ namespace Trener
         {
             cts = new CancellationTokenSource();
             CancellationToken token = cts.Token;
-            List<ComboClass> combos = workout.GetCombos();
+            List<ComboClass> combos = workout.Combos;
             end = false;
             int index = 0;
             int currentRound = 0;
@@ -45,7 +45,7 @@ namespace Trener
 
                 while (index < combos.Count && !end)
                 {
-                    List<IStrike> combos2 = combos[index].GetStrikes();
+                    List<IStrike> combos2 = combos[index].Strikes;
 
                     ChangeTextOnLabel(round_label, $"{currentRound + 1}/3");
                     ComboClass currentCombo = combos[index];
@@ -59,7 +59,7 @@ namespace Trener
                     SetComboLabelColor(Color.FromRgb(255, 0, 0));
 
                     await GenericSounds.PlayGoSound(token);
-                    await StartTimerAsync(currentCombo.GetExercise_time() + 1, token);
+                    await StartTimerAsync(currentCombo.ExerciseTime + 1, token);
 
                     if (index + 1 < combos.Count)
                     {

@@ -41,8 +41,19 @@
             Command="{Binding NavigateCommandToRight}" 
       CommandParameter="FIT"                
       />
-    
-            
+
+            <Button Text="MAKE YOUR OWN WORKOUT"  FontSize="25"
+      BackgroundColor="Red" 
+      BorderColor="White"
+      BorderWidth="2" 
+      FontAttributes="Bold"
+      Margin="10,10"
+            Command="{Binding NavigateCommandToRight}" 
+      CommandParameter="OWN"                
+      />
+
+
+
             <!-- Tlačítko zpět -->
             <Button Text="Back" FontSize="40"
                 BackgroundColor="Red"

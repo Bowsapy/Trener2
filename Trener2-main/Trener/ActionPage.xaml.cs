@@ -39,7 +39,7 @@ namespace Trener
 
 
 
-            user2.AddToList(new FinishedWorkout(workout.GetId(), DateTime.Now));
+            user2.AddToList(new FinishedWorkout(workout.Id, DateTime.Now));
 
             await user2.SaveUserProgressAsync(user2);  // Zavolání metody pro uložení
 
@@ -74,12 +74,12 @@ namespace Trener
 
 
                     UpdateRoundAndComboLabels(currentRound, currentComIndex);
-                    ComboClass combo = workout.GetCombos()[currentComIndex];
-                    bool isAdvice = combo.GetStrikes()[0] is AdviceClass;
+                    ComboClass combo = workout.Combos[currentComIndex];
+                    bool isAdvice = combo.Strikes[0] is AdviceClass;
 
-                    combo_label.Text = combo.GetName();
+                    combo_label.Text = combo.Name;
 
-                    UpdateComboLabelFontSize(combo.GetName().Length);
+                    UpdateComboLabelFontSize(combo.Name.Length);
                     UpdateStrikeLabelBackground(isAdvice);
 
                     await PlaySoundAsync(combo, token);
@@ -133,8 +133,8 @@ namespace Trener
 
         private void UpdateRoundAndComboLabels(int currentRound, int currentComIndex)
         {
-            ChangeTextOnLabel(round_label, $"{currentRound}/{workout.GetNumOfRounds()}");
-            ChangeTextOnLabel(count_label, $"{currentComIndex + 1}/{workout.GetCombos().Count}");
+            ChangeTextOnLabel(round_label, $"{currentRound}/{workout.NumOfRounds}");
+            ChangeTextOnLabel(count_label, $"{currentComIndex + 1}/{workout.Combos.Count}");
         }
 
         private void UpdateComboLabelFontSize(int comboLength)
@@ -153,9 +153,9 @@ namespace Trener
         private async Task ExecuteCombo(ComboClass combo, bool isAdvice, CancellationToken token)
         {
             int currentRep = 0;
-            int adjKTime = Convert.ToInt32(Math.Round((double)combo.Gettime() / 1));
+            int adjKTime = Convert.ToInt32(Math.Round((double)combo.Time / 1));
 
-            for (int i = 0; i < combo.Getreps(); i++)
+            for (int i = 0; i < combo.Reps; i++)
             {
                 await CheckPauseAsync(token); // Check pause before each iteration
                 if (token.IsCancellationRequested) return;
@@ -168,8 +168,8 @@ namespace Trener
                 }
 
                 await Task.Delay(300, token);
-                ChangeTextOnLabel(rep_label, $"{currentRep}/{combo.Getreps()}");
-                await Task.Run(() => ExecuteStrikes(combo.GetStrikes(), isAdvice, token));
+                ChangeTextOnLabel(rep_label, $"{currentRep}/{combo.Reps}");
+                await Task.Run(() => ExecuteStrikes(combo.Strikes, isAdvice, token));
 
                 if (!isAdvice) await Task.Delay(1200, token);
             }

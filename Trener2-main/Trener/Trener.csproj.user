@@ -3,9 +3,9 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net7.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>Pixel 5 - API 33 (Android 13.0 – API 33)</ActiveDebugProfile>
+    <ActiveDebugProfile>Pixel 5 - API 33 (1) (Android 13.0 – API 33)</ActiveDebugProfile>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
-    <DefaultDevice>pixel_5_-_api_33</DefaultDevice>
+    <DefaultDevice>pixel_5_-_api_33_1</DefaultDevice>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-android|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
@@ -24,7 +24,13 @@
     <MauiXaml Update="ActionPage3.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="MakeYourOwnPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="ProgressPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="ShowOwnWorkout.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Tech2Page.xaml">

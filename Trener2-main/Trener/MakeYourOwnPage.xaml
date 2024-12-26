@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Trener.MakeYourOwnPage"
+             Title="MakeYourOwnPage">
+    <ScrollView>
+        <VerticalStackLayout Padding="10" Spacing="10">
+            <Label Text="Your workout:" FontSize="20" FontAttributes="Bold"/>
+            <Label Text="Your combo:" FontSize="20" FontAttributes="Bold" x:Name="combo_label"/>
+
+            <HorizontalStackLayout Spacing="10">
+                <Button Text="Add combo" Clicked="AddCombo" CommandParameter="combo"/>
+                <Button Text="Play workout" Clicked="StartWorkout" CommandParameter="workout2"/>
+   
+
+
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Spacing="10">
+
+                <Button Text="Show workout" Clicked="ShowWorkout" CommandParameter="workout2"/>
+            <Button Text="Delete workout" Clicked="ShowWorkout" CommandParameter="workout2"/>
+                <Button Text="Delete combo" Clicked="DeleteCombo" CommandParameter="workout2"/>
+
+            </HorizontalStackLayout>
+
+            <Label Text=" " FontSize="20" FontAttributes="Bold"/>
+
+            <!-- Tlačítka pro údery -->
+            <Label Text="Punches" FontSize="20" FontAttributes="Bold"/>
+            <VerticalStackLayout Spacing="5">
+                <Button Text="Jab" Clicked="OnPunchClicked" CommandParameter="jab"/>
+                <Button Text="Cross" Clicked="OnPunchClicked" CommandParameter="cross"/>
+                <Button Text="Lead Hook" Clicked="OnPunchClicked" CommandParameter="lead_hook"/>
+                <Button Text="Rear Hook" Clicked="OnPunchClicked" CommandParameter="rear_hook"/>
+                <Button Text="Lead Uppercut" Clicked="OnPunchClicked" CommandParameter="lead_upper"/>
+                <Button Text="Rear Uppercut" Clicked="OnPunchClicked" CommandParameter="rear_upper"/>
+                <Button Text="Body Jab" Clicked="OnPunchClicked" CommandParameter="jab_b"/>
+                <Button Text="Body Cross" Clicked="OnPunchClicked" CommandParameter="cross_b"/>
+                <Button Text="Lead Body Hook" Clicked="OnPunchClicked" CommandParameter="lead_hook_b"/>
+                <Button Text="Rear Body Hook" Clicked="OnPunchClicked" CommandParameter="rear_hook_b"/>
+                <Button Text="Lead Body Uppercut" Clicked="OnPunchClicked" CommandParameter="lead_upper_b"/>
+                <Button Text="Rear Body Uppercut" Clicked="OnPunchClicked" CommandParameter="rear_upper_b"/>
+            </VerticalStackLayout>
+
+            <!-- Tlačítka pro obranu -->
+            <Label Text="Defence" FontSize="20" FontAttributes="Bold"/>
+            <VerticalStackLayout Spacing="5">
+                <Button Text="Rear Slip" Clicked="OnDefenceClicked" CommandParameter="r_slip"/>
+                <Button Text="Lead Slip" Clicked="OnDefenceClicked" CommandParameter="l_slip"/>
+                <Button Text="Pull" Clicked="OnDefenceClicked" CommandParameter="pull"/>
+                <Button Text="Lead Roll" Clicked="OnDefenceClicked" CommandParameter="l_roll"/>
+                <Button Text="Rear Roll" Clicked="OnDefenceClicked" CommandParameter="r_roll"/>
+                <Button Text="Duck" Clicked="OnDefenceClicked" CommandParameter="duck"/>
+                <Button Text="Lead Catch" Clicked="OnDefenceClicked" CommandParameter="l_catch"/>
+                <Button Text="Rear Catch" Clicked="OnDefenceClicked" CommandParameter="r_catch"/>
+                <Button Text="Lead Parry" Clicked="OnDefenceClicked" CommandParameter="l_parry"/>
+                <Button Text="Rear Parry" Clicked="OnDefenceClicked" CommandParameter="r_parry"/>
+                <Button Text="Bodyblock" Clicked="OnDefenceClicked" CommandParameter="bodyblock"/>
+                <Button Text="Rear Bodyblock" Clicked="OnDefenceClicked" CommandParameter="r_bodyblock"/>
+                <Button Text="Lead Bodyblock" Clicked="OnDefenceClicked" CommandParameter="l_bodyblock"/>
+                <Button Text="Shoulder Roll" Clicked="OnDefenceClicked" CommandParameter="s_roll"/>
+            </VerticalStackLayout>
+
+            <!-- Tlačítka pro pohyby -->
+            <Label Text="Movements" FontSize="20" FontAttributes="Bold"/>
+            <VerticalStackLayout Spacing="5">
+                <Button Text="Step Right" Clicked="OnMovementClicked" CommandParameter="step_right"/>
+                <Button Text="Step Left" Clicked="OnMovementClicked" CommandParameter="step_left"/>
+                <Button Text="Step Back" Clicked="OnMovementClicked" CommandParameter="step_back"/>
+                <Button Text="Step Forward" Clicked="OnMovementClicked" CommandParameter="step_formard"/>
+                <Button Text="Inside Sidestep" Clicked="OnMovementClicked" CommandParameter="i_sidestep"/>
+                <Button Text="Outside Sidestep" Clicked="OnMovementClicked" CommandParameter="o_sidestep"/>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -51,6 +51,9 @@ public partial class ProgressPage : ContentPage
 
         // Pøiøazení dat do ListView
         workoutListView.ItemsSource = workoutItems;
+
+        progress_label.Text = (uss.CountUniqueWorkouts() + " / " + AllWorkoutClassCounter.GetCount()).ToString() + " "+(100*uss.CountUniqueWorkouts()/AllWorkoutClassCounter.GetCount() ).ToString() + "%"  ;
+
     }
 
 

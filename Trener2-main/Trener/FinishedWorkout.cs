@@ -17,5 +17,6 @@ namespace Trener
             this.dateTime = dateTime;
 
         }
+
     }
 }

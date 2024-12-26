@@ -76,6 +76,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Trener.FitPage.xaml
 build_metadata.AdditionalFiles.TargetPath = FitPage.xaml
 build_metadata.AdditionalFiles.RelativePath = FitPage.xaml
 
+[C:/Users/janst/source/repos/Trener2-main/Trener/MakeYourOwnPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.MakeYourOwnPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MakeYourOwnPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MakeYourOwnPage.xaml
+
 [C:/Users/janst/source/repos/Trener2-main/Trener/Menu0Page.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trener.Menu0Page.xaml
@@ -105,6 +111,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trener.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/janst/source/repos/Trener2-main/Trener/ShowOwnWorkout.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.ShowOwnWorkout.xaml
+build_metadata.AdditionalFiles.TargetPath = ShowOwnWorkout.xaml
+build_metadata.AdditionalFiles.RelativePath = ShowOwnWorkout.xaml
 
 [C:/Users/janst/source/repos/Trener2-main/Trener/StylesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

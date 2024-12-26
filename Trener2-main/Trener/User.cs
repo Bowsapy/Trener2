@@ -15,6 +15,11 @@ namespace Trener
 
         [JsonInclude]
         public List <FinishedWorkout> fin_workouts= new List<FinishedWorkout>();
+        public List<ComboClass> own_workout = new List<ComboClass>();
+
+
+        int fin_workouts_done;
+
 
         public User()
         {
@@ -22,6 +27,23 @@ namespace Trener
             this.fin_workouts = fin_workouts;
         }
 
+        public int CountUniqueWorkouts()
+        {
+            List<FinishedWorkout> workouts = fin_workouts;
+            List<FinishedWorkout> uniqueWorkouts = new List<FinishedWorkout>();
+
+            foreach (var workout in workouts)
+            {
+                // Pokud seznam uniqueWorkouts neobsahuje stejné jméno cvičení, přidáme jej
+                if (!uniqueWorkouts.Any(w => w.workoutName == workout.workoutName))
+                {
+                    uniqueWorkouts.Add(workout);
+                }
+            }
+
+            // Return the count of unique workouts
+            return uniqueWorkouts.Count;
+        }
 
         public void AddToList(FinishedWorkout finishedWorkout)
         {
@@ -54,10 +76,6 @@ namespace Trener
             var json = await File.ReadAllTextAsync(filePath);
             return JsonSerializer.Deserialize<User>(json);
         }
-        public async void ShowProgress()
-        {
-          
-        }
-
+        
     }
 }
