@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Trener.ViewOwnWorkouts"
+             Title="View Own Workouts">
+    <ScrollView>
+
+        <VerticalStackLayout>
+        <Label Text="Select a workout"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+
+        <!-- StackLayout pro tlačítka -->
+        <StackLayout x:Name="WorkoutButtonsStackLayout"
+                     VerticalOptions="StartAndExpand"
+                     HorizontalOptions="CenterAndExpand">
+        </StackLayout>
+    </VerticalStackLayout>
+
+        </ScrollView>
+
+
+</ContentPage>

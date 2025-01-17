@@ -42,6 +42,9 @@ namespace Trener
                 case "MENU":
                     pageToNavigate = new Menu0Page();
                     break;
+                case "MENU 1":
+                    pageToNavigate = new Menu1Page();
+                    break;
                 case "TECH 1":
                     pageToNavigate = new Tech1Page();
                     break;
@@ -70,6 +73,7 @@ namespace Trener
 
             if (pageToNavigate != null)
             {
+
                 await Application.Current.MainPage.Navigation.PushAsync(pageToNavigate);
             }
         }
@@ -140,7 +144,10 @@ namespace Trener
 
             if (workout != null)
             {
+                await Application.Current.MainPage.Navigation.PopToRootAsync();
+
                 await Application.Current.MainPage.Navigation.PushAsync(new ActionPage(workout));
+
             }
         }
 
@@ -154,13 +161,13 @@ namespace Trener
                     workout = AllWorkouts.FitnessWorkouts.Cardio.cardio1;
                     break;
                 case "CARDIO 2":
-                    workout = AllWorkouts.FitnessWorkouts.Cardio.cardio1;
+                    workout = AllWorkouts.FitnessWorkouts.Cardio.cardio2;
                     break;
-                case "CARDIO 3":
-                    workout = AllWorkouts.FitnessWorkouts.Cardio.cardio1;
+                case "GUIDED 1":
+                    workout = AllWorkouts.FitnessWorkouts.Guided.guidedone;
                     break;
-                case "CARDIO 4":
-                    workout = AllWorkouts.FitnessWorkouts.Cardio.cardio1;
+                case "GUIDED 2":
+                    workout = AllWorkouts.FitnessWorkouts.Guided.guidedone2;
                     break;
                 case "CORE 1":
                     workout = AllWorkouts.FitnessWorkouts.Cardio.cardio1;

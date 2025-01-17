@@ -2,8 +2,8 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
-    <ActiveDebugFramework>net7.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>Pixel 5 - API 33 (1) (Android 13.0 – API 33)</ActiveDebugProfile>
+    <ActiveDebugFramework>net7.0-windows10.0.19041.0</ActiveDebugFramework>
+    <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
     <DefaultDevice>pixel_5_-_api_33_1</DefaultDevice>
   </PropertyGroup>
@@ -31,6 +31,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="ShowOwnWorkout.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="ShowOwnWorkouts.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Tech2Page.xaml">
@@ -79,6 +82,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="StylesPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="ViewOwnWorkouts.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

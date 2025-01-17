@@ -1811,16 +1811,6 @@ C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.190
 C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-150.png
 C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-200.png
 C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-400.png
-C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bagSplashScreen.scale-100.png
-C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bagSplashScreen.scale-125.png
-C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bagSplashScreen.scale-150.png
-C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bagSplashScreen.scale-200.png
-C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bagSplashScreen.scale-400.png
-C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\traceSplashScreen.scale-100.png
-C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\traceSplashScreen.scale-125.png
-C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\traceSplashScreen.scale-150.png
-C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\traceSplashScreen.scale-200.png
-C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\traceSplashScreen.scale-400.png
 C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauisplash.stamp
 C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauifont.stamp
 C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf

@@ -46,7 +46,7 @@
         <!-- Tlačítka -->
      
 
-        <Button  Text="Shadowboxing circuit 1"   FontSize="21" 
+        <Button  Text="Freestyle 1"   FontSize="21" 
                  BackgroundColor="red"
                  TextColor="White"
                  BorderColor="White"
@@ -57,10 +57,10 @@
                  Grid.Column="0"
                           LineBreakMode="WordWrap"
                                      Command="{Binding StartFitWorkout}" 
-CommandParameter="CARDIO 1"
+CommandParameter="GUIDED 1"
                  />
 
-        <Button  Text="Shadowboxing circuit 2"   FontSize="21" 
+        <Button  Text="Freestyle 2"   FontSize="21" 
                  BackgroundColor="red"
                  TextColor="White"
                  BorderColor="White"
@@ -70,12 +70,13 @@ CommandParameter="CARDIO 1"
                  Grid.Row="1"
                  Grid.Column="0"
                           LineBreakMode="WordWrap"
+                 
                                                       Command="{Binding StartFitWorkout}" 
-CommandParameter="CARDIO 2"
+CommandParameter="GUIDED 2"
 
                  />
 
-        <Button  Text="Skipping rope circuit 2"   FontSize="21" 
+        <Button  Text="Shadowboxing circuit"   FontSize="21" 
                  BackgroundColor="Red"
                  TextColor="White"
                  BorderColor="White"
@@ -86,10 +87,10 @@ CommandParameter="CARDIO 2"
                  Grid.Column="0"
                           LineBreakMode="WordWrap"
                                                       Command="{Binding StartFitWorkout}" 
-CommandParameter="CARDIO 3"
+CommandParameter="CARDIO 1"
 
                  />
-        <Button  Text="Skipping rope"  FontSize="20" 
+        <Button  Text="Skipping rope circuit"  FontSize="20" 
            BackgroundColor="Red"
            TextColor="White"
            BorderColor="White"
@@ -100,7 +101,7 @@ CommandParameter="CARDIO 3"
            Grid.Column="0"
                     LineBreakMode="WordWrap"
                                                       Command="{Binding StartFitWorkout}" 
-CommandParameter="CARDIO 4"
+CommandParameter="CARDIO 2"
 
                  
            />
@@ -116,8 +117,8 @@ CommandParameter="CARDIO 4"
                  FontAttributes="Bold"
                  Grid.Row="5"
                  Grid.Column="0"
-                                                                     Command="{Binding NavigateCommandToLeft}" 
-               CommandParameter="fss"
+                                                                     Command="{Binding NavigateCommandToRight}" 
+               CommandParameter="MENU 1"
                  ></Button>
     </Grid>
 

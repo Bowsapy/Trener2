@@ -32,17 +32,17 @@
                 CommandParameter="TECH"    
                     
                 />
-            <Button Text="GET FIT FOR BOXING"  FontSize="25"
+            <Button Text="FREESTYLE WORKOUTS"  FontSize="25"
       BackgroundColor="Red" 
       BorderColor="White"
       BorderWidth="2" 
       FontAttributes="Bold"
       Margin="10,10"
             Command="{Binding NavigateCommandToRight}" 
-      CommandParameter="FIT"                
+      CommandParameter="CARDIO"                
       />
 
-            <Button Text="MAKE YOUR OWN WORKOUT"  FontSize="25"
+            <Button Text="MAKE YOUR OWN WORKOUT"  FontSize="20"
       BackgroundColor="Red" 
       BorderColor="White"
       BorderWidth="2" 
@@ -50,6 +50,7 @@
       Margin="10,10"
             Command="{Binding NavigateCommandToRight}" 
       CommandParameter="OWN"                
+                    
       />
 
 

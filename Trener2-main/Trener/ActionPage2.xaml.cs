@@ -49,34 +49,28 @@ namespace Trener
 
                     ChangeTextOnLabel(round_label, $"{currentRound + 1}/3");
                     ComboClass currentCombo = combos[index];
+                    ChangeTextOnLabel(combo_label, currentCombo.Name);
+
                     UpdateNextRoundLabel(index, combos);
                     UpdateCountLabel(index, combos.Count);
 
                     //combo_label.Text = currentCombo.GetName[0].;
 
                     await PlaySoundAsync(currentCombo, token);
-                    await Task.Delay(1000, token);
                     SetComboLabelColor(Color.FromRgb(255, 0, 0));
 
                     await GenericSounds.PlayGoSound(token);
                     await StartTimerAsync(currentCombo.ExerciseTime + 1, token);
+                
+                    
+                    await GenericSounds.PlayBreakSound(token);
+                    SetComboLabelColor(Color.FromRgb(0, 255, 0));
+                    await StartTimerAsync((workout.Getbreaktime())  * 5 + 1, token);
 
-                    if (index + 1 < combos.Count)
-                    {
-                        await PlayBreakAndNextExerciseAsync(combos[index + 1], token);
-                    }
-                    else
-                    {
-                        await GenericSounds.PlayBreakSound(token);
-                        ChangeTextOnLabel(combo_label, "Next round");
-                        SetComboLabelColor(Color.FromRgb(0, 255, 0));
-                        await StartTimerAsync((workout.Getbreaktime())  * 5 + 1, token);
-
-                        index = -1; // Reset the index for the next round
-                        currentRound++;
-                    }
-
+                    currentRound++;
                     index++;
+
+                    
                 }
             }
             catch (TaskCanceledException)
@@ -98,7 +92,7 @@ namespace Trener
         {
             if (index + 1 < combos.Count)
             {
-                //ChangeTextOnLabel(nextR_label, "Next round: " + combos[index + 1].combos.name);
+                ChangeTextOnLabel(nextR_label, "Next round: " + combos[index + 1].Name);
             }
             else
             {
@@ -179,7 +173,7 @@ namespace Trener
             cts.Cancel();
 
             await Application.Current.MainPage.Navigation.PopAsync();
-            await Application.Current.MainPage.Navigation.PushAsync(new FitPage());
+            await Application.Current.MainPage.Navigation.PushAsync(new CardioPage());
         }
 
         private void ChangeTextOnLabel(Label label, string text)

@@ -240,14 +240,16 @@ public class WorkoutClass
         public List<ComboClass> Combos { get; set; } = new List<ComboClass>();
         public int NumOfRounds { get; set; }
         public string Id { get; set; }
+        public int speed { get; set; }
 
         public WorkoutClass() { }
 
-        public WorkoutClass(string id, List<ComboClass> combos, int numOfRounds)
+        public WorkoutClass(string id, List<ComboClass> combos, int numOfRounds,int Speed=400)
         {
             Combos = combos;
             NumOfRounds = numOfRounds;
             Id = id;
+            speed = Speed;
 
             // Simulace počítadla
         }
@@ -271,8 +273,7 @@ public class WorkoutClass
         private int break_time;
         private int work_time;
 
-
-        public FitnessWorkoutClass(string id, List<ComboClass> combos, int num_of_rounds, int work_time, int break_time) : base(id, combos, num_of_rounds)
+        public FitnessWorkoutClass(string id, List<ComboClass> combos, int num_of_rounds, int work_time, int break_time,int speed=400) : base(id, combos, num_of_rounds)
         {
             this.break_time = break_time;
             this.work_time = work_time;

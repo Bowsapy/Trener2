@@ -119,6 +119,23 @@ namespace Trener
 
         }
 
+        public static class Guides
+        {
+            public static ExerciseClass closefighting = new ExerciseClass("Closefighting", "Closefighting", @"Sounds\guides\closefighting-sound.mp3");
+            public static ExerciseClass countersonly = new ExerciseClass("Counters", "Counters only", @"Sounds\guides\counters-sound.mp3");
+            public static ExerciseClass finishwithbodyshot = new ExerciseClass("finishwithbodyshot", "finish every combo with bodyshot", @"Sounds\guides\finishwithbodyshot-sound.mp3");
+            public static ExerciseClass headmovmentandcounter = new ExerciseClass("headmovement and counters", "headmovementandcounter", @"Sounds\guides\headmovementandcounter-sound.mp3");
+
+
+            public static ExerciseClass moveandjab = new ExerciseClass("moveandjab", "move and jab", @"Sounds\guides\moveandjab-sound.mp3");
+            public static ExerciseClass onlyhooksandupper = new ExerciseClass("onlyhooksandupper", "Only hooks and uppercuts", @"Sounds\guides\onlyhooksandupper-sound.mp3");
+            public static ExerciseClass onlystraightpunches = new ExerciseClass("onlystraightpunches", "Only straight punches", @"Sounds\guides\onlystraightpunches-sound.mp3");
+            public static ExerciseClass startwithjab = new ExerciseClass("startwithjab", "Start every combo with 1", @"Sounds\guides\startwithjab-sound.mp3");
+            public static ExerciseClass twopunchcombosonly = new ExerciseClass("twopunchcombosonly", "2punch combos only", @"Sounds\guides\twopunchcombosonly-sound.mp3");
+            public static ExerciseClass useonlyleadhand = new ExerciseClass("useonlyleadhand", "Use only leadhand", @"Sounds\guides\useonlyleadhand-sound.mp3");
+
+
+        }
 
 
     }
@@ -488,6 +505,20 @@ namespace Trener
             public static ComboClass c_HM0 = new ComboClass(new List<IStrike> { AllStrikes.jab, AllStrikes.AllDefence.l_slip, AllStrikes.jab, AllStrikes.cross, AllStrikes.AllDefence.r_slip, AllStrikes.cross, AllStrikes.lead_hook, AllStrikes.AllDefence.l_slip, AllStrikes.lead_hook, AllStrikes.cross }, 3, 0, 0);
 
         }
+        public static class CombosGuides
+        {
+            public static ComboClass closefighting = new ComboClass(new List<IStrike> { AllStrikes.Guides.closefighting }, 30);
+            public static ComboClass countersonly = new ComboClass(new List<IStrike> { AllStrikes.Guides.countersonly }, 30);
+            public static ComboClass finishwithbodyshot = new ComboClass(new List<IStrike> { AllStrikes.Guides.finishwithbodyshot }, 30);
+            public static ComboClass headmovmentandcounter = new ComboClass(new List<IStrike> { AllStrikes.Guides.headmovmentandcounter }, 0);
+            public static ComboClass movenadjab = new ComboClass(new List<IStrike> { AllStrikes.Guides.moveandjab }, 30);
+            public static ComboClass onlyhooksandupper = new ComboClass(new List<IStrike> { AllStrikes.Guides.onlyhooksandupper }, 30);
+            public static ComboClass onlystraightpunches = new ComboClass(new List<IStrike> { AllStrikes.Guides.onlystraightpunches }, 30);
+            public static ComboClass startwithjab = new ComboClass(new List<IStrike> { AllStrikes.Guides.startwithjab }, 30);
+            public static ComboClass twopunchcombos = new ComboClass(new List<IStrike> { AllStrikes.Guides.twopunchcombosonly }, 30);
+            public static ComboClass useonlyleadhand = new ComboClass(new List<IStrike> { AllStrikes.Guides.useonlyleadhand }, 30);
+
+        }
 
     }
 
@@ -571,7 +602,7 @@ namespace Trener
             {
 
                 public static WorkoutClass longercombos_workout = new WorkoutClass("Longer combos", new List<ComboClass> { AllCombos.CombosAdvice.c_3punchcombos, AllCombos.Combos3s.c_1_2_3, AllCombos.Combos3s.c_1_1_2, AllCombos.Combos3s.c_1_2b_3, AllCombos.Combos3s.c_1_2_3b, AllCombos.Combos3s.c_6_3_2, AllCombos.Combos3s.c_3_6_3b, AllCombos.Combos3s.c_3_2_5, AllCombos.Combos3s.c_3_6_5 }, 3);
-
+                
                 public static WorkoutClass longercombosWithMoves_workout = new WorkoutClass("Longer combos with moves", new List<ComboClass> { AllCombos.CombosAdvice.c_3punchwithmovementcombos, AllCombos.Combos4s.c_1_1_2_sb, AllCombos.Combos4s.c_1_2_3_sb, AllCombos.Combos4s.c_2_3_2_sb, AllCombos.Combos4s.c_sf_2_3_sb, AllCombos.Combos4s.c_sf_6_3_sb, AllCombos.Combos4s.c_sf_1_2_sb, AllCombos.Combos4s.c_sr_1_2_sr, AllCombos.Combos4s.c_1_2_sb_2, AllCombos.Combos4s.c_1_2_sr_4, AllCombos.Combos4s.c_1_2_is_os }, 3);
 
 
@@ -626,7 +657,6 @@ namespace Trener
             public static class ComboBuilder
             {
                 public static WorkoutClass combobuild_workout = new WorkoutClass("Combo 1", new List<ComboClass> { AllCombos.CombosBuilder.Combo1.c_1, AllCombos.CombosBuilder.Combo1.c_1_ls, AllCombos.CombosBuilder.Combo1.c_1_ls_1, AllCombos.CombosBuilder.Combo1.c_1_ls_1_2, AllCombos.CombosBuilder.Combo1.c_1_ls_1_2_rs, AllCombos.CombosBuilder.Combo1.c_1_ls_1_2_rs_2, AllCombos.CombosBuilder.Combo1.c_1_ls_1_2_rs_2_3, AllCombos.CombosBuilder.Combo1.c_1_ls_1_2_rs_2_3_ls, AllCombos.CombosBuilder.Combo1.c_1_ls_1_2_rs_2_3_ls_3, AllCombos.CombosBuilder.Combo1.c_1_ls_1_2_rs_2_3_ls_3_2 }, 3);
-
                 public static WorkoutClass combobuild_workout2 = new WorkoutClass("Combo 2", new List<ComboClass> { AllCombos.CombosBuilder.Combo2.c_p, AllCombos.CombosBuilder.Combo2.c_p_2, AllCombos.CombosBuilder.Combo2.c_p_2_3, AllCombos.CombosBuilder.Combo2.c_p_2_3_lr, AllCombos.CombosBuilder.Combo2.c_p_2_3_lr_3, AllCombos.CombosBuilder.Combo2.c_p_2_3_lr_3_2, AllCombos.CombosBuilder.Combo2.c_p_2_3_lr_3_2_rr, AllCombos.CombosBuilder.Combo2.c_p_2_3_lr_3_2_rr_2, AllCombos.CombosBuilder.Combo2.c_p_2_3_lr_3_2_rr_2_3 }, 3);
                 public static WorkoutClass combobuild_workout3 = new WorkoutClass("Combo 3", new List<ComboClass> { AllCombos.CombosBuilder.Combo3.c_1, AllCombos.CombosBuilder.Combo3.c_1_2, AllCombos.CombosBuilder.Combo3.c_1_2_3b, AllCombos.CombosBuilder.Combo3.c_1_2_3b_rc, AllCombos.CombosBuilder.Combo3.c_1_2_3b_rc_3, AllCombos.CombosBuilder.Combo3.c_1_2_3b_rc_3_6, AllCombos.CombosBuilder.Combo3.c_1_2_3b_rc_3_6_lc, AllCombos.CombosBuilder.Combo3.c_1_2_3b_rc_3_6_lc_6, AllCombos.CombosBuilder.Combo3.c_1_2_3b_rc_3_6_lc_6_3 }, 3);
                 public static WorkoutClass combobuild_workout4 = new WorkoutClass("Combo 4", new List<ComboClass> { AllCombos.CombosBuilder.Combo4.c_1, AllCombos.CombosBuilder.Combo4.c_1_ls, AllCombos.CombosBuilder.Combo4.c_1_ls_3b, AllCombos.CombosBuilder.Combo4.c_1_ls_3b_5, AllCombos.CombosBuilder.Combo4.c_1_ls_3b_5_2, AllCombos.CombosBuilder.Combo4.c_1_ls_3b_5_2_rs, AllCombos.CombosBuilder.Combo4.c_1_ls_3b_5_2_rs_2, AllCombos.CombosBuilder.Combo4.c_1_ls_3b_5_2_rs_2_6, AllCombos.CombosBuilder.Combo4.c_1_ls_3b_5_2_rs_2_6_4 }, 3);
@@ -729,12 +759,18 @@ namespace Trener
             {
                 public static FitnessWorkoutClass cardio1 = new FitnessWorkoutClass("", new List<ComboClass> { AllCombos.CombosExercise.c_shadowboxing, AllCombos.CombosExercise.c_pushups, AllCombos.CombosExercise.c_shadowboxing, AllCombos.CombosExercise.c_squats, AllCombos.CombosExercise.c_shadowboxing, AllCombos.CombosExercise.c_burpees }, 3, 30, 0);
                 public static FitnessWorkoutClass cardio2 = new FitnessWorkoutClass("", new List<ComboClass> { AllCombos.CombosExercise.c_skipping_rope, AllCombos.CombosExercise.c_pushups, AllCombos.CombosExercise.c_skipping_rope, AllCombos.CombosExercise.c_squats, AllCombos.CombosExercise.c_skipping_rope, AllCombos.CombosExercise.c_burpees }, 3, 60, 5);
-
+  
             }
             public static class Core
             {
                 public static FitnessWorkoutClass core1 = new FitnessWorkoutClass("", new List<ComboClass> { AllCombos.CombosExercise.c_pushups, AllCombos.CombosExercise.c_shadowboxing, AllCombos.CombosExercise.c_squats, AllCombos.CombosExercise.c_shadowboxing, AllCombos.CombosExercise.c_burpees }, 3, 60, 5);
                 public static FitnessWorkoutClass core2 = new FitnessWorkoutClass("", new List<ComboClass> { AllCombos.CombosExercise.c_pushups, AllCombos.CombosExercise.c_shadowboxing, AllCombos.CombosExercise.c_squats, AllCombos.CombosExercise.c_shadowboxing, AllCombos.CombosExercise.c_burpees }, 3, 60, 5);
+
+            }
+            public static class Guided
+            {
+                public static FitnessWorkoutClass guidedone = new FitnessWorkoutClass("", new List<ComboClass> { AllCombos.CombosGuides.movenadjab, AllCombos.CombosGuides.twopunchcombos, AllCombos.CombosGuides.onlystraightpunches, AllCombos.CombosGuides.finishwithbodyshot, AllCombos.CombosGuides.countersonly, AllCombos.CombosGuides.onlyhooksandupper, AllCombos.CombosGuides.countersonly, AllCombos.CombosGuides.closefighting }, 3, 0, 0);
+                public static FitnessWorkoutClass guidedone2 = new FitnessWorkoutClass("", new List<ComboClass> { AllCombos.CombosGuides.movenadjab, AllCombos.CombosGuides.twopunchcombos, AllCombos.CombosGuides.onlystraightpunches, AllCombos.CombosGuides.finishwithbodyshot, AllCombos.CombosGuides.countersonly, AllCombos.CombosGuides.onlyhooksandupper, AllCombos.CombosGuides.countersonly, AllCombos.CombosGuides.closefighting }, 3, 0, 0);
 
             }
 

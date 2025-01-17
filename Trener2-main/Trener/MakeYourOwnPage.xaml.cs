@@ -7,9 +7,10 @@ public partial class MakeYourOwnPage : ContentPage
     List<IStrike> combo_list = new List<IStrike> { };
 
     public static WorkoutClass own_workout = new WorkoutClass("own",new List<ComboClass>(), 0);
-    
+
     public MakeYourOwnPage()
     {
+
         InitializeComponent();
     }
 
@@ -173,15 +174,19 @@ public partial class MakeYourOwnPage : ContentPage
 
 
     }
-    private void AddCombo(object sender, EventArgs e)
+    async private void AddCombo(object sender, EventArgs e)
     {
 
-        own_workout.AddCombo(new ComboClass(combo_list, 3, 3, 3));
-        ShowText();
-        SaveWorkout(own_workout);
-        combo_list = new List<IStrike>(); // Nová instance seznamu
+        string text = WorkoutNameEntry.Text;
 
-        combo_label.Text = "";
+
+            own_workout.AddCombo(new ComboClass(combo_list, 3, 3, 3));
+            ShowText();
+
+            combo_list = new List<IStrike>(); // Nová instance seznamu
+            combo_label.Text = "";
+
+
 
 
 
@@ -214,11 +219,44 @@ public partial class MakeYourOwnPage : ContentPage
 
     public async Task SaveWorkout(WorkoutClass workout)
     {
+    
+        string text = WorkoutNameEntry.Text;
+        if (SpeedPicker.SelectedItem == null)
+
+        {
+            await DisplayAlert("Chyba", "Zadejte prosím rychlost", "OK");
+            return;
+        }
+
+        if (string.IsNullOrEmpty(text))
+        {
+            // Pokud uživatel nezadal jméno workoutu, zobrazíme upozornìní
+            await DisplayAlert("Chyba", "Zadejte prosím jméno workoutu.", "OK");
+            return;
+        }
+
         // Serializujeme seznam workoutù
         var json = JsonSerializer.Serialize(workout, new JsonSerializerOptions { WriteIndented = true });
+        string validFileName = string.Concat(text.Split(Path.GetInvalidFileNameChars()));
 
-        var filePath = Path.Combine(FileSystem.AppDataDirectory, "OwnWorkout.json");
-        await File.WriteAllTextAsync(filePath, json);
+        // Vytvoøení cesty k souboru s dynamickým názvem
+        var filePath = Path.Combine(FileSystem.AppDataDirectory, validFileName + ".json"); await File.WriteAllTextAsync(filePath, json);
+        SaveUserNameToCsv(text);
+        ReopenPage();
+
+    }
+    public async void ReopenPage()
+    {
+        own_workout = new WorkoutClass();
+
+        await Application.Current.MainPage.Navigation.PopAsync();
+        await Application.Current.MainPage.Navigation.PushAsync(new MakeYourOwnPage());
+
+
+    }
+    public async void DeleteCurWorkout(object sender, EventArgs e)
+    {
+        ReopenPage();
     }
 
     public async void  StartWorkout(object sender, EventArgs e)
@@ -232,8 +270,16 @@ public partial class MakeYourOwnPage : ContentPage
     public async void ShowWorkout(object sender, EventArgs e)
     {
 
+        await Application.Current.MainPage.Navigation.PushAsync(new ShowOwnWorkout(own_workout));
+
+
+
+    }
+    public async void ViewWorkouts(object sender, EventArgs e)
+    {
+
         WorkoutClass ow = await LoadOwnWorkout();
-        await Application.Current.MainPage.Navigation.PushAsync(new ShowOwnWorkout(ow));
+        await Application.Current.MainPage.Navigation.PushAsync(new ViewOwnWorkouts());
 
 
 
@@ -243,5 +289,25 @@ public partial class MakeYourOwnPage : ContentPage
         combo_label.Text = "";
         combo_list.Clear();
     }
+    public static void SaveUserNameToCsv( string name)
+    {
+        try
+        {
+            string filePath = Path.Combine(FileSystem.AppDataDirectory, "names.csv");
+
+            // Otevøeme soubor pro pøidání textu
+            using (StreamWriter sw = new StreamWriter(filePath, append: true))
+            {
+                // Zapsání jména a vìku do souboru jako nový øádek
+                sw.WriteLine($"{name},"); // Oddìlení hodnot èárkou, což je formát pro CSV
+            }
+
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Došlo k chybì pøi zápisu do souboru: {ex.Message}");
+        }
+    }
+
 
 }

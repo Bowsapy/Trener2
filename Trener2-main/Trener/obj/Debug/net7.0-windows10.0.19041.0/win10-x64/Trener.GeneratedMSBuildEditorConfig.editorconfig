@@ -114,6 +114,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Trener.ShowOwnWorkout.xaml
 build_metadata.AdditionalFiles.TargetPath = ShowOwnWorkout.xaml
 build_metadata.AdditionalFiles.RelativePath = ShowOwnWorkout.xaml
 
+[C:/Users/janst/source/repos/Trener2-main/Trener/ShowOwnWorkouts.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.ShowOwnWorkouts.xaml
+build_metadata.AdditionalFiles.TargetPath = ShowOwnWorkouts.xaml
+build_metadata.AdditionalFiles.RelativePath = ShowOwnWorkouts.xaml
+
 [C:/Users/janst/source/repos/Trener2-main/Trener/StylesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trener.StylesPage.xaml
@@ -137,3 +143,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trener.TechPage.xaml
 build_metadata.AdditionalFiles.TargetPath = TechPage.xaml
 build_metadata.AdditionalFiles.RelativePath = TechPage.xaml
+
+[C:/Users/janst/source/repos/Trener2-main/Trener/ViewOwnWorkouts.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.ViewOwnWorkouts.xaml
+build_metadata.AdditionalFiles.TargetPath = ViewOwnWorkouts.xaml
+build_metadata.AdditionalFiles.RelativePath = ViewOwnWorkouts.xaml

@@ -1636,6 +1636,36 @@
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\exercises\squats-sound.mp3">
       <PackagePath>Sounds\exercises\squats-sound.mp3</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\closefighting-sound.mp3">
+      <PackagePath>Sounds\guides\closefighting-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\countersonly-sound.mp3">
+      <PackagePath>Sounds\guides\countersonly-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\finishwithbodyshot-sound.mp3">
+      <PackagePath>Sounds\guides\finishwithbodyshot-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\headmovementandcounter-sound.mp3">
+      <PackagePath>Sounds\guides\headmovementandcounter-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\moveandjab-sound.mp3">
+      <PackagePath>Sounds\guides\moveandjab-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\onlyhooksandupper-sound.mp3">
+      <PackagePath>Sounds\guides\onlyhooksandupper-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\onlystraightpunches-sound.mp3">
+      <PackagePath>Sounds\guides\onlystraightpunches-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\startwithjab-sound.mp3">
+      <PackagePath>Sounds\guides\startwithjab-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\twopunchcombosonly-sound.mp3">
+      <PackagePath>Sounds\guides\twopunchcombosonly-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\useonlyleadhand-sound.mp3">
+      <PackagePath>Sounds\guides\useonlyleadhand-sound.mp3</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\movements\i_sidestep-sound.mp3">
       <PackagePath>Sounds\movements\i_sidestep-sound.mp3</PackagePath>
     </AppxPackagedFile>
@@ -1788,36 +1818,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-400.png">
       <PackagePath>bag2SplashScreen.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bagSplashScreen.scale-100.png">
-      <PackagePath>bagSplashScreen.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bagSplashScreen.scale-125.png">
-      <PackagePath>bagSplashScreen.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bagSplashScreen.scale-150.png">
-      <PackagePath>bagSplashScreen.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bagSplashScreen.scale-200.png">
-      <PackagePath>bagSplashScreen.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bagSplashScreen.scale-400.png">
-      <PackagePath>bagSplashScreen.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\traceSplashScreen.scale-100.png">
-      <PackagePath>traceSplashScreen.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\traceSplashScreen.scale-125.png">
-      <PackagePath>traceSplashScreen.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\traceSplashScreen.scale-150.png">
-      <PackagePath>traceSplashScreen.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\traceSplashScreen.scale-200.png">
-      <PackagePath>traceSplashScreen.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\traceSplashScreen.scale-400.png">
-      <PackagePath>traceSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>

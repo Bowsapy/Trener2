@@ -20,9 +20,11 @@ namespace Trener
         private bool end;
         private CancellationTokenSource cts;
         User user2 = new User();
+        private int speed;
         
         public ActionPage(WorkoutClass workout)
         {
+            this.speed= speed;
             this.workout = workout;
             InitializeComponent();
             Action();
@@ -37,7 +39,7 @@ namespace Trener
         {
 
 
-
+            speed= workout.speed;
 
             user2.AddToList(new FinishedWorkout(workout.Id, DateTime.Now));
 
@@ -86,7 +88,7 @@ namespace Trener
                     await Task.Delay(200, token);
 
                     // Start executing the combo
-                    await ExecuteCombo(combo, isAdvice, token);
+                    await ExecuteCombo(speed,combo, isAdvice, token);
                     
                     currentComIndex++;
                     if (currentComIndex == workout.TotalNumOfCombos())
@@ -150,8 +152,9 @@ namespace Trener
 
 
 
-        private async Task ExecuteCombo(ComboClass combo, bool isAdvice, CancellationToken token)
+        private async Task ExecuteCombo(int speed, ComboClass combo, bool isAdvice, CancellationToken token)
         {
+            
             int currentRep = 0;
             int adjKTime = Convert.ToInt32(Math.Round((double)combo.Time / 1));
 
@@ -169,13 +172,13 @@ namespace Trener
 
                 await Task.Delay(300, token);
                 ChangeTextOnLabel(rep_label, $"{currentRep}/{combo.Reps}");
-                await Task.Run(() => ExecuteStrikes(combo.Strikes, isAdvice, token));
+                await Task.Run(() => ExecuteStrikes(speed,combo.Strikes, isAdvice, token));
 
                 if (!isAdvice) await Task.Delay(1200, token);
             }
         }
 
-        private async Task ExecuteStrikes(List<IStrike> currentStrikes, bool isAdvice, CancellationToken token)
+        private async Task ExecuteStrikes(int speed, List<IStrike> currentStrikes, bool isAdvice, CancellationToken token)
         {
             foreach (var strike in currentStrikes)
             {
@@ -203,7 +206,7 @@ namespace Trener
                             await GenericSounds.PlayMoveSound(token);
                             break;
                     }
-                    Thread.Sleep(400);
+                    Thread.Sleep(speed);
                 }
 
             }
