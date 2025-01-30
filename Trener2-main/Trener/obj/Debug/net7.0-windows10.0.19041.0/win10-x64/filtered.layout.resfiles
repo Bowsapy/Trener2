@@ -128,13 +128,17 @@ Sounds\movements\step_forward-sound.mp3
 Sounds\movements\step_left-sound.mp3
 Sounds\movements\step_right-sound.mp3
 Sounds\other\break-sound.mp3
+Sounds\other\counterpuncherintro-sound.mp3
 Sounds\other\get-ready-sound.mp3
 Sounds\other\good_job-sound.mp3
 Sounds\other\go-sound.mp3
 Sounds\other\hitnmove-sound.mp3
+Sounds\other\keepmovingforward-sound.mp3
+Sounds\other\longrangefighter-sound.mp3
 Sounds\other\miss-sound.mp3
 Sounds\other\nextexercise-sound.mp3
 Sounds\other\ping-sound.mp3
+Sounds\other\pressurefighterintro-sound.mp3
 Sounds\other\rest-sound.mp3
 Sounds\other\step-sound.mp3
 Sounds\punches\1b-sound.mp3
@@ -167,3 +171,4 @@ Sounds\workout_specific\basic_movement_combos-sound.mp3
 Sounds\workout_specific\basic_movement_intro-sound.mp3
 Sounds\workout_specific\headmovementonly-sound.mp3
 Sounds\workout_specific\intro-sound.mp3
+Sounds\workout_specific\longrangefighter-sound.mp3

@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\janst\source\repos\Trener2-main\Trener\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-01-17T18:33:40.259</Modified>
+      <Modified>2025-01-29T14:31:14.582</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-01-17T18:18:23.475</Modified>
+      <Modified>2025-01-29T14:31:13.930</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Trener.runtimeconfig.json">
       <PackagePath>Trener.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Trener.dll">
       <PackagePath>Trener.dll</PackagePath>
-      <Modified>2025-01-17T18:33:38.781</Modified>
+      <Modified>2025-01-29T14:31:12.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Trener.exe</PackagePath>
-      <Modified>2025-01-17T18:33:38.781</Modified>
+      <Modified>2025-01-29T14:31:12.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Trener.deps.json">
       <PackagePath>Trener.deps.json</PackagePath>
@@ -2249,6 +2249,10 @@
       <PackagePath>Sounds\other\break-sound.mp3</PackagePath>
       <Modified>2024-11-23T18:04:00.673</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\counterpuncherintro-sound.mp3">
+      <PackagePath>Sounds\other\counterpuncherintro-sound.mp3</PackagePath>
+      <Modified>2025-01-29T13:43:17.346</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\get-ready-sound.mp3">
       <PackagePath>Sounds\other\get-ready-sound.mp3</PackagePath>
       <Modified>2024-11-23T18:04:00.689</Modified>
@@ -2265,6 +2269,14 @@
       <PackagePath>Sounds\other\hitnmove-sound.mp3</PackagePath>
       <Modified>2024-11-23T18:04:00.743</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\keepmovingforward-sound.mp3">
+      <PackagePath>Sounds\other\keepmovingforward-sound.mp3</PackagePath>
+      <Modified>2025-01-23T14:56:37.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\longrangefighter-sound.mp3">
+      <PackagePath>Sounds\other\longrangefighter-sound.mp3</PackagePath>
+      <Modified>2025-01-25T14:15:01.306</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\miss-sound.mp3">
       <PackagePath>Sounds\other\miss-sound.mp3</PackagePath>
       <Modified>2024-11-23T18:04:00.764</Modified>
@@ -2276,6 +2288,10 @@
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\ping-sound.mp3">
       <PackagePath>Sounds\other\ping-sound.mp3</PackagePath>
       <Modified>2024-11-23T18:04:00.789</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\pressurefighterintro-sound.mp3">
+      <PackagePath>Sounds\other\pressurefighterintro-sound.mp3</PackagePath>
+      <Modified>2025-01-23T14:40:36.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\rest-sound.mp3">
       <PackagePath>Sounds\other\rest-sound.mp3</PackagePath>
@@ -2404,6 +2420,10 @@
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\workout_specific\intro-sound.mp3">
       <PackagePath>Sounds\workout_specific\intro-sound.mp3</PackagePath>
       <Modified>2024-11-23T18:04:01.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\workout_specific\longrangefighter-sound.mp3">
+      <PackagePath>Sounds\workout_specific\longrangefighter-sound.mp3</PackagePath>
+      <Modified>2025-01-25T14:15:01.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-100.png">
       <PackagePath>bag2SplashScreen.scale-100.png</PackagePath>

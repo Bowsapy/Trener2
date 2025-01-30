@@ -1687,6 +1687,9 @@
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\break-sound.mp3">
       <PackagePath>Sounds\other\break-sound.mp3</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\counterpuncherintro-sound.mp3">
+      <PackagePath>Sounds\other\counterpuncherintro-sound.mp3</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\get-ready-sound.mp3">
       <PackagePath>Sounds\other\get-ready-sound.mp3</PackagePath>
     </AppxPackagedFile>
@@ -1699,6 +1702,12 @@
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\hitnmove-sound.mp3">
       <PackagePath>Sounds\other\hitnmove-sound.mp3</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\keepmovingforward-sound.mp3">
+      <PackagePath>Sounds\other\keepmovingforward-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\longrangefighter-sound.mp3">
+      <PackagePath>Sounds\other\longrangefighter-sound.mp3</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\miss-sound.mp3">
       <PackagePath>Sounds\other\miss-sound.mp3</PackagePath>
     </AppxPackagedFile>
@@ -1707,6 +1716,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\ping-sound.mp3">
       <PackagePath>Sounds\other\ping-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\pressurefighterintro-sound.mp3">
+      <PackagePath>Sounds\other\pressurefighterintro-sound.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\rest-sound.mp3">
       <PackagePath>Sounds\other\rest-sound.mp3</PackagePath>
@@ -1803,6 +1815,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\workout_specific\intro-sound.mp3">
       <PackagePath>Sounds\workout_specific\intro-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\workout_specific\longrangefighter-sound.mp3">
+      <PackagePath>Sounds\workout_specific\longrangefighter-sound.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-100.png">
       <PackagePath>bag2SplashScreen.scale-100.png</PackagePath>

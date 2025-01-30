@@ -117,7 +117,7 @@ CommandParameter="CARDIO 2"
                  FontAttributes="Bold"
                  Grid.Row="5"
                  Grid.Column="0"
-                                                                     Command="{Binding NavigateCommandToRight}" 
+                                                                     Command="{Binding NavigateCommandToLeft}" 
                CommandParameter="MENU 1"
                  ></Button>
     </Grid>
