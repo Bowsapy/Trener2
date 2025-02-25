@@ -123,6 +123,9 @@
   <data name="AddCButton" xml:space="preserve">
     <value>ADD COMBO</value>
   </data>
+  <data name="add_countersText" xml:space="preserve">
+    <value>Add counters</value>
+  </data>
   <data name="AllButton" xml:space="preserve">
     <value>ALL</value>
   </data>
@@ -138,23 +141,44 @@
   <data name="BasicStrikesButton" xml:space="preserve">
     <value>BASIC STRIKES</value>
   </data>
+  <data name="basic_strikes_introText" xml:space="preserve">
+    <value>Single punches now</value>
+  </data>
   <data name="BCrossButton" xml:space="preserve">
     <value>Body cross</value>
   </data>
   <data name="BJabButton" xml:space="preserve">
     <value>Body jab</value>
   </data>
+  <data name="burpees" xml:space="preserve">
+    <value>Burpees</value>
+  </data>
+  <data name="closefighting" xml:space="preserve">
+    <value>Close fighting</value>
+  </data>
   <data name="CMButton" xml:space="preserve">
     <value>Combos with movement</value>
   </data>
+  <data name="combos_after_moves" xml:space="preserve">
+    <value>Combos after movement</value>
+  </data>
   <data name="CounterPuncherButton" xml:space="preserve">
     <value>Counterpuncher</value>
+  </data>
+  <data name="counterpuncherintroText" xml:space="preserve">
+    <value>Lean forward and drop your hands a little</value>
+  </data>
+  <data name="countersonly" xml:space="preserve">
+    <value>Counters only</value>
   </data>
   <data name="CrossButton" xml:space="preserve">
     <value>Cross</value>
   </data>
   <data name="DefenceButton" xml:space="preserve">
     <value>Defence</value>
+  </data>
+  <data name="defence_onlyText" xml:space="preserve">
+    <value>Defence only</value>
   </data>
   <data name="DelButton" xml:space="preserve">
     <value>Delete combo</value>
@@ -165,8 +189,20 @@
   <data name="DuckButton" xml:space="preserve">
     <value>Duck</value>
   </data>
+  <data name="finishwithbodyshot" xml:space="preserve">
+    <value>Finish combo with bodyshot</value>
+  </data>
   <data name="FreestyleButton" xml:space="preserve">
     <value>FREESTYLE WORKOUTS</value>
+  </data>
+  <data name="headmovement_only" xml:space="preserve">
+    <value>Only headmovement</value>
+  </data>
+  <data name="headmovmentandcounter" xml:space="preserve">
+    <value>Headmovement and counter</value>
+  </data>
+  <data name="highguard" xml:space="preserve">
+    <value>Highguard</value>
   </data>
   <data name="HMButton" xml:space="preserve">
     <value>HEADMOVEMENT</value>
@@ -176,6 +212,12 @@
   </data>
   <data name="JabButton" xml:space="preserve">
     <value>Jab</value>
+  </data>
+  <data name="keepmoving" xml:space="preserve">
+    <value>Keep moving</value>
+  </data>
+  <data name="keepmovingforward" xml:space="preserve">
+    <value>Keep moving forward</value>
   </data>
   <data name="LBBButton" xml:space="preserve">
     <value>Lead bodyblock</value>
@@ -201,6 +243,9 @@
   <data name="LongRangeButton" xml:space="preserve">
     <value>LONG RANGE FIGHTER</value>
   </data>
+  <data name="longrangefighterintro" xml:space="preserve">
+    <value>Control distance with your lead hand</value>
+  </data>
   <data name="LPButton" xml:space="preserve">
     <value>Lead parry</value>
   </data>
@@ -213,11 +258,29 @@
   <data name="LUpperButton" xml:space="preserve">
     <value>Lead uppercut</value>
   </data>
+  <data name="mix_it_up" xml:space="preserve">
+    <value>Mix it all up</value>
+  </data>
+  <data name="moveandjab" xml:space="preserve">
+    <value>Move and jab</value>
+  </data>
   <data name="MovementButton" xml:space="preserve">
     <value>Movement</value>
   </data>
+  <data name="moveyourhead" xml:space="preserve">
+    <value>Move your head</value>
+  </data>
+  <data name="move_only" xml:space="preserve">
+    <value>Only movement</value>
+  </data>
   <data name="MYOWorkoutButton" xml:space="preserve">
     <value>CREATE YOUR OWN WORKOUT</value>
+  </data>
+  <data name="onlyhooksandupper" xml:space="preserve">
+    <value>Only hooks and uppercuts</value>
+  </data>
+  <data name="onlystraightpunches" xml:space="preserve">
+    <value>Only straight punches</value>
   </data>
   <data name="OSButton" xml:space="preserve">
     <value>Outside sidestep</value>
@@ -225,11 +288,17 @@
   <data name="PressureFighterButton" xml:space="preserve">
     <value>Pressure Fighter</value>
   </data>
+  <data name="pressurefighterintro" xml:space="preserve">
+    <value>Keep pushing</value>
+  </data>
   <data name="ProgressButton" xml:space="preserve">
     <value>Progress</value>
   </data>
   <data name="PunchesButton" xml:space="preserve">
     <value>Punches</value>
+  </data>
+  <data name="pushups" xml:space="preserve">
+    <value>Pushups</value>
   </data>
   <data name="QuitButton" xml:space="preserve">
     <value>QUIT</value>
@@ -264,14 +333,29 @@
   <data name="SaveButton" xml:space="preserve">
     <value>Save workout</value>
   </data>
+  <data name="shadowboxing" xml:space="preserve">
+    <value>Shadowboxing</value>
+  </data>
   <data name="ShadowboxingButton" xml:space="preserve">
     <value>Shadowboxing circuit</value>
   </data>
   <data name="ShowButton" xml:space="preserve">
     <value>View workout</value>
   </data>
+  <data name="situps" xml:space="preserve">
+    <value>Situps</value>
+  </data>
+  <data name="skippingrope" xml:space="preserve">
+    <value>Skipping rope</value>
+  </data>
   <data name="SkippingRopeButton" xml:space="preserve">
     <value>Skipping rope circuit</value>
+  </data>
+  <data name="squats" xml:space="preserve">
+    <value>Squats</value>
+  </data>
+  <data name="startwithjab" xml:space="preserve">
+    <value>Start every combo with jab</value>
   </data>
   <data name="StBButton" xml:space="preserve">
     <value>Step back</value>
@@ -294,11 +378,32 @@
   <data name="SwitchLangButton" xml:space="preserve">
     <value>Change language</value>
   </data>
+  <data name="switchstance" xml:space="preserve">
+    <value>Switch your stance</value>
+  </data>
   <data name="Tech1Button" xml:space="preserve">
     <value>TECHNIQUE</value>
   </data>
   <data name="Tech2Button" xml:space="preserve">
     <value>TECHNIQUE 2</value>
+  </data>
+  <data name="three_p_combosText" xml:space="preserve">
+    <value>Three punch combos now</value>
+  </data>
+  <data name="three_p_combos_defenceText" xml:space="preserve">
+    <value>Three punch combos with defence</value>
+  </data>
+  <data name="three_p_combos_movementText" xml:space="preserve">
+    <value>Three punch combos with movement</value>
+  </data>
+  <data name="twopunchcombosonly" xml:space="preserve">
+    <value>Two punch combos only</value>
+  </data>
+  <data name="two_p_combosText" xml:space="preserve">
+    <value>Two punch combos now</value>
+  </data>
+  <data name="useonlyleadhand" xml:space="preserve">
+    <value>Use only lead hand</value>
   </data>
   <data name="ViewButton" xml:space="preserve">
     <value>Show own workouts</value>

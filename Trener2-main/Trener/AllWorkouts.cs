@@ -35,7 +35,7 @@ public static class AllAdvice
 
 {
 
-public static AdviceClass counterpuncherintro = new AdviceClass( "Lean forward and lower your guard", $@"Sounds\{lang}\other\counterpuncherintro-sound.mp3");
+public static AdviceClass counterpuncherintro = new AdviceClass(Resources.Languages.strings.CrossButton, $@"Sounds\{lang}\other\counterpuncherintro-sound.mp3");
 
 public static AdviceClass hands_high = new AdviceClass( "Hands high", $@"Sounds\{lang}\tips\hands high-sound.mp3");
 

@@ -123,6 +123,9 @@
   <data name="AddCButton" xml:space="preserve">
     <value>Přidat kombo</value>
   </data>
+  <data name="add_counters" xml:space="preserve">
+    <value>Přidej kontry</value>
+  </data>
   <data name="AllButton" xml:space="preserve">
     <value>VSE</value>
   </data>
@@ -138,23 +141,44 @@
   <data name="BasicStrikesButton" xml:space="preserve">
     <value>ZAKLADNI UDERY</value>
   </data>
+  <data name="basic_strikes_introText" xml:space="preserve">
+    <value>Jenom jednotlivy udery</value>
+  </data>
   <data name="BCrossButton" xml:space="preserve">
     <value>Zadní direkt tělo</value>
   </data>
   <data name="BJabButton" xml:space="preserve">
     <value>Přední direkt tělo</value>
   </data>
+  <data name="burpees" xml:space="preserve">
+    <value>Angličáky</value>
+  </data>
+  <data name="closefighting" xml:space="preserve">
+    <value>Box na blízko</value>
+  </data>
   <data name="CMButton" xml:space="preserve">
     <value>KOMBA S POHYBEM</value>
   </data>
+  <data name="combos_after_moves" xml:space="preserve">
+    <value>Kombinace po pohybu</value>
+  </data>
   <data name="CounterPuncherButton" xml:space="preserve">
     <value>Kontrující boxer</value>
+  </data>
+  <data name="counterpuncherintroText" xml:space="preserve">
+    <value>Předkloň se a spust trochu ruce</value>
+  </data>
+  <data name="countersonly" xml:space="preserve">
+    <value>Jenom kontry</value>
   </data>
   <data name="CrossButton" xml:space="preserve">
     <value>Zadní direkt</value>
   </data>
   <data name="DefenceButton" xml:space="preserve">
     <value>Obrana</value>
+  </data>
+  <data name="defence_onlyText" xml:space="preserve">
+    <value>Jen obrana</value>
   </data>
   <data name="DelButton" xml:space="preserve">
     <value>Smazat kombo</value>
@@ -165,8 +189,20 @@
   <data name="DuckButton" xml:space="preserve">
     <value>Dřep</value>
   </data>
+  <data name="finishwithbodyshot" xml:space="preserve">
+    <value>Zakonči kombo spodkem</value>
+  </data>
   <data name="FreestyleButton" xml:space="preserve">
     <value>FREESTYLE WORKOUTY</value>
+  </data>
+  <data name="headmovement_only" xml:space="preserve">
+    <value>Jen pohyb hlavou</value>
+  </data>
+  <data name="headmovmentandcounter" xml:space="preserve">
+    <value>Headmovement a kontry</value>
+  </data>
+  <data name="highguard" xml:space="preserve">
+    <value>Dvoják</value>
   </data>
   <data name="HMButton" xml:space="preserve">
     <value>POHYB HLAVOU</value>
@@ -176,6 +212,12 @@
   </data>
   <data name="JabButton" xml:space="preserve">
     <value>Přední direkt</value>
+  </data>
+  <data name="keepmoving" xml:space="preserve">
+    <value>Pořád se hýbej</value>
+  </data>
+  <data name="keepmovingforward" xml:space="preserve">
+    <value>Pořád se hýbej dopředu</value>
   </data>
   <data name="LBBButton" xml:space="preserve">
     <value>Přední bodyblok</value>
@@ -201,6 +243,9 @@
   <data name="LongRangeButton" xml:space="preserve">
     <value>Boxer na dlouhou vzdálenost</value>
   </data>
+  <data name="longrangefighterintro" xml:space="preserve">
+    <value>Kontroluj vzdálenost přední rukou</value>
+  </data>
   <data name="LPButton" xml:space="preserve">
     <value>Přední sražení</value>
   </data>
@@ -213,11 +258,29 @@
   <data name="LUpperButton" xml:space="preserve">
     <value>Přední zvedák</value>
   </data>
+  <data name="mix_it_up" xml:space="preserve">
+    <value>Vše dohromady</value>
+  </data>
+  <data name="moveandjab" xml:space="preserve">
+    <value>Hýbej se a jabuj</value>
+  </data>
   <data name="MovementButton" xml:space="preserve">
     <value>Pohyb</value>
   </data>
+  <data name="moveyourhead" xml:space="preserve">
+    <value>Hýbej hlavou</value>
+  </data>
+  <data name="move_only" xml:space="preserve">
+    <value>Jen pohyb</value>
+  </data>
   <data name="MYOWorkoutButton" xml:space="preserve">
     <value>VYTVOR SI VLASTNI WORKOUT</value>
+  </data>
+  <data name="onlyhooksandupper" xml:space="preserve">
+    <value>Jen háky a zvedáky</value>
+  </data>
+  <data name="onlystraightpunches" xml:space="preserve">
+    <value>Jen přímé údery</value>
   </data>
   <data name="OSButton" xml:space="preserve">
     <value>Vnější sidestep</value>
@@ -225,11 +288,17 @@
   <data name="PressureFighterButton" xml:space="preserve">
     <value>Boxer, neustále tlačící na soupeře</value>
   </data>
+  <data name="pressurefighterintro" xml:space="preserve">
+    <value>Tlač</value>
+  </data>
   <data name="ProgressButton" xml:space="preserve">
     <value>POKROK</value>
   </data>
   <data name="PunchesButton" xml:space="preserve">
     <value>Údery</value>
+  </data>
+  <data name="pushups" xml:space="preserve">
+    <value>Kliky</value>
   </data>
   <data name="QuitButton" xml:space="preserve">
     <value>KONEC</value>
@@ -264,14 +333,29 @@
   <data name="SaveButton" xml:space="preserve">
     <value>Uložit workout</value>
   </data>
+  <data name="shadowboxing" xml:space="preserve">
+    <value>Stínový box</value>
+  </data>
   <data name="ShadowboxingButton" xml:space="preserve">
     <value>Kruháč stínování</value>
   </data>
   <data name="ShowButton" xml:space="preserve">
     <value>Zobrazit workout</value>
   </data>
+  <data name="situps" xml:space="preserve">
+    <value>Lehsedy</value>
+  </data>
+  <data name="skippingrope" xml:space="preserve">
+    <value>Švihadlo</value>
+  </data>
   <data name="SkippingRopeButton" xml:space="preserve">
     <value>Kruháč švihadlo</value>
+  </data>
+  <data name="squats" xml:space="preserve">
+    <value>Dřepy</value>
+  </data>
+  <data name="startwithjab" xml:space="preserve">
+    <value>Začínej předním direktem</value>
   </data>
   <data name="StBButton" xml:space="preserve">
     <value>Úkrok dozadu</value>
@@ -294,11 +378,32 @@
   <data name="SwitchLangButton" xml:space="preserve">
     <value>Změnit jazyk</value>
   </data>
+  <data name="switchstance" xml:space="preserve">
+    <value>Prohoď si postoj</value>
+  </data>
   <data name="Tech1Button" xml:space="preserve">
     <value>TECHNIKA</value>
   </data>
   <data name="Tech2Button" xml:space="preserve">
     <value>TECHNIKA 2</value>
+  </data>
+  <data name="three_p_combosText" xml:space="preserve">
+    <value>Tříúderové kombinace</value>
+  </data>
+  <data name="three_p_combos_defenceText" xml:space="preserve">
+    <value>Tříúderové kombinace s obranou</value>
+  </data>
+  <data name="three_p_combos_movementText" xml:space="preserve">
+    <value>Třúderové kombinace s pohybem</value>
+  </data>
+  <data name="twopunchcombosonly" xml:space="preserve">
+    <value>Jenom dvouúderové kombinace</value>
+  </data>
+  <data name="two_p_combosText" xml:space="preserve">
+    <value>Dvoúderové kombinace</value>
+  </data>
+  <data name="useonlyleadhand" xml:space="preserve">
+    <value>Používej jen přední ruku</value>
   </data>
   <data name="ViewButton" xml:space="preserve">
     <value>Zobrazit vlastní workouty</value>
