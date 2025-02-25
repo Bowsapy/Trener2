@@ -4,6 +4,7 @@
              x:Class="Trener.Tech2Page"
              Title="AdvaPage"
                                        xmlns:local="clr-namespace:Trener"
+                          xmlns:lang="clr-namespace:Trener.Resources.Languages"
 
              >
 
@@ -85,7 +86,7 @@ VerticalOptions="FillAndExpand"
          />
 
 
-        <Button  Text="Longer combos"   FontSize="21" 
+        <Button Text="{x:Static lang:strings.LCombosButton}"
                BackgroundColor="red"
                TextColor="White"
                BorderColor="White"
@@ -97,9 +98,11 @@ VerticalOptions="FillAndExpand"
                         LineBreakMode="WordWrap"
                     Command="{Binding StartTechWorkout}" 
 CommandParameter="LONGER COMBOS"
+                                                                   x:Name="LCombosButton"
+
                />
 
-        <Button  Text="Headmovement"   FontSize="21" 
+        <Button Text="{x:Static lang:strings.HMButton}"
                BackgroundColor="red"
                TextColor="White"
                BorderColor="White"
@@ -111,10 +114,11 @@ CommandParameter="LONGER COMBOS"
                         LineBreakMode="WordWrap"
                     Command="{Binding StartTechWorkout}" 
 CommandParameter="HEADMOVEMENT"
+                                                                   x:Name="HMButton"
 
                />
 
-        <Button  Text="Combos with movement"  FontSize="20" 
+        <Button Text="{x:Static lang:strings.CMButton}"
                BackgroundColor="Red"
                TextColor="White"
                BorderColor="White"
@@ -126,8 +130,11 @@ CommandParameter="HEADMOVEMENT"
                         LineBreakMode="WordWrap"
                     Command="{Binding StartTechWorkout}" 
 CommandParameter="LONGER COMBOS WITH MOVEMENT"
+                 
+                                                                                    x:Name="CMButton"
+
                />
-        <Button  Text="All"  FontSize="20" 
+        <Button Text="{x:Static lang:strings.AllButton}"
          BackgroundColor="Red"
          TextColor="White"
          BorderColor="White"
@@ -139,10 +146,11 @@ CommandParameter="LONGER COMBOS WITH MOVEMENT"
                   LineBreakMode="WordWrap"
                     Command="{Binding StartTechWorkout}" 
 CommandParameter="LONGER COMBOS WITH ALL"
-               
+                                                                                               x:Name="AllButton"
+    
          />
-      
-        <Button  Text="Back"  FontSize="40" 
+
+        <Button Text="{x:Static lang:strings.BackButton}"
                BackgroundColor="red"
                TextColor="white"
                BorderColor="white"
@@ -155,6 +163,8 @@ CommandParameter="LONGER COMBOS WITH ALL"
                Grid.ColumnSpan="2"
                                    Command="{Binding NavigateCommandToLeft}" 
                CommandParameter="fss"
+                                                                                                                x:Name="BackButton"
+
                  />
     </Grid>
 

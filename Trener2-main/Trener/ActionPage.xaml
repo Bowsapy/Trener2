@@ -21,6 +21,7 @@
                                                VerticalOptions="FillAndExpand"
 
                        />
+
                 <Label Text="" x:Name="combo_label" 
                        BackgroundColor="blue"
                         TextColor="Black"

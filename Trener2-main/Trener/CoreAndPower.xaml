@@ -95,6 +95,7 @@
                  Grid.Row="0"
                  Grid.Column="1"
                           LineBreakMode="WordWrap"
+                 x:Name="Ba"
                  />
 
         <Button  Text="Basic defence"   FontSize="21" 

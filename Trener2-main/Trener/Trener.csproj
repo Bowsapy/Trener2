@@ -96,6 +96,26 @@
 	  <Compile Update="Menu1Page.xaml.cs">
 	    <DependentUpon>Menu1Page.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Resources\Languages\objects.cs.Designer.cs">
+	    <DependentUpon>objects.cs.resx</DependentUpon>
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	  </Compile>
+	  <Compile Update="Resources\Languages\objects.Designer.cs">
+	    <DependentUpon>objects.resx</DependentUpon>
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	  </Compile>
+	  <Compile Update="Resources\Languages\strings.en.Designer.cs">
+	    <DependentUpon>strings.en.resx</DependentUpon>
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	  </Compile>
+	  <Compile Update="Resources\Languages\strings.cs.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>strings.cs.resx</DependentUpon>
+	  </Compile>
 	  <Compile Update="StylesPage.xaml.cs">
 	    <DependentUpon>StylesPage.xaml</DependentUpon>
 	  </Compile>
@@ -165,6 +185,27 @@
 	  <MauiXaml Update="ViewOwnWorkouts.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Resources\Languages\objects.cs.resx">
+	    <SubType>Designer</SubType>
+	    <LastGenOutput>objects.cs.Designer.cs</LastGenOutput>
+	    <Generator>PublicResXFileCodeGenerator</Generator>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Resources\Languages\objects.resx">
+	    <SubType>Designer</SubType>
+	    <LastGenOutput>objects.Designer.cs</LastGenOutput>
+	    <Generator>PublicResXFileCodeGenerator</Generator>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Resources\Languages\strings.en.resx">
+	    <LastGenOutput>strings.en.Designer.cs</LastGenOutput>
+	    <Generator>PublicResXFileCodeGenerator</Generator>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Resources\Languages\strings.cs.resx">
+	    <Generator>PublicResXFileCodeGenerator</Generator>
+	    <LastGenOutput>strings.cs.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
 	</ItemGroup>
 
 </Project>

@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Trener"
+xmlns:lang="clr-namespace:Trener.Resources.Languages"
              x:Class="Trener.Menu0Page"
              Title="TRENER"
              NavigationPage.HasBackButton="True">
@@ -27,16 +28,20 @@
                     CommandParameter="START"
                     />
 
-            <Button Text="ABOUT APP" Margin="10,5" FontSize="40"
+            <!-- Použití lokalizovaného textu -->
+
+
+            <Button Text="{x:Static lang:strings.AboutAppButton}"
                     BackgroundColor="Red" 
                     BorderColor="White"
                     BorderWidth="2" 
                     FontAttributes="Bold"
                     Command="{Binding NavigateCommandToRight}" 
                     CommandParameter="ABOUT APP"
+                    x:Name="AboutAppButton"
                     />
 
-            <Button Text="PROGRESS" Margin="10,5" FontSize="40"
+            <Button Text="{x:Static lang:strings.ProgressButton}"
                     BackgroundColor="Red"
                     BorderColor="White"
                     BorderWidth="2" 
@@ -44,9 +49,10 @@
                     FontAttributes="Bold"
                     Command="{Binding NavigateCommandToRight}" 
                     CommandParameter="PROGRESS"
+                     x:Name="ProgressButton"
                     />
 
-            <Button Text="QUIT" Margin="10,5" FontSize="40"
+            <Button Text="{x:Static lang:strings.QuitButton}"
                     BackgroundColor="Red"
                     BorderColor="White"
                     BorderWidth="2" 
@@ -54,6 +60,7 @@
                     FontAttributes="Bold"
                     Command="{Binding NavigateCommandToRight}" 
                     CommandParameter="QUIT"
+                     x:Name="QuitButton"
                     />
         </StackLayout>
     </Grid>

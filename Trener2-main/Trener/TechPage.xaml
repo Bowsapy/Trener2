@@ -2,6 +2,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trener.TechPage"
              Title="KATEGORIE"
+             xmlns:lang="clr-namespace:Trener.Resources.Languages"
+
                           xmlns:local="clr-namespace:Trener"
 
 >
@@ -19,17 +21,20 @@
 
         <!-- Tlačítka s absolutním pozicováním -->
         <StackLayout Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" Margin="10,20" >
-           
-            <Button Text="TECHNIQUE"  FontSize="40"
+
+            <Button Text="{x:Static lang:strings.Tech1Button}"
                     BackgroundColor="Red" 
                     BorderColor="White"
                     BorderWidth="2" 
                     FontAttributes="Bold"
                     Margin="10,10"
                             Command="{Binding NavigateCommandToRight}" 
+                                        x:Name="Tech1Button"
+
   CommandParameter="TECH 1"  
                     />
-            <Button Text="TECHNIQUE 2"  FontSize="40"
+            <Button Text="{x:Static lang:strings.Tech2Button}"
+                    FontSize="40"
           BackgroundColor="Red" 
           BorderColor="White"
           BorderWidth="2" 
@@ -37,6 +42,7 @@
           Margin="10,10"
                                               Command="{Binding NavigateCommandToRight}" 
 CommandParameter="TECH 2"  
+                    x:Name="Tech2Button"
           />
             <Button Text="COMBOBUILD"  FontSize="40"
         BackgroundColor="Red" 
@@ -46,20 +52,26 @@ CommandParameter="TECH 2"
         Margin="10,10"
                                               Command="{Binding NavigateCommandToRight}" 
 CommandParameter="COMBO"  
+                              x:Name="ComboButton"
+          
+                    
         />
-            <Button Text="STYLES" FontSize="40"
+            <Button Text="{x:Static lang:strings.StylesButton}"
                     BackgroundColor="Red"
                     BorderColor="White"
                     Margin="10,10"
                     BorderWidth="2" 
                     TextColor="White"
                     FontAttributes="Bold"
+                    
                                               Command="{Binding NavigateCommandToRight}" 
 CommandParameter="STYLES"  
+                                                  x:Name="StylesButton"
+
                     />
     
             <!-- Tlačítko zpět -->
-            <Button Text="Back" FontSize="40"
+            <Button Text="{x:Static lang:strings.BackButton}"
                     BackgroundColor="Red"
                     BorderColor="White"
                     BorderWidth="2" 
@@ -68,6 +80,7 @@ CommandParameter="STYLES"
                     Margin="10,10"
                                                  Command="{Binding NavigateCommandToLeft}"
                     CommandParameter="SFAS"  
+                                                  x:Name="BackButton"
 
 
 />

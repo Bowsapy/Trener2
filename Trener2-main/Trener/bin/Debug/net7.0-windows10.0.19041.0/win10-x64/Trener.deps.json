@@ -28,6 +28,14 @@
         },
         "runtime": {
           "Trener.dll": {}
+        },
+        "resources": {
+          "cs/Trener.resources.dll": {
+            "locale": "cs"
+          },
+          "en/Trener.resources.dll": {
+            "locale": "en"
+          }
         }
       },
       "runtimepack.Microsoft.NETCore.App.Runtime.win-x64/7.0.16": {

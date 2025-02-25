@@ -40,6 +40,12 @@
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Trener.deps.json">
       <PackagePath>Trener.deps.json</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\cs\Trener.resources.dll">
+      <PackagePath>cs\Trener.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\en\Trener.resources.dll">
+      <PackagePath>en\Trener.resources.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.16\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>
@@ -1564,260 +1570,488 @@
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\defence\bodyblock-sound.mp3">
-      <PackagePath>Sounds\defence\bodyblock-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\bodyblock-sound.mp3">
+      <PackagePath>Sounds\cs\defence\bodyblock-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\defence\duck-sound.mp3">
-      <PackagePath>Sounds\defence\duck-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\duck-sound.mp3">
+      <PackagePath>Sounds\cs\defence\duck-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\defence\l_bodyblock-sound.mp3">
-      <PackagePath>Sounds\defence\l_bodyblock-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\l_bodyblock-sound.mp3">
+      <PackagePath>Sounds\cs\defence\l_bodyblock-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\defence\l_catch-sound.mp3">
-      <PackagePath>Sounds\defence\l_catch-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\l_catch-sound.mp3">
+      <PackagePath>Sounds\cs\defence\l_catch-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\defence\l_parry-sound.mp3">
-      <PackagePath>Sounds\defence\l_parry-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\l_parry-sound.mp3">
+      <PackagePath>Sounds\cs\defence\l_parry-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\defence\l_roll-sound.mp3">
-      <PackagePath>Sounds\defence\l_roll-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\l_roll-sound.mp3">
+      <PackagePath>Sounds\cs\defence\l_roll-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\defence\l_slip-sound.mp3">
-      <PackagePath>Sounds\defence\l_slip-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\l_slip-sound.mp3">
+      <PackagePath>Sounds\cs\defence\l_slip-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\defence\pull-sound.mp3">
-      <PackagePath>Sounds\defence\pull-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\pull-sound.mp3">
+      <PackagePath>Sounds\cs\defence\pull-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\defence\r_bodyblock-sound.mp3">
-      <PackagePath>Sounds\defence\r_bodyblock-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\r_bodyblock-sound.mp3">
+      <PackagePath>Sounds\cs\defence\r_bodyblock-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\defence\r_catch-sound.mp3">
-      <PackagePath>Sounds\defence\r_catch-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\r_catch-sound.mp3">
+      <PackagePath>Sounds\cs\defence\r_catch-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\defence\r_parry-sound.mp3">
-      <PackagePath>Sounds\defence\r_parry-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\r_parry-sound.mp3">
+      <PackagePath>Sounds\cs\defence\r_parry-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\defence\r_roll-sound.mp3">
-      <PackagePath>Sounds\defence\r_roll-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\r_roll-sound.mp3">
+      <PackagePath>Sounds\cs\defence\r_roll-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\defence\r_slip-sound.mp3">
-      <PackagePath>Sounds\defence\r_slip-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\r_slip-sound.mp3">
+      <PackagePath>Sounds\cs\defence\r_slip-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\defence\s_roll-sound.mp3">
-      <PackagePath>Sounds\defence\s_roll-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\s_roll-sound.mp3">
+      <PackagePath>Sounds\cs\defence\s_roll-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\exercises\burpees-sound.mp3">
-      <PackagePath>Sounds\exercises\burpees-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\exercises\burpees-sound.mp3">
+      <PackagePath>Sounds\cs\exercises\burpees-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\exercises\mountainclimbers-sound.mp3">
-      <PackagePath>Sounds\exercises\mountainclimbers-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\exercises\pushups-sound.mp3">
+      <PackagePath>Sounds\cs\exercises\pushups-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\exercises\nextexercise-sound.mp3">
-      <PackagePath>Sounds\exercises\nextexercise-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\exercises\shadowboxing-sound.mp3">
+      <PackagePath>Sounds\cs\exercises\shadowboxing-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\exercises\plank-sound.mp3">
-      <PackagePath>Sounds\exercises\plank-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\exercises\skippingrope-sound.mp3">
+      <PackagePath>Sounds\cs\exercises\skippingrope-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\exercises\pushups-sound.mp3">
-      <PackagePath>Sounds\exercises\pushups-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\exercises\squats-sound.mp3">
+      <PackagePath>Sounds\cs\exercises\squats-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\exercises\shadowboxing-sound.mp3">
-      <PackagePath>Sounds\exercises\shadowboxing-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\closefighting-sound.mp3">
+      <PackagePath>Sounds\cs\guides\closefighting-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\exercises\shouldertaps-sound.mp3">
-      <PackagePath>Sounds\exercises\shouldertaps-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\countersonly-sound.mp3">
+      <PackagePath>Sounds\cs\guides\countersonly-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\exercises\situps-sound.mp3">
-      <PackagePath>Sounds\exercises\situps-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\finishwithbodyshot-sound.mp3">
+      <PackagePath>Sounds\cs\guides\finishwithbodyshot-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\exercises\skippingrope-sound.mp3">
-      <PackagePath>Sounds\exercises\skippingrope-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\headmovementandcounter-sound.mp3">
+      <PackagePath>Sounds\cs\guides\headmovementandcounter-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\exercises\squats-sound.mp3">
-      <PackagePath>Sounds\exercises\squats-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\moveandjab-sound.mp3">
+      <PackagePath>Sounds\cs\guides\moveandjab-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\closefighting-sound.mp3">
-      <PackagePath>Sounds\guides\closefighting-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\onlyhooksandupper-sound %282%29.mp3">
+      <PackagePath>Sounds\cs\guides\onlyhooksandupper-sound %282%29.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\countersonly-sound.mp3">
-      <PackagePath>Sounds\guides\countersonly-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\onlystraightpunches-sound.mp3">
+      <PackagePath>Sounds\cs\guides\onlystraightpunches-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\finishwithbodyshot-sound.mp3">
-      <PackagePath>Sounds\guides\finishwithbodyshot-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\startwithjab-sound.mp3">
+      <PackagePath>Sounds\cs\guides\startwithjab-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\headmovementandcounter-sound.mp3">
-      <PackagePath>Sounds\guides\headmovementandcounter-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\twopunchcombosonly-sound.mp3">
+      <PackagePath>Sounds\cs\guides\twopunchcombosonly-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\moveandjab-sound.mp3">
-      <PackagePath>Sounds\guides\moveandjab-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\useonlyleadhand-sound.mp3">
+      <PackagePath>Sounds\cs\guides\useonlyleadhand-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\onlyhooksandupper-sound.mp3">
-      <PackagePath>Sounds\guides\onlyhooksandupper-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\i_sidestep-sound.mp3">
+      <PackagePath>Sounds\cs\movements\i_sidestep-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\onlystraightpunches-sound.mp3">
-      <PackagePath>Sounds\guides\onlystraightpunches-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\o_sidestep-sound.mp3">
+      <PackagePath>Sounds\cs\movements\o_sidestep-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\startwithjab-sound.mp3">
-      <PackagePath>Sounds\guides\startwithjab-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\step_back-sound.mp3">
+      <PackagePath>Sounds\cs\movements\step_back-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\twopunchcombosonly-sound.mp3">
-      <PackagePath>Sounds\guides\twopunchcombosonly-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\step_forward-sound.mp3">
+      <PackagePath>Sounds\cs\movements\step_forward-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\guides\useonlyleadhand-sound.mp3">
-      <PackagePath>Sounds\guides\useonlyleadhand-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\step_left-sound.mp3">
+      <PackagePath>Sounds\cs\movements\step_left-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\movements\i_sidestep-sound.mp3">
-      <PackagePath>Sounds\movements\i_sidestep-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\step_right-sound.mp3">
+      <PackagePath>Sounds\cs\movements\step_right-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\movements\o_sidestep-sound.mp3">
-      <PackagePath>Sounds\movements\o_sidestep-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\break-sound.mp3">
+      <PackagePath>Sounds\cs\other\break-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\movements\step_back-sound.mp3">
-      <PackagePath>Sounds\movements\step_back-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\counterpuncherintro-sound.mp3">
+      <PackagePath>Sounds\cs\other\counterpuncherintro-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\movements\step_forward-sound.mp3">
-      <PackagePath>Sounds\movements\step_forward-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\get-ready-sound.mp3">
+      <PackagePath>Sounds\cs\other\get-ready-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\movements\step_left-sound.mp3">
-      <PackagePath>Sounds\movements\step_left-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\go-sound.mp3">
+      <PackagePath>Sounds\cs\other\go-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\movements\step_right-sound.mp3">
-      <PackagePath>Sounds\movements\step_right-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\good_job-sound.mp3">
+      <PackagePath>Sounds\cs\other\good_job-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\break-sound.mp3">
-      <PackagePath>Sounds\other\break-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\hitnmove-sound.mp3">
+      <PackagePath>Sounds\cs\other\hitnmove-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\counterpuncherintro-sound.mp3">
-      <PackagePath>Sounds\other\counterpuncherintro-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\keepmovingforward-sound.mp3">
+      <PackagePath>Sounds\cs\other\keepmovingforward-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\get-ready-sound.mp3">
-      <PackagePath>Sounds\other\get-ready-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\longrangefighter-sound.mp3">
+      <PackagePath>Sounds\cs\other\longrangefighter-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\go-sound.mp3">
-      <PackagePath>Sounds\other\go-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\miss-sound.mp3">
+      <PackagePath>Sounds\cs\other\miss-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\good_job-sound.mp3">
-      <PackagePath>Sounds\other\good_job-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\ping-sound.mp3">
+      <PackagePath>Sounds\cs\other\ping-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\hitnmove-sound.mp3">
-      <PackagePath>Sounds\other\hitnmove-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\pressurefighterintro-sound.mp3">
+      <PackagePath>Sounds\cs\other\pressurefighterintro-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\keepmovingforward-sound.mp3">
-      <PackagePath>Sounds\other\keepmovingforward-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\rest-sound.mp3">
+      <PackagePath>Sounds\cs\other\rest-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\longrangefighter-sound.mp3">
-      <PackagePath>Sounds\other\longrangefighter-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\step-sound.mp3">
+      <PackagePath>Sounds\cs\other\step-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\miss-sound.mp3">
-      <PackagePath>Sounds\other\miss-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\1-sound.mp3">
+      <PackagePath>Sounds\cs\punches\1-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\nextexercise-sound.mp3">
-      <PackagePath>Sounds\other\nextexercise-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\1b-sound.mp3">
+      <PackagePath>Sounds\cs\punches\1b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\ping-sound.mp3">
-      <PackagePath>Sounds\other\ping-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\2-sound.mp3">
+      <PackagePath>Sounds\cs\punches\2-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\pressurefighterintro-sound.mp3">
-      <PackagePath>Sounds\other\pressurefighterintro-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\2b-sound.mp3">
+      <PackagePath>Sounds\cs\punches\2b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\rest-sound.mp3">
-      <PackagePath>Sounds\other\rest-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\3-sound.mp3">
+      <PackagePath>Sounds\cs\punches\3-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\other\step-sound.mp3">
-      <PackagePath>Sounds\other\step-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\3b-sound.mp3">
+      <PackagePath>Sounds\cs\punches\3b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\punches\1-sound.mp3">
-      <PackagePath>Sounds\punches\1-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\4-sound.mp3">
+      <PackagePath>Sounds\cs\punches\4-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\punches\1b-sound.mp3">
-      <PackagePath>Sounds\punches\1b-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\4b-sound.mp3">
+      <PackagePath>Sounds\cs\punches\4b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\punches\2-sound.mp3">
-      <PackagePath>Sounds\punches\2-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\5-sound.mp3">
+      <PackagePath>Sounds\cs\punches\5-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\punches\2b-sound.mp3">
-      <PackagePath>Sounds\punches\2b-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\5b-sound.mp3">
+      <PackagePath>Sounds\cs\punches\5b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\punches\3-sound.mp3">
-      <PackagePath>Sounds\punches\3-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\6-sound.mp3">
+      <PackagePath>Sounds\cs\punches\6-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\punches\3b-sound.mp3">
-      <PackagePath>Sounds\punches\3b-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\6b-sound.mp3">
+      <PackagePath>Sounds\cs\punches\6b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\punches\4-sound.mp3">
-      <PackagePath>Sounds\punches\4-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\tips\highguard-sound.mp3">
+      <PackagePath>Sounds\cs\tips\highguard-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\punches\4b-sound.mp3">
-      <PackagePath>Sounds\punches\4b-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\tips\keepmoving-sound.mp3">
+      <PackagePath>Sounds\cs\tips\keepmoving-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\punches\5-sound.mp3">
-      <PackagePath>Sounds\punches\5-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\tips\moveyourhead-sound %282%29.mp3">
+      <PackagePath>Sounds\cs\tips\moveyourhead-sound %282%29.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\punches\5b-sound.mp3">
-      <PackagePath>Sounds\punches\5b-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\tips\switchstance-sound.mp3">
+      <PackagePath>Sounds\cs\tips\switchstance-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\punches\6-sound.mp3">
-      <PackagePath>Sounds\punches\6-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\2p-sound.mp3">
+      <PackagePath>Sounds\cs\workout_specific\2p-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\punches\6b-sound.mp3">
-      <PackagePath>Sounds\punches\6b-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\3punchcombos-sound.mp3">
+      <PackagePath>Sounds\cs\workout_specific\3punchcombos-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\tips\feint1-sound.mp3">
-      <PackagePath>Sounds\tips\feint1-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\3punchcomboswithdefence-sound.mp3">
+      <PackagePath>Sounds\cs\workout_specific\3punchcomboswithdefence-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\tips\feint2-sound.mp3">
-      <PackagePath>Sounds\tips\feint2-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\3punchcomboswithmovement-sound.mp3">
+      <PackagePath>Sounds\cs\workout_specific\3punchcomboswithmovement-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\tips\highguard-sound.mp3">
-      <PackagePath>Sounds\tips\highguard-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\basic_all-sound.mp3">
+      <PackagePath>Sounds\cs\workout_specific\basic_all-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\tips\keepmoving-sound.mp3">
-      <PackagePath>Sounds\tips\keepmoving-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\basic_defence_counters-sound.mp3">
+      <PackagePath>Sounds\cs\workout_specific\basic_defence_counters-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\tips\moveyourhead-sound.mp3">
-      <PackagePath>Sounds\tips\moveyourhead-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\basic_defence_intro-sound.mp3">
+      <PackagePath>Sounds\cs\workout_specific\basic_defence_intro-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\tips\nextexercise-sound.mp3">
-      <PackagePath>Sounds\tips\nextexercise-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\basic_movement_combos-sound.mp3">
+      <PackagePath>Sounds\cs\workout_specific\basic_movement_combos-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\tips\switchstance-sound.mp3">
-      <PackagePath>Sounds\tips\switchstance-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\basic_movement_intro-sound.mp3">
+      <PackagePath>Sounds\cs\workout_specific\basic_movement_intro-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\workout_specific\2p-sound.mp3">
-      <PackagePath>Sounds\workout_specific\2p-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\headmovementonly-sound.mp3">
+      <PackagePath>Sounds\cs\workout_specific\headmovementonly-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\workout_specific\3punchcombos-sound.mp3">
-      <PackagePath>Sounds\workout_specific\3punchcombos-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\intro-sound.mp3">
+      <PackagePath>Sounds\cs\workout_specific\intro-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\workout_specific\3punchcomboswithdefence-sound.mp3">
-      <PackagePath>Sounds\workout_specific\3punchcomboswithdefence-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\longrangefighter-sound.mp3">
+      <PackagePath>Sounds\cs\workout_specific\longrangefighter-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\workout_specific\3punchcomboswithmovement-sound.mp3">
-      <PackagePath>Sounds\workout_specific\3punchcomboswithmovement-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\bodyblock-sound.mp3">
+      <PackagePath>Sounds\en\defence\bodyblock-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\workout_specific\basic_all-sound.mp3">
-      <PackagePath>Sounds\workout_specific\basic_all-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\duck-sound.mp3">
+      <PackagePath>Sounds\en\defence\duck-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\workout_specific\basic_defence_counters-sound.mp3">
-      <PackagePath>Sounds\workout_specific\basic_defence_counters-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\l_bodyblock-sound.mp3">
+      <PackagePath>Sounds\en\defence\l_bodyblock-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\workout_specific\basic_defence_intro-sound.mp3">
-      <PackagePath>Sounds\workout_specific\basic_defence_intro-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\l_catch-sound.mp3">
+      <PackagePath>Sounds\en\defence\l_catch-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\workout_specific\basic_movement_combos-sound.mp3">
-      <PackagePath>Sounds\workout_specific\basic_movement_combos-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\l_parry-sound.mp3">
+      <PackagePath>Sounds\en\defence\l_parry-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\workout_specific\basic_movement_intro-sound.mp3">
-      <PackagePath>Sounds\workout_specific\basic_movement_intro-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\l_roll-sound.mp3">
+      <PackagePath>Sounds\en\defence\l_roll-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\workout_specific\headmovementonly-sound.mp3">
-      <PackagePath>Sounds\workout_specific\headmovementonly-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\l_slip-sound.mp3">
+      <PackagePath>Sounds\en\defence\l_slip-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\workout_specific\intro-sound.mp3">
-      <PackagePath>Sounds\workout_specific\intro-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\pull-sound.mp3">
+      <PackagePath>Sounds\en\defence\pull-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\workout_specific\longrangefighter-sound.mp3">
-      <PackagePath>Sounds\workout_specific\longrangefighter-sound.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\r_bodyblock-sound.mp3">
+      <PackagePath>Sounds\en\defence\r_bodyblock-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\r_catch-sound.mp3">
+      <PackagePath>Sounds\en\defence\r_catch-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\r_parry-sound.mp3">
+      <PackagePath>Sounds\en\defence\r_parry-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\r_roll-sound.mp3">
+      <PackagePath>Sounds\en\defence\r_roll-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\r_slip-sound.mp3">
+      <PackagePath>Sounds\en\defence\r_slip-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\s_roll-sound.mp3">
+      <PackagePath>Sounds\en\defence\s_roll-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\burpees-sound.mp3">
+      <PackagePath>Sounds\en\exercises\burpees-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\mountainclimbers-sound.mp3">
+      <PackagePath>Sounds\en\exercises\mountainclimbers-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\nextexercise-sound.mp3">
+      <PackagePath>Sounds\en\exercises\nextexercise-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\plank-sound.mp3">
+      <PackagePath>Sounds\en\exercises\plank-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\pushups-sound.mp3">
+      <PackagePath>Sounds\en\exercises\pushups-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\shadowboxing-sound.mp3">
+      <PackagePath>Sounds\en\exercises\shadowboxing-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\shouldertaps-sound.mp3">
+      <PackagePath>Sounds\en\exercises\shouldertaps-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\situps-sound.mp3">
+      <PackagePath>Sounds\en\exercises\situps-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\skippingrope-sound.mp3">
+      <PackagePath>Sounds\en\exercises\skippingrope-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\squats-sound.mp3">
+      <PackagePath>Sounds\en\exercises\squats-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\closefighting-sound.mp3">
+      <PackagePath>Sounds\en\guides\closefighting-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\countersonly-sound.mp3">
+      <PackagePath>Sounds\en\guides\countersonly-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\finishwithbodyshot-sound.mp3">
+      <PackagePath>Sounds\en\guides\finishwithbodyshot-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\headmovementandcounter-sound.mp3">
+      <PackagePath>Sounds\en\guides\headmovementandcounter-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\moveandjab-sound.mp3">
+      <PackagePath>Sounds\en\guides\moveandjab-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\onlyhooksandupper-sound.mp3">
+      <PackagePath>Sounds\en\guides\onlyhooksandupper-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\onlystraightpunches-sound.mp3">
+      <PackagePath>Sounds\en\guides\onlystraightpunches-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\startwithjab-sound.mp3">
+      <PackagePath>Sounds\en\guides\startwithjab-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\twopunchcombosonly-sound.mp3">
+      <PackagePath>Sounds\en\guides\twopunchcombosonly-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\useonlyleadhand-sound.mp3">
+      <PackagePath>Sounds\en\guides\useonlyleadhand-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\i_sidestep-sound.mp3">
+      <PackagePath>Sounds\en\movements\i_sidestep-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\o_sidestep-sound.mp3">
+      <PackagePath>Sounds\en\movements\o_sidestep-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\step_back-sound.mp3">
+      <PackagePath>Sounds\en\movements\step_back-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\step_forward-sound.mp3">
+      <PackagePath>Sounds\en\movements\step_forward-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\step_left-sound.mp3">
+      <PackagePath>Sounds\en\movements\step_left-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\step_right-sound.mp3">
+      <PackagePath>Sounds\en\movements\step_right-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\break-sound.mp3">
+      <PackagePath>Sounds\en\other\break-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\counterpuncherintro-sound.mp3">
+      <PackagePath>Sounds\en\other\counterpuncherintro-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\get-ready-sound.mp3">
+      <PackagePath>Sounds\en\other\get-ready-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\go-sound.mp3">
+      <PackagePath>Sounds\en\other\go-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\good_job-sound.mp3">
+      <PackagePath>Sounds\en\other\good_job-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\hitnmove-sound.mp3">
+      <PackagePath>Sounds\en\other\hitnmove-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\keepmovingforward-sound.mp3">
+      <PackagePath>Sounds\en\other\keepmovingforward-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\longrangefighter-sound.mp3">
+      <PackagePath>Sounds\en\other\longrangefighter-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\miss-sound.mp3">
+      <PackagePath>Sounds\en\other\miss-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\nextexercise-sound.mp3">
+      <PackagePath>Sounds\en\other\nextexercise-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\ping-sound.mp3">
+      <PackagePath>Sounds\en\other\ping-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\pressurefighterintro-sound.mp3">
+      <PackagePath>Sounds\en\other\pressurefighterintro-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\rest-sound.mp3">
+      <PackagePath>Sounds\en\other\rest-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\step-sound.mp3">
+      <PackagePath>Sounds\en\other\step-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\1-sound.mp3">
+      <PackagePath>Sounds\en\punches\1-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\1b-sound.mp3">
+      <PackagePath>Sounds\en\punches\1b-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\2-sound.mp3">
+      <PackagePath>Sounds\en\punches\2-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\2b-sound.mp3">
+      <PackagePath>Sounds\en\punches\2b-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\3-sound.mp3">
+      <PackagePath>Sounds\en\punches\3-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\3b-sound.mp3">
+      <PackagePath>Sounds\en\punches\3b-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\4-sound.mp3">
+      <PackagePath>Sounds\en\punches\4-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\4b-sound.mp3">
+      <PackagePath>Sounds\en\punches\4b-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\5-sound.mp3">
+      <PackagePath>Sounds\en\punches\5-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\5b-sound.mp3">
+      <PackagePath>Sounds\en\punches\5b-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\6-sound.mp3">
+      <PackagePath>Sounds\en\punches\6-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\6b-sound.mp3">
+      <PackagePath>Sounds\en\punches\6b-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\feint1-sound.mp3">
+      <PackagePath>Sounds\en\tips\feint1-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\feint2-sound.mp3">
+      <PackagePath>Sounds\en\tips\feint2-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\highguard-sound.mp3">
+      <PackagePath>Sounds\en\tips\highguard-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\keepmoving-sound.mp3">
+      <PackagePath>Sounds\en\tips\keepmoving-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\moveyourhead-sound.mp3">
+      <PackagePath>Sounds\en\tips\moveyourhead-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\nextexercise-sound.mp3">
+      <PackagePath>Sounds\en\tips\nextexercise-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\switchstance-sound.mp3">
+      <PackagePath>Sounds\en\tips\switchstance-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\2p-sound.mp3">
+      <PackagePath>Sounds\en\workout_specific\2p-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\3punchcombos-sound.mp3">
+      <PackagePath>Sounds\en\workout_specific\3punchcombos-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\3punchcomboswithdefence-sound.mp3">
+      <PackagePath>Sounds\en\workout_specific\3punchcomboswithdefence-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\3punchcomboswithmovement-sound.mp3">
+      <PackagePath>Sounds\en\workout_specific\3punchcomboswithmovement-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\basic_all-sound.mp3">
+      <PackagePath>Sounds\en\workout_specific\basic_all-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\basic_defence_counters-sound.mp3">
+      <PackagePath>Sounds\en\workout_specific\basic_defence_counters-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\basic_defence_intro-sound.mp3">
+      <PackagePath>Sounds\en\workout_specific\basic_defence_intro-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\basic_movement_combos-sound.mp3">
+      <PackagePath>Sounds\en\workout_specific\basic_movement_combos-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\basic_movement_intro-sound.mp3">
+      <PackagePath>Sounds\en\workout_specific\basic_movement_intro-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\headmovementonly-sound.mp3">
+      <PackagePath>Sounds\en\workout_specific\headmovementonly-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\intro-sound.mp3">
+      <PackagePath>Sounds\en\workout_specific\intro-sound.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\longrangefighter-sound.mp3">
+      <PackagePath>Sounds\en\workout_specific\longrangefighter-sound.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-100.png">
       <PackagePath>bag2SplashScreen.scale-100.png</PackagePath>

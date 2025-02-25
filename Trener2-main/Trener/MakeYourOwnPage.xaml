@@ -2,14 +2,24 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trener.MakeYourOwnPage"
-             Title="MakeYourOwnPage">
+             Title="MakeYourOwnPage"
+                                       xmlns:lang="clr-namespace:Trener.Resources.Languages"
+
+             >
+    
     <ScrollView>
         <VerticalStackLayout Padding="10" Spacing="10">
-            <Label Text="Current combo:" FontSize="20" FontAttributes="Bold" x:Name="combo_label"/>
+            <Label  Text="" FontSize="20" FontAttributes="Bold" x:Name="combo_label"
+                                                          
+
+                   />
 
             <HorizontalStackLayout Spacing="50">
-                <Button Text="Add combo" Clicked="AddCombo" CommandParameter="combo"/>
-                <Button Text="Delete combo" Clicked="DeleteCombo" CommandParameter="workout2"/>
+                <Button                         Text="{x:Static lang:strings.AddCButton}"
+ Clicked="AddCombo" CommandParameter="combo" x:Name="AddCButton"
+                        />
+                <Button Text="{x:Static lang:strings.DelButton}"
+ Clicked="DeleteCombo" CommandParameter="workout2" x:Name="DelButton"/>
 
 
 
@@ -17,15 +27,23 @@
             </HorizontalStackLayout>
             <HorizontalStackLayout Spacing="10">
 
-                <Button Text="Show workout" Clicked="ShowWorkout" CommandParameter="workout2"/>
-                <Button Text="Delete current workout" Clicked="DeleteCurWorkout" CommandParameter="workout2"/>
+                <Button Text="{x:Static lang:strings.ShowButton}"
+                        Clicked="ShowWorkout" CommandParameter="workout2" x:Name="ShowButton"
+    
+/>
+                <Button Text="{x:Static lang:strings.DelCurButton}"
+
+                        Clicked="DeleteCurWorkout" CommandParameter="workout2"  x:Name="DelCurButton"
+                        
+                        />
 
 
             </HorizontalStackLayout>
 
             <HorizontalStackLayout Spacing="10">
 
-                <Button Text="View your workouts" Clicked="ViewWorkouts" CommandParameter="workout2"/>
+                <Button Text="{x:Static lang:strings.ViewButton}"
+Clicked="ViewWorkouts" CommandParameter="workout2" x:Name="ViewButton"/>
             </HorizontalStackLayout>
 
             <HorizontalStackLayout Spacing="30">
@@ -47,55 +65,85 @@
        Placeholder="Name"
        HorizontalOptions="FillAndExpand" />
 
-                <Button Text="Save workout" Clicked="SaveWorkout" CommandParameter="workout2"/>
+                <Button Text="{x:Static lang:strings.SaveButton}"
+ Clicked="SaveWorkout" CommandParameter="workout2"  x:Name="SaveButton"/>
 
             </HorizontalStackLayout>
 
             <!-- Tlačítka pro údery -->
-            <Label Text="Punches" FontSize="20" FontAttributes="Bold"/>
+            <Label Text="{x:Static lang:strings.PunchesButton}" FontSize="20" FontAttributes="Bold" x:Name="PunchesButton"/>
             <VerticalStackLayout Spacing="5">
-                <Button Text="Jab" Clicked="OnPunchClicked" CommandParameter="jab"/>
-                <Button Text="Cross" Clicked="OnPunchClicked" CommandParameter="cross"/>
-                <Button Text="Lead Hook" Clicked="OnPunchClicked" CommandParameter="lead_hook"/>
-                <Button Text="Rear Hook" Clicked="OnPunchClicked" CommandParameter="rear_hook"/>
-                <Button Text="Lead Uppercut" Clicked="OnPunchClicked" CommandParameter="lead_upper"/>
-                <Button Text="Rear Uppercut" Clicked="OnPunchClicked" CommandParameter="rear_upper"/>
-                <Button Text="Body Jab" Clicked="OnPunchClicked" CommandParameter="jab_b"/>
-                <Button Text="Body Cross" Clicked="OnPunchClicked" CommandParameter="cross_b"/>
-                <Button Text="Lead Body Hook" Clicked="OnPunchClicked" CommandParameter="lead_hook_b"/>
-                <Button Text="Rear Body Hook" Clicked="OnPunchClicked" CommandParameter="rear_hook_b"/>
-                <Button Text="Lead Body Uppercut" Clicked="OnPunchClicked" CommandParameter="lead_upper_b"/>
-                <Button Text="Rear Body Uppercut" Clicked="OnPunchClicked" CommandParameter="rear_upper_b"/>
+                <Button Text="{x:Static lang:strings.JabButton}"
+ Clicked="OnPunchClicked" CommandParameter="jab"  x:Name="JabButton"/>
+                <Button Text="{x:Static lang:strings.CrossButton}"
+ Clicked="OnPunchClicked" CommandParameter="cross"  x:Name="CrossButton"/>
+                <Button Text="{x:Static lang:strings.LHookButton}"
+ Clicked="OnPunchClicked" CommandParameter="lead_hook"  x:Name="LHookButton"/>
+                <Button Text="{x:Static lang:strings.RHookButton}"
+ Clicked="OnPunchClicked" CommandParameter="rear_hook"  x:Name="RHookButton"/>
+                <Button Text="{x:Static lang:strings.LUpperButton}"
+ Clicked="OnPunchClicked" CommandParameter="lead_upper"  x:Name="LUpperButton"/>
+                <Button Text="{x:Static lang:strings.RUpperButton}"
+ Clicked="OnPunchClicked" CommandParameter="rear_upper"  x:Name="RUpperButton"/>
+                <Button Text="{x:Static lang:strings.BJabButton}
+" Clicked="OnPunchClicked" CommandParameter="jab_b"  x:Name="BJabButton"/>
+                <Button Text="{x:Static lang:strings.BCrossButton}"
+ Clicked="OnPunchClicked" CommandParameter="cross_b" x:Name="BCrossButton"/>
+                <Button Text="{x:Static lang:strings.LBHook}"
+ Clicked="OnPunchClicked" CommandParameter="lead_hook_b" x:Name="LBHook"/>
+                <Button Text="{x:Static lang:strings.RBHook}"
+ Clicked="OnPunchClicked" CommandParameter="rear_hook_b"  x:Name="RBHook"/>
+                <Button Text="{x:Static lang:strings.LBUpperButton}"
+ Clicked="OnPunchClicked" CommandParameter="lead_upper_b" x:Name="LBUpperButton"/>
+                <Button Text="{x:Static lang:strings.RBUpperButton}"
+ Clicked="OnPunchClicked" CommandParameter="rear_upper_b" x:Name="RBUpperButton"/>
             </VerticalStackLayout>
 
             <!-- Tlačítka pro obranu -->
-            <Label Text="Defence" FontSize="20" FontAttributes="Bold"/>
+            <Label Text="{x:Static lang:strings.DefenceButton}" FontSize="20" FontAttributes="Bold" x:Name="DefenceButton"/>
             <VerticalStackLayout Spacing="5">
-                <Button Text="Rear Slip" Clicked="OnDefenceClicked" CommandParameter="r_slip"/>
-                <Button Text="Lead Slip" Clicked="OnDefenceClicked" CommandParameter="l_slip"/>
-                <Button Text="Pull" Clicked="OnDefenceClicked" CommandParameter="pull"/>
-                <Button Text="Lead Roll" Clicked="OnDefenceClicked" CommandParameter="l_roll"/>
-                <Button Text="Rear Roll" Clicked="OnDefenceClicked" CommandParameter="r_roll"/>
-                <Button Text="Duck" Clicked="OnDefenceClicked" CommandParameter="duck"/>
-                <Button Text="Lead Catch" Clicked="OnDefenceClicked" CommandParameter="l_catch"/>
-                <Button Text="Rear Catch" Clicked="OnDefenceClicked" CommandParameter="r_catch"/>
-                <Button Text="Lead Parry" Clicked="OnDefenceClicked" CommandParameter="l_parry"/>
-                <Button Text="Rear Parry" Clicked="OnDefenceClicked" CommandParameter="r_parry"/>
-                <Button Text="Bodyblock" Clicked="OnDefenceClicked" CommandParameter="bodyblock"/>
-                <Button Text="Rear Bodyblock" Clicked="OnDefenceClicked" CommandParameter="r_bodyblock"/>
-                <Button Text="Lead Bodyblock" Clicked="OnDefenceClicked" CommandParameter="l_bodyblock"/>
-                <Button Text="Shoulder Roll" Clicked="OnDefenceClicked" CommandParameter="s_roll"/>
+                <Button Text="{x:Static lang:strings.RSlipButton}"
+ Clicked="OnDefenceClicked" CommandParameter="r_slip"  x:Name="RSlipButton"/>
+                <Button Text="{x:Static lang:strings.LSlipButton}"
+ Clicked="OnDefenceClicked" CommandParameter="l_slip"  x:Name="LSlipButton"/>
+                <Button Text="Pull" Clicked="OnDefenceClicked" CommandParameter="pull"  x:Name="PullButton"/>
+                <Button Text="{x:Static lang:strings.LRButton}"
+ Clicked="OnDefenceClicked" CommandParameter="l_roll"  x:Name="LRButton"/>
+                <Button Text="{x:Static lang:strings.RRButton}"
+ Clicked="OnDefenceClicked" CommandParameter="r_roll"  x:Name="RRButton"/>
+                <Button Text="Duck" Clicked="OnDefenceClicked" CommandParameter="duck"  x:Name="DuckButton"/>
+                <Button Text="{x:Static lang:strings.LCButton}"
+ Clicked="OnDefenceClicked" CommandParameter="l_catch"  x:Name="LCButton"/>
+                <Button Text="{x:Static lang:strings.RCButton}"
+Clicked="OnDefenceClicked" CommandParameter="r_catch"  x:Name="RCButton"/>
+                <Button Text="{x:Static lang:strings.LPButton}"
+ Clicked="OnDefenceClicked" CommandParameter="l_parry"  x:Name="LPButton"/>
+                <Button Text="{x:Static lang:strings.RPButton}"
+ Clicked="OnDefenceClicked" CommandParameter="r_parry"  x:Name="RPButton"/>
+                <Button Text="Bodyblock" Clicked="OnDefenceClicked" CommandParameter="bodyblock"  x:Name="BBButton"/>
+                <Button Text="{x:Static lang:strings.RBBButton}"
+ Clicked="OnDefenceClicked" CommandParameter="r_bodyblock"  x:Name="RBBButton"/>
+                <Button Text="{x:Static lang:strings.LBBButton}"
+ Clicked="OnDefenceClicked" CommandParameter="l_bodyblock" x:Name="LBBButton"/>
+                <Button Text="Shoulder Roll" Clicked="OnDefenceClicked" CommandParameter="s_roll" x:Name="SRollButton"/>
             </VerticalStackLayout>
 
             <!-- Tlačítka pro pohyby -->
-            <Label Text="Movements" FontSize="20" FontAttributes="Bold"/>
+            <Label Text="{x:Static lang:strings.MovementButton}" FontSize="20" FontAttributes="Bold" x:Name="MovementButton"/>
             <VerticalStackLayout Spacing="5">
-                <Button Text="Step Right" Clicked="OnMovementClicked" CommandParameter="step_right"/>
-                <Button Text="Step Left" Clicked="OnMovementClicked" CommandParameter="step_left"/>
-                <Button Text="Step Back" Clicked="OnMovementClicked" CommandParameter="step_back"/>
-                <Button Text="Step Forward" Clicked="OnMovementClicked" CommandParameter="step_formard"/>
-                <Button Text="Inside Sidestep" Clicked="OnMovementClicked" CommandParameter="i_sidestep"/>
-                <Button Text="Outside Sidestep" Clicked="OnMovementClicked" CommandParameter="o_sidestep"/>
+                <Button Text="{x:Static lang:strings.StRButton}
+" Clicked="OnMovementClicked" CommandParameter="step_right"  x:Name="StRButton"
+                        />
+                <Button Text="{x:Static lang:strings.StLButton}"
+ Clicked="OnMovementClicked" CommandParameter="step_left "  x:Name="StLButton"/>
+                <Button Text="{x:Static lang:strings.StBButton}"
+ Clicked="OnMovementClicked" CommandParameter="step_back"  x:Name="StBButton"/>
+                <Button Text="{x:Static lang:strings.StFButton}"
+ Clicked="OnMovementClicked" CommandParameter="step_formard"  x:Name="StFButton"/>
+                <Button Text="{x:Static lang:strings.ISButton}"
+ Clicked="OnMovementClicked" CommandParameter="i_sidestep"  x:Name="ISButton"/>
+                <Button Text="{x:Static lang:strings.OSButton}"
+ Clicked="OnMovementClicked" CommandParameter="o_sidestep"  x:Name="OSButton"/>
             </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>

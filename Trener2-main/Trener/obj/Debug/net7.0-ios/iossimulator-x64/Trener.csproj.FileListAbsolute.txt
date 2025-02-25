@@ -875,3 +875,15 @@ C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-ios\iossimulato
 C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-ios\iossimulator-x64\Trener.pdb
 C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-ios\iossimulator-x64\Trener.genruntimeconfig.cache
 C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-ios\iossimulator-x64\ref\Trener.dll
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-ios\iossimulator-x64\Trener.Resources.Languages.strings.en.resources
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-ios\iossimulator-x64\Trener.csproj.GenerateResource.cache
+C:\Users\janst\source\repos\Trener2-main\Trener\bin\Debug\net7.0-ios\iossimulator-x64\en\Trener.resources.dll
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-ios\iossimulator-x64\en\Trener.resources.cs
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-ios\iossimulator-x64\en\Trener.resources.dll
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-ios\iossimulator-x64\Trener.Resources.Languages.objects.resources
+C:\Users\janst\source\repos\Trener2-main\Trener\bin\Debug\net7.0-ios\iossimulator-x64\cs\Trener.resources.dll
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-ios\iossimulator-x64\Trener.Resources.Languages.objects.cs.resources
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-ios\iossimulator-x64\Trener.Resources.Languages.strings.cs.resources
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-ios\iossimulator-x64\cs\Trener.resources.cs
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-ios\iossimulator-x64\cs\Trener.resources.dll

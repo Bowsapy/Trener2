@@ -4,6 +4,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trener.Menu1Page"
             xmlns:local="clr-namespace:Trener"
+xmlns:lang="clr-namespace:Trener.Resources.Languages"
 
              Title="MenuPage1">
     
@@ -22,27 +23,31 @@
         <!-- Tlačítka s absolutním pozicováním -->
         <StackLayout Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" Margin="10,20" >
 
-            <Button Text="LEARN TECHNIQUE"  FontSize="25"
+            <Button Text="{x:Static lang:strings.LearnTechButton}" FontSize="25"
+
                 BackgroundColor="Red" 
                 BorderColor="White"
                 BorderWidth="2" 
                 FontAttributes="Bold"
                 Margin="10,10"
                 Command="{Binding NavigateCommandToRight}" 
-                CommandParameter="TECH"    
-                    
+                CommandParameter="TECH"
+                    x:Name="LearnTechButton"
+
                 />
-            <Button Text="FREESTYLE WORKOUTS"  FontSize="25"
+            <Button Text="{x:Static lang:strings.FreestyleButton}" FontSize="25"
       BackgroundColor="Red" 
       BorderColor="White"
       BorderWidth="2" 
       FontAttributes="Bold"
       Margin="10,10"
             Command="{Binding NavigateCommandToRight}" 
-      CommandParameter="CARDIO"                
+      CommandParameter="CARDIO"           
+                                        x:Name="FreestyleButton"
+
       />
 
-            <Button Text="MAKE YOUR OWN WORKOUT"  FontSize="20"
+            <Button Text="{x:Static lang:strings.MYOWorkoutButton}" FontSize="25"
       BackgroundColor="Red" 
       BorderColor="White"
       BorderWidth="2" 
@@ -50,13 +55,14 @@
       Margin="10,10"
             Command="{Binding NavigateCommandToRight}" 
       CommandParameter="OWN"                
-                    
+     x:Name="MYOWorkoutButton"
+
       />
 
 
 
             <!-- Tlačítko zpět -->
-            <Button Text="Back" FontSize="40"
+            <Button Text="{x:Static lang:strings.BackButton}" FontSize="25"
                 BackgroundColor="Red"
                 BorderColor="White"
                 BorderWidth="2" 
@@ -65,7 +71,8 @@
                 Margin="10,10"
                              Command="{Binding NavigateCommandToLeft}" 
          CommandParameter="MENU"
-                    
+                         x:Name="BackButton"
+
                     />
             
         </StackLayout>

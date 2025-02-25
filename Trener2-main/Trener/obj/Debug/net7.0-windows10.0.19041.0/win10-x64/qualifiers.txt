@@ -1,5 +1,7 @@
 AlternateForm=LIGHTUNPLATED
 AlternateForm=UNPLATED
+Language=EN
+Language=CS
 Scale=200
 Scale=400
 Scale=150

@@ -2,6 +2,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trener.Tech1Page"
              Title=""
+                          xmlns:lang="clr-namespace:Trener.Resources.Languages"
+
                           xmlns:local="clr-namespace:Trener"
 
              >
@@ -80,8 +82,8 @@
            Grid.Row="3"
            Grid.Column="0"
            />
-       
-        <Button  Text="Basic strikes"   FontSize="21" 
+
+        <Button Text="{x:Static lang:strings.BasicStrikesButton}"
                  BackgroundColor="red"
                  TextColor="White"
                  BorderColor="White"
@@ -93,9 +95,11 @@
                           LineBreakMode="WordWrap"
                           Command="{Binding StartTechWorkout}" 
       CommandParameter="BASIC STRIKES"
+                      x:Name="BasicStrikesButton"
+
                  />
 
-        <Button  Text="Basic defence"   FontSize="21" 
+        <Button Text="{x:Static lang:strings.BasicDefenceButton}"
                  BackgroundColor="red"
                  TextColor="White"
                  BorderColor="White"
@@ -106,10 +110,12 @@
                  Grid.Column="1"
                           LineBreakMode="WordWrap"
                                      Command="{Binding StartTechWorkout}" 
+                                       x:Name="BasicDefenceButton"
+
 CommandParameter="BASIC DEFENCE"
                  />
 
-        <Button  Text="Basic movement"  FontSize="20" 
+        <Button Text="{x:Static lang:strings.BasicMovementButton}"
                  BackgroundColor="Red"
                  TextColor="White"
                  BorderColor="White"
@@ -121,9 +127,11 @@ CommandParameter="BASIC DEFENCE"
 
                           LineBreakMode="WordWrap"
                                      Command="{Binding StartTechWorkout}" 
+                                       x:Name="BasicMovementButton"
+
 CommandParameter="BASIC MOVEMENT"
                  />
-        <Button  Text="All"  FontSize="20" 
+        <Button Text="{x:Static lang:strings.AllButton}"
            BackgroundColor="Red"
            TextColor="White"
            BorderColor="White"
@@ -135,10 +143,11 @@ CommandParameter="BASIC MOVEMENT"
                     LineBreakMode="WordWrap"
                     Command="{Binding StartTechWorkout}" 
 CommandParameter="BASIC ALL"
-                 
+                                                        x:Name="AllButton"
+
            />
-       
-        <Button  Text="Back"  FontSize="40" 
+
+        <Button Text="{x:Static lang:strings.BackButton}"
                  BackgroundColor="red"
                  TextColor="white"
                  BorderColor="white"
@@ -150,6 +159,8 @@ CommandParameter="BASIC ALL"
                  Grid.ColumnSpan="2"
                     Command="{Binding NavigateCommandToLeft}" 
                  CommandParameter="fss"
+                                                                         x:Name="BackButton"
+
                  />
         
     </Grid>

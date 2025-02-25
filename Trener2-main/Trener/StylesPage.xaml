@@ -3,6 +3,7 @@
              x:Class="Trener.StylesPage"
              Title=""
                                                                  xmlns:local="clr-namespace:Trener"
+                          xmlns:lang="clr-namespace:Trener.Resources.Languages"
 
 
              >
@@ -41,9 +42,9 @@
   />
 
         <!-- Tlačítka -->
-     
 
-        <Button  Text="Counterpuncher"   FontSize="21" 
+
+        <Button Text="{x:Static lang:strings.CounterPuncherButton}"
                  BackgroundColor="red"
                  TextColor="White"
                  BorderColor="White"
@@ -55,9 +56,11 @@
                           LineBreakMode="WordWrap"
                                                       Command="{Binding StartTechWorkout}" 
 CommandParameter="COUNTER PUNCHER"
+                                                      x:Name="CounterPuncherButton"
+
                  />
 
-        <Button  Text="Switch hitting"   FontSize="21" 
+        <Button Text="{x:Static lang:strings.SwitchHitterButton}"
                  BackgroundColor="red"
                  TextColor="White"
                  BorderColor="White"
@@ -69,10 +72,11 @@ CommandParameter="COUNTER PUNCHER"
                           LineBreakMode="WordWrap"
                                                       Command="{Binding StartTechWorkout}" 
 CommandParameter="SWITCH HITTER"
+                                      x:Name="SwitchHitterButton"
 
                  />
 
-        <Button  Text="Pressure fighter"  FontSize="20" 
+        <Button Text="{x:Static lang:strings.PressureFighterButton}"
                  BackgroundColor="Red"
                  TextColor="White"
                  BorderColor="White"
@@ -84,10 +88,12 @@ CommandParameter="SWITCH HITTER"
                           LineBreakMode="WordWrap"
                                                       Command="{Binding StartTechWorkout}" 
 CommandParameter="PRESSURE FIGHTER"
+                                                       x:Name="PressureFighterButton"
+
 
                  />
 
-        <Button  Text="Long range fighter"  FontSize="20" 
+        <Button Text="{x:Static lang:strings.LongRangeButton}"
            BackgroundColor="Red"
            TextColor="White"
            BorderColor="White"
@@ -99,10 +105,12 @@ CommandParameter="PRESSURE FIGHTER"
                     LineBreakMode="WordWrap"
                                      Command="{Binding StartTechWorkout}" 
 CommandParameter="LONGRANGE FIGHTER"
+                                      x:Name="LongRangeButton"
+
            />
 
 
-        <Button  Text="Back"  FontSize="40" 
+        <Button Text="{x:Static lang:strings.BackButton}"
                  BackgroundColor="red"
                  TextColor="white"
                  BorderColor="white"

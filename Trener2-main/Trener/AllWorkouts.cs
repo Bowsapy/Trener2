@@ -1,29 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Trener.Resources; // Namespace, kde jsou generované Resources
 
 namespace Trener
 {
 
-public static class AllStrikes
+
+    public static class AllStrikes
 {
 
+        public static string lang = Localization.GetCurrentLanguage();
 
-public static PunchClass jab = new PunchClass("Jab", "1", @"Sounds\punches\1-sound.mp3");
-public static PunchClass cross = new PunchClass("Cross", "2", @"Sounds\punches\2-sound.mp3");
-public static PunchClass lead_hook = new PunchClass("Lead hook", "3", @"Sounds\punches\3-sound.mp3");
-public static PunchClass rear_hook = new PunchClass("Rear hook", "4", @"Sounds\punches\4-sound.mp3");
-public static PunchClass lead_upper = new PunchClass("Lead uppercut", "5", @"Sounds\punches\5-sound.mp3");
-public static PunchClass rear_upper = new PunchClass("Rear uppercut", "6", @"Sounds\punches\6-sound.mp3");
+        public static PunchClass jab = new PunchClass(Resources.Languages.strings.JabButton, "1", $@"Sounds\{lang}\punches\1-sound.mp3");
+public static PunchClass cross = new PunchClass(Resources.Languages.strings.CrossButton, "2", $@"Sounds\{lang}\punches\2-sound.mp3");
+public static PunchClass lead_hook = new PunchClass(Resources.Languages.strings.LHookButton, "3", $@"Sounds\{lang}\punches\3-sound.mp3");
+        public static PunchClass rear_hook = new PunchClass(Resources.Languages.strings.RHookButton, "3", $@"Sounds\{lang}\punches\4-sound.mp3");
+        public static PunchClass lead_upper = new PunchClass(Resources.Languages.strings.LUpperButton, "5", $@"Sounds\{lang}\punches\5-sound.mp3");
+public static PunchClass rear_upper = new PunchClass(Resources.Languages.strings.RUpperButton, "6", $@"Sounds\{lang}\punches\6-sound.mp3");
 
-public static PunchClass jab_b = new PunchClass("Body jab", "1b", @"Sounds\punches\1b-sound.mp3");
-public static PunchClass cross_b = new PunchClass("Body cross", "2b", @"Sounds\punches\2b-sound.mp3");
-public static PunchClass lead_hook_b = new PunchClass("Lead body hook ", "3b", @"Sounds\punches\3b-sound.mp3");
-public static PunchClass rear_hook_b = new PunchClass("Rear body hook", "4b", @"Sounds\punches\4b-sound.mp3");
-public static PunchClass lead_upper_b = new PunchClass("Lead body uppercut", "5b", @"Sounds\punches\5b-sound.mp3");
-public static PunchClass rear_upper_b = new PunchClass("Rear body uppercut", "6b", @"Sounds\punches\6b-sound.mp3");
+public static PunchClass jab_b = new PunchClass(Resources.Languages.strings.BJabButton, "1b", $@"Sounds\{lang}\punches\1b-sound.mp3");
+public static PunchClass cross_b = new PunchClass(Resources.Languages.strings.BCrossButton, "2b", $@"Sounds\{lang}\punches\2b-sound.mp3");
+public static PunchClass lead_hook_b = new PunchClass(Resources.Languages.strings.LBHook, "3b", $@"Sounds\{lang}\punches\3b-sound.mp3");
+public static PunchClass rear_hook_b = new PunchClass(Resources.Languages.strings.RHookButton, "4b", $@"Sounds\{lang}\punches\4b-sound.mp3");
+public static PunchClass lead_upper_b = new PunchClass(Resources.Languages.strings.LBUpperButton, "5b", $@"Sounds\{lang}\punches\5b-sound.mp3");
+public static PunchClass rear_upper_b = new PunchClass(Resources.Languages.strings.RBUpperButton, "6b", $@"Sounds\{lang}\punches\6b-sound.mp3");
 
 
 
@@ -31,37 +35,37 @@ public static class AllAdvice
 
 {
 
-public static AdviceClass counterpuncherintro = new AdviceClass( "Lean forward and lower your guard", @"Sounds\other\counterpuncherintro-sound.mp3");
+public static AdviceClass counterpuncherintro = new AdviceClass( "Lean forward and lower your guard", $@"Sounds\{lang}\other\counterpuncherintro-sound.mp3");
 
-public static AdviceClass hands_high = new AdviceClass( "Hands high", @"Sounds\tips\hands high-sound.mp3");
+public static AdviceClass hands_high = new AdviceClass( "Hands high", $@"Sounds\{lang}\tips\hands high-sound.mp3");
 
-public static AdviceClass basic_strikes_intro = new AdviceClass( "Single punches now", @"Sounds\workout_specific\intro-sound.mp3");
-public static AdviceClass two_p_combos = new AdviceClass("2p combos now", @"Sounds\workout_specific\2p-sound.mp3");
+public static AdviceClass basic_strikes_intro = new AdviceClass( "Single punches now", $@"Sounds\{lang}\workout_specific\intro-sound.mp3");
+public static AdviceClass two_p_combos = new AdviceClass("2p combos now", $@"Sounds\{lang}\workout_specific\2p-sound.mp3");
 
-public static AdviceClass three_p_combos = new AdviceClass("3p combos now", @"Sounds\workout_specific\3punchcombos-sound.mp3");
-public static AdviceClass three_p_combos_movement = new AdviceClass( "3p combos with movement now", @"Sounds\workout_specific\3punchcomboswithmovement-sound.mp3");
-public static AdviceClass three_p_combos_defence = new AdviceClass( "3p combos with defence now", @"Sounds\workout_specific\3punchcomboswithdefence-sound.mp3");
-
-
-public static AdviceClass defence_only = new AdviceClass( "Defence only", @"Sounds\workout_specific\basic_defence_intro-sound.mp3");
-public static AdviceClass add_counters = new AdviceClass( "Add counters", @"Sounds\workout_specific\basic_defence_counters-sound.mp3");
-
-public static AdviceClass move_only = new AdviceClass("Movement only", @"Sounds\workout_specific\basic_movement_intro-sound.mp3");
-public static AdviceClass combos_after_moves = new AdviceClass( "Add combos after moves", @"Sounds\workout_specific\basic_movement_combos-sound.mp3");
-public static AdviceClass mix_it_up = new AdviceClass( "Mix it up", @"Sounds\workout_specific\basic_all-sound.mp3");
+public static AdviceClass three_p_combos = new AdviceClass("3p combos now", $@"Sounds\{lang}\workout_specific\3punchcombos-sound.mp3");
+public static AdviceClass three_p_combos_movement = new AdviceClass( "3p combos with movement now", $@"Sounds\{lang}\workout_specific\3punchcomboswithmovement-sound.mp3");
+public static AdviceClass three_p_combos_defence = new AdviceClass( "3p combos with defence now", $@"Sounds\{lang}\workout_specific\3punchcomboswithdefence-sound.mp3");
 
 
-public static AdviceClass headmovement_only = new AdviceClass( "Headmovement only", @"Sounds\workout_specific\headmovementonly-sound.mp3");
+public static AdviceClass defence_only = new AdviceClass( "Defence only", $@"Sounds\{lang}\workout_specific\basic_defence_intro-sound.mp3");
+public static AdviceClass add_counters = new AdviceClass( "Add counters", $@"Sounds\{lang}\workout_specific\basic_defence_counters-sound.mp3");
+
+public static AdviceClass move_only = new AdviceClass("Movement only", $@"Sounds\{lang}\workout_specific\basic_movement_intro-sound.mp3");
+public static AdviceClass combos_after_moves = new AdviceClass( "Add combos after moves", $@"Sounds\{lang}\workout_specific\basic_movement_combos-sound.mp3");
+public static AdviceClass mix_it_up = new AdviceClass( "Mix it up", $@"Sounds\{lang}\workout_specific\basic_all-sound.mp3");
+
+
+public static AdviceClass headmovement_only = new AdviceClass( "Headmovement only", $@"Sounds\{lang}\workout_specific\headmovementonly-sound.mp3");
 
 
 
-public static AdviceClass moveyourhead = new AdviceClass("Move your head", @"Sounds\tips\moveyourhead-sound.mp3");
-public static AdviceClass switchstance = new AdviceClass( "Switch your stance", @"Sounds\tips\switchstance-sound.mp3");
-public static AdviceClass highguard = new AdviceClass( "Highguard up", @"Sounds\tips\highguard-sound.mp3");
-public static AdviceClass keepmoving = new AdviceClass( "Keep moving", @"Sounds\tips\keepmoving-sound.mp3");
-public static AdviceClass pressurefighterintro = new AdviceClass("Keep pushing", @"Sounds\other\pressurefighterintro-sound.mp3");
-public static AdviceClass keepmovingforward = new AdviceClass("Keep moving forward", @"Sounds\other\keepmovingforward-sound.mp3");
-public static AdviceClass longrangefighterintro = new AdviceClass("Control distance with lead hand", @"Sounds\other\longrangefighter-sound.mp3");
+public static AdviceClass moveyourhead = new AdviceClass("Move your head", $@"Sounds\{lang}\tips\moveyourhead-sound.mp3");
+public static AdviceClass switchstance = new AdviceClass( "Switch your stance", $@"Sounds\{lang}\tips\switchstance-sound.mp3");
+public static AdviceClass highguard = new AdviceClass( "Highguard up", $@"Sounds\{lang}\tips\highguard-sound.mp3");
+public static AdviceClass keepmoving = new AdviceClass( "Keep moving", $@"Sounds\{lang}\tips\keepmoving-sound.mp3");
+public static AdviceClass pressurefighterintro = new AdviceClass("Keep pushing", $@"Sounds\{lang}\other\pressurefighterintro-sound.mp3");
+public static AdviceClass keepmovingforward = new AdviceClass("Keep moving forward", $@"Sounds\{lang}\other\keepmovingforward-sound.mp3");
+public static AdviceClass longrangefighterintro = new AdviceClass("Control distance with lead hand", $@"Sounds\{lang}\other\longrangefighter-sound.mp3");
 
 
 
@@ -69,76 +73,76 @@ public static AdviceClass longrangefighterintro = new AdviceClass("Control dista
         public static class AllDefence
 {
 /* HEADMOVEMENT*/
-public static DefenceClass r_slip = new DefenceClass("Rear slip", "RSlip", @"Sounds\defence\r_slip-sound.mp3");
-public static DefenceClass l_slip = new DefenceClass("Lead slip", "LSlip", @"Sounds\defence\l_slip-sound.mp3");
-public static DefenceClass pull = new DefenceClass("Pull", "Pull", @"Sounds\defence\pull-sound.mp3");
-public static DefenceClass l_roll = new DefenceClass("Lead roll", "LRoll", @"Sounds\defence\l_roll-sound.mp3");
-public static DefenceClass r_roll = new DefenceClass("Rear roll", "RRoll", @"Sounds\defence\r_roll-sound.mp3");
-public static DefenceClass duck = new DefenceClass("Duck", "Duck", @"Sounds\defence\duck-sound.mp3");
+public static DefenceClass r_slip = new DefenceClass(Resources.Languages.strings.RSlipButton, "RSlip", $@"Sounds\{lang}\defence\r_slip-sound.mp3");
+public static DefenceClass l_slip = new DefenceClass(Resources.Languages.strings.LSlipButton, "LSlip", $@"Sounds\{lang}\defence\l_slip-sound.mp3");
+public static DefenceClass pull = new DefenceClass("Pull", "Pull", $@"Sounds\{lang}\defence\pull-sound.mp3");
+public static DefenceClass l_roll = new DefenceClass(Resources.Languages.strings.LRButton, "LRoll", $@"Sounds\{lang}\defence\l_roll-sound.mp3");
+public static DefenceClass r_roll = new DefenceClass(Resources.Languages.strings.RRButton,"RRoll", $@"Sounds\{lang}\defence\r_roll-sound.mp3");
+public static DefenceClass duck = new DefenceClass(Resources.Languages.strings.RBBButton, "Duck", $@"Sounds\{lang}\defence\duck-sound.mp3");
 
 
 
 /* BLOK */
-public static DefenceClass l_catch = new DefenceClass("Lead catch", "LCatch", @"Sounds\defence\l_catch-sound.mp3");
-public static DefenceClass r_catch = new DefenceClass("Rear catch", "RCatch", @"Sounds\defence\r_catch-sound.mp3");
-public static DefenceClass l_parry = new DefenceClass("Lead parry", "LParry", @"Sounds\defence\l_parry-sound.mp3");
-public static DefenceClass r_parry = new DefenceClass("Rear parry", "RParry", @"Sounds\defence\r_parry-sound.mp3");
+public static DefenceClass l_catch = new DefenceClass(Resources.Languages.strings.LCButton, "LCatch", $@"Sounds\{lang}\defence\l_catch-sound.mp3");
+public static DefenceClass r_catch = new DefenceClass(Resources.Languages.strings.RCButton, "RCatch", $@"Sounds\{lang}\defence\r_catch-sound.mp3");
+public static DefenceClass l_parry = new DefenceClass(Resources.Languages.strings.LPButton, "LParry", $@"Sounds\{lang}\defence\l_parry-sound.mp3");
+public static DefenceClass r_parry = new DefenceClass(Resources.Languages.strings.LPButton, "RParry", $@"Sounds\{lang}\defence\r_parry-sound.mp3");
 
 /* BODY*/
-public static DefenceClass bodyblock = new DefenceClass("Bodyblock", "BBlock", @"Sounds\defence\bodyblock-sound.mp3");
-public static DefenceClass r_bodyblock = new DefenceClass("Rear bodyblock", "RBBlock", @"Sounds\defence\r_bodyblock-sound.mp3");
-public static DefenceClass l_bodyblock = new DefenceClass("Lead bodyblock", "LBBlock", @"Sounds\defence\l_bodyblock-sound.mp3");
+public static DefenceClass bodyblock = new DefenceClass("Bodyblock", "BBlock", $@"Sounds\{lang}\defence\bodyblock-sound.mp3");
+public static DefenceClass r_bodyblock = new DefenceClass(Resources.Languages.strings.RBBButton, "RBBlock", $@"Sounds\{lang}\defence\r_bodyblock-sound.mp3");
+public static DefenceClass l_bodyblock = new DefenceClass(Resources.Languages.strings.LBBButton,"LBBlock", $@"Sounds\{lang}\defence\l_bodyblock-sound.mp3");
 
 
 /*shoulder roll*/
-public static DefenceClass s_roll = new DefenceClass("Shoulder roll", "SRoll", @"Sounds\defence\s_roll-sound.mp3");
+public static DefenceClass s_roll = new DefenceClass(Resources.Languages.strings.RSlipButton, "SRoll", $@"Sounds\{lang}\defence\s_roll-sound.mp3");
 
 
 }
 public static class AllMovements
 {
 /* steps */
-public static MoveClass step_right = new MoveClass("Step right", "StepR", @"Sounds\movements\step_right-sound.mp3");
-public static MoveClass step_left = new MoveClass("Step left", "StepL", @"Sounds\movements\step_left-sound.mp3");
-public static MoveClass step_back = new MoveClass("Step back", "StepB", @"Sounds\movements\step_back-sound.mp3");
-public static MoveClass step_forward = new MoveClass("Step forward", "StepF", @"Sounds\movements\step_forward-sound.mp3");
+public static MoveClass step_right = new MoveClass(Resources.Languages.strings.StRButton, "StepR", $@"Sounds\{lang}\movements\step_right-sound.mp3");
+public static MoveClass step_left = new MoveClass(Resources.Languages.strings.StLButton, "StepL", $@"Sounds\{lang}\movements\step_left-sound.mp3");
+public static MoveClass step_back = new MoveClass(Resources.Languages.strings.StBButton, "StepB", $@"Sounds\{lang}\movements\step_back-sound.mp3");
+public static MoveClass step_forward = new MoveClass(Resources.Languages.strings.StFButton, "StepF", $@"Sounds\{lang}\movements\step_forward-sound.mp3");
 
 /*pivots*/
-public static MoveClass i_sidestep = new MoveClass("Inside sidestep", "ISStep", @"Sounds\movements\i_sidestep-sound.mp3");
-public static MoveClass o_sidestep = new MoveClass("Outside sidestep", "OSStep", @"Sounds\movements\o_sidestep-sound.mp3");
+public static MoveClass i_sidestep = new MoveClass(Resources.Languages.strings.ISButton, "ISStep", $@"Sounds\{lang}\movements\i_sidestep-sound.mp3");
+public static MoveClass o_sidestep = new MoveClass(Resources.Languages.strings.OSButton, "OSStep", $@"Sounds\{lang}\movements\o_sidestep-sound.mp3");
 
 
 
 }
 public static class AllExercises
 {
-public static ExerciseClass pushups = new ExerciseClass("Pushups", "Pushups", @"Sounds\exercises\pushups-sound.mp3");
-public static ExerciseClass burpees = new ExerciseClass("Burpees", "Burpees", @"Sounds\exercises\burpees-sound.mp3");
-public static ExerciseClass squats = new ExerciseClass("Squats", "Squats", @"Sounds\exercises\squats-sound.mp3");
-public static ExerciseClass situps = new ExerciseClass("Situps", "Situps", @"Sounds\exercises\situps-sound.mp3");
+public static ExerciseClass pushups = new ExerciseClass("Pushups", "Pushups", $@"Sounds\{lang}\exercises\pushups-sound.mp3");
+public static ExerciseClass burpees = new ExerciseClass("Burpees", "Burpees", $@"Sounds\{lang}\exercises\burpees-sound.mp3");
+public static ExerciseClass squats = new ExerciseClass("Squats", "Squats", $@"Sounds\{lang}\exercises\squats-sound.mp3");
+public static ExerciseClass situps = new ExerciseClass("Situps", "Situps", $@"Sounds\{lang}\exercises\situps-sound.mp3");
 
 
-public static ExerciseClass shadowboxing = new ExerciseClass("Shadowboxing", "Shadowboxing", @"Sounds\exercises\shadowboxing-sound.mp3");
-public static ExerciseClass skippingrope = new ExerciseClass("Skipping rope", "Skipping rope", @"Sounds\exercises\skippingrope-sound.mp3");
-public static ExerciseClass plank = new ExerciseClass("Plank", "Plank", @"Sounds\exercises\plank-sound.mp3");
+public static ExerciseClass shadowboxing = new ExerciseClass("Shadowboxing", "Shadowboxing", $@"Sounds\{lang}\exercises\shadowboxing-sound.mp3");
+public static ExerciseClass skippingrope = new ExerciseClass("Skipping rope", "Skipping rope", $@"Sounds\{lang}\exercises\skippingrope-sound.mp3");
+public static ExerciseClass plank = new ExerciseClass("Plank", "Plank", $@"Sounds\{lang}\exercises\plank-sound.mp3");
 
 
 }
 
 public static class Guides
 {
-public static ExerciseClass closefighting = new ExerciseClass("Closefighting", "Closefighting", @"Sounds\guides\closefighting-sound.mp3");
-public static ExerciseClass countersonly = new ExerciseClass("Counters", "Counters only", @"Sounds\guides\counters-sound.mp3");
-public static ExerciseClass finishwithbodyshot = new ExerciseClass("finishwithbodyshot", "finish every combo with bodyshot", @"Sounds\guides\finishwithbodyshot-sound.mp3");
-public static ExerciseClass headmovmentandcounter = new ExerciseClass("headmovement and counters", "headmovementandcounter", @"Sounds\guides\headmovementandcounter-sound.mp3");
+public static ExerciseClass closefighting = new ExerciseClass("Closefighting", "Closefighting", $@"Sounds\{lang}\guides\closefighting-sound.mp3");
+public static ExerciseClass countersonly = new ExerciseClass("Counters", "Counters only", $@"Sounds\{lang}\guides\counters-sound.mp3");
+public static ExerciseClass finishwithbodyshot = new ExerciseClass("finishwithbodyshot", "finish every combo with bodyshot", $@"Sounds\{lang}\guides\finishwithbodyshot-sound.mp3");
+public static ExerciseClass headmovmentandcounter = new ExerciseClass("headmovement and counters", "headmovementandcounter", $@"Sounds\{lang}\guides\headmovementandcounter-sound.mp3");
 
 
-public static ExerciseClass moveandjab = new ExerciseClass("moveandjab", "move and jab", @"Sounds\guides\moveandjab-sound.mp3");
-public static ExerciseClass onlyhooksandupper = new ExerciseClass("onlyhooksandupper", "Only hooks and uppercuts", @"Sounds\guides\onlyhooksandupper-sound.mp3");
-public static ExerciseClass onlystraightpunches = new ExerciseClass("onlystraightpunches", "Only straight punches", @"Sounds\guides\onlystraightpunches-sound.mp3");
-public static ExerciseClass startwithjab = new ExerciseClass("startwithjab", "Start every combo with 1", @"Sounds\guides\startwithjab-sound.mp3");
-public static ExerciseClass twopunchcombosonly = new ExerciseClass("twopunchcombosonly", "2punch combos only", @"Sounds\guides\twopunchcombosonly-sound.mp3");
-public static ExerciseClass useonlyleadhand = new ExerciseClass("useonlyleadhand", "Use only leadhand", @"Sounds\guides\useonlyleadhand-sound.mp3");
+public static ExerciseClass moveandjab = new ExerciseClass("moveandjab", "move and jab", $@"Sounds\{lang}\guides\moveandjab-sound.mp3");
+public static ExerciseClass onlyhooksandupper = new ExerciseClass("onlyhooksandupper", "Only hooks and uppercuts", $@"Sounds\{lang}\guides\onlyhooksandupper-sound.mp3");
+public static ExerciseClass onlystraightpunches = new ExerciseClass("onlystraightpunches", "Only straight punches", $@"Sounds\{lang}\guides\onlystraightpunches-sound.mp3");
+public static ExerciseClass startwithjab = new ExerciseClass("startwithjab", "Start every combo with 1", $@"Sounds\{lang}\guides\startwithjab-sound.mp3");
+public static ExerciseClass twopunchcombosonly = new ExerciseClass("twopunchcombosonly", "2punch combos only", $@"Sounds\{lang}\guides\twopunchcombosonly-sound.mp3");
+public static ExerciseClass useonlyleadhand = new ExerciseClass("useonlyleadhand", "Use only leadhand", $@"Sounds\{lang}\guides\useonlyleadhand-sound.mp3");
 
 
 }

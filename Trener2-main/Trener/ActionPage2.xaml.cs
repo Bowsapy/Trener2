@@ -151,7 +151,6 @@ namespace Trener
             SetComboLabelColor(Color.FromRgb(0, 255, 0));
 
             await Task.Delay(1000, token);
-            await GenericSounds.PlayNextExercise(token);
             await Task.Delay(1500, token);
             await PlaySoundAsync(nextCombo, token);
             await StartTimerAsync(workout.Getbreaktime() + 1, token);

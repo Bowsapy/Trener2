@@ -2,6 +2,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trener.CardioPage"
              Title=""
+                          xmlns:lang="clr-namespace:Trener.Resources.Languages"
              
              
                                                                               xmlns:local="clr-namespace:Trener"
@@ -76,7 +77,8 @@ CommandParameter="GUIDED 2"
 
                  />
 
-        <Button  Text="Shadowboxing circuit"   FontSize="21" 
+        <Button Text="{x:Static lang:strings.ShadowboxingButton}"
+  FontSize="21" 
                  BackgroundColor="Red"
                  TextColor="White"
                  BorderColor="White"
@@ -86,11 +88,13 @@ CommandParameter="GUIDED 2"
                  Grid.Row="2"
                  Grid.Column="0"
                           LineBreakMode="WordWrap"
+                 x:Name="ShadowboxingButton"
                                                       Command="{Binding StartFitWorkout}" 
 CommandParameter="CARDIO 1"
 
                  />
-        <Button  Text="Skipping rope circuit"  FontSize="20" 
+        <Button Text="{x:Static lang:strings.SkippingRopeButton}"
+  FontSize="20" 
            BackgroundColor="Red"
            TextColor="White"
            BorderColor="White"
@@ -100,6 +104,8 @@ CommandParameter="CARDIO 1"
            Grid.Row="3"
            Grid.Column="0"
                     LineBreakMode="WordWrap"
+                                  x:Name="SkippingRopeButton"
+
                                                       Command="{Binding StartFitWorkout}" 
 CommandParameter="CARDIO 2"
 
@@ -108,7 +114,8 @@ CommandParameter="CARDIO 2"
 
 
 
-        <Button  Text="Back"  FontSize="40" 
+        <Button Text="{x:Static lang:strings.BackButton}"
+FontSize="40" 
                  BackgroundColor="red"
                  TextColor="white"
                  BorderColor="white"
@@ -119,6 +126,8 @@ CommandParameter="CARDIO 2"
                  Grid.Column="0"
                                                                      Command="{Binding NavigateCommandToLeft}" 
                CommandParameter="MENU 1"
+                                  x:Name="BackButton"
+
                  ></Button>
     </Grid>
 
