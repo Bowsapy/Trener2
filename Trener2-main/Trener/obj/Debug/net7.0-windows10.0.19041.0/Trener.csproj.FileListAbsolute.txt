@@ -1,0 +1,10 @@
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\Trener.csproj.AssemblyReference.cache
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\Trener.Resources.Languages.objects.resources
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\Trener.Resources.Languages.objects.cs.resources
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\Trener.Resources.Languages.strings.cs.resources
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\Trener.Resources.Languages.strings.en.resources
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\Trener.csproj.GenerateResource.cache
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\Trener.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\Trener.AssemblyInfoInputs.cache
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\Trener.AssemblyInfo.cs
+C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net7.0-windows10.0.19041.0\Trener.csproj.CoreCompileInputs.cache

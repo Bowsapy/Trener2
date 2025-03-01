@@ -123,9 +123,6 @@
   <data name="AddCButton" xml:space="preserve">
     <value>ADD COMBO</value>
   </data>
-  <data name="add_countersText" xml:space="preserve">
-    <value>Add counters</value>
-  </data>
   <data name="AllButton" xml:space="preserve">
     <value>ALL</value>
   </data>
@@ -164,6 +161,9 @@
   </data>
   <data name="CounterPuncherButton" xml:space="preserve">
     <value>Counterpuncher</value>
+  </data>
+  <data name="CounterpuncherIntro" xml:space="preserve">
+    <value>Lean forward and drop your hands a little</value>
   </data>
   <data name="counterpuncherintroText" xml:space="preserve">
     <value>Lean forward and drop your hands a little</value>
@@ -407,5 +407,8 @@
   </data>
   <data name="ViewButton" xml:space="preserve">
     <value>Show own workouts</value>
+  </data>
+  <data name="add_countersText" xml:space="preserve">
+    <value>Add counters</value>
   </data>
 </root>

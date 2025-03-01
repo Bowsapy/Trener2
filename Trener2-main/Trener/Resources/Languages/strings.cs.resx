@@ -123,9 +123,6 @@
   <data name="AddCButton" xml:space="preserve">
     <value>Přidat kombo</value>
   </data>
-  <data name="add_counters" xml:space="preserve">
-    <value>Přidej kontry</value>
-  </data>
   <data name="AllButton" xml:space="preserve">
     <value>VSE</value>
   </data>
@@ -164,6 +161,9 @@
   </data>
   <data name="CounterPuncherButton" xml:space="preserve">
     <value>Kontrující boxer</value>
+  </data>
+  <data name="CounterpuncherIntro" xml:space="preserve">
+    <value>Předlon se a spust ruce</value>
   </data>
   <data name="counterpuncherintroText" xml:space="preserve">
     <value>Předkloň se a spust trochu ruce</value>
@@ -407,5 +407,8 @@
   </data>
   <data name="ViewButton" xml:space="preserve">
     <value>Zobrazit vlastní workouty</value>
+  </data>
+  <data name="add_countersText" xml:space="preserve">
+    <value>Přidej kontry</value>
   </data>
 </root>
