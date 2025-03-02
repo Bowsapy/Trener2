@@ -44,7 +44,7 @@
         <!-- Tlačítka -->
 
 
-        <Button Text="{x:Static lang:strings.CounterPuncherButton}"
+        <Button Text="{x:Static lang:objectsStrings.CounterPuncherButton}"
                  BackgroundColor="red"
                  TextColor="White"
                  BorderColor="White"
@@ -60,7 +60,7 @@ CommandParameter="COUNTER PUNCHER"
 
                  />
 
-        <Button Text="{x:Static lang:strings.SwitchHitterButton}"
+        <Button Text="{x:Static lang:objectsStrings.SwitchHitterButton}"
                  BackgroundColor="red"
                  TextColor="White"
                  BorderColor="White"
@@ -76,7 +76,7 @@ CommandParameter="SWITCH HITTER"
 
                  />
 
-        <Button Text="{x:Static lang:strings.PressureFighterButton}"
+        <Button Text="{x:Static lang:objectsStrings.PressureFighterButton}"
                  BackgroundColor="Red"
                  TextColor="White"
                  BorderColor="White"
@@ -93,7 +93,7 @@ CommandParameter="PRESSURE FIGHTER"
 
                  />
 
-        <Button Text="{x:Static lang:strings.LongRangeButton}"
+        <Button Text="{x:Static lang:objectsStrings.LongRangeButton}"
            BackgroundColor="Red"
            TextColor="White"
            BorderColor="White"
@@ -110,7 +110,7 @@ CommandParameter="LONGRANGE FIGHTER"
            />
 
 
-        <Button Text="{x:Static lang:strings.BackButton}"
+        <Button Text="{x:Static lang:objectsStrings.BackButton}"
                  BackgroundColor="red"
                  TextColor="white"
                  BorderColor="white"

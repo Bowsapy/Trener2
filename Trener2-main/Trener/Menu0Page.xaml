@@ -31,7 +31,7 @@ xmlns:lang="clr-namespace:Trener.Resources.Languages"
             <!-- Použití lokalizovaného textu -->
 
 
-            <Button Text="{x:Static lang:strings.AboutAppButton}"
+            <Button Text="{x:Static lang:objectsStrings.AboutAppButton}"
                     BackgroundColor="Red" 
                     BorderColor="White"
                     BorderWidth="2" 
@@ -41,7 +41,7 @@ xmlns:lang="clr-namespace:Trener.Resources.Languages"
                     x:Name="AboutAppButton"
                     />
 
-            <Button Text="{x:Static lang:strings.ProgressButton}"
+            <Button Text="{x:Static lang:objectsStrings.ProgressButton}"
                     BackgroundColor="Red"
                     BorderColor="White"
                     BorderWidth="2" 
@@ -52,7 +52,7 @@ xmlns:lang="clr-namespace:Trener.Resources.Languages"
                      x:Name="ProgressButton"
                     />
 
-            <Button Text="{x:Static lang:strings.QuitButton}"
+            <Button Text="{x:Static lang:objectsStrings.QuitButton}"
                     BackgroundColor="Red"
                     BorderColor="White"
                     BorderWidth="2" 

@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutAppButton" xml:space="preserve">
+    <value>ABOUT APP</value>
+  </data>
+  <data name="AddCButton" xml:space="preserve">
+    <value>Add combo</value>
+  </data>
+  <data name="add_countersText" xml:space="preserve">
+    <value>Add counters</value>
+  </data>
+  <data name="AllButton" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="BackButton" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="BasicDefenceButton" xml:space="preserve">
+    <value>Basic defence</value>
+  </data>
+  <data name="BasicMovementButton" xml:space="preserve">
+    <value>Basic movement</value>
+  </data>
+  <data name="BasicStrikesButton" xml:space="preserve">
+    <value>Basic strikes</value>
+  </data>
+  <data name="basic_strikes_introText" xml:space="preserve">
+    <value>Only single punches</value>
+  </data>
+  <data name="BCrossButton" xml:space="preserve">
+    <value>Body cross</value>
+  </data>
+  <data name="BJabButton" xml:space="preserve">
+    <value>Body jab</value>
+  </data>
+  <data name="burpees" xml:space="preserve">
+    <value>Burpees</value>
+  </data>
+  <data name="closefighting" xml:space="preserve">
+    <value>Close fighting</value>
+  </data>
+  <data name="CMButton" xml:space="preserve">
+    <value>Combos with movement</value>
+  </data>
+  <data name="combos_after_moves" xml:space="preserve">
+    <value>Combos after movement</value>
+  </data>
+  <data name="CounterPuncherButton" xml:space="preserve">
+    <value>Counter Puncher</value>
+  </data>
+  <data name="CounterpuncherIntro" xml:space="preserve">
+    <value>Lean forward and drop your hands a little</value>
+  </data>
+  <data name="counterpuncherintroText" xml:space="preserve">
+    <value>Lean forward and drop your hands a little</value>
+  </data>
+  <data name="countersonly" xml:space="preserve">
+    <value>Only counters</value>
+  </data>
+  <data name="CrossButton" xml:space="preserve">
+    <value>Cross</value>
+  </data>
+  <data name="DefenceButton" xml:space="preserve">
+    <value>Defence</value>
+  </data>
+  <data name="defence_onlyText" xml:space="preserve">
+    <value>Only defence</value>
+  </data>
+  <data name="DelButton" xml:space="preserve">
+    <value>Delete combo</value>
+  </data>
+  <data name="DelCurButton" xml:space="preserve">
+    <value>Delete current combo</value>
+  </data>
+  <data name="DuckButton" xml:space="preserve">
+    <value>Duck</value>
+  </data>
+  <data name="finishwithBodyshot" xml:space="preserve">
+    <value>Finish combo with bodyshot</value>
+  </data>
+  <data name="FreestyleButton" xml:space="preserve">
+    <value>FREESTYLE WORKOUTS</value>
+  </data>
+  <data name="hands_high" xml:space="preserve">
+    <value>High guard</value>
+  </data>
+  <data name="headmovementandcounter" xml:space="preserve">
+    <value>Dodge and counter</value>
+  </data>
+  <data name="headmovement_only" xml:space="preserve">
+    <value>Only headmovement</value>
+  </data>
+  <data name="ISButton" xml:space="preserve">
+    <value>Inside sidestep</value>
+  </data>
+  <data name="JabButton" xml:space="preserve">
+    <value>Jab </value>
+  </data>
+  <data name="keepmoving" xml:space="preserve">
+    <value>Keep moving</value>
+  </data>
+  <data name="keepmovingforward" xml:space="preserve">
+    <value>Keep moving forward</value>
+  </data>
+  <data name="LBBButton" xml:space="preserve">
+    <value>Lead bodyblock</value>
+  </data>
+  <data name="LBHook" xml:space="preserve">
+    <value>Lead hook body</value>
+  </data>
+  <data name="LBUpperButton" xml:space="preserve">
+    <value>Lead body uppercut</value>
+  </data>
+  <data name="LCButton" xml:space="preserve">
+    <value>Lead catch</value>
+  </data>
+  <data name="LCombosButton" xml:space="preserve">
+    <value>Longer combos</value>
+  </data>
+  <data name="LearnTechButton" xml:space="preserve">
+    <value>LEARN TECHNIQUE</value>
+  </data>
+  <data name="LHookButton" xml:space="preserve">
+    <value>Lead hook</value>
+  </data>
+  <data name="LongRangeButton" xml:space="preserve">
+    <value>Long range fighter</value>
+  </data>
+  <data name="longrangefighterintro" xml:space="preserve">
+    <value>Control distance with your lead hand </value>
+  </data>
+  <data name="LPButton" xml:space="preserve">
+    <value>Lead parry</value>
+  </data>
+  <data name="LRButton" xml:space="preserve">
+    <value>Lead roll</value>
+  </data>
+  <data name="LSlipButton" xml:space="preserve">
+    <value>Lead slip</value>
+  </data>
+  <data name="LUpperButton" xml:space="preserve">
+    <value>Lead uppercut</value>
+  </data>
+  <data name="mix_it_up" xml:space="preserve">
+    <value>Mix it up</value>
+  </data>
+  <data name="moveandjab" xml:space="preserve">
+    <value>Move around and jab</value>
+  </data>
+  <data name="MovementButton" xml:space="preserve">
+    <value>Movement</value>
+  </data>
+  <data name="moveyourhead" xml:space="preserve">
+    <value>Move your head</value>
+  </data>
+  <data name="move_only" xml:space="preserve">
+    <value>Only movement</value>
+  </data>
+  <data name="MYOWorkoutButton" xml:space="preserve">
+    <value>Make your own workout</value>
+  </data>
+  <data name="onlyhooksandupper" xml:space="preserve">
+    <value>Only hooks and uppercuts</value>
+  </data>
+  <data name="onlystraightpunches" xml:space="preserve">
+    <value>onlystraightpunches</value>
+  </data>
+  <data name="OSButton" xml:space="preserve">
+    <value>Outside sidestep</value>
+  </data>
+  <data name="Outside sidestep" xml:space="preserve">
+    <value>Outside sidestep</value>
+  </data>
+  <data name="plank" xml:space="preserve">
+    <value>Plank</value>
+  </data>
+  <data name="PressureFighterButton" xml:space="preserve">
+    <value>Pressure fighter</value>
+  </data>
+  <data name="pressureFighterIntro" xml:space="preserve">
+    <value>Pressure</value>
+  </data>
+  <data name="ProgressButton" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="PunchesButton" xml:space="preserve">
+    <value>Punches</value>
+  </data>
+  <data name="pushups" xml:space="preserve">
+    <value>Pushups</value>
+  </data>
+  <data name="QuitButton" xml:space="preserve">
+    <value>QUIT</value>
+  </data>
+  <data name="RBBButton" xml:space="preserve">
+    <value>Rear Bodyblock</value>
+  </data>
+  <data name="RBHookButton" xml:space="preserve">
+    <value>Rear Body hook</value>
+  </data>
+  <data name="RBUpperButton" xml:space="preserve">
+    <value>Rear body uppercut</value>
+  </data>
+  <data name="RCButton" xml:space="preserve">
+    <value>Rear catch</value>
+  </data>
+  <data name="RHookButton" xml:space="preserve">
+    <value>Rear hook</value>
+  </data>
+  <data name="RPButton" xml:space="preserve">
+    <value>Rear parry</value>
+  </data>
+  <data name="RRButton" xml:space="preserve">
+    <value>Rear roll</value>
+  </data>
+  <data name="RSlipButton" xml:space="preserve">
+    <value>Rear slip</value>
+  </data>
+  <data name="RUpperButton" xml:space="preserve">
+    <value>Rear uppercut</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>Save workout</value>
+  </data>
+  <data name="shadowboxing" xml:space="preserve">
+    <value>Shadow boxing</value>
+  </data>
+  <data name="ShadowboxingButton" xml:space="preserve">
+    <value>Shadowboxing circuit</value>
+  </data>
+  <data name="ShowButton" xml:space="preserve">
+    <value>Show workout</value>
+  </data>
+  <data name="situps" xml:space="preserve">
+    <value>situps</value>
+  </data>
+  <data name="skippingrope" xml:space="preserve">
+    <value>Skipping rope </value>
+  </data>
+  <data name="SkippingRopeButton" xml:space="preserve">
+    <value>Skipping rope circuit</value>
+  </data>
+  <data name="squats" xml:space="preserve">
+    <value>Squats</value>
+  </data>
+  <data name="startwithjab" xml:space="preserve">
+    <value>Start every combo with jab</value>
+  </data>
+  <data name="StBButton" xml:space="preserve">
+    <value>Step back</value>
+  </data>
+  <data name="StFButton" xml:space="preserve">
+    <value>Step forward</value>
+  </data>
+  <data name="StLButton" xml:space="preserve">
+    <value>Step left</value>
+  </data>
+  <data name="StRButton" xml:space="preserve">
+    <value>Step right</value>
+  </data>
+  <data name="StylesButton" xml:space="preserve">
+    <value>STYLES</value>
+  </data>
+  <data name="SwitchHitterButton" xml:space="preserve">
+    <value>Switchhitting</value>
+  </data>
+  <data name="SwitchLangButton" xml:space="preserve">
+    <value>Change language</value>
+  </data>
+  <data name="switchstance" xml:space="preserve">
+    <value>Switch stance</value>
+  </data>
+  <data name="Tech1Button" xml:space="preserve">
+    <value>TECHNIQUE 1</value>
+  </data>
+  <data name="Tech2Button" xml:space="preserve">
+    <value>TECHNIQUE 2</value>
+  </data>
+  <data name="three_p_combosText" xml:space="preserve">
+    <value>Three punch combos</value>
+  </data>
+  <data name="three_p_combos_defenceText" xml:space="preserve">
+    <value>Three punch combos with defence</value>
+  </data>
+  <data name="three_p_combos_movementText" xml:space="preserve">
+    <value>Three punch combos with movement</value>
+  </data>
+  <data name="twopunchcombosonly" xml:space="preserve">
+    <value>Two punch combos only</value>
+  </data>
+  <data name="two_p_combosText" xml:space="preserve">
+    <value>Two punch combos</value>
+  </data>
+  <data name="useonlyleadhand" xml:space="preserve">
+    <value>Use your lead hand only</value>
+  </data>
+  <data name="ViewButton" xml:space="preserve">
+    <value>View your own workouts</value>
+  </data>
+</root>

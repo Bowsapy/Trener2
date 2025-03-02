@@ -2,6 +2,7 @@
 
 	<PropertyGroup>
 		<AndroidDeployOnBuild>true</AndroidDeployOnBuild>
+		<NeutralLanguage>en</NeutralLanguage>
 
 		<!-- Target Frameworks -->
 		<TargetFrameworks>net8.0-android;net8.0-ios;net8.0-windows10.0.19041.0</TargetFrameworks>
@@ -97,6 +98,21 @@
 		<Compile Update="Menu1Page.xaml.cs">
 			<DependentUpon>Menu1Page.xaml</DependentUpon>
 		</Compile>
+		<Compile Update="Resources\Languages\objectsStrings.Designer.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>objectsStrings.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Resources\Languages\objectsStrings.en.Designer.cs">
+		  <DependentUpon>objectsStrings.en.resx</DependentUpon>
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Resources\Languages\objectsStrings.cs.Designer.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>objectsStrings.cs.resx</DependentUpon>
+		</Compile>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -118,23 +134,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<EmbeddedResource Update="Resources\Languages\objects.cs.resx">
-			<SubType>Designer</SubType>
-			<LastGenOutput>objects.cs.Designer.cs</LastGenOutput>
-			<Generator>PublicResXFileCodeGenerator</Generator>
+		<EmbeddedResource Update="Resources\Languages\objectsStrings.en.resx">
+		  <LastGenOutput>objectsStrings.en.Designer.cs</LastGenOutput>
+		  <Generator>ResXFileCodeGenerator</Generator>
 		</EmbeddedResource>
-		<EmbeddedResource Update="Resources\Languages\objects.resx">
-			<SubType>Designer</SubType>
-			<LastGenOutput>objects.Designer.cs</LastGenOutput>
-			<Generator>PublicResXFileCodeGenerator</Generator>
+		<EmbeddedResource Update="Resources\Languages\objectsStrings.cs.resx">
+		  <Generator>ResXFileCodeGenerator</Generator>
+		  <LastGenOutput>objectsStrings.cs.Designer.cs</LastGenOutput>
 		</EmbeddedResource>
-		<EmbeddedResource Update="Resources\Languages\strings.en.resx">
-			<LastGenOutput>strings.en.Designer.cs</LastGenOutput>
-			<Generator>PublicResXFileCodeGenerator</Generator>
-		</EmbeddedResource>
-		<EmbeddedResource Update="Resources\Languages\strings.cs.resx">
-			<Generator>PublicResXFileCodeGenerator</Generator>
-			<LastGenOutput>strings.cs.Designer.cs</LastGenOutput>
+		<EmbeddedResource Update="Resources\Languages\objectsStrings.resx">
+		  <Generator>ResXFileCodeGenerator</Generator>
+		  <LastGenOutput>objectsStrings.Designer.cs</LastGenOutput>
 		</EmbeddedResource>
 	</ItemGroup>
 

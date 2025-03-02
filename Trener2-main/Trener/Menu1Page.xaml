@@ -23,7 +23,7 @@ xmlns:lang="clr-namespace:Trener.Resources.Languages"
         <!-- Tlačítka s absolutním pozicováním -->
         <StackLayout Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" Margin="10,20" >
 
-            <Button Text="{x:Static lang:strings.LearnTechButton}" FontSize="25"
+            <Button Text="{x:Static lang:objectsStrings.LearnTechButton}" FontSize="25"
 
                 BackgroundColor="Red" 
                 BorderColor="White"
@@ -35,7 +35,7 @@ xmlns:lang="clr-namespace:Trener.Resources.Languages"
                     x:Name="LearnTechButton"
 
                 />
-            <Button Text="{x:Static lang:strings.FreestyleButton}" FontSize="25"
+            <Button Text="{x:Static lang:objectsStrings.FreestyleButton}" FontSize="25"
       BackgroundColor="Red" 
       BorderColor="White"
       BorderWidth="2" 
@@ -47,7 +47,7 @@ xmlns:lang="clr-namespace:Trener.Resources.Languages"
 
       />
 
-            <Button Text="{x:Static lang:strings.MYOWorkoutButton}" FontSize="25"
+            <Button Text="{x:Static lang:objectsStrings.MYOWorkoutButton}" FontSize="25"
       BackgroundColor="Red" 
       BorderColor="White"
       BorderWidth="2" 
@@ -62,7 +62,7 @@ xmlns:lang="clr-namespace:Trener.Resources.Languages"
 
 
             <!-- Tlačítko zpět -->
-            <Button Text="{x:Static lang:strings.BackButton}" FontSize="25"
+            <Button Text="{x:Static lang:objectsStrings.BackButton}" FontSize="25"
                 BackgroundColor="Red"
                 BorderColor="White"
                 BorderWidth="2" 

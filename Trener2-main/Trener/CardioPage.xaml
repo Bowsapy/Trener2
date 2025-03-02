@@ -77,7 +77,7 @@ CommandParameter="GUIDED 2"
 
                  />
 
-        <Button Text="{x:Static lang:strings.ShadowboxingButton}"
+        <Button Text="{x:Static lang:objectsStrings.ShadowboxingButton}"
   FontSize="21" 
                  BackgroundColor="Red"
                  TextColor="White"
@@ -93,7 +93,7 @@ CommandParameter="GUIDED 2"
 CommandParameter="CARDIO 1"
 
                  />
-        <Button Text="{x:Static lang:strings.SkippingRopeButton}"
+        <Button Text="{x:Static lang:objectsStrings.SkippingRopeButton}"
   FontSize="20" 
            BackgroundColor="Red"
            TextColor="White"
@@ -114,7 +114,7 @@ CommandParameter="CARDIO 2"
 
 
 
-        <Button Text="{x:Static lang:strings.BackButton}"
+        <Button Text="{x:Static lang:objectsStrings.BackButton}"
 FontSize="40" 
                  BackgroundColor="red"
                  TextColor="white"

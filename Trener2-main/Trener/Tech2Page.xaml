@@ -86,7 +86,7 @@ VerticalOptions="FillAndExpand"
          />
 
 
-        <Button Text="{x:Static lang:strings.LCombosButton}"
+        <Button Text="{x:Static lang:objectsStrings.LCombosButton}"
                BackgroundColor="red"
                TextColor="White"
                BorderColor="White"
@@ -102,7 +102,7 @@ CommandParameter="LONGER COMBOS"
 
                />
 
-        <Button Text="{x:Static lang:strings.HMButton}"
+        <Button Text="Headmovement"
                BackgroundColor="red"
                TextColor="White"
                BorderColor="White"
@@ -118,7 +118,7 @@ CommandParameter="HEADMOVEMENT"
 
                />
 
-        <Button Text="{x:Static lang:strings.CMButton}"
+        <Button Text="{x:Static lang:objectsStrings.CMButton}"
                BackgroundColor="Red"
                TextColor="White"
                BorderColor="White"
@@ -134,7 +134,7 @@ CommandParameter="LONGER COMBOS WITH MOVEMENT"
                                                                                     x:Name="CMButton"
 
                />
-        <Button Text="{x:Static lang:strings.AllButton}"
+        <Button Text="{x:Static lang:objectsStrings.AllButton}"
          BackgroundColor="Red"
          TextColor="White"
          BorderColor="White"
@@ -150,7 +150,7 @@ CommandParameter="LONGER COMBOS WITH ALL"
     
          />
 
-        <Button Text="{x:Static lang:strings.BackButton}"
+        <Button Text="{x:Static lang:objectsStrings.BackButton}"
                BackgroundColor="red"
                TextColor="white"
                BorderColor="white"

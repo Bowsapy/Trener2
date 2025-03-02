@@ -83,7 +83,7 @@
            Grid.Column="0"
            />
 
-        <Button Text="{x:Static lang:strings.BasicStrikesButton}"
+        <Button Text="{x:Static lang:objectsStrings.BasicStrikesButton}"
                  BackgroundColor="red"
                  TextColor="White"
                  BorderColor="White"
@@ -99,7 +99,7 @@
 
                  />
 
-        <Button Text="{x:Static lang:strings.BasicDefenceButton}"
+        <Button Text="{x:Static lang:objectsStrings.BasicDefenceButton}"
                  BackgroundColor="red"
                  TextColor="White"
                  BorderColor="White"
@@ -115,7 +115,7 @@
 CommandParameter="BASIC DEFENCE"
                  />
 
-        <Button Text="{x:Static lang:strings.BasicMovementButton}"
+        <Button Text="{x:Static lang:objectsStrings.BasicMovementButton}"
                  BackgroundColor="Red"
                  TextColor="White"
                  BorderColor="White"
@@ -131,7 +131,7 @@ CommandParameter="BASIC DEFENCE"
 
 CommandParameter="BASIC MOVEMENT"
                  />
-        <Button Text="{x:Static lang:strings.AllButton}"
+        <Button Text="{x:Static lang:objectsStrings.AllButton}"
            BackgroundColor="Red"
            TextColor="White"
            BorderColor="White"
@@ -147,7 +147,7 @@ CommandParameter="BASIC ALL"
 
            />
 
-        <Button Text="{x:Static lang:strings.BackButton}"
+        <Button Text="{x:Static lang:objectsStrings.BackButton}"
                  BackgroundColor="red"
                  TextColor="white"
                  BorderColor="white"
