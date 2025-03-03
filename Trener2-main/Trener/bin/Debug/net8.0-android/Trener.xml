@@ -1,0 +1,551 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Trener</name>
+    </assembly>
+    <members>
+        <member name="T:Trener.Resources.Languages.objects_cs_Strings">
+            <summary>
+              Třída prostředků se silnými typy pro vyhledávání lokalizovaných řetězců atp.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objects_cs_Strings.ResourceManager">
+            <summary>
+              Vrací instanci ResourceManager uloženou v mezipaměti použitou touto třídou.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objects_cs_Strings.Culture">
+            <summary>
+              Potlačí vlastnost CurrentUICulture aktuálního vlákna pro všechna
+              vyhledání prostředků pomocí třídy prostředků se silnými typy.
+            </summary>
+        </member>
+        <member name="T:Trener.Resources.Languages.objectsStrings">
+            <summary>
+              Třída prostředků se silnými typy pro vyhledávání lokalizovaných řetězců atp.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.ResourceManager">
+            <summary>
+              Vrací instanci ResourceManager uloženou v mezipaměti použitou touto třídou.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.Culture">
+            <summary>
+              Potlačí vlastnost CurrentUICulture aktuálního vlákna pro všechna
+              vyhledání prostředků pomocí třídy prostředků se silnými typy.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.AboutAppButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný ABOUT APP.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.add_countersText">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Add counters.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.AddCButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Add combo.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.AllButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný All.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.BackButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Back.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.basic_strikes_introText">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Only single punches.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.BasicDefenceButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Basic defence.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.BasicMovementButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Basic movement.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.BasicStrikesButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Basic strikes.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.BCrossButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Body cross.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.BJabButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Body jab.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.burpees">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Burpees.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.closefighting">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Close fighting.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.CMButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Combos with movement.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.combos_after_moves">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Combos after movement.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.CounterPuncherButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Counter Puncher.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.CounterpuncherIntro">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Lean forward and drop your hands a little.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.counterpuncherintroText">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Lean forward and drop your hands a little.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.countersonly">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Only counters.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.CrossButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Cross.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.defence_onlyText">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Only defence.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.DefenceButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Defence.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.DelButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Delete combo.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.DelCurButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Delete current combo.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.DuckButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Duck.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.finishwithBodyshot">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Finish combo with bodyshot.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.FreestyleButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný FREESTYLE WORKOUTS.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.hands_high">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný High guard.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.headmovement_only">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Only headmovement.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.headmovementandcounter">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Dodge and counter.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.ISButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Inside sidestep.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.JabButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Jab .
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.keepmoving">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Keep moving.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.keepmovingforward">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Keep moving forward.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LBBButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Lead bodyblock.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LBHook">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Lead hook body.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LBUpperButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Lead body uppercut.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LCButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Lead catch.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LCombosButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Longer combos.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LearnTechButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný LEARN TECHNIQUE.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LHookButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Lead hook.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LongRangeButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Long range fighter.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.longrangefighterintro">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Control distance with your lead hand .
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LPButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Lead parry.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LRButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Lead roll.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LSlipButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Lead slip.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LUpperButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Lead uppercut.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.mix_it_up">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Mix it up.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.move_only">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Only movement.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.moveandjab">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Move around and jab.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.MovementButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Movement.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.moveyourhead">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Move your head.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.MYOWorkoutButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Make your own workout.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.onlyhooksandupper">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Only hooks and uppercuts.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.onlystraightpunches">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Only straight punches.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.OSButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Outside sidestep.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.Outside_sidestep">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Outside sidestep.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.plank">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Plank.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.PressureFighterButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Pressure fighter.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.pressureFighterIntro">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Pressure.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.ProgressButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Progress.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.PunchesButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Punches.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.pushups">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Pushups.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.QuitButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný QUIT.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RBBButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Rear Bodyblock.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RBHookButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Rear body hook.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RBUpperButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Rear body uppercut.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RCButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Rear catch.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RHookButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Rear hook.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RPButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Rear parry.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RRButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Rear roll.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RSlipButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Rear slip.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RUpperButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Rear uppercut.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.SaveButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Save workout.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.shadowboxing">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Shadow boxing.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.ShadowboxingButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Shadowboxing circuit.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.ShowButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Show workout.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.situps">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Situps.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.skippingrope">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Skipping rope .
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.SkippingRopeButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Skipping rope circuit.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.squats">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Squats.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.startwithjab">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Start every combo with jab.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.StBButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Step back.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.StFButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Step forward.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.StLButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Step left.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.StRButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Step right.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.StylesButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný STYLES.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.SwitchHitterButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Switchhitting.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.SwitchLangButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Change language.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.switchstance">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Switch stance.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.Tech1Button">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný TECHNIQUE 1.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.Tech2Button">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný TECHNIQUE 2.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.three_p_combos_defenceText">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Three punch combos with defence.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.three_p_combos_movementText">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Three punch combos with movement.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.three_p_combosText">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Three punch combos.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.two_p_combosText">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Two punch combos.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.twopunchcombosonly">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Two punch combos only.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.useonlyleadhand">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Use your lead hand only.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.ViewButton">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný View your own workouts.
+            </summary>
+        </member>
+        <member name="T:Trener.Resources.Languages.objects_en_Strings">
+            <summary>
+              Třída prostředků se silnými typy pro vyhledávání lokalizovaných řetězců atp.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objects_en_Strings.ResourceManager">
+            <summary>
+              Vrací instanci ResourceManager uloženou v mezipaměti použitou touto třídou.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objects_en_Strings.Culture">
+            <summary>
+              Potlačí vlastnost CurrentUICulture aktuálního vlákna pro všechna
+              vyhledání prostředků pomocí třídy prostředků se silnými typy.
+            </summary>
+        </member>
+    </members>
+</doc>

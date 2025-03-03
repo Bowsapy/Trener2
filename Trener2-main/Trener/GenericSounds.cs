@@ -21,10 +21,27 @@ namespace Trener
         // Pomocná metoda pro přehrávání zvuku s tokenem pro zrušení
         private static async Task PlaySoundAsync(string soundPath, CancellationToken token)
         {
-            var audioPlayer = AudioManager.Current.CreatePlayer(await FileSystem.OpenAppPackageFileAsync(soundPath));
+            var tcs = new TaskCompletionSource<bool>();
+
+            // Vytvoření přehrávače na jiném vlákně
+            var audioPlayer = await Task.Run(async () =>
+            {
+                var player = AudioManager.Current.CreatePlayer(await FileSystem.OpenAppPackageFileAsync(soundPath));
+                player.PlaybackEnded += (s, e) => tcs.TrySetResult(true);
+                return player;
+            });
+
             audioPlayer.Play();
 
+            using (token.Register(() => {
+                audioPlayer.Stop();
+                tcs.TrySetResult(true);
+            }))
+            {
+                await Task.WhenAny(tcs.Task, Task.Delay(Timeout.Infinite, token));
+            }
         }
+
 
         public static async Task PlayPunchSound2( CancellationToken token)
         {

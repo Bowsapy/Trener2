@@ -18,7 +18,7 @@ namespace Trener
         public static PunchClass jab = new PunchClass(Resources.Languages.objectsStrings.JabButton, "1", $@"Sounds\{lang}\punches\1-sound.mp3");
 public static PunchClass cross = new PunchClass(Resources.Languages.objectsStrings.CrossButton, "2", $@"Sounds\{lang}\punches\2-sound.mp3");
 public static PunchClass lead_hook = new PunchClass(Resources.Languages.objectsStrings.LHookButton, "3", $@"Sounds\{lang}\punches\3-sound.mp3");
-        public static PunchClass rear_hook = new PunchClass(Resources.Languages.objectsStrings.RHookButton, "3", $@"Sounds\{lang}\punches\4-sound.mp3");
+        public static PunchClass rear_hook = new PunchClass(Resources.Languages.objectsStrings.RHookButton, "4", $@"Sounds\{lang}\punches\4-sound.mp3");
         public static PunchClass lead_upper = new PunchClass(Resources.Languages.objectsStrings.LUpperButton, "5", $@"Sounds\{lang}\punches\5-sound.mp3");
 public static PunchClass rear_upper = new PunchClass(Resources.Languages.objectsStrings.RUpperButton, "6", $@"Sounds\{lang}\punches\6-sound.mp3");
 

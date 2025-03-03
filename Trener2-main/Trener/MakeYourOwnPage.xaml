@@ -77,12 +77,17 @@ Clicked="ViewWorkouts" CommandParameter="workout2" x:Name="ViewButton"/>
  Clicked="OnPunchClicked" CommandParameter="jab"  x:Name="JabButton"/>
                 <Button Text="{x:Static lang:objectsStrings.CrossButton}"
  Clicked="OnPunchClicked" CommandParameter="cross"  x:Name="CrossButton"/>
+                
                 <Button Text="{x:Static lang:objectsStrings.LHookButton}"
+                        
  Clicked="OnPunchClicked" CommandParameter="lead_hook"  x:Name="LHookButton"/>
+                
                 <Button Text="{x:Static lang:objectsStrings.RHookButton}"
  Clicked="OnPunchClicked" CommandParameter="rear_hook"  x:Name="RHookButton"/>
+                
                 <Button Text="{x:Static lang:objectsStrings.LUpperButton}"
  Clicked="OnPunchClicked" CommandParameter="lead_upper"  x:Name="LUpperButton"/>
+                
                 <Button Text="{x:Static lang:objectsStrings.RUpperButton}"
  Clicked="OnPunchClicked" CommandParameter="rear_upper"  x:Name="RUpperButton"/>
                 <Button Text="{x:Static lang:objectsStrings.BJabButton}
@@ -91,7 +96,7 @@ Clicked="ViewWorkouts" CommandParameter="workout2" x:Name="ViewButton"/>
  Clicked="OnPunchClicked" CommandParameter="cross_b" x:Name="BCrossButton"/>
                 <Button Text="{x:Static lang:objectsStrings.LBHook}"
  Clicked="OnPunchClicked" CommandParameter="lead_hook_b" x:Name="LBHook"/>
-                <Button Text="{x:Static lang:objectsStrings.RHookButton}"
+                <Button Text="{x:Static lang:objectsStrings.RBHookButton}"
  Clicked="OnPunchClicked" CommandParameter="rear_hook_b"  x:Name="RBHook"/>
                 <Button Text="{x:Static lang:objectsStrings.LBUpperButton}"
  Clicked="OnPunchClicked" CommandParameter="lead_upper_b" x:Name="LBUpperButton"/>

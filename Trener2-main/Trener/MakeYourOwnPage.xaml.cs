@@ -119,6 +119,7 @@ public partial class MakeYourOwnPage : ContentPage
 
         if (param == null)
             return;
+
         switch (param)
         {
             case "jab":
@@ -133,10 +134,10 @@ public partial class MakeYourOwnPage : ContentPage
             case "rear_hook":
                 combo_list.Add(AllStrikes.rear_hook);
                 break;
-            case "lead_uppercut":
+            case "lead_upper":
                 combo_list.Add(AllStrikes.lead_upper);
                 break;
-            case "rear_uppercut":
+            case "rear_upper":
                 combo_list.Add(AllStrikes.rear_upper);
                 break;
             case "jab_b":

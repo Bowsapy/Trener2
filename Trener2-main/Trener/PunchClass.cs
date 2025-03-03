@@ -186,33 +186,66 @@ public class ComboClass
 
         public async Task PlaySound(CancellationToken token)
         {
-            foreach (var strike in Strikes)
+
+            // Předem načteme všechny soubory a připravíme přehrávače
+            var players = new List<IAudioPlayer>();
+
+            try
             {
-                if (token.IsCancellationRequested)
-                    return;
-
-                var audioPlayer = AudioManager.Current.CreatePlayer(await FileSystem.OpenAppPackageFileAsync(strike.sound));
-                var tcs = new TaskCompletionSource<bool>();
-
-                audioPlayer.PlaybackEnded += (sender, e) => tcs.TrySetResult(true);
-
-                audioPlayer.Play();
-
-                await Task.WhenAny(tcs.Task, Task.Delay(Timeout.Infinite, token));
-
-                if (token.IsCancellationRequested)
+                foreach (var strike in Strikes)
                 {
-                    audioPlayer.Stop();
-                    return;
+                    if (token.IsCancellationRequested)
+                        return;
+
+                    var fileStream = await FileSystem.OpenAppPackageFileAsync(strike.sound);
+                    var audioPlayer = AudioManager.Current.CreatePlayer(fileStream);
+                    players.Add(audioPlayer);
                 }
 
-                await Task.Delay(600, token);
+                // Přehráváme zvuky sekvenčně s minimální prodlevou
+                foreach (var player in players)
+                {
+                    if (token.IsCancellationRequested)
+                        return;
+
+                    var tcs = new TaskCompletionSource<bool>(TaskCreationOptions.RunContinuationsAsynchronously);
+
+                    void OnPlaybackEnded(object? sender, EventArgs e) => tcs.TrySetResult(true);
+                    player.PlaybackEnded += OnPlaybackEnded;
+
+                    player.Play();
+
+                    await Task.WhenAny(tcs.Task, Task.Delay(Timeout.Infinite, token));
+
+                    player.PlaybackEnded -= OnPlaybackEnded;
+
+                    if (token.IsCancellationRequested)
+                    {
+                        player.Stop();
+                        return;
+                    }
+
+                    // Zkrácená pauza mezi zvuky (např. 100 ms místo 200 ms)
+                }
+            }
+            finally
+            {
+                // Uvolníme všechny přehrávače
+                foreach (var player in players)
+                {
+                    player.Dispose();
+                }
             }
 
+            // Po skončení všech zvuků pauza (IntroTime)
             if (!token.IsCancellationRequested)
             {
                 await Task.Delay(IntroTime, token);
             }
+
+
+
+
         }
 
         public int GetNumOfStrikes()

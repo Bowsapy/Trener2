@@ -7,6 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Maui.Dispatching;
 using System.Text.Json;
+using System.Dynamic;
 
 namespace Trener
 {
@@ -61,9 +62,9 @@ namespace Trener
 
                 skipped = false;
 
-                await Task.Delay(2000, token);
+                await Task.Delay(1000, token);
                 await GenericSounds.PlayGetReadySound(token);
-                await Task.Delay(2000, token);
+                await Task.Delay(1000, token);
 
 
 
@@ -170,11 +171,10 @@ namespace Trener
                     await GenericSounds.PlayGoSound(token);
                 }
 
-                await Task.Delay(300, token);
                 ChangeTextOnLabel(rep_label, $"{currentRep}/{combo.Reps}");
-                await Task.Run(() => ExecuteStrikes(speed,combo.Strikes, isAdvice, token));
+                await ExecuteStrikes(speed, combo.Strikes, isAdvice, token);
 
-                if (!isAdvice) await Task.Delay(1200, token);
+                if (!isAdvice) await Task.Delay(600, token);
             }
         }
 
@@ -182,37 +182,36 @@ namespace Trener
         {
             foreach (var strike in currentStrikes)
             {
-                ChangeTextOnLabel(strike_label,strike.id);
-                await CheckPauseAsync(token); // Kontrola pauzy
+                ChangeTextOnLabel(strike_label, strike.id);
 
-                if (end || skipped || token.IsCancellationRequested) break;
 
-                await StopAll(token);
                 if (!skipped)
                 {
-                    // Pøímé volání metod bez zbyteèného vytváøení nových úloh.
+                    Task soundTask = null;
+
                     switch (strike)
                     {
                         case PunchClass _:
-
-                            await GenericSounds.PlayPunchSound2(token);
+                            soundTask = GenericSounds.PlayPunchSound2(token); // Pøiøadíme úkol pro zvuk
                             break;
                         case DefenceClass _:
-                            await Task.Delay(50, token);
-                            await GenericSounds.PlayDefenceSound(token);
+                            soundTask = GenericSounds.PlayDefenceSound(token); // Pøiøadíme úkol pro zvuk
                             break;
                         case MoveClass _:
-                            await Task.Delay(200, token);
-                            await GenericSounds.PlayMoveSound(token);
+                            soundTask = GenericSounds.PlayMoveSound(token); // Pøiøadíme úkol pro zvuk
                             break;
                     }
-                    Thread.Sleep(speed);
+
+                    if (soundTask != null)
+                       await soundTask;  // Èekáme na dokonèení zvuku
+
+                    await Task.Delay(speed, token);
                 }
-
             }
-            ChangeTextOnLabel(strike_label, "");
 
+            ChangeTextOnLabel(strike_label, "");
         }
+
 
 
 
