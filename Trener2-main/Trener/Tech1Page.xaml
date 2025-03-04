@@ -1,4 +1,4 @@
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trener.Tech1Page"
              Title=""
@@ -147,21 +147,7 @@ CommandParameter="BASIC ALL"
 
            />
 
-        <Button Text="{x:Static lang:objectsStrings.BackButton}"
-                 BackgroundColor="red"
-                 TextColor="white"
-                 BorderColor="white"
-                 Margin="10,10"
-                 BorderWidth="2" 
-                 FontAttributes="Bold"
-                 Grid.Row="4"
-                 Grid.Column="0"
-                 Grid.ColumnSpan="2"
-                    Command="{Binding NavigateCommandToLeft}" 
-                 CommandParameter="fss"
-                                                                         x:Name="BackButton"
 
-                 />
         
     </Grid>
 

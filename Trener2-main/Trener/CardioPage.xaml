@@ -1,4 +1,4 @@
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trener.CardioPage"
              Title=""
@@ -114,21 +114,6 @@ CommandParameter="CARDIO 2"
 
 
 
-        <Button Text="{x:Static lang:objectsStrings.BackButton}"
-FontSize="40" 
-                 BackgroundColor="red"
-                 TextColor="white"
-                 BorderColor="white"
-                 Margin="10,10"
-                 BorderWidth="2" 
-                 FontAttributes="Bold"
-                 Grid.Row="5"
-                 Grid.Column="0"
-                                                                     Command="{Binding NavigateCommandToLeft}" 
-               CommandParameter="MENU 1"
-                                  x:Name="BackButton"
-
-                 ></Button>
     </Grid>
 
     <!-- Obrázek -->

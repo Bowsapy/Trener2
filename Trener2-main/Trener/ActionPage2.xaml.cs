@@ -1,4 +1,4 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using Microsoft.Maui.Storage;
 using Plugin.Maui.Audio;
 using System;
@@ -21,6 +21,8 @@ namespace Trener
         {
             this.workout = workout;
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+
             Action();
         }
 
@@ -79,7 +81,7 @@ namespace Trener
             }
             finally
             {
-                cts.Dispose(); // Uvolni zdroj po skon�en�.
+                cts.Dispose(); // Uvolni zdroj po skončení.
             }
         }
 
@@ -161,10 +163,16 @@ namespace Trener
             stopped = !stopped;
         }
 
+
         private void SkipniFunc(object sender, EventArgs e)
         {
             skipped = true;
         }
+        protected override bool OnBackButtonPressed()
+        {
+            return true; // Zakáže tlačítko zpět
+        }
+
 
         private async void EndFunc(object sender, EventArgs e)
         {

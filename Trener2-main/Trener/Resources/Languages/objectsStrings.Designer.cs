@@ -277,7 +277,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný Delete current combo.
+        ///   Vyhledá lokalizovaný řetězec podobný Delete this workout.
         /// </summary>
         internal static string DelCurButton {
             get {
@@ -547,7 +547,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný Make your own workout.
+        ///   Vyhledá lokalizovaný řetězec podobný MAKE YOUR OWN WORKOUT.
         /// </summary>
         internal static string MYOWorkoutButton {
             get {
@@ -619,7 +619,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný Progress.
+        ///   Vyhledá lokalizovaný řetězec podobný PROGRESS.
         /// </summary>
         internal static string ProgressButton {
             get {

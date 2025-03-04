@@ -190,7 +190,7 @@
     <value>Delete combo</value>
   </data>
   <data name="DelCurButton" xml:space="preserve">
-    <value>Delete current combo</value>
+    <value>Delete this workout</value>
   </data>
   <data name="DuckButton" xml:space="preserve">
     <value>Duck</value>
@@ -281,7 +281,7 @@
     <value>Only movement</value>
   </data>
   <data name="MYOWorkoutButton" xml:space="preserve">
-    <value>Make your own workout</value>
+    <value>MAKE YOUR OWN WORKOUT</value>
   </data>
   <data name="onlyhooksandupper" xml:space="preserve">
     <value>Only hooks and uppercuts</value>
@@ -305,7 +305,7 @@
     <value>Pressure</value>
   </data>
   <data name="ProgressButton" xml:space="preserve">
-    <value>Progress</value>
+    <value>PROGRESS</value>
   </data>
   <data name="PunchesButton" xml:space="preserve">
     <value>Punches</value>

@@ -28,8 +28,16 @@ namespace Trener
             this.speed= speed;
             this.workout = workout;
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+
             Action();
+
         }
+        protected override bool OnBackButtonPressed()
+        {
+            return true; // Zakáže tlačítko zpět
+        }
+
 
         public void OnBackButtonClicked(object sender, EventArgs e)
         {
@@ -83,7 +91,7 @@ namespace Trener
                     UpdateStrikeLabelBackground(isAdvice);
 
                     await PlaySoundAsync(combo, token);
-                    await Task.Delay(200, token);
+                    await Task.Delay(100, token);
 
                     // Start executing the combo
                     await ExecuteCombo(speed,combo, isAdvice, token);
@@ -174,7 +182,7 @@ namespace Trener
                 ChangeTextOnLabel(rep_label, $"{currentRep}/{combo.Reps}");
                 await ExecuteStrikes(speed, combo.Strikes, isAdvice, token);
 
-                if (!isAdvice) await Task.Delay(600, token);
+                if (!isAdvice) await Task.Delay(500, token);
             }
         }
 
@@ -192,7 +200,7 @@ namespace Trener
                     switch (strike)
                     {
                         case PunchClass _:
-                            soundTask = GenericSounds.PlayPunchSound2(token); // Přiřadíme úkol pro zvuk
+                            soundTask = GenericSounds.PlayPunchSound2(token); 
                             break;
                         case DefenceClass _:
                             soundTask = GenericSounds.PlayDefenceSound(token); // Přiřadíme úkol pro zvuk

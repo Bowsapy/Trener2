@@ -190,7 +190,7 @@
     <value>Smazat kombo</value>
   </data>
   <data name="DelCurButton" xml:space="preserve">
-    <value>Smazat momentální workout</value>
+    <value>Smazat tenhle workout</value>
   </data>
   <data name="DuckButton" xml:space="preserve">
     <value>Dřep</value>
@@ -280,7 +280,7 @@
     <value>Jen pohyb</value>
   </data>
   <data name="MYOWorkoutButton" xml:space="preserve">
-    <value>Vytvoř si svůj vlastní workout</value>
+    <value>VYTVOŘ SI WORKOUT</value>
   </data>
   <data name="onlyhooksandupper" xml:space="preserve">
     <value>Jen háky a zvedáky</value>
@@ -304,7 +304,7 @@
     <value>Tlak</value>
   </data>
   <data name="ProgressButton" xml:space="preserve">
-    <value>Pokrok</value>
+    <value>POKROK</value>
   </data>
   <data name="PunchesButton" xml:space="preserve">
     <value>Údery</value>
@@ -361,7 +361,7 @@
     <value>Švihadlo</value>
   </data>
   <data name="SkippingRopeButton" xml:space="preserve">
-    <value>Skipping rope circuit</value>
+    <value>Švihadlo kruháč</value>
   </data>
   <data name="squats" xml:space="preserve">
     <value>Dřepy</value>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
     
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -61,19 +61,7 @@ xmlns:lang="clr-namespace:Trener.Resources.Languages"
 
 
 
-            <!-- Tlačítko zpět -->
-            <Button Text="{x:Static lang:objectsStrings.BackButton}" FontSize="25"
-                BackgroundColor="Red"
-                BorderColor="White"
-                BorderWidth="2" 
-                TextColor="White"
-                FontAttributes="Bold"
-                Margin="10,10"
-                             Command="{Binding NavigateCommandToLeft}" 
-         CommandParameter="MENU"
-                         x:Name="BackButton"
-
-                    />
+  
             
         </StackLayout>
 

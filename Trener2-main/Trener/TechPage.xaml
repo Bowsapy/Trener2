@@ -1,4 +1,4 @@
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trener.TechPage"
              Title="KATEGORIE"
@@ -28,13 +28,15 @@
                     BorderWidth="2" 
                     FontAttributes="Bold"
                     Margin="10,10"
+                                        FontSize="30"
+
                             Command="{Binding NavigateCommandToRight}" 
                                         x:Name="Tech1Button"
 
   CommandParameter="TECH 1"  
                     />
             <Button Text="{x:Static lang:objectsStrings.Tech2Button}"
-                    FontSize="40"
+                    FontSize="30"
           BackgroundColor="Red" 
           BorderColor="White"
           BorderWidth="2" 
@@ -44,12 +46,14 @@
 CommandParameter="TECH 2"  
                     x:Name="Tech2Button"
           />
-            <Button Text="COMBOBUILD"  FontSize="40"
+            <Button Text="COMBOBUILD" 
         BackgroundColor="Red" 
         BorderColor="White"
         BorderWidth="2" 
         FontAttributes="Bold"
         Margin="10,10"
+                                        FontSize="30"
+
                                               Command="{Binding NavigateCommandToRight}" 
 CommandParameter="COMBO"  
                               x:Name="ComboButton"
@@ -63,6 +67,8 @@ CommandParameter="COMBO"
                     BorderWidth="2" 
                     TextColor="White"
                     FontAttributes="Bold"
+                                        FontSize="30"
+
                     
                                               Command="{Binding NavigateCommandToRight}" 
 CommandParameter="STYLES"  
@@ -71,19 +77,7 @@ CommandParameter="STYLES"
                     />
     
             <!-- Tlačítko zpět -->
-            <Button Text="{x:Static lang:objectsStrings.BackButton}"
-                    BackgroundColor="Red"
-                    BorderColor="White"
-                    BorderWidth="2" 
-                    TextColor="White"
-                    FontAttributes="Bold"
-                    Margin="10,10"
-                                                 Command="{Binding NavigateCommandToLeft}"
-                    CommandParameter="SFAS"  
-                                                  x:Name="BackButton"
-
-
-/>
+         
         </StackLayout>
 
     </Grid>
