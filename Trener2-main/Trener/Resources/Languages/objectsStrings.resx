@@ -162,6 +162,9 @@
   <data name="combos_after_moves" xml:space="preserve">
     <value>Combos after movement</value>
   </data>
+  <data name="completion" xml:space="preserve">
+    <value>You've completed your workout!</value>
+  </data>
   <data name="CounterPuncherButton" xml:space="preserve">
     <value>Counter Puncher</value>
   </data>
@@ -197,6 +200,9 @@
   </data>
   <data name="FreestyleButton" xml:space="preserve">
     <value>FREESTYLE WORKOUTS</value>
+  </data>
+  <data name="good_job" xml:space="preserve">
+    <value>Good job!</value>
   </data>
   <data name="hands_high" xml:space="preserve">
     <value>High guard</value>

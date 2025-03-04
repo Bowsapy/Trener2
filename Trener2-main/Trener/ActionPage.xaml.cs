@@ -1,4 +1,4 @@
-using System.Diagnostics;
+Ôªøusing System.Diagnostics;
 using Microsoft.Maui.Storage;
 using Plugin.Maui.Audio;
 using System;
@@ -42,9 +42,6 @@ namespace Trener
 
             speed= workout.speed;
 
-            user2.AddToList(new FinishedWorkout(workout.Id, DateTime.Now));
-
-            await user2.SaveUserProgressAsync(user2);  // Zavol·nÌ metody pro uloûenÌ
 
             cts = new CancellationTokenSource();
             CancellationToken token = cts.Token;
@@ -54,7 +51,7 @@ namespace Trener
             int currentRound = 1;
             double divisor = 1;
 
-            // ZobrazenÌ Ëasu na pozadÌ
+            // Zobrazen√≠ ƒçasu na pozad√≠
             _ = Task.Run(() => ZobrazCas(token));
 
             try
@@ -70,7 +67,7 @@ namespace Trener
 
                 while (!end && !token.IsCancellationRequested)
                 {
-                    // PozastavenÌ bÏhu, pokud je aktivnÌ pauza
+                    // Pozastaven√≠ bƒõhu, pokud je aktivn√≠ pauza
                     await CheckPauseAsync(token);
 
                  
@@ -94,18 +91,21 @@ namespace Trener
                     currentComIndex++;
                     if (currentComIndex == workout.TotalNumOfCombos())
                     {
-                        currentComIndex = 0;
-                        remainingRounds--;
-                        currentRound++;
-                        divisor *= 1.5;
+                        user2.AddToList(new FinishedWorkout(workout.Id, DateTime.Now));
+
+                        await user2.SaveUserProgressAsync(user2);  // Zavol√°n√≠ metody pro ulo≈æen√≠
+
+
+                        await Application.Current.MainPage.Navigation.PushAsync(new EndOfWorkoutPage());
+
+                        end = true;
                     }
 
-                    if (remainingRounds == 0)
-                    {
-                        end = true;
+                    
+               
                 
 
-                    }
+                    
 
                     skipped = false;
                 }
@@ -128,7 +128,7 @@ namespace Trener
             {
                 while (paused && !token.IsCancellationRequested)
                 {
-                    await Task.Delay(500); // Kontroluje pauzu kaûd˝ch 500ms
+                    await Task.Delay(500); // Kontroluje pauzu ka≈æd√Ωch 500ms
                 }
             });
         }
@@ -192,24 +192,25 @@ namespace Trener
                     switch (strike)
                     {
                         case PunchClass _:
-                            soundTask = GenericSounds.PlayPunchSound2(token); // P¯i¯adÌme ˙kol pro zvuk
+                            soundTask = GenericSounds.PlayPunchSound2(token); // P≈ôi≈ôad√≠me √∫kol pro zvuk
                             break;
                         case DefenceClass _:
-                            soundTask = GenericSounds.PlayDefenceSound(token); // P¯i¯adÌme ˙kol pro zvuk
+                            soundTask = GenericSounds.PlayDefenceSound(token); // P≈ôi≈ôad√≠me √∫kol pro zvuk
                             break;
                         case MoveClass _:
-                            soundTask = GenericSounds.PlayMoveSound(token); // P¯i¯adÌme ˙kol pro zvuk
+                            soundTask = GenericSounds.PlayMoveSound(token); // P≈ôi≈ôad√≠me √∫kol pro zvuk
                             break;
                     }
 
                     if (soundTask != null)
-                       await soundTask;  // »ek·me na dokonËenÌ zvuku
+                       await soundTask;  // ƒåek√°me na dokonƒçen√≠ zvuku
 
                     await Task.Delay(speed, token);
                 }
             }
 
             ChangeTextOnLabel(strike_label, "");
+
         }
 
 
@@ -261,13 +262,13 @@ namespace Trener
             // Zkontrolujeme, zda soubor existuje
             if (!File.Exists(filePath))
             {
-                return new User(); // Pokud soubor neexistuje, vr·tÌme nov˝ pr·zdn˝ objekt User
+                return new User(); // Pokud soubor neexistuje, vr√°t√≠me nov√Ω pr√°zdn√Ω objekt User
             }
 
-            // NaËteme JSON text ze souboru
+            // Naƒçteme JSON text ze souboru
             var json = await File.ReadAllTextAsync(filePath);
 
-            // Deserializace JSON textu zpÏt do objektu User
+            // Deserializace JSON textu zpƒõt do objektu User
             var user = JsonSerializer.Deserialize<User>(json);
 
             return user;

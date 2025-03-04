@@ -76,6 +76,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Trener.CoreAndPower.xaml
 build_metadata.AdditionalFiles.TargetPath = CoreAndPower.xaml
 build_metadata.AdditionalFiles.RelativePath = CoreAndPower.xaml
 
+[C:/Users/janst/source/repos/Trener2-main/Trener/EndOfWorkoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Trener.EndOfWorkoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = EndOfWorkoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = EndOfWorkoutPage.xaml
+
 [C:/Users/janst/source/repos/Trener2-main/Trener/FitPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trener.FitPage.xaml

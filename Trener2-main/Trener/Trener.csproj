@@ -122,6 +122,9 @@
 		<MauiXaml Update="ActionPage2.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
+		<MauiXaml Update="EndOfWorkoutPage.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
 		<MauiXaml Update="MakeYourOwnPage.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>

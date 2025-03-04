@@ -196,6 +196,15 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný You&apos;ve completed your workout!.
+        /// </summary>
+        internal static string completion {
+            get {
+                return ResourceManager.GetString("completion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Counter Puncher.
         /// </summary>
         internal static string CounterPuncherButton {
@@ -300,6 +309,15 @@ namespace Trener.Resources.Languages {
         internal static string FreestyleButton {
             get {
                 return ResourceManager.GetString("FreestyleButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Good job!.
+        /// </summary>
+        internal static string good_job {
+            get {
+                return ResourceManager.GetString("good_job", resourceCulture);
             }
         }
         

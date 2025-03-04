@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Trener.EndOfWorkoutPage"
+             Title="EndOfWorkoutPage"
+             xmlns:lang="clr-namespace:Trener.Resources.Languages"
+
+             >
+
+    
+    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Spacing="20">
+        <Label Text="{x:Static lang:objectsStrings.good_job}" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" TextColor="Green"/>
+        <Label Text="{x:Static lang:objectsStrings.completion}" FontSize="20" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" TextColor="Gray"/>
+        <Button Text="{x:Static lang:objectsStrings.BackButton}" HorizontalOptions="Center" VerticalOptions="End" Clicked="OnBackClicked"/>
+    </VerticalStackLayout>
+</ContentPage>
