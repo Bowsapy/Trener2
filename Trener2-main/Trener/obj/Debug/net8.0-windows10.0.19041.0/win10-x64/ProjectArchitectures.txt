@@ -1,1 +1,1 @@
-C:\Users\janst\source\repos\Trener2-main\Trener\Trener.csproj;x64
+C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Trener.csproj;x64

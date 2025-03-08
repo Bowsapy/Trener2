@@ -5,6 +5,8 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Maui.Dispatching;
+using Trener.Resources.Languages; // Namespace, kde jsou generované Resources
+
 
 namespace Trener
 {
@@ -16,6 +18,8 @@ namespace Trener
         private bool skipped;
         private Stopwatch timer = new Stopwatch();
         private CancellationTokenSource cts;
+        User user2 = new User();
+
 
         public ActionPage2(FitnessWorkoutClass workout)
         {
@@ -49,7 +53,6 @@ namespace Trener
                 {
                     List<IStrike> combos2 = combos[index].Strikes;
 
-                    ChangeTextOnLabel(round_label, $"{currentRound + 1}/3");
                     ComboClass currentCombo = combos[index];
                     ChangeTextOnLabel(combo_label, currentCombo.Name);
 
@@ -72,7 +75,18 @@ namespace Trener
                     currentRound++;
                     index++;
 
-                    
+                    if( index+1 == combos.Count)
+                    {
+                        user2.AddToList(new FinishedWorkout(workout.Id, DateTime.Now));
+
+                        await user2.SaveUserProgressAsync(user2);  // Zavolání metody pro uložení
+                        await Application.Current.MainPage.Navigation.PushAsync(new EndOfWorkoutPage());
+                        end = true;
+
+                    }
+
+
+
                 }
             }
             catch (TaskCanceledException)
@@ -94,17 +108,17 @@ namespace Trener
         {
             if (index + 1 < combos.Count)
             {
-                ChangeTextOnLabel(nextR_label, "Next round: " + combos[index + 1].Name);
+                ChangeTextOnLabel(nextR_label, (Trener.Resources.Languages.objectsStrings.nextRound + ": " + combos[index + 1].Name));
             }
             else
             {
                 ChangeTextOnLabel(nextR_label, "Last round:");
             }
         }
-
         private void UpdateCountLabel(int index, int totalCombos)
         {
             ChangeTextOnLabel(count_label, $"{index + 1}/{totalCombos}");
+        
         }
 
         private void SetComboLabelColor(Color color)

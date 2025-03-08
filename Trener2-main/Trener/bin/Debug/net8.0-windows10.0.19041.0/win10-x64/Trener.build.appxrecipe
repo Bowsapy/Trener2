@@ -10,790 +10,790 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>0cf55e95-eb29-48d9-8611-d340dbacbf27</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\janst\source\repos\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\janst\source\repos\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Trener.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Trener.runtimeconfig.json">
       <PackagePath>Trener.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Trener.dll">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Trener.dll">
       <PackagePath>Trener.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Trener.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\bodyblock-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\bodyblock-sound.mp3">
       <PackagePath>Sounds\cs\defence\bodyblock-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\duck-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\duck-sound.mp3">
       <PackagePath>Sounds\cs\defence\duck-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\l_bodyblock-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\l_bodyblock-sound.mp3">
       <PackagePath>Sounds\cs\defence\l_bodyblock-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\l_catch-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\l_catch-sound.mp3">
       <PackagePath>Sounds\cs\defence\l_catch-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\l_parry-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\l_parry-sound.mp3">
       <PackagePath>Sounds\cs\defence\l_parry-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\l_roll-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\l_roll-sound.mp3">
       <PackagePath>Sounds\cs\defence\l_roll-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\l_slip-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\l_slip-sound.mp3">
       <PackagePath>Sounds\cs\defence\l_slip-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\pull-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\pull-sound.mp3">
       <PackagePath>Sounds\cs\defence\pull-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\r_bodyblock-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\r_bodyblock-sound.mp3">
       <PackagePath>Sounds\cs\defence\r_bodyblock-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\r_catch-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\r_catch-sound.mp3">
       <PackagePath>Sounds\cs\defence\r_catch-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\r_parry-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\r_parry-sound.mp3">
       <PackagePath>Sounds\cs\defence\r_parry-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\r_roll-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\r_roll-sound.mp3">
       <PackagePath>Sounds\cs\defence\r_roll-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\r_slip-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\r_slip-sound.mp3">
       <PackagePath>Sounds\cs\defence\r_slip-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\s_roll-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\defence\s_roll-sound.mp3">
       <PackagePath>Sounds\cs\defence\s_roll-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\exercises\burpees-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\exercises\burpees-sound.mp3">
       <PackagePath>Sounds\cs\exercises\burpees-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\exercises\pushups-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\exercises\pushups-sound.mp3">
       <PackagePath>Sounds\cs\exercises\pushups-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\exercises\shadowboxing-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\exercises\shadowboxing-sound.mp3">
       <PackagePath>Sounds\cs\exercises\shadowboxing-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\exercises\skippingrope-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\exercises\skippingrope-sound.mp3">
       <PackagePath>Sounds\cs\exercises\skippingrope-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\exercises\squats-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\exercises\squats-sound.mp3">
       <PackagePath>Sounds\cs\exercises\squats-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\closefighting-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\closefighting-sound.mp3">
       <PackagePath>Sounds\cs\guides\closefighting-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\countersonly-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\countersonly-sound.mp3">
       <PackagePath>Sounds\cs\guides\countersonly-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\finishwithbodyshot-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\finishwithbodyshot-sound.mp3">
       <PackagePath>Sounds\cs\guides\finishwithbodyshot-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\headmovementandcounter-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\headmovementandcounter-sound.mp3">
       <PackagePath>Sounds\cs\guides\headmovementandcounter-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\moveandjab-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\moveandjab-sound.mp3">
       <PackagePath>Sounds\cs\guides\moveandjab-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\onlyhooksandupper-sound %282%29.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\onlyhooksandupper-sound %282%29.mp3">
       <PackagePath>Sounds\cs\guides\onlyhooksandupper-sound %282%29.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\onlystraightpunches-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\onlystraightpunches-sound.mp3">
       <PackagePath>Sounds\cs\guides\onlystraightpunches-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\startwithjab-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\startwithjab-sound.mp3">
       <PackagePath>Sounds\cs\guides\startwithjab-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\twopunchcombosonly-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\twopunchcombosonly-sound.mp3">
       <PackagePath>Sounds\cs\guides\twopunchcombosonly-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\useonlyleadhand-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\useonlyleadhand-sound.mp3">
       <PackagePath>Sounds\cs\guides\useonlyleadhand-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\i_sidestep-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\i_sidestep-sound.mp3">
       <PackagePath>Sounds\cs\movements\i_sidestep-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\o_sidestep-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\o_sidestep-sound.mp3">
       <PackagePath>Sounds\cs\movements\o_sidestep-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\step_back-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\step_back-sound.mp3">
       <PackagePath>Sounds\cs\movements\step_back-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\step_forward-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\step_forward-sound.mp3">
       <PackagePath>Sounds\cs\movements\step_forward-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\step_left-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\step_left-sound.mp3">
       <PackagePath>Sounds\cs\movements\step_left-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\step_right-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\movements\step_right-sound.mp3">
       <PackagePath>Sounds\cs\movements\step_right-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\break-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\break-sound.mp3">
       <PackagePath>Sounds\cs\other\break-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\counterpuncherintro-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\counterpuncherintro-sound.mp3">
       <PackagePath>Sounds\cs\other\counterpuncherintro-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\get-ready-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\get-ready-sound.mp3">
       <PackagePath>Sounds\cs\other\get-ready-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\go-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\go-sound.mp3">
       <PackagePath>Sounds\cs\other\go-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\good_job-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\good_job-sound.mp3">
       <PackagePath>Sounds\cs\other\good_job-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\hitnmove-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\hitnmove-sound.mp3">
       <PackagePath>Sounds\cs\other\hitnmove-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\keepmovingforward-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\keepmovingforward-sound.mp3">
       <PackagePath>Sounds\cs\other\keepmovingforward-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\longrangefighter-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\longrangefighter-sound.mp3">
       <PackagePath>Sounds\cs\other\longrangefighter-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\miss-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\miss-sound.mp3">
       <PackagePath>Sounds\cs\other\miss-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\ping-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\ping-sound.mp3">
       <PackagePath>Sounds\cs\other\ping-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\pressurefighterintro-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\pressurefighterintro-sound.mp3">
       <PackagePath>Sounds\cs\other\pressurefighterintro-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\rest-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\rest-sound.mp3">
       <PackagePath>Sounds\cs\other\rest-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\step-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\other\step-sound.mp3">
       <PackagePath>Sounds\cs\other\step-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\1-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\1-sound.mp3">
       <PackagePath>Sounds\cs\punches\1-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\1b-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\1b-sound.mp3">
       <PackagePath>Sounds\cs\punches\1b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\2-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\2-sound.mp3">
       <PackagePath>Sounds\cs\punches\2-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\2b-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\2b-sound.mp3">
       <PackagePath>Sounds\cs\punches\2b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\3-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\3-sound.mp3">
       <PackagePath>Sounds\cs\punches\3-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\3b-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\3b-sound.mp3">
       <PackagePath>Sounds\cs\punches\3b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\4-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\4-sound.mp3">
       <PackagePath>Sounds\cs\punches\4-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\4b-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\4b-sound.mp3">
       <PackagePath>Sounds\cs\punches\4b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\5-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\5-sound.mp3">
       <PackagePath>Sounds\cs\punches\5-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\5b-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\5b-sound.mp3">
       <PackagePath>Sounds\cs\punches\5b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\6-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\6-sound.mp3">
       <PackagePath>Sounds\cs\punches\6-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\6b-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\punches\6b-sound.mp3">
       <PackagePath>Sounds\cs\punches\6b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\tips\highguard-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\tips\highguard-sound.mp3">
       <PackagePath>Sounds\cs\tips\highguard-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\tips\keepmoving-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\tips\keepmoving-sound.mp3">
       <PackagePath>Sounds\cs\tips\keepmoving-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\tips\moveyourhead-sound %282%29.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\tips\moveyourhead-sound %282%29.mp3">
       <PackagePath>Sounds\cs\tips\moveyourhead-sound %282%29.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\tips\switchstance-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\tips\switchstance-sound.mp3">
       <PackagePath>Sounds\cs\tips\switchstance-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\2p-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\2p-sound.mp3">
       <PackagePath>Sounds\cs\workout_specific\2p-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\3punchcombos-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\3punchcombos-sound.mp3">
       <PackagePath>Sounds\cs\workout_specific\3punchcombos-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\3punchcomboswithdefence-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\3punchcomboswithdefence-sound.mp3">
       <PackagePath>Sounds\cs\workout_specific\3punchcomboswithdefence-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\3punchcomboswithmovement-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\3punchcomboswithmovement-sound.mp3">
       <PackagePath>Sounds\cs\workout_specific\3punchcomboswithmovement-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\basic_all-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\basic_all-sound.mp3">
       <PackagePath>Sounds\cs\workout_specific\basic_all-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\basic_defence_counters-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\basic_defence_counters-sound.mp3">
       <PackagePath>Sounds\cs\workout_specific\basic_defence_counters-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\basic_defence_intro-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\basic_defence_intro-sound.mp3">
       <PackagePath>Sounds\cs\workout_specific\basic_defence_intro-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\basic_movement_combos-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\basic_movement_combos-sound.mp3">
       <PackagePath>Sounds\cs\workout_specific\basic_movement_combos-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\basic_movement_intro-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\basic_movement_intro-sound.mp3">
       <PackagePath>Sounds\cs\workout_specific\basic_movement_intro-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\headmovementonly-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\headmovementonly-sound.mp3">
       <PackagePath>Sounds\cs\workout_specific\headmovementonly-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\intro-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\intro-sound.mp3">
       <PackagePath>Sounds\cs\workout_specific\intro-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\longrangefighter-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\workout_specific\longrangefighter-sound.mp3">
       <PackagePath>Sounds\cs\workout_specific\longrangefighter-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\bodyblock-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\bodyblock-sound.mp3">
       <PackagePath>Sounds\en\defence\bodyblock-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\duck-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\duck-sound.mp3">
       <PackagePath>Sounds\en\defence\duck-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\l_bodyblock-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\l_bodyblock-sound.mp3">
       <PackagePath>Sounds\en\defence\l_bodyblock-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\l_catch-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\l_catch-sound.mp3">
       <PackagePath>Sounds\en\defence\l_catch-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\l_parry-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\l_parry-sound.mp3">
       <PackagePath>Sounds\en\defence\l_parry-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\l_roll-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\l_roll-sound.mp3">
       <PackagePath>Sounds\en\defence\l_roll-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\l_slip-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\l_slip-sound.mp3">
       <PackagePath>Sounds\en\defence\l_slip-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\pull-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\pull-sound.mp3">
       <PackagePath>Sounds\en\defence\pull-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\r_bodyblock-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\r_bodyblock-sound.mp3">
       <PackagePath>Sounds\en\defence\r_bodyblock-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\r_catch-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\r_catch-sound.mp3">
       <PackagePath>Sounds\en\defence\r_catch-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\r_parry-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\r_parry-sound.mp3">
       <PackagePath>Sounds\en\defence\r_parry-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\r_roll-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\r_roll-sound.mp3">
       <PackagePath>Sounds\en\defence\r_roll-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\r_slip-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\r_slip-sound.mp3">
       <PackagePath>Sounds\en\defence\r_slip-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\s_roll-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\defence\s_roll-sound.mp3">
       <PackagePath>Sounds\en\defence\s_roll-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\burpees-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\burpees-sound.mp3">
       <PackagePath>Sounds\en\exercises\burpees-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\mountainclimbers-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\mountainclimbers-sound.mp3">
       <PackagePath>Sounds\en\exercises\mountainclimbers-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\nextexercise-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\nextexercise-sound.mp3">
       <PackagePath>Sounds\en\exercises\nextexercise-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\plank-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\plank-sound.mp3">
       <PackagePath>Sounds\en\exercises\plank-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\pushups-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\pushups-sound.mp3">
       <PackagePath>Sounds\en\exercises\pushups-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\shadowboxing-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\shadowboxing-sound.mp3">
       <PackagePath>Sounds\en\exercises\shadowboxing-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\shouldertaps-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\shouldertaps-sound.mp3">
       <PackagePath>Sounds\en\exercises\shouldertaps-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\situps-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\situps-sound.mp3">
       <PackagePath>Sounds\en\exercises\situps-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\skippingrope-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\skippingrope-sound.mp3">
       <PackagePath>Sounds\en\exercises\skippingrope-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\squats-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\exercises\squats-sound.mp3">
       <PackagePath>Sounds\en\exercises\squats-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\closefighting-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\closefighting-sound.mp3">
       <PackagePath>Sounds\en\guides\closefighting-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\countersonly-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\countersonly-sound.mp3">
       <PackagePath>Sounds\en\guides\countersonly-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\finishwithbodyshot-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\finishwithbodyshot-sound.mp3">
       <PackagePath>Sounds\en\guides\finishwithbodyshot-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\headmovementandcounter-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\headmovementandcounter-sound.mp3">
       <PackagePath>Sounds\en\guides\headmovementandcounter-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\moveandjab-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\moveandjab-sound.mp3">
       <PackagePath>Sounds\en\guides\moveandjab-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\onlyhooksandupper-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\onlyhooksandupper-sound.mp3">
       <PackagePath>Sounds\en\guides\onlyhooksandupper-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\onlystraightpunches-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\onlystraightpunches-sound.mp3">
       <PackagePath>Sounds\en\guides\onlystraightpunches-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\startwithjab-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\startwithjab-sound.mp3">
       <PackagePath>Sounds\en\guides\startwithjab-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\twopunchcombosonly-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\twopunchcombosonly-sound.mp3">
       <PackagePath>Sounds\en\guides\twopunchcombosonly-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\useonlyleadhand-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\guides\useonlyleadhand-sound.mp3">
       <PackagePath>Sounds\en\guides\useonlyleadhand-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\i_sidestep-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\i_sidestep-sound.mp3">
       <PackagePath>Sounds\en\movements\i_sidestep-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\o_sidestep-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\o_sidestep-sound.mp3">
       <PackagePath>Sounds\en\movements\o_sidestep-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\step_back-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\step_back-sound.mp3">
       <PackagePath>Sounds\en\movements\step_back-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\step_forward-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\step_forward-sound.mp3">
       <PackagePath>Sounds\en\movements\step_forward-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\step_left-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\step_left-sound.mp3">
       <PackagePath>Sounds\en\movements\step_left-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\step_right-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\movements\step_right-sound.mp3">
       <PackagePath>Sounds\en\movements\step_right-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\break-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\other\break-sound.mp3">
       <PackagePath>Sounds\en\other\break-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\counterpuncherintro-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\other\counterpuncherintro-sound.mp3">
       <PackagePath>Sounds\en\other\counterpuncherintro-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\get-ready-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\other\get-ready-sound.mp3">
       <PackagePath>Sounds\en\other\get-ready-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\go-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\other\go-sound.mp3">
       <PackagePath>Sounds\en\other\go-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\good_job-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\other\good_job-sound.mp3">
       <PackagePath>Sounds\en\other\good_job-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\hitnmove-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\other\hitnmove-sound.mp3">
       <PackagePath>Sounds\en\other\hitnmove-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\keepmovingforward-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\other\keepmovingforward-sound.mp3">
       <PackagePath>Sounds\en\other\keepmovingforward-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\longrangefighter-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\other\longrangefighter-sound.mp3">
       <PackagePath>Sounds\en\other\longrangefighter-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\miss-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\other\miss-sound.mp3">
       <PackagePath>Sounds\en\other\miss-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\nextexercise-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\other\nextexercise-sound.mp3">
       <PackagePath>Sounds\en\other\nextexercise-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\ping-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\other\ping-sound.mp3">
       <PackagePath>Sounds\en\other\ping-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\pressurefighterintro-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\other\pressurefighterintro-sound.mp3">
       <PackagePath>Sounds\en\other\pressurefighterintro-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\rest-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\other\rest-sound.mp3">
       <PackagePath>Sounds\en\other\rest-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\other\step-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\other\step-sound.mp3">
       <PackagePath>Sounds\en\other\step-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\1-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\1-sound.mp3">
       <PackagePath>Sounds\en\punches\1-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\1b-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\1b-sound.mp3">
       <PackagePath>Sounds\en\punches\1b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\2-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\2-sound.mp3">
       <PackagePath>Sounds\en\punches\2-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\2b-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\2b-sound.mp3">
       <PackagePath>Sounds\en\punches\2b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\3-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\3-sound.mp3">
       <PackagePath>Sounds\en\punches\3-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\3b-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\3b-sound.mp3">
       <PackagePath>Sounds\en\punches\3b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\4-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\4-sound.mp3">
       <PackagePath>Sounds\en\punches\4-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\4b-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\4b-sound.mp3">
       <PackagePath>Sounds\en\punches\4b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\5-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\5-sound.mp3">
       <PackagePath>Sounds\en\punches\5-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\5b-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\5b-sound.mp3">
       <PackagePath>Sounds\en\punches\5b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\6-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\6-sound.mp3">
       <PackagePath>Sounds\en\punches\6-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\6b-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\punches\6b-sound.mp3">
       <PackagePath>Sounds\en\punches\6b-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\feint1-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\feint1-sound.mp3">
       <PackagePath>Sounds\en\tips\feint1-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\feint2-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\feint2-sound.mp3">
       <PackagePath>Sounds\en\tips\feint2-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\highguard-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\highguard-sound.mp3">
       <PackagePath>Sounds\en\tips\highguard-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\keepmoving-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\keepmoving-sound.mp3">
       <PackagePath>Sounds\en\tips\keepmoving-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\moveyourhead-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\moveyourhead-sound.mp3">
       <PackagePath>Sounds\en\tips\moveyourhead-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\nextexercise-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\nextexercise-sound.mp3">
       <PackagePath>Sounds\en\tips\nextexercise-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\switchstance-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\tips\switchstance-sound.mp3">
       <PackagePath>Sounds\en\tips\switchstance-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\2p-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\2p-sound.mp3">
       <PackagePath>Sounds\en\workout_specific\2p-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\3punchcombos-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\3punchcombos-sound.mp3">
       <PackagePath>Sounds\en\workout_specific\3punchcombos-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\3punchcomboswithdefence-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\3punchcomboswithdefence-sound.mp3">
       <PackagePath>Sounds\en\workout_specific\3punchcomboswithdefence-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\3punchcomboswithmovement-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\3punchcomboswithmovement-sound.mp3">
       <PackagePath>Sounds\en\workout_specific\3punchcomboswithmovement-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\basic_all-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\basic_all-sound.mp3">
       <PackagePath>Sounds\en\workout_specific\basic_all-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\basic_defence_counters-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\basic_defence_counters-sound.mp3">
       <PackagePath>Sounds\en\workout_specific\basic_defence_counters-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\basic_defence_intro-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\basic_defence_intro-sound.mp3">
       <PackagePath>Sounds\en\workout_specific\basic_defence_intro-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\basic_movement_combos-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\basic_movement_combos-sound.mp3">
       <PackagePath>Sounds\en\workout_specific\basic_movement_combos-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\basic_movement_intro-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\basic_movement_intro-sound.mp3">
       <PackagePath>Sounds\en\workout_specific\basic_movement_intro-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\headmovementonly-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\headmovementonly-sound.mp3">
       <PackagePath>Sounds\en\workout_specific\headmovementonly-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\intro-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\intro-sound.mp3">
       <PackagePath>Sounds\en\workout_specific\intro-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\longrangefighter-sound.mp3">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\en\workout_specific\longrangefighter-sound.mp3">
       <PackagePath>Sounds\en\workout_specific\longrangefighter-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-100.png">
       <PackagePath>bag2SplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-125.png">
       <PackagePath>bag2SplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-150.png">
       <PackagePath>bag2SplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-200.png">
       <PackagePath>bag2SplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-400.png">
       <PackagePath>bag2SplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag.scale-100.png">
       <PackagePath>bag.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag.scale-125.png">
       <PackagePath>bag.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag.scale-150.png">
       <PackagePath>bag.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag.scale-200.png">
       <PackagePath>bag.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag.scale-400.png">
       <PackagePath>bag.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag2.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag2.scale-100.png">
       <PackagePath>bag2.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag2.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag2.scale-125.png">
       <PackagePath>bag2.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag2.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag2.scale-150.png">
       <PackagePath>bag2.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag2.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag2.scale-200.png">
       <PackagePath>bag2.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag2.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag2.scale-400.png">
       <PackagePath>bag2.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2.ico">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2.ico">
       <PackagePath>best2.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2LargeTile.scale-100.png">
       <PackagePath>best2LargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2LargeTile.scale-125.png">
       <PackagePath>best2LargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2LargeTile.scale-150.png">
       <PackagePath>best2LargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2LargeTile.scale-200.png">
       <PackagePath>best2LargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2LargeTile.scale-400.png">
       <PackagePath>best2LargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>best2Logo.altform-lightunplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>best2Logo.altform-lightunplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>best2Logo.altform-lightunplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>best2Logo.altform-lightunplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>best2Logo.altform-lightunplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-unplated_targetsize-16.png">
       <PackagePath>best2Logo.altform-unplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-unplated_targetsize-24.png">
       <PackagePath>best2Logo.altform-unplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-unplated_targetsize-256.png">
       <PackagePath>best2Logo.altform-unplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-unplated_targetsize-32.png">
       <PackagePath>best2Logo.altform-unplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-unplated_targetsize-48.png">
       <PackagePath>best2Logo.altform-unplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.scale-100.png">
       <PackagePath>best2Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.scale-125.png">
       <PackagePath>best2Logo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.scale-150.png">
       <PackagePath>best2Logo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.scale-200.png">
       <PackagePath>best2Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.scale-400.png">
       <PackagePath>best2Logo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.targetsize-16.png">
       <PackagePath>best2Logo.targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.targetsize-24.png">
       <PackagePath>best2Logo.targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.targetsize-256.png">
       <PackagePath>best2Logo.targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.targetsize-32.png">
       <PackagePath>best2Logo.targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.targetsize-48.png">
       <PackagePath>best2Logo.targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2MediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2MediumTile.scale-100.png">
       <PackagePath>best2MediumTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2MediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2MediumTile.scale-125.png">
       <PackagePath>best2MediumTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2MediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2MediumTile.scale-150.png">
       <PackagePath>best2MediumTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2MediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2MediumTile.scale-200.png">
       <PackagePath>best2MediumTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2MediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2MediumTile.scale-400.png">
       <PackagePath>best2MediumTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2SmallTile.scale-100.png">
       <PackagePath>best2SmallTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2SmallTile.scale-125.png">
       <PackagePath>best2SmallTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2SmallTile.scale-150.png">
       <PackagePath>best2SmallTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2SmallTile.scale-200.png">
       <PackagePath>best2SmallTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2SmallTile.scale-400.png">
       <PackagePath>best2SmallTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2StoreLogo.scale-100.png">
       <PackagePath>best2StoreLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2StoreLogo.scale-125.png">
       <PackagePath>best2StoreLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2StoreLogo.scale-150.png">
       <PackagePath>best2StoreLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2StoreLogo.scale-200.png">
       <PackagePath>best2StoreLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2StoreLogo.scale-400.png">
       <PackagePath>best2StoreLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2WideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2WideTile.scale-100.png">
       <PackagePath>best2WideTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2WideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2WideTile.scale-125.png">
       <PackagePath>best2WideTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2WideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2WideTile.scale-150.png">
       <PackagePath>best2WideTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2WideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2WideTile.scale-200.png">
       <PackagePath>best2WideTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2WideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2WideTile.scale-400.png">
       <PackagePath>best2WideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gym.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gym.scale-100.png">
       <PackagePath>gym.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gym.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gym.scale-125.png">
       <PackagePath>gym.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gym.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gym.scale-150.png">
       <PackagePath>gym.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gym.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gym.scale-200.png">
       <PackagePath>gym.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gym.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gym.scale-400.png">
       <PackagePath>gym.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-100.png">
       <PackagePath>loading.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-125.png">
       <PackagePath>loading.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-150.png">
       <PackagePath>loading.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-200.png">
       <PackagePath>loading.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-400.png">
       <PackagePath>loading.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trace.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trace.scale-100.png">
       <PackagePath>trace.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trace.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trace.scale-125.png">
       <PackagePath>trace.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trace.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trace.scale-150.png">
       <PackagePath>trace.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trace.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trace.scale-200.png">
       <PackagePath>trace.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trace.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trace.scale-400.png">
       <PackagePath>trace.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trena.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trena.scale-100.png">
       <PackagePath>trena.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trena.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trena.scale-125.png">
       <PackagePath>trena.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trena.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trena.scale-150.png">
       <PackagePath>trena.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trena.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trena.scale-200.png">
       <PackagePath>trena.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trena.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trena.scale-400.png">
       <PackagePath>trena.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trener2.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trener2.scale-100.png">
       <PackagePath>trener2.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trener2.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trener2.scale-125.png">
       <PackagePath>trener2.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trener2.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trener2.scale-150.png">
       <PackagePath>trener2.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trener2.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trener2.scale-200.png">
       <PackagePath>trener2.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trener2.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trener2.scale-400.png">
       <PackagePath>trener2.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Trener.deps.json">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Trener.deps.json">
       <PackagePath>Trener.deps.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\cs\Trener.resources.dll">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\cs\Trener.resources.dll">
       <PackagePath>cs\Trener.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\en\Trener.resources.dll">
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\en\Trener.resources.dll">
       <PackagePath>en\Trener.resources.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">

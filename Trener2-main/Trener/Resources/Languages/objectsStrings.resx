@@ -177,6 +177,9 @@
   <data name="countersonly" xml:space="preserve">
     <value>Only counters</value>
   </data>
+  <data name="countText" xml:space="preserve">
+    <value>Count</value>
+  </data>
   <data name="CrossButton" xml:space="preserve">
     <value>Cross</value>
   </data>
@@ -194,6 +197,12 @@
   </data>
   <data name="DuckButton" xml:space="preserve">
     <value>Duck</value>
+  </data>
+  <data name="endText" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="exerciseText" xml:space="preserve">
+    <value>Exercise</value>
   </data>
   <data name="finishwithBodyshot" xml:space="preserve">
     <value>Finish combo with bodyshot</value>
@@ -283,6 +292,9 @@
   <data name="MYOWorkoutButton" xml:space="preserve">
     <value>MAKE YOUR OWN WORKOUT</value>
   </data>
+  <data name="nextRound" xml:space="preserve">
+    <value>Next round</value>
+  </data>
   <data name="onlyhooksandupper" xml:space="preserve">
     <value>Only hooks and uppercuts</value>
   </data>
@@ -294,6 +306,9 @@
   </data>
   <data name="Outside sidestep" xml:space="preserve">
     <value>Outside sidestep</value>
+  </data>
+  <data name="pauseText" xml:space="preserve">
+    <value>Pause</value>
   </data>
   <data name="plank" xml:space="preserve">
     <value>Plank</value>
@@ -327,6 +342,9 @@
   </data>
   <data name="RCButton" xml:space="preserve">
     <value>Rear catch</value>
+  </data>
+  <data name="repText" xml:space="preserve">
+    <value>Rep</value>
   </data>
   <data name="RHookButton" xml:space="preserve">
     <value>Rear hook</value>
@@ -363,6 +381,9 @@
   </data>
   <data name="SkippingRopeButton" xml:space="preserve">
     <value>Skipping rope circuit</value>
+  </data>
+  <data name="skipText" xml:space="preserve">
+    <value>Skip</value>
   </data>
   <data name="squats" xml:space="preserve">
     <value>Squats</value>
@@ -408,6 +429,9 @@
   </data>
   <data name="three_p_combos_movementText" xml:space="preserve">
     <value>Three punch combos with movement</value>
+  </data>
+  <data name="timeText" xml:space="preserve">
+    <value>Time</value>
   </data>
   <data name="twopunchcombosonly" xml:space="preserve">
     <value>Two punch combos only</value>

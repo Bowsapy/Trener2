@@ -136,6 +136,11 @@
               Vyhledá lokalizovaný řetězec podobný Only counters.
             </summary>
         </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.countText">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Count.
+            </summary>
+        </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.CrossButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Cross.
@@ -164,6 +169,16 @@
         <member name="P:Trener.Resources.Languages.objectsStrings.DuckButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Duck.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.endText">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný End.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.exerciseText">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Exercise.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.finishwithBodyshot">
@@ -311,6 +326,11 @@
               Vyhledá lokalizovaný řetězec podobný MAKE YOUR OWN WORKOUT.
             </summary>
         </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.nextRound">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Next round.
+            </summary>
+        </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.onlyhooksandupper">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Only hooks and uppercuts.
@@ -329,6 +349,11 @@
         <member name="P:Trener.Resources.Languages.objectsStrings.Outside_sidestep">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Outside sidestep.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.pauseText">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Pause.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.plank">
@@ -384,6 +409,11 @@
         <member name="P:Trener.Resources.Languages.objectsStrings.RCButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Rear catch.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.repText">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Rep.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.RHookButton">
@@ -444,6 +474,11 @@
         <member name="P:Trener.Resources.Languages.objectsStrings.SkippingRopeButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Skipping rope circuit.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.skipText">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Skip.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.squats">
@@ -519,6 +554,11 @@
         <member name="P:Trener.Resources.Languages.objectsStrings.three_p_combosText">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Three punch combos.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.timeText">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Time.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.two_p_combosText">

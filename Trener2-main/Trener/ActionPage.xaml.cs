@@ -47,8 +47,12 @@ namespace Trener
         async public void Action()
         {
 
+            user2.AddToList(new FinishedWorkout(workout.Id, DateTime.Now));
 
-            speed= workout.speed;
+            await user2.SaveUserProgressAsync(user2);  // Zavolání metody pro uložení
+
+
+            speed = workout.speed;
 
 
             cts = new CancellationTokenSource();
@@ -144,7 +148,6 @@ namespace Trener
 
         private void UpdateRoundAndComboLabels(int currentRound, int currentComIndex)
         {
-            ChangeTextOnLabel(round_label, $"{currentRound}/{workout.NumOfRounds}");
             ChangeTextOnLabel(count_label, $"{currentComIndex + 1}/{workout.Combos.Count}");
         }
 

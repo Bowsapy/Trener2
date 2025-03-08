@@ -2,7 +2,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trener.ActionPage"
                           NavigationPage.HasBackButton="False"
+                xmlns:lang="clr-namespace:Trener.Resources.Languages"
 
+   xmlns:local="clr-namespace:Trener"
+             
     BackgroundImageSource="trener2.png">
             
 
@@ -57,10 +60,9 @@
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
 
-            <Label Text="TIME" BackgroundColor="Beige" FontSize="20" Grid.Column="0"/>
-            <Label Text="REP" BackgroundColor="Beige" FontSize="20" Grid.Column="1"/>
-            <Label Text="COUNT" BackgroundColor="Beige" FontSize="20" Grid.Column="2"/>
-            <Label Text="ROUND" BackgroundColor="Beige" FontSize="20" Grid.Column="3"/>
+            <Label Text="{Binding Source={x:Static lang:objectsStrings.timeText}}" BackgroundColor="Beige" FontSize="20" Grid.Column="0"/>
+            <Label Text="{Binding Source={x:Static lang:objectsStrings.repText}}" BackgroundColor="Beige" FontSize="20" Grid.Column="1"/>
+            <Label Text="{Binding Source={x:Static lang:objectsStrings.countText}}" BackgroundColor="Beige" FontSize="20" Grid.Column="2"/>
         </Grid>
 
         <!-- Dynamické hodnoty -->
@@ -75,7 +77,6 @@
             <Label x:Name="time_label" Text="5:23" BackgroundColor="Beige" FontSize="30" Grid.Column="0"/>
             <Label x:Name="rep_label" Text="1/3" BackgroundColor="Beige" FontSize="30" Grid.Column="1"/>
             <Label x:Name="count_label" Text="12/30" BackgroundColor="Beige" FontSize="30" Grid.Column="2"/>
-            <Label x:Name="round_label" Text="1/3" BackgroundColor="Beige" FontSize="30" Grid.Column="3"/>
         </Grid>
 
         <!-- Ovládací tlačítka -->
@@ -86,9 +87,9 @@
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
 
-            <Button Text="Pause" Clicked="StopFunc" Grid.Column="0"/>
-            <Button Text="Skip" Clicked="SkipniFunc" Grid.Column="1"/>
-            <Button Text="End" Clicked="EndFunc" Grid.Column="2"/>
+            <Button Text="{Binding Source={x:Static lang:objectsStrings.pauseText}}" Clicked="StopFunc" Grid.Column="0"/>
+            <Button Text="{Binding Source={x:Static lang:objectsStrings.skipText}}" Clicked="SkipniFunc" Grid.Column="1"/>
+            <Button Text="{Binding Source={x:Static lang:objectsStrings.endText}}" Clicked="EndFunc" Grid.Column="2"/>
         </Grid>
 
     </Grid>

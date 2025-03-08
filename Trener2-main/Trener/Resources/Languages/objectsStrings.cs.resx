@@ -177,6 +177,9 @@
   <data name="countersonly" xml:space="preserve">
     <value>Jen kontry</value>
   </data>
+  <data name="countText" xml:space="preserve">
+    <value>Počet</value>
+  </data>
   <data name="CrossButton" xml:space="preserve">
     <value>Zadní direkt</value>
   </data>
@@ -194,6 +197,12 @@
   </data>
   <data name="DuckButton" xml:space="preserve">
     <value>Dřep</value>
+  </data>
+  <data name="endText" xml:space="preserve">
+    <value>Konec</value>
+  </data>
+  <data name="exerciseText" xml:space="preserve">
+    <value>Cvik</value>
   </data>
   <data name="finishwithBodyshot" xml:space="preserve">
     <value>Zakonči kombo spodkem</value>
@@ -282,6 +291,9 @@
   <data name="MYOWorkoutButton" xml:space="preserve">
     <value>VYTVOŘ SI WORKOUT</value>
   </data>
+  <data name="nextRound" xml:space="preserve">
+    <value>Další kolo</value>
+  </data>
   <data name="onlyhooksandupper" xml:space="preserve">
     <value>Jen háky a zvedáky</value>
   </data>
@@ -293,6 +305,9 @@
   </data>
   <data name="Outside sidestep" xml:space="preserve">
     <value>Vnější sidestep</value>
+  </data>
+  <data name="pauseText" xml:space="preserve">
+    <value>Pauza</value>
   </data>
   <data name="plank" xml:space="preserve">
     <value>Prkno</value>
@@ -326,6 +341,9 @@
   </data>
   <data name="RCButton" xml:space="preserve">
     <value>Zadní sražení</value>
+  </data>
+  <data name="repText" xml:space="preserve">
+    <value>Opak.</value>
   </data>
   <data name="RHookButton" xml:space="preserve">
     <value>Zadní hák</value>
@@ -362,6 +380,9 @@
   </data>
   <data name="SkippingRopeButton" xml:space="preserve">
     <value>Švihadlo kruháč</value>
+  </data>
+  <data name="skipText" xml:space="preserve">
+    <value>Přeskoč</value>
   </data>
   <data name="squats" xml:space="preserve">
     <value>Dřepy</value>
@@ -407,6 +428,9 @@
   </data>
   <data name="three_p_combos_movementText" xml:space="preserve">
     <value>Tříúderové kombinace s pohybem</value>
+  </data>
+  <data name="timeText" xml:space="preserve">
+    <value>Čas</value>
   </data>
   <data name="twopunchcombosonly" xml:space="preserve">
     <value>Jenom dvouúderové kombinace</value>

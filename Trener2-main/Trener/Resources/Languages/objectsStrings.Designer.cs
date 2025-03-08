@@ -241,6 +241,15 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Count.
+        /// </summary>
+        internal static string countText {
+            get {
+                return ResourceManager.GetString("countText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Cross.
         /// </summary>
         internal static string CrossButton {
@@ -291,6 +300,24 @@ namespace Trener.Resources.Languages {
         internal static string DuckButton {
             get {
                 return ResourceManager.GetString("DuckButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný End.
+        /// </summary>
+        internal static string endText {
+            get {
+                return ResourceManager.GetString("endText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Exercise.
+        /// </summary>
+        internal static string exerciseText {
+            get {
+                return ResourceManager.GetString("exerciseText", resourceCulture);
             }
         }
         
@@ -556,6 +583,15 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Next round.
+        /// </summary>
+        internal static string nextRound {
+            get {
+                return ResourceManager.GetString("nextRound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Only hooks and uppercuts.
         /// </summary>
         internal static string onlyhooksandupper {
@@ -588,6 +624,15 @@ namespace Trener.Resources.Languages {
         internal static string Outside_sidestep {
             get {
                 return ResourceManager.GetString("Outside sidestep", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Pause.
+        /// </summary>
+        internal static string pauseText {
+            get {
+                return ResourceManager.GetString("pauseText", resourceCulture);
             }
         }
         
@@ -687,6 +732,15 @@ namespace Trener.Resources.Languages {
         internal static string RCButton {
             get {
                 return ResourceManager.GetString("RCButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Rep.
+        /// </summary>
+        internal static string repText {
+            get {
+                return ResourceManager.GetString("repText", resourceCulture);
             }
         }
         
@@ -795,6 +849,15 @@ namespace Trener.Resources.Languages {
         internal static string SkippingRopeButton {
             get {
                 return ResourceManager.GetString("SkippingRopeButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Skip.
+        /// </summary>
+        internal static string skipText {
+            get {
+                return ResourceManager.GetString("skipText", resourceCulture);
             }
         }
         
@@ -930,6 +993,15 @@ namespace Trener.Resources.Languages {
         internal static string three_p_combosText {
             get {
                 return ResourceManager.GetString("three_p_combosText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Time.
+        /// </summary>
+        internal static string timeText {
+            get {
+                return ResourceManager.GetString("timeText", resourceCulture);
             }
         }
         

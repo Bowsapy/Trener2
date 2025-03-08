@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\janst\\source\\repos\\Trener2-main\\Trener\\Trener.csproj": {}
+    "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Trener.csproj": {}
   },
   "projects": {
-    "C:\\Users\\janst\\source\\repos\\Trener2-main\\Trener\\Trener.csproj": {
+    "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Trener.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\janst\\source\\repos\\Trener2-main\\Trener\\Trener.csproj",
+        "projectUniqueName": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Trener.csproj",
         "projectName": "Trener",
-        "projectPath": "C:\\Users\\janst\\source\\repos\\Trener2-main\\Trener\\Trener.csproj",
+        "projectPath": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Trener.csproj",
         "packagesPath": "C:\\Users\\janst\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\janst\\source\\repos\\Trener2-main\\Trener\\obj\\",
+        "outputPath": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

@@ -1,7 +1,11 @@
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trener.ActionPage2"
-             BackgroundImageSource="trener2.png">
+             BackgroundImageSource="trener2.png"
+                      xmlns:lang="clr-namespace:Trener.Resources.Languages"
+
+         xmlns:local="clr-namespace:Trener"
+             >
 
     <StackLayout Padding="0,0,0,0" Margin="0,0,0,0">
 
@@ -44,7 +48,8 @@
             <StackLayout Orientation="Horizontal" Spacing="20" Padding="0,0,0,0" Margin="0,0,0,0">
 
 
-                <Label Text="Next round:" x:Name="nextR_label"                        BackgroundColor="Beige"  FontSize="30"
+                <Label Text="{Binding Source={x:Static lang:objectsStrings.nextRound}, StringFormat='{}{0}:'}" 
+                x:Name="nextR_label"                        BackgroundColor="Beige"  FontSize="30"
 />
 
 
@@ -54,15 +59,8 @@
 
 
 
-                    <Label Text="Exercise"                       BackgroundColor="Beige"  FontSize="30"
-/>
-                    <Label Text="Round"                   BackgroundColor="Beige"  FontSize="30"
-                  
-                       
-
-/>
-
-                </StackLayout>
+                
+            </StackLayout>
 
             <StackLayout Orientation="Horizontal" Spacing="120" Padding="0,0,0,0" Margin="0,0,0,0">
 
@@ -70,17 +68,16 @@
 
                 <Label Text="12/30" x:Name="count_label"                        BackgroundColor="Beige"  FontSize="30"
 />
-                <Label Text="1/3" x:Name="round_label"                        BackgroundColor="Beige"  FontSize="30"
                   
                        
 
-/>
+
 
             </StackLayout>
             <StackLayout Orientation="Horizontal" Spacing="10" Padding="0,0,0,0">
-                <Button Text="pause" Clicked="StopFunc"/>
-                <Button Text="skip" Clicked="SkipniFunc"/>
-                <Button Text="end" Clicked="EndFunc"
+                <Button Text="{Binding Source={x:Static lang:objectsStrings.pauseText}}" Clicked="StopFunc"/>
+                <Button Text="{Binding Source={x:Static lang:objectsStrings.skipText}}" Clicked="SkipniFunc"/>
+                <Button Text="{Binding Source={x:Static lang:objectsStrings.endText}}" Clicked="EndFunc"
                         />
             </StackLayout>
         </StackLayout>
