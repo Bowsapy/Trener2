@@ -47,12 +47,9 @@ namespace Trener
         async public void Action()
         {
 
-            user2.AddToList(new FinishedWorkout(workout.Id, DateTime.Now));
-
-            await user2.SaveUserProgressAsync(user2);  // Zavolání metody pro uložení
+      
 
 
-            speed = workout.speed;
 
 
             cts = new CancellationTokenSource();
@@ -71,10 +68,13 @@ namespace Trener
 
                 skipped = false;
 
-                await Task.Delay(1000, token);
-                await GenericSounds.PlayGetReadySound(token);
-                await Task.Delay(1000, token);
+                    await Task.Delay(1000, token);
+                    await GenericSounds.PlayGetReadySound(token);
+                    await Task.Delay(1000, token);
 
+
+
+                
 
 
                 while (!end && !token.IsCancellationRequested)
@@ -103,7 +103,16 @@ namespace Trener
                     currentComIndex++;
                     if (currentComIndex == workout.TotalNumOfCombos())
                     {
-                        user2.AddToList(new FinishedWorkout(workout.Id, DateTime.Now));
+                        if (workout.IsOwn)
+                        {
+                            user2.AddToList(new FinishedWorkout(workout.Id, DateTime.Now,true));
+
+                        }
+                        else
+                        {
+                            user2.AddToList(new FinishedWorkout(workout.Id, DateTime.Now));
+
+                        }
 
                         await user2.SaveUserProgressAsync(user2);  // Zavolání metody pro uložení
 
@@ -176,7 +185,7 @@ namespace Trener
                 if (token.IsCancellationRequested) return;
 
                 currentRep++;
-                if (!isAdvice)
+                if (!isAdvice && !skipped)
                 {
                     strike_label.BackgroundColor = Color.FromRgb(255, 0, 0);
                     await GenericSounds.PlayGoSound(token);
@@ -255,8 +264,7 @@ namespace Trener
             end = true;
             cts.Cancel();
 
-            await Application.Current.MainPage.Navigation.PopAsync();
-            await Application.Current.MainPage.Navigation.PushAsync(new TechPage());
+            await Application.Current.MainPage.Navigation.PopToRootAsync(); // ✅ Vrátí se na hlavní stránku
         }
 
         private void ChangeTextOnLabel(Label label, string text)

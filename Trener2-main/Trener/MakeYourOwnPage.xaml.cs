@@ -1,13 +1,16 @@
-using System.Text.Json;
+Ôªøusing System.Text.Json;
+
+using Trener.Resources; // Namespace, kde jsou generovan√© Resources
 
 namespace Trener;
 
 public partial class MakeYourOwnPage : ContentPage
 {
     List<IStrike> combo_list = new List<IStrike> { };
+    
 
     public static WorkoutClass own_workout = new WorkoutClass("own",new List<ComboClass>(), 0);
-
+   
     public MakeYourOwnPage()
     {
 
@@ -166,12 +169,9 @@ public partial class MakeYourOwnPage : ContentPage
     }
     private void ShowText()
     {
-        string text = "";
-        for (int i = 0; i < combo_list.Count(); i++)
-        {
-            text += combo_list[i].name.ToString() + ",";
-        }
-        combo_label.Text = text;
+        combo_label.Text = string.Join(", ", combo_list.Select(c => c.name));
+
+
 
 
     }
@@ -184,7 +184,7 @@ public partial class MakeYourOwnPage : ContentPage
             own_workout.AddCombo(new ComboClass(combo_list, 3, 3, 3));
             ShowText();
 
-            combo_list = new List<IStrike>(); // Nov· instance seznamu
+            combo_list = new List<IStrike>(); // Nov√° instance seznamu
             combo_label.Text = "";
 
 
@@ -195,12 +195,13 @@ public partial class MakeYourOwnPage : ContentPage
     async private void SaveWorkout(object sender, EventArgs e)
     {
 
+        own_workout.IsOwn = true;
       await SaveWorkout(own_workout);
     }
     public async Task<User> LoadUserProgressAsync()
     {
         var filePath = Path.Combine(FileSystem.AppDataDirectory, "UserProgress2.json");
-        if (!File.Exists(filePath)) return new User(); // DefaultnÌ data
+        if (!File.Exists(filePath)) return new User(); // Defaultn√≠ data
 
         var json = await File.ReadAllTextAsync(filePath);
         return JsonSerializer.Deserialize<User>(json);
@@ -209,14 +210,25 @@ public partial class MakeYourOwnPage : ContentPage
     {
         var filePath = Path.Combine(FileSystem.AppDataDirectory, "OwnWorkout.json");
 
-        // Pokud soubor neexistuje, vraù v˝chozÌ instanci WorkoutClass
+        // Zkontroluj, zda soubor v≈Øbec existuje
+        if (!File.Exists(filePath))
+        {
+            Console.WriteLine("File does not exist");
+            return new WorkoutClass("own", new List<ComboClass>(), 0); // Vra≈• defaultn√≠ hodnotu
+        }
 
-      
+        try
+        {
             var json = await File.ReadAllTextAsync(filePath);
             return JsonSerializer.Deserialize<WorkoutClass>(json);
-        
- 
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Chyba p≈ôi naƒç√≠t√°n√≠ souboru: {ex.Message}");
+            return new WorkoutClass("own", new List<ComboClass>(), 0); // Vra≈• defaultn√≠ hodnotu p≈ôi chybƒõ
+        }
     }
+
 
     public async Task SaveWorkout(WorkoutClass workout)
     {
@@ -225,22 +237,22 @@ public partial class MakeYourOwnPage : ContentPage
         if (SpeedPicker.SelectedItem == null)
 
         {
-            await DisplayAlert("Chyba", "Zadejte prosÌm rychlost", "OK");
+            await DisplayAlert("Error", Trener.Resources.Languages.objectsStrings.speedMessage, "OK");
             return;
         }
 
         if (string.IsNullOrEmpty(text))
         {
-            // Pokud uûivatel nezadal jmÈno workoutu, zobrazÌme upozornÏnÌ
-            await DisplayAlert("Chyba", "Zadejte prosÌm jmÈno workoutu.", "OK");
+            // Pokud u≈æivatel nezadal jm√©no workoutu, zobraz√≠me upozornƒõn√≠
+            await DisplayAlert("Error",Trener.Resources.Languages.objectsStrings.nameMessage, "OK");
             return;
         }
 
-        // Serializujeme seznam workout˘
+        // Serializujeme seznam workout≈Ø
         var json = JsonSerializer.Serialize(workout, new JsonSerializerOptions { WriteIndented = true });
         string validFileName = string.Concat(text.Split(Path.GetInvalidFileNameChars()));
 
-        // Vytvo¯enÌ cesty k souboru s dynamick˝m n·zvem
+        // Vytvo≈ôen√≠ cesty k souboru s dynamick√Ωm n√°zvem
         var filePath = Path.Combine(FileSystem.AppDataDirectory, validFileName + ".json"); await File.WriteAllTextAsync(filePath, json);
         SaveUserNameToCsv(text);
         ReopenPage();
@@ -296,17 +308,16 @@ public partial class MakeYourOwnPage : ContentPage
         {
             string filePath = Path.Combine(FileSystem.AppDataDirectory, "names.csv");
 
-            // Otev¯eme soubor pro p¯id·nÌ textu
+            // Otev≈ôeme soubor pro p≈ôid√°n√≠ textu
             using (StreamWriter sw = new StreamWriter(filePath, append: true))
             {
-                // Zaps·nÌ jmÈna a vÏku do souboru jako nov˝ ¯·dek
-                sw.WriteLine($"{name},"); // OddÏlenÌ hodnot Ë·rkou, coû je form·t pro CSV
+                sw.WriteLine($"{name},"); // Oddƒõlen√≠ hodnot ƒç√°rkou, co≈æ je form√°t pro CSV
             }
 
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Doölo k chybÏ p¯i z·pisu do souboru: {ex.Message}");
+            Console.WriteLine($"Do≈°lo k chybƒõ p≈ôi z√°pisu do souboru: {ex.Message}");
         }
     }
 

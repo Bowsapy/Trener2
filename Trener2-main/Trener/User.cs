@@ -34,11 +34,11 @@ namespace Trener
 
             foreach (var workout in workouts)
             {
-                // Pokud seznam uniqueWorkouts neobsahuje stejné jméno cvičení, přidáme jej
-                if (!uniqueWorkouts.Any(w => w.workoutName == workout.workoutName))
+                if (workout.IsOwn != true && !uniqueWorkouts.Any(w => w.workoutName == workout.workoutName))
                 {
                     uniqueWorkouts.Add(workout);
                 }
+
             }
 
             // Return the count of unique workouts

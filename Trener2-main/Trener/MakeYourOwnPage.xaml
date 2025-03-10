@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trener.MakeYourOwnPage"
-             Title="MakeYourOwnPage"
                                        xmlns:lang="clr-namespace:Trener.Resources.Languages"
 
              >
@@ -48,7 +47,7 @@ Clicked="ViewWorkouts" CommandParameter="workout2" x:Name="ViewButton"/>
 
             <HorizontalStackLayout Spacing="30">
 
-                <Picker x:Name="SpeedPicker" Title="Speed" SelectedIndex="1">
+                <Picker x:Name="SpeedPicker" Title="{x:Static lang:objectsStrings.speed}" SelectedIndex="1">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:Int32}">
                             <x:Int32>150</x:Int32>

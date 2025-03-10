@@ -78,7 +78,7 @@ public static DefenceClass l_slip = new DefenceClass(Resources.Languages.objects
 public static DefenceClass pull = new DefenceClass("Pull", "Pull", $@"Sounds\{lang}\defence\pull-sound.mp3");
 public static DefenceClass l_roll = new DefenceClass(Resources.Languages.objectsStrings.LRButton, "LRoll", $@"Sounds\{lang}\defence\l_roll-sound.mp3");
 public static DefenceClass r_roll = new DefenceClass(Resources.Languages.objectsStrings.RRButton,"RRoll", $@"Sounds\{lang}\defence\r_roll-sound.mp3");
-public static DefenceClass duck = new DefenceClass(Resources.Languages.objectsStrings.RBBButton, "Duck", $@"Sounds\{lang}\defence\duck-sound.mp3");
+public static DefenceClass duck = new DefenceClass(Resources.Languages.objectsStrings.DuckButton, "Duck", $@"Sounds\{lang}\defence\duck-sound.mp3");
 
 
 

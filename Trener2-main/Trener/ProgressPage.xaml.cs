@@ -1,4 +1,6 @@
-using System.Text.Json;
+Ôªøusing System.Text.Json;
+using Trener.Resources; // Namespace, kde jsou generovan√© Resources
+
 
 namespace Trener;
 
@@ -18,41 +20,66 @@ public partial class ProgressPage : ContentPage
         // Zkontrolujeme, zda soubor existuje
         if (!File.Exists(filePath))
         {
-            return new User(); // Pokud soubor neexistuje, vr·tÌme nov˝ pr·zdn˝ objekt User
+            return new User(); // Pokud soubor neexistuje, vr√°t√≠me nov√Ω pr√°zdn√Ω objekt User
         }
 
-        // NaËteme JSON text ze souboru
+        // Naƒçteme JSON text ze souboru
         var json = await File.ReadAllTextAsync(filePath);
 
-        // Deserializace JSON textu zpÏt do objektu User
+        // Deserializace JSON textu zpƒõt do objektu User
         var user = JsonSerializer.Deserialize<User>(json);
 
         return user;
     }
+    
 
 
     public async void ChangeLabels()
     {
-        // NaËtenÌ dat uûivatele
+        // Naƒçten√≠ dat u≈æivatele
         User uss = await LoadUserProgressAsync();
 
-        // NastavenÌ textu pro jmÈno uûivatele
-        name_label.Text = $"{uss.Name} {uss.Surname}";
+        // Nastaven√≠ textu pro jm√©no u≈æivatele
 
-        // Se¯azenÌ workout˘ podle data sestupnÏ
+
+
+
+        // Se≈ôazen√≠ workout≈Ø podle data sestupnƒõ
         var workoutItems = uss.GetAllWorkouts()
-            .OrderByDescending(workout => workout.dateTime) // Se¯azenÌ podle data
+            .OrderByDescending(workout => workout.dateTime) // Se≈ôazen√≠ podle data
             .Select(workout => new
             {
-                WorkoutName = workout.workoutName, // N·zev workoutu
-                Date = workout.dateTime.ToString("dd.MM.yyyy HH:mm") // Datum ve ËitelnÈ podobÏ
+                WorkoutName = workout.workoutName, // N√°zev workoutu
+                Date = workout.dateTime.ToString("dd.MM.yyyy HH:mm") // Datum ve ƒçiteln√© podobƒõ
             })
             .ToList();
 
-        // P¯i¯azenÌ dat do ListView
+        // P≈ôi≈ôazen√≠ dat do ListView
         workoutListView.ItemsSource = workoutItems;
 
-        progress_label.Text = (uss.CountUniqueWorkouts() + " / " + AllWorkoutClassCounter.GetCount()).ToString() + " "+(100*uss.CountUniqueWorkouts()/AllWorkoutClassCounter.GetCount() ).ToString() + "%"  ;
+        int uniqueWorkoutsCount = uss.CountUniqueWorkouts();
+
+        progress_label.Text = uniqueWorkoutsCount + " / 20 = " +
+                              ((uniqueWorkoutsCount / 20.0) * 100).ToString("0.0") + "%";
+        string rank;
+        switch (uniqueWorkoutsCount)
+        {
+            case int n when n == 20:
+                rank = Trener.Resources.Languages.objectsStrings.Champ;
+                break;
+            case int n when n > 10:
+                rank = Trener.Resources.Languages.objectsStrings.pro;
+                break;
+            case int n when n > 5:
+                rank = Trener.Resources.Languages.objectsStrings.semi_pro;
+                break;
+            default:
+                rank = Trener.Resources.Languages.objectsStrings.amateur;
+                break;
+        }
+
+        name_label.Text = $"{rank}";
+
 
     }
 

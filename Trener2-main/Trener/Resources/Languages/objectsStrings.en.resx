@@ -129,6 +129,9 @@
   <data name="AllButton" xml:space="preserve">
     <value>All</value>
   </data>
+  <data name="amateur" xml:space="preserve">
+    <value>Amateur</value>
+  </data>
   <data name="BackButton" xml:space="preserve">
     <value>Back</value>
   </data>
@@ -152,6 +155,9 @@
   </data>
   <data name="burpees" xml:space="preserve">
     <value>Burpees</value>
+  </data>
+  <data name="Champ" xml:space="preserve">
+    <value>Champion</value>
   </data>
   <data name="closefighting" xml:space="preserve">
     <value>Close fighting</value>
@@ -291,6 +297,9 @@
   <data name="MYOWorkoutButton" xml:space="preserve">
     <value>MAKE A WORKOUT</value>
   </data>
+  <data name="nameMessage" xml:space="preserve">
+    <value>Enter name!</value>
+  </data>
   <data name="nextRound" xml:space="preserve">
     <value>Next round</value>
   </data>
@@ -317,6 +326,9 @@
   </data>
   <data name="pressureFighterIntro" xml:space="preserve">
     <value>Pressure</value>
+  </data>
+  <data name="pro" xml:space="preserve">
+    <value>Professional</value>
   </data>
   <data name="ProgressButton" xml:space="preserve">
     <value>PROGRESS</value>
@@ -363,6 +375,9 @@
   <data name="SaveButton" xml:space="preserve">
     <value>Save workout</value>
   </data>
+  <data name="semi_pro" xml:space="preserve">
+    <value>Semi-professional</value>
+  </data>
   <data name="shadowboxing" xml:space="preserve">
     <value>Shadow boxing</value>
   </data>
@@ -383,6 +398,12 @@
   </data>
   <data name="skipText" xml:space="preserve">
     <value>Skip</value>
+  </data>
+  <data name="speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="speedMessage" xml:space="preserve">
+    <value>Enter speed!</value>
   </data>
   <data name="squats" xml:space="preserve">
     <value>Squats</value>

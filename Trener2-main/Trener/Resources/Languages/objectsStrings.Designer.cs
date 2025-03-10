@@ -97,6 +97,15 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Amateur.
+        /// </summary>
+        internal static string amateur {
+            get {
+                return ResourceManager.GetString("amateur", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Back.
         /// </summary>
         internal static string BackButton {
@@ -165,6 +174,15 @@ namespace Trener.Resources.Languages {
         internal static string burpees {
             get {
                 return ResourceManager.GetString("burpees", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Champion.
+        /// </summary>
+        internal static string Champ {
+            get {
+                return ResourceManager.GetString("Champ", resourceCulture);
             }
         }
         
@@ -583,6 +601,15 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Enter name!.
+        /// </summary>
+        internal static string nameMessage {
+            get {
+                return ResourceManager.GetString("nameMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Next round.
         /// </summary>
         internal static string nextRound {
@@ -660,6 +687,15 @@ namespace Trener.Resources.Languages {
         internal static string pressureFighterIntro {
             get {
                 return ResourceManager.GetString("pressureFighterIntro", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Professional.
+        /// </summary>
+        internal static string pro {
+            get {
+                return ResourceManager.GetString("pro", resourceCulture);
             }
         }
         
@@ -799,6 +835,15 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Semi-professional.
+        /// </summary>
+        internal static string semi_pro {
+            get {
+                return ResourceManager.GetString("semi_pro", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Shadow boxing.
         /// </summary>
         internal static string shadowboxing {
@@ -858,6 +903,24 @@ namespace Trener.Resources.Languages {
         internal static string skipText {
             get {
                 return ResourceManager.GetString("skipText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Speed.
+        /// </summary>
+        internal static string speed {
+            get {
+                return ResourceManager.GetString("speed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Enter speed!.
+        /// </summary>
+        internal static string speedMessage {
+            get {
+                return ResourceManager.GetString("speedMessage", resourceCulture);
             }
         }
         

@@ -275,6 +275,8 @@ public class WorkoutClass
         public string Id { get; set; }
         public int speed { get; set; }
 
+        public bool IsOwn { get; set; }
+
         public WorkoutClass() { }
 
         public WorkoutClass(string id, List<ComboClass> combos, int numOfRounds,int Speed=400)
