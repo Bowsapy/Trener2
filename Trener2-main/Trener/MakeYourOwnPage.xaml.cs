@@ -247,7 +247,11 @@ public partial class MakeYourOwnPage : ContentPage
             await DisplayAlert("Error",Trener.Resources.Languages.objectsStrings.nameMessage, "OK");
             return;
         }
-
+        if (workout.Combos == null || !workout.Combos.Any())
+        {
+            await DisplayAlert("Error", Trener.Resources.Languages.objectsStrings.emptyWorkoutError, "OK");
+            return;
+        }
         // Serializujeme seznam workoutů
         var json = JsonSerializer.Serialize(workout, new JsonSerializerOptions { WriteIndented = true });
         string validFileName = string.Concat(text.Split(Path.GetInvalidFileNameChars()));

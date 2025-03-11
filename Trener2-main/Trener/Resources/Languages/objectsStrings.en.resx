@@ -204,6 +204,9 @@
   <data name="DuckButton" xml:space="preserve">
     <value>Duck</value>
   </data>
+  <data name="emptyWorkoutError" xml:space="preserve">
+    <value>The workout is empty, add at least 1 combo</value>
+  </data>
   <data name="endText" xml:space="preserve">
     <value>End</value>
   </data>

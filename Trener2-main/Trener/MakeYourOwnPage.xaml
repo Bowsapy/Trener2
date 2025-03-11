@@ -50,12 +50,12 @@ Clicked="ViewWorkouts" CommandParameter="workout2" x:Name="ViewButton"/>
                 <Picker x:Name="SpeedPicker" Title="{x:Static lang:objectsStrings.speed}" SelectedIndex="1">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:Int32}">
-                            <x:Int32>150</x:Int32>
                             <x:Int32>200</x:Int32>
                             <x:Int32>300</x:Int32>
-                            <x:Int32>400</x:Int32>
-                            <x:Int32>600</x:Int32>
+                            <x:Int32>500</x:Int32>
                             <x:Int32>700</x:Int32>
+                            <x:Int32>800</x:Int32>
+                            <x:Int32>900</x:Int32>
 
                         </x:Array>
                     </Picker.ItemsSource>

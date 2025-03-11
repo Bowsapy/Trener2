@@ -204,6 +204,9 @@
   <data name="DuckButton" xml:space="preserve">
     <value>Dřep</value>
   </data>
+  <data name="emptyWorkoutError" xml:space="preserve">
+    <value>Workout je prázdný, přidej alespoň jednu kombinaci.</value>
+  </data>
   <data name="endText" xml:space="preserve">
     <value>Konec</value>
   </data>
@@ -352,7 +355,7 @@
     <value>Zadní zvedák tělo</value>
   </data>
   <data name="RCButton" xml:space="preserve">
-    <value>Zadní sražení</value>
+    <value>Zadní catch</value>
   </data>
   <data name="repText" xml:space="preserve">
     <value>Opak.</value>

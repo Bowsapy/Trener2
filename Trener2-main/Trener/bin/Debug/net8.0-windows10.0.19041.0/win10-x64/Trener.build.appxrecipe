@@ -115,6 +115,9 @@
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\onlyhooksandupper-sound %282%29.mp3">
       <PackagePath>Sounds\cs\guides\onlyhooksandupper-sound %282%29.mp3</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\onlyhooksandupper-sound.mp3">
+      <PackagePath>Sounds\cs\guides\onlyhooksandupper-sound.mp3</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\guides\onlystraightpunches-sound.mp3">
       <PackagePath>Sounds\cs\guides\onlystraightpunches-sound.mp3</PackagePath>
     </AppxPackagedFile>
@@ -226,8 +229,8 @@
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\tips\keepmoving-sound.mp3">
       <PackagePath>Sounds\cs\tips\keepmoving-sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\tips\moveyourhead-sound %282%29.mp3">
-      <PackagePath>Sounds\cs\tips\moveyourhead-sound %282%29.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\tips\moveyourhead-sound.mp3">
+      <PackagePath>Sounds\cs\tips\moveyourhead-sound.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\Sounds\cs\tips\switchstance-sound.mp3">
       <PackagePath>Sounds\cs\tips\switchstance-sound.mp3</PackagePath>

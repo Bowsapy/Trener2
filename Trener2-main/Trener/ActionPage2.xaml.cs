@@ -75,7 +75,7 @@ namespace Trener
                     currentRound++;
                     index++;
 
-                    if( index+1 == combos.Count)
+                    if( index == combos.Count)
                     {
                         user2.AddToList(new FinishedWorkout(workout.Id, DateTime.Now));
 

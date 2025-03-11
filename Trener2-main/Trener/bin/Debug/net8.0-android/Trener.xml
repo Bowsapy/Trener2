@@ -56,6 +56,11 @@
               Vyhledá lokalizovaný řetězec podobný All.
             </summary>
         </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.amateur">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Amateur.
+            </summary>
+        </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.BackButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Back.
@@ -94,6 +99,11 @@
         <member name="P:Trener.Resources.Languages.objectsStrings.burpees">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Burpees.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.Champ">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Champion.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.closefighting">
@@ -169,6 +179,11 @@
         <member name="P:Trener.Resources.Languages.objectsStrings.DuckButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Duck.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.emptyWorkoutError">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný The workout is empty, add at least 1 combo.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.endText">
@@ -326,6 +341,11 @@
               Vyhledá lokalizovaný řetězec podobný MAKE YOUR OWN WORKOUT.
             </summary>
         </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.nameMessage">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Enter name!.
+            </summary>
+        </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.nextRound">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Next round.
@@ -369,6 +389,11 @@
         <member name="P:Trener.Resources.Languages.objectsStrings.pressureFighterIntro">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Pressure.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.pro">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Professional.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.ProgressButton">
@@ -446,6 +471,11 @@
               Vyhledá lokalizovaný řetězec podobný Save workout.
             </summary>
         </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.semi_pro">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Semi-professional.
+            </summary>
+        </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.shadowboxing">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Shadow boxing.
@@ -479,6 +509,16 @@
         <member name="P:Trener.Resources.Languages.objectsStrings.skipText">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Skip.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.speed">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Speed.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.speedMessage">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Enter speed!.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.squats">

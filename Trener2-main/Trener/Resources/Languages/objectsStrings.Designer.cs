@@ -322,6 +322,15 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný The workout is empty, add at least 1 combo.
+        /// </summary>
+        internal static string emptyWorkoutError {
+            get {
+                return ResourceManager.GetString("emptyWorkoutError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný End.
         /// </summary>
         internal static string endText {

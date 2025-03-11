@@ -276,17 +276,16 @@ public class WorkoutClass
         public int speed { get; set; }
 
         public bool IsOwn { get; set; }
-
+        
         public WorkoutClass() { }
 
-        public WorkoutClass(string id, List<ComboClass> combos, int numOfRounds,int Speed=400)
+        public WorkoutClass(string id, List<ComboClass> combos, int numOfRounds,int Speed=500)
         {
             Combos = combos;
             NumOfRounds = numOfRounds;
             Id = id;
             speed = Speed;
 
-            // Simulace počítadla
         }
 
         public void AddCombo(ComboClass combo)

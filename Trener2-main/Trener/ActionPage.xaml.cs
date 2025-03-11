@@ -20,12 +20,12 @@ namespace Trener
         private Stopwatch timer = new Stopwatch();
         private bool end;
         private CancellationTokenSource cts;
-        User user2 = new User();
+        User user2 = new();
         private int speed;
-        
+
         public ActionPage(WorkoutClass workout)
         {
-            this.speed= speed;
+            this.speed = workout.speed;  // ✅ Opraveno
             this.workout = workout;
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
@@ -47,7 +47,7 @@ namespace Trener
         async public void Action()
         {
 
-      
+
 
 
 
@@ -68,13 +68,13 @@ namespace Trener
 
                 skipped = false;
 
-                    await Task.Delay(1000, token);
-                    await GenericSounds.PlayGetReadySound(token);
-                    await Task.Delay(1000, token);
+                await Task.Delay(1000, token);
+                await GenericSounds.PlayGetReadySound(token);
+                await Task.Delay(1000, token);
 
 
 
-                
+
 
 
                 while (!end && !token.IsCancellationRequested)
@@ -82,7 +82,7 @@ namespace Trener
                     // Pozastavení běhu, pokud je aktivní pauza
                     await CheckPauseAsync(token);
 
-                 
+
 
 
                     UpdateRoundAndComboLabels(currentRound, currentComIndex);
@@ -98,14 +98,14 @@ namespace Trener
                     await Task.Delay(100, token);
 
                     // Start executing the combo
-                    await ExecuteCombo(speed,combo, isAdvice, token);
-                    
+                    await ExecuteCombo(speed, combo, isAdvice, token);
+
                     currentComIndex++;
                     if (currentComIndex == workout.TotalNumOfCombos())
                     {
                         if (workout.IsOwn)
                         {
-                            user2.AddToList(new FinishedWorkout(workout.Id, DateTime.Now,true));
+                            user2.AddToList(new FinishedWorkout(workout.Id, DateTime.Now, true));
 
                         }
                         else
@@ -122,11 +122,11 @@ namespace Trener
                         end = true;
                     }
 
-                    
-               
-                
 
-                    
+
+
+
+
 
                     skipped = false;
                 }
@@ -143,8 +143,8 @@ namespace Trener
 
         private async Task CheckPauseAsync(CancellationToken token)
         {
-            
-        
+
+
             await Task.Run(async () =>
             {
                 while (paused && !token.IsCancellationRequested)
@@ -175,7 +175,7 @@ namespace Trener
 
         private async Task ExecuteCombo(int speed, ComboClass combo, bool isAdvice, CancellationToken token)
         {
-            
+
             int currentRep = 0;
             int adjKTime = Convert.ToInt32(Math.Round((double)combo.Time / 1));
 
@@ -188,50 +188,56 @@ namespace Trener
                 if (!isAdvice && !skipped)
                 {
                     strike_label.BackgroundColor = Color.FromRgb(255, 0, 0);
-                    await GenericSounds.PlayGoSound(token);
+                    await PlaySoundSequentially(GenericSounds.PlayGoSound, token);
                 }
 
                 ChangeTextOnLabel(rep_label, $"{currentRep}/{combo.Reps}");
                 await ExecuteStrikes(speed, combo.Strikes, isAdvice, token);
 
-                if (!isAdvice) await Task.Delay(500, token);
+                if (!isAdvice) await Task.Delay(200, token);
             }
         }
-
         private async Task ExecuteStrikes(int speed, List<IStrike> currentStrikes, bool isAdvice, CancellationToken token)
         {
+            // Proměnná pro sledování aktuální barvy
+            bool isRed = true; // Začneme s červenou barvou
+
             foreach (var strike in currentStrikes)
             {
                 ChangeTextOnLabel(strike_label, strike.id);
 
-
-                if (!skipped)
+                if (!isAdvice && !skipped)
                 {
-                    Task soundTask = null;
-
-                    switch (strike)
+                    // Střídání barvy: pokud je isRed true, nastavíme červenou, jinak žlutou
+                    if (strike is PunchClass)
                     {
-                        case PunchClass _:
-                            soundTask = GenericSounds.PlayPunchSound2(token); 
-                            break;
-                        case DefenceClass _:
-                            soundTask = GenericSounds.PlayDefenceSound(token); // Přiřadíme úkol pro zvuk
-                            break;
-                        case MoveClass _:
-                            soundTask = GenericSounds.PlayMoveSound(token); // Přiřadíme úkol pro zvuk
-                            break;
+                        strike_label.BackgroundColor = Color.FromRgb(255, 0, 0);
+                    }
+                    else if (strike is DefenceClass)
+                    {
+                        strike_label.BackgroundColor = Color.FromRgb(173, 216, 230);
+
+                    }
+                    else
+                    {
+                        strike_label.BackgroundColor = Color.FromRgb(144, 238, 144);
+
                     }
 
-                    if (soundTask != null)
-                       await soundTask;  // Čekáme na dokončení zvuku
+                    // Po každém úderu změníme barvu na opačnou
+                    isRed = !isRed;
 
-                    await Task.Delay(speed, token);
+                    await Task.Delay(speed, token); // Zpoždění mezi údery
+
                 }
+
+                ChangeTextOnLabel(strike_label, " ");
+                strike_label.BackgroundColor = Color.FromRgb(138, 43, 226);
+
+
             }
-
-            ChangeTextOnLabel(strike_label, "");
-
         }
+
 
 
 
@@ -273,7 +279,22 @@ namespace Trener
             {
                 label.Text = text;
             });
+        }
+        private static readonly SemaphoreSlim soundLock = new SemaphoreSlim(1, 1);
+
+        private async Task PlaySoundSequentially(Func<CancellationToken, Task> soundFunc, CancellationToken token)
+        {
+            await soundLock.WaitAsync(token); // Zajistí, že další zvuk se nezačne přehrávat dřív, než skončí ten předchozí
+            try
+            {
+                await soundFunc(token);
             }
+            finally
+            {
+                soundLock.Release(); // Uvolní zámek pro další zvuk
+            }
+        }
+
         public async Task<User> LoadUserProgressAsync()
         {
             var filePath = Path.Combine(FileSystem.AppDataDirectory, "UserProgress2.json");
@@ -318,7 +339,7 @@ namespace Trener
                 }
             });
         }
- 
+
 
     }
 }
