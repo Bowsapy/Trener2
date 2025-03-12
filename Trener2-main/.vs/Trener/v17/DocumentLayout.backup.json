@@ -3,48 +3,108 @@
   "WorkspaceRootPath": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\actionpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\actionpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\allworkouts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\allworkouts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\punchclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\punchclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\actionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\actionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\resources\\languages\\objectsstrings.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\resources\\languages\\objectsstrings.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\actionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\actionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\makeyourownpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\makeyourownpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\menu1page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\menu1page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\endofworkoutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\endofworkoutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\tech1page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\tech1page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\tech2page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\tech2page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\stylespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\stylespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\progresspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\progresspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\actionpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\actionpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\actionpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\actionpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\progresspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\progresspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\punchclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\punchclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\viewownworkouts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\viewownworkouts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\viewownworkouts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\viewownworkouts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\makeyourownpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\makeyourownpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\genericsounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\genericsounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\showownworkout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\showownworkout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\progresspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\progresspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\actionpage3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\actionpage3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\showownworkouts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\showownworkouts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\resources\\languages\\objectsstrings.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\resources\\languages\\objectsstrings.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\showownworkouts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\showownworkouts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\showownworkout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\showownworkout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\makeyourownpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\makeyourownpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\allworkouts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\allworkouts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\endofworkoutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\endofworkoutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\trener.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\trener.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\genericsounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\genericsounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\finishedworkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,36 +119,12 @@
       "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\techpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\tech1page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\tech1page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\combobpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\combobpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\tech2page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\tech2page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\menu0page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\menu0page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\showownworkout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\showownworkout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\endofworkoutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\endofworkoutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\menu1page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\menu1page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\actionpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\actionpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\cardiopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -97,22 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\coreandpower.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\coreandpower.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\showownworkouts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\showownworkouts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\showownworkouts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\showownworkouts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\stylespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\stylespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\endofworkoutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\endofworkoutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\yourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -156,18 +176,10 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janst\\source\\repos\\Trener2-main\\Trener\\Resources\\Languages\\strings.en.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\trener.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\trener.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\viewownworkouts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\viewownworkouts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -183,10 +195,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\istrikejsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\istrikejsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\showownworkout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|solutionrelative:trener\\showownworkout.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EDFA9E6-7113-4C07-A48A-A28BBB7942BB}|Trener\\Trener.csproj|c:\\users\\janst\\source\\repos\\trener2\\trener2-main\\trener\\istrike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -291,11 +299,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 22,
               "Title": "AllWorkouts.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\AllWorkouts.cs",
               "RelativeDocumentMoniker": "Trener\\AllWorkouts.cs",
@@ -308,32 +316,303 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ActionPage.xaml",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ActionPage.xaml",
-              "RelativeDocumentMoniker": "Trener\\ActionPage.xaml",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ActionPage.xaml",
-              "RelativeToolTip": "Trener\\ActionPage.xaml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-04T16:24:48.638Z"
+              "DocumentIndex": 0,
+              "Title": "ActionPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ActionPage.xaml.cs",
+              "RelativeDocumentMoniker": "Trener\\ActionPage.xaml.cs",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ActionPage.xaml.cs*",
+              "RelativeToolTip": "Trener\\ActionPage.xaml.cs*",
+              "ViewState": "AgIAANUAAAAAAAAAAAAwwP8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T20:10:19.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ActionPage.xaml",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ActionPage.xaml",
+              "RelativeDocumentMoniker": "Trener\\ActionPage.xaml",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ActionPage.xaml*",
+              "RelativeToolTip": "Trener\\ActionPage.xaml*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAawB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T16:24:48.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StylesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\StylesPage.xaml",
+              "RelativeDocumentMoniker": "Trener\\StylesPage.xaml",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\StylesPage.xaml",
+              "RelativeToolTip": "Trener\\StylesPage.xaml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-02T01:15:41.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tech2Page.xaml",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Tech2Page.xaml",
+              "RelativeDocumentMoniker": "Trener\\Tech2Page.xaml",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Tech2Page.xaml",
+              "RelativeToolTip": "Trener\\Tech2Page.xaml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAHIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-02T00:57:03.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tech1Page.xaml",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Tech1Page.xaml",
+              "RelativeDocumentMoniker": "Trener\\Tech1Page.xaml",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Tech1Page.xaml",
+              "RelativeToolTip": "Trener\\Tech1Page.xaml",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAGoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-02T00:56:41.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu1Page.xaml",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Menu1Page.xaml",
+              "RelativeDocumentMoniker": "Trener\\Menu1Page.xaml",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Menu1Page.xaml",
+              "RelativeToolTip": "Trener\\Menu1Page.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-02T00:54:02.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EndOfWorkoutPage.xaml",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\EndOfWorkoutPage.xaml",
+              "RelativeDocumentMoniker": "Trener\\EndOfWorkoutPage.xaml",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\EndOfWorkoutPage.xaml",
+              "RelativeToolTip": "Trener\\EndOfWorkoutPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T17:04:01.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ActionPage2.xaml",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ActionPage2.xaml",
+              "RelativeDocumentMoniker": "Trener\\ActionPage2.xaml",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ActionPage2.xaml",
+              "RelativeToolTip": "Trener\\ActionPage2.xaml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwEQAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T20:41:44.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProgressPage.xaml",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ProgressPage.xaml",
+              "RelativeDocumentMoniker": "Trener\\ProgressPage.xaml",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ProgressPage.xaml",
+              "RelativeToolTip": "Trener\\ProgressPage.xaml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T20:27:32.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ActionPage2.xaml.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ActionPage2.xaml.cs",
               "RelativeDocumentMoniker": "Trener\\ActionPage2.xaml.cs",
               "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ActionPage2.xaml.cs",
               "RelativeToolTip": "Trener\\ActionPage2.xaml.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAE0AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAAMkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T22:27:09.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
+              "Title": "ProgressPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ProgressPage.xaml.cs",
+              "RelativeDocumentMoniker": "Trener\\ProgressPage.xaml.cs",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ProgressPage.xaml.cs",
+              "RelativeToolTip": "Trener\\ProgressPage.xaml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAUwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:28:48.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PunchClass.cs",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\PunchClass.cs",
+              "RelativeDocumentMoniker": "Trener\\PunchClass.cs",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\PunchClass.cs",
+              "RelativeToolTip": "Trener\\PunchClass.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwMYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T19:37:27.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MakeYourOwnPage.xaml",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\MakeYourOwnPage.xaml",
+              "RelativeDocumentMoniker": "Trener\\MakeYourOwnPage.xaml",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\MakeYourOwnPage.xaml",
+              "RelativeToolTip": "Trener\\MakeYourOwnPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-02T01:00:30.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewOwnWorkouts.xaml",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ViewOwnWorkouts.xaml",
+              "RelativeDocumentMoniker": "Trener\\ViewOwnWorkouts.xaml",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ViewOwnWorkouts.xaml",
+              "RelativeToolTip": "Trener\\ViewOwnWorkouts.xaml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T09:14:52.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ViewOwnWorkouts.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ViewOwnWorkouts.xaml.cs",
+              "RelativeDocumentMoniker": "Trener\\ViewOwnWorkouts.xaml.cs",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ViewOwnWorkouts.xaml.cs",
+              "RelativeToolTip": "Trener\\ViewOwnWorkouts.xaml.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAEAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T23:03:10.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ActionPage3.xaml",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ActionPage3.xaml",
+              "RelativeDocumentMoniker": "Trener\\ActionPage3.xaml",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ActionPage3.xaml",
+              "RelativeToolTip": "Trener\\ActionPage3.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T09:17:05.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ShowOwnWorkout.xaml",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ShowOwnWorkout.xaml",
+              "RelativeDocumentMoniker": "Trener\\ShowOwnWorkout.xaml",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ShowOwnWorkout.xaml",
+              "RelativeToolTip": "Trener\\ShowOwnWorkout.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T20:27:23.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ShowOwnWorkouts.xaml",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ShowOwnWorkouts.xaml",
+              "RelativeDocumentMoniker": "Trener\\ShowOwnWorkouts.xaml",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ShowOwnWorkouts.xaml",
+              "RelativeToolTip": "Trener\\ShowOwnWorkouts.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T09:14:02.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "objectsStrings.resx",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Resources\\Languages\\objectsStrings.resx",
+              "RelativeDocumentMoniker": "Trener\\Resources\\Languages\\objectsStrings.resx",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Resources\\Languages\\objectsStrings.resx",
+              "RelativeToolTip": "Trener\\Resources\\Languages\\objectsStrings.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-03-01T23:01:45.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Trener.csproj",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Trener.csproj",
+              "RelativeDocumentMoniker": "Trener\\Trener.csproj",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Trener.csproj",
+              "RelativeToolTip": "Trener\\Trener.csproj",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-29T22:03:52.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ShowOwnWorkout.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ShowOwnWorkout.xaml.cs",
+              "RelativeDocumentMoniker": "Trener\\ShowOwnWorkout.xaml.cs",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ShowOwnWorkout.xaml.cs",
+              "RelativeToolTip": "Trener\\ShowOwnWorkout.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T12:30:41.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ShowOwnWorkouts.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ShowOwnWorkouts.xaml.cs",
+              "RelativeDocumentMoniker": "Trener\\ShowOwnWorkouts.xaml.cs",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ShowOwnWorkouts.xaml.cs",
+              "RelativeToolTip": "Trener\\ShowOwnWorkouts.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T23:56:53.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MakeYourOwnPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\MakeYourOwnPage.xaml.cs",
+              "RelativeDocumentMoniker": "Trener\\MakeYourOwnPage.xaml.cs",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\MakeYourOwnPage.xaml.cs",
+              "RelativeToolTip": "Trener\\MakeYourOwnPage.xaml.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAAAOkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:26:54.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EndOfWorkoutPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\EndOfWorkoutPage.xaml.cs",
+              "RelativeDocumentMoniker": "Trener\\EndOfWorkoutPage.xaml.cs",
+              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\EndOfWorkoutPage.xaml.cs",
+              "RelativeToolTip": "Trener\\EndOfWorkoutPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T17:06:35.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "GenericSounds.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\GenericSounds.cs",
               "RelativeDocumentMoniker": "Trener\\GenericSounds.cs",
@@ -345,78 +624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PunchClass.cs",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\PunchClass.cs",
-              "RelativeDocumentMoniker": "Trener\\PunchClass.cs",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\PunchClass.cs",
-              "RelativeToolTip": "Trener\\PunchClass.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAMYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T19:37:27.373Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "objectsStrings.resx",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Resources\\Languages\\objectsStrings.resx",
-              "RelativeDocumentMoniker": "Trener\\Resources\\Languages\\objectsStrings.resx",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Resources\\Languages\\objectsStrings.resx",
-              "RelativeToolTip": "Trener\\Resources\\Languages\\objectsStrings.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-03-01T23:01:45.645Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ActionPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ActionPage.xaml.cs",
-              "RelativeDocumentMoniker": "Trener\\ActionPage.xaml.cs",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ActionPage.xaml.cs",
-              "RelativeToolTip": "Trener\\ActionPage.xaml.cs",
-              "ViewState": "AgIAAMcAAAAAAAAAAAAAAN4AAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T20:10:19.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProgressPage.xaml",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ProgressPage.xaml",
-              "RelativeDocumentMoniker": "Trener\\ProgressPage.xaml",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ProgressPage.xaml",
-              "RelativeToolTip": "Trener\\ProgressPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-04T20:27:32.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MakeYourOwnPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\MakeYourOwnPage.xaml.cs",
-              "RelativeDocumentMoniker": "Trener\\MakeYourOwnPage.xaml.cs",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\MakeYourOwnPage.xaml.cs",
-              "RelativeToolTip": "Trener\\MakeYourOwnPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAP0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T17:26:54.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MakeYourOwnPage.xaml",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\MakeYourOwnPage.xaml",
-              "RelativeDocumentMoniker": "Trener\\MakeYourOwnPage.xaml",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\MakeYourOwnPage.xaml",
-              "RelativeToolTip": "Trener\\MakeYourOwnPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-02T01:00:30.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 26,
               "Title": "FinishedWorkout.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\FinishedWorkout.cs",
               "RelativeDocumentMoniker": "Trener\\FinishedWorkout.cs",
@@ -428,19 +636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProgressPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ProgressPage.xaml.cs",
-              "RelativeDocumentMoniker": "Trener\\ProgressPage.xaml.cs",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ProgressPage.xaml.cs",
-              "RelativeToolTip": "Trener\\ProgressPage.xaml.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAiwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T18:28:48.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 27,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\User.cs",
               "RelativeDocumentMoniker": "Trener\\User.cs",
@@ -452,7 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 29,
               "Title": "ComboBPage.xaml",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ComboBPage.xaml",
               "RelativeDocumentMoniker": "Trener\\ComboBPage.xaml",
@@ -464,7 +660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 28,
               "Title": "TechPage.xaml",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\TechPage.xaml",
               "RelativeDocumentMoniker": "Trener\\TechPage.xaml",
@@ -476,31 +672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Tech2Page.xaml",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Tech2Page.xaml",
-              "RelativeDocumentMoniker": "Trener\\Tech2Page.xaml",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Tech2Page.xaml",
-              "RelativeToolTip": "Trener\\Tech2Page.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-02T00:57:03.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Tech1Page.xaml",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Tech1Page.xaml",
-              "RelativeDocumentMoniker": "Trener\\Tech1Page.xaml",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Tech1Page.xaml",
-              "RelativeToolTip": "Trener\\Tech1Page.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-02T00:56:41.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 30,
               "Title": "Menu0Page.xaml",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Menu0Page.xaml",
               "RelativeDocumentMoniker": "Trener\\Menu0Page.xaml",
@@ -512,55 +684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ShowOwnWorkout.xaml",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ShowOwnWorkout.xaml",
-              "RelativeDocumentMoniker": "Trener\\ShowOwnWorkout.xaml",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ShowOwnWorkout.xaml",
-              "RelativeToolTip": "Trener\\ShowOwnWorkout.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-04T20:27:23.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "EndOfWorkoutPage.xaml",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\EndOfWorkoutPage.xaml",
-              "RelativeDocumentMoniker": "Trener\\EndOfWorkoutPage.xaml",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\EndOfWorkoutPage.xaml",
-              "RelativeToolTip": "Trener\\EndOfWorkoutPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-04T17:04:01.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Menu1Page.xaml",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Menu1Page.xaml",
-              "RelativeDocumentMoniker": "Trener\\Menu1Page.xaml",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Menu1Page.xaml",
-              "RelativeToolTip": "Trener\\Menu1Page.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-02T00:54:02.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ActionPage2.xaml",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ActionPage2.xaml",
-              "RelativeDocumentMoniker": "Trener\\ActionPage2.xaml",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ActionPage2.xaml",
-              "RelativeToolTip": "Trener\\ActionPage2.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-04T20:41:44.739Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "CardioPage.xaml",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\CardioPage.xaml",
               "RelativeDocumentMoniker": "Trener\\CardioPage.xaml",
@@ -572,7 +696,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "CoreAndPower.xaml",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\CoreAndPower.xaml",
               "RelativeDocumentMoniker": "Trener\\CoreAndPower.xaml",
@@ -584,55 +708,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ShowOwnWorkouts.xaml",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ShowOwnWorkouts.xaml",
-              "RelativeDocumentMoniker": "Trener\\ShowOwnWorkouts.xaml",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ShowOwnWorkouts.xaml",
-              "RelativeToolTip": "Trener\\ShowOwnWorkouts.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-04T20:27:15.345Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ShowOwnWorkouts.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ShowOwnWorkouts.xaml.cs",
-              "RelativeDocumentMoniker": "Trener\\ShowOwnWorkouts.xaml.cs",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ShowOwnWorkouts.xaml.cs",
-              "RelativeToolTip": "Trener\\ShowOwnWorkouts.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T23:56:53.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "StylesPage.xaml",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\StylesPage.xaml",
-              "RelativeDocumentMoniker": "Trener\\StylesPage.xaml",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\StylesPage.xaml",
-              "RelativeToolTip": "Trener\\StylesPage.xaml",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAYwHAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-02T01:15:41.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "EndOfWorkoutPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\EndOfWorkoutPage.xaml.cs",
-              "RelativeDocumentMoniker": "Trener\\EndOfWorkoutPage.xaml.cs",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\EndOfWorkoutPage.xaml.cs",
-              "RelativeToolTip": "Trener\\EndOfWorkoutPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T17:06:35.623Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "YourViewModel.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\YourViewModel.cs",
               "RelativeDocumentMoniker": "Trener\\YourViewModel.cs",
@@ -644,7 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "Microsoft.Maui.Controls.targets",
               "DocumentMoniker": "C:\\Users\\janst\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.100\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.100\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets",
@@ -656,7 +732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "Trener",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Trener.csproj",
               "RelativeDocumentMoniker": "Trener\\Trener.csproj",
@@ -667,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "objectsStrings.en.Designer.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Resources\\Languages\\objectsStrings.en.Designer.cs",
               "RelativeDocumentMoniker": "Trener\\Resources\\Languages\\objectsStrings.en.Designer.cs",
@@ -679,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "objectsStrings.cs.Designer.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Resources\\Languages\\objectsStrings.cs.Designer.cs",
               "RelativeDocumentMoniker": "Trener\\Resources\\Languages\\objectsStrings.cs.Designer.cs",
@@ -691,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "objectsStrings.Designer.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Resources\\Languages\\objectsStrings.Designer.cs",
               "RelativeDocumentMoniker": "Trener\\Resources\\Languages\\objectsStrings.Designer.cs",
@@ -703,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "FitPage.xaml",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\FitPage.xaml",
               "RelativeDocumentMoniker": "Trener\\FitPage.xaml",
@@ -715,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "Menu0Page.xaml.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Menu0Page.xaml.cs",
               "RelativeDocumentMoniker": "Trener\\Menu0Page.xaml.cs",
@@ -727,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "TechPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\TechPage.xaml.cs",
               "RelativeDocumentMoniker": "Trener\\TechPage.xaml.cs",
@@ -739,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 70,
               "Title": "objects.resx",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2-main\\Trener\\Resources\\Languages\\objects.resx",
               "RelativeDocumentMoniker": "..\\..\\Trener2-main\\Trener\\Resources\\Languages\\objects.resx",
@@ -750,7 +826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "objects.Designer.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2-main\\Trener\\Resources\\Languages\\objects.Designer.cs",
               "RelativeDocumentMoniker": "..\\..\\Trener2-main\\Trener\\Resources\\Languages\\objects.Designer.cs",
@@ -761,7 +837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 71,
               "Title": "strings.cs.resx",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2-main\\Trener\\Resources\\Languages\\strings.cs.resx",
               "RelativeDocumentMoniker": "..\\..\\Trener2-main\\Trener\\Resources\\Languages\\strings.cs.resx",
@@ -772,7 +848,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "strings.en.resx",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2-main\\Trener\\Resources\\Languages\\strings.en.resx",
               "RelativeDocumentMoniker": "..\\..\\Trener2-main\\Trener\\Resources\\Languages\\strings.en.resx",
@@ -783,19 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Trener.csproj",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Trener.csproj",
-              "RelativeDocumentMoniker": "Trener\\Trener.csproj",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Trener.csproj",
-              "RelativeToolTip": "Trener\\Trener.csproj",
-              "ViewState": "AgIAAHQAAAAAAAAAAADwv4UAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-29T22:03:52.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "Microsoft.NET.TargetFrameworkInference.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
@@ -807,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -819,19 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "ViewOwnWorkouts.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ViewOwnWorkouts.xaml.cs",
-              "RelativeDocumentMoniker": "Trener\\ViewOwnWorkouts.xaml.cs",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ViewOwnWorkouts.xaml.cs",
-              "RelativeToolTip": "Trener\\ViewOwnWorkouts.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T23:03:10.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "Microsoft.NET.EolTargetFrameworks.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
@@ -843,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 72,
               "Title": "strings.en.resx",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2-main\\Trener\\Resources\\Languages\\strings.en.resx",
               "RelativeDocumentMoniker": "..\\..\\Trener2-main\\Trener\\Resources\\Languages\\strings.en.resx",
@@ -855,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "ResourceHelper.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ResourceHelper.cs",
               "RelativeDocumentMoniker": "Trener\\ResourceHelper.cs",
@@ -867,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "App.g.i.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
               "RelativeDocumentMoniker": "Trener\\obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
@@ -879,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "IStrikeJsonConverter.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\IStrikeJsonConverter.cs",
               "RelativeDocumentMoniker": "Trener\\IStrikeJsonConverter.cs",
@@ -891,19 +943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ShowOwnWorkout.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ShowOwnWorkout.xaml.cs",
-              "RelativeDocumentMoniker": "Trener\\ShowOwnWorkout.xaml.cs",
-              "ToolTip": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ShowOwnWorkout.xaml.cs",
-              "RelativeToolTip": "Trener\\ShowOwnWorkout.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T12:30:41.525Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "IStrike.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\IStrike.cs",
               "RelativeDocumentMoniker": "Trener\\IStrike.cs",
@@ -915,7 +955,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "FitPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\FitPage.xaml.cs",
               "RelativeDocumentMoniker": "Trener\\FitPage.xaml.cs",
@@ -927,7 +967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "Menu1Page.xaml.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Menu1Page.xaml.cs",
               "RelativeDocumentMoniker": "Trener\\Menu1Page.xaml.cs",
@@ -939,7 +979,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "AndroidManifest.xml",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Platforms\\Android\\AndroidManifest.xml",
               "RelativeDocumentMoniker": "Trener\\Platforms\\Android\\AndroidManifest.xml",
@@ -950,7 +990,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "MainActivity.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Platforms\\Android\\MainActivity.cs",
               "RelativeDocumentMoniker": "Trener\\Platforms\\Android\\MainActivity.cs",
@@ -962,7 +1002,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "AndroidManifest.xml",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2-main\\Trener\\obj\\Debug\\net7.0-android\\AndroidManifest.xml",
               "RelativeDocumentMoniker": "..\\..\\Trener2-main\\Trener\\obj\\Debug\\net7.0-android\\AndroidManifest.xml",
@@ -973,7 +1013,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "MainApplication.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Platforms\\Android\\MainApplication.cs",
               "RelativeDocumentMoniker": "Trener\\Platforms\\Android\\MainApplication.cs",
@@ -985,7 +1025,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\App.xaml.cs",
               "RelativeDocumentMoniker": "Trener\\App.xaml.cs",
@@ -997,7 +1037,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "AndroidManifest.xml",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener\\Trener\\obj\\Debug\\net7.0-android\\AndroidManifest.xml",
               "RelativeDocumentMoniker": "..\\..\\Trener\\Trener\\obj\\Debug\\net7.0-android\\AndroidManifest.xml",
@@ -1009,7 +1049,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "StylesPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\StylesPage.xaml.cs",
               "RelativeDocumentMoniker": "Trener\\StylesPage.xaml.cs",
@@ -1021,7 +1061,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 60,
               "Title": "Tech2Page.xaml.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Tech2Page.xaml.cs",
               "RelativeDocumentMoniker": "Trener\\Tech2Page.xaml.cs",
@@ -1033,7 +1073,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "Tech1Page.xaml.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Tech1Page.xaml.cs",
               "RelativeDocumentMoniker": "Trener\\Tech1Page.xaml.cs",
@@ -1045,7 +1085,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "CardioPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\CardioPage.xaml.cs",
               "RelativeDocumentMoniker": "Trener\\CardioPage.xaml.cs",
@@ -1057,7 +1097,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "ActionPage3.xaml.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\ActionPage3.xaml.cs",
               "RelativeDocumentMoniker": "Trener\\ActionPage3.xaml.cs",
@@ -1069,7 +1109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "Xamarin.Android.Common.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\33.0.95\\tools\\Xamarin.Android.Common.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\33.0.95\\tools\\Xamarin.Android.Common.targets",
@@ -1080,7 +1120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 65,
               "Title": "Xamarin.Android.Aapt2.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\33.0.95\\tools\\Xamarin.Android.Aapt2.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\33.0.95\\tools\\Xamarin.Android.Aapt2.targets",
@@ -1091,7 +1131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 66,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\MauiProgram.cs",
               "RelativeDocumentMoniker": "Trener\\MauiProgram.cs",
@@ -1103,7 +1143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 67,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\janst\\OneDrive\\Desktop\\Otaznik\\Otaznik\\MauiProgram.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\Otaznik\\Otaznik\\MauiProgram.cs",
@@ -1115,7 +1155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 68,
               "Title": "Microsoft.Maui.Resizetizer.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Maui.Resizetizer.Sdk\\7.0.101\\targets\\Microsoft.Maui.Resizetizer.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Maui.Resizetizer.Sdk\\7.0.101\\targets\\Microsoft.Maui.Resizetizer.targets",
@@ -1126,7 +1166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 69,
               "Title": "Main.cs",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2\\Trener2-main\\Trener\\Platforms\\Tizen\\Main.cs",
               "RelativeDocumentMoniker": "Trener\\Platforms\\Tizen\\Main.cs",
@@ -1138,7 +1178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 73,
               "Title": "strings.cs.resx",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2-main\\Trener\\Resources\\Languages\\strings.cs.resx",
               "RelativeDocumentMoniker": "..\\..\\Trener2-main\\Trener\\Resources\\Languages\\strings.cs.resx",
@@ -1149,7 +1189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 74,
               "Title": "strings.en.resx",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2-main\\Trener\\Resources\\Languages\\strings.en.resx",
               "RelativeDocumentMoniker": "..\\..\\Trener2-main\\Trener\\Resources\\Languages\\strings.en.resx",
@@ -1160,7 +1200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 75,
               "Title": "objects.resx",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2-main\\Trener\\Resources\\Languages\\objects.resx",
               "RelativeDocumentMoniker": "..\\..\\Trener2-main\\Trener\\Resources\\Languages\\objects.resx",
@@ -1171,7 +1211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 76,
               "Title": "objects.cs.resx",
               "DocumentMoniker": "C:\\Users\\janst\\source\\repos\\Trener2-main\\Trener\\Resources\\Languages\\objects.cs.resx",
               "RelativeDocumentMoniker": "..\\..\\Trener2-main\\Trener\\Resources\\Languages\\objects.cs.resx",

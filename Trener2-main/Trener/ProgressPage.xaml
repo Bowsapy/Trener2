@@ -8,29 +8,44 @@
         <local:YourViewModel />
     </ContentPage.BindingContext>
 
-    <StackLayout Padding="20">
+    <StackLayout Padding="30" BackgroundColor="Beige">
+       
         <!-- Nadpis s uživatelským jménem -->
         <Label x:Name="name_label"
                Text="Uživatelské jméno"
-               FontSize="24"
-               HorizontalOptions="Center" />
+               FontSize="27"
+               HorizontalOptions="Center" 
+                FontAttributes="Bold"
+               />
 
         <Label x:Name="progress_label"
           Text="Uživatelské jméno"
-          FontSize="24"
-          HorizontalOptions="Center" />
+          FontSize="20"
+          HorizontalOptions="Center"
+               TextColor="Black"
+               />
         <!-- Seznam workoutů -->
         <ListView x:Name="workoutListView"
                   SeparatorVisibility="Default"
-                  HasUnevenRows="True">
+                  HasUnevenRows="True"
+                  Margin="0,10,0,0"
+                  
+                  >
             <!-- Šablona pro zobrazení workoutu -->
             <ListView.ItemTemplate>
+                
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Padding="10">
-                            <Label Text="{Binding WorkoutName}" x:Name="workout_label" FontSize="18" />
-                            <Label Text="{Binding Date}" FontSize="14" x:Name="date_label" TextColor="Gray" />
-                        </StackLayout>
+
+                            <StackLayout Padding="20" BackgroundColor="White" >
+                            <Label Text="{Binding WorkoutName}" x:Name="workout_label" FontSize="18"  FontAttributes="Bold" />
+                            <Label Text="{Binding Date}" FontSize="14" x:Name="date_label" TextColor="Black" 
+                                   
+                                   />
+                                
+
+                            </StackLayout>
+
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>

@@ -3,90 +3,78 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trener.MakeYourOwnPage"
                                        xmlns:lang="clr-namespace:Trener.Resources.Languages"
-
+BackgroundColor="FloralWhite"
              >
-    
+
     <ScrollView>
         <VerticalStackLayout Padding="10" Spacing="10">
-            <Label  Text="" FontSize="20" FontAttributes="Bold" x:Name="combo_label"
+            <Label  Text="" FontSize="20" FontAttributes="Bold" x:Name="combo_label" HorizontalTextAlignment="Center"
                                                           
-
                    />
 
-            <HorizontalStackLayout Spacing="50">
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
                 <Button                         Text="{x:Static lang:objectsStrings.AddCButton}"
- Clicked="AddCombo" CommandParameter="combo" x:Name="AddCButton"
+ Clicked="AddCombo" CommandParameter="combo" x:Name="AddCButton" Margin="0,0,50,0"
                         />
                 <Button Text="{x:Static lang:objectsStrings.DelButton}"
- Clicked="DeleteCombo" CommandParameter="workout2" x:Name="DelButton"/>
+ Clicked="DeleteCombo" CommandParameter="workout2" x:Name="DelButton" />
 
 
 
 
             </HorizontalStackLayout>
-            <HorizontalStackLayout Spacing="10">
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
 
                 <Button Text="{x:Static lang:objectsStrings.ShowButton}"
-                        Clicked="ShowWorkout" CommandParameter="workout2" x:Name="ShowButton"
+                        Clicked="ShowWorkout" CommandParameter="workout2" x:Name="ShowButton"  FontSize="16"
     
 />
                 <Button Text="{x:Static lang:objectsStrings.DelCurButton}"
 
-                        Clicked="DeleteCurWorkout" CommandParameter="workout2"  x:Name="DelCurButton"
+                        Clicked="DeleteCurWorkout" CommandParameter="workout2"  x:Name="DelCurButton" FontSize="16"
                         
                         />
 
 
             </HorizontalStackLayout>
 
-            <HorizontalStackLayout Spacing="10">
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
 
                 <Button Text="{x:Static lang:objectsStrings.ViewButton}"
-Clicked="ViewWorkouts" CommandParameter="workout2" x:Name="ViewButton"/>
+Clicked="ViewWorkouts" CommandParameter="workout2" x:Name="ViewButton" FontSize="16" />
             </HorizontalStackLayout>
 
-            <HorizontalStackLayout Spacing="30">
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
 
-                <Picker x:Name="SpeedPicker" Title="{x:Static lang:objectsStrings.speed}" SelectedIndex="1">
-                    <Picker.ItemsSource>
-                        <x:Array Type="{x:Type x:Int32}">
-                            <x:Int32>200</x:Int32>
-                            <x:Int32>300</x:Int32>
-                            <x:Int32>500</x:Int32>
-                            <x:Int32>700</x:Int32>
-                            <x:Int32>800</x:Int32>
-                            <x:Int32>900</x:Int32>
-
-                        </x:Array>
-                    </Picker.ItemsSource>
-                </Picker>
+            
+          
                 <Entry x:Name="WorkoutNameEntry" 
-       Placeholder="Name"
+       Placeholder="{x:Static lang:objectsStrings.NameOfWorkout}"
        HorizontalOptions="FillAndExpand" />
 
                 <Button Text="{x:Static lang:objectsStrings.SaveButton}"
- Clicked="SaveWorkout" CommandParameter="workout2"  x:Name="SaveButton"/>
+ Clicked="SaveWorkout" CommandParameter="workout2"  x:Name="SaveButton" FontSize="16"/>
 
             </HorizontalStackLayout>
 
             <!-- Tlačítka pro údery -->
-            <Label Text="{x:Static lang:objectsStrings.PunchesButton}" FontSize="20" FontAttributes="Bold" x:Name="PunchesButton"/>
+            <Label Text="{x:Static lang:objectsStrings.PunchesButton}" FontSize="22" FontAttributes="Bold" x:Name="PunchesButton" HorizontalOptions="Center" Margin="0,10,0,0"/>
             <VerticalStackLayout Spacing="5">
                 <Button Text="{x:Static lang:objectsStrings.JabButton}"
  Clicked="OnPunchClicked" CommandParameter="jab"  x:Name="JabButton"/>
                 <Button Text="{x:Static lang:objectsStrings.CrossButton}"
  Clicked="OnPunchClicked" CommandParameter="cross"  x:Name="CrossButton"/>
-                
+
                 <Button Text="{x:Static lang:objectsStrings.LHookButton}"
                         
  Clicked="OnPunchClicked" CommandParameter="lead_hook"  x:Name="LHookButton"/>
-                
+
                 <Button Text="{x:Static lang:objectsStrings.RHookButton}"
  Clicked="OnPunchClicked" CommandParameter="rear_hook"  x:Name="RHookButton"/>
-                
+
                 <Button Text="{x:Static lang:objectsStrings.LUpperButton}"
  Clicked="OnPunchClicked" CommandParameter="lead_upper"  x:Name="LUpperButton"/>
-                
+
                 <Button Text="{x:Static lang:objectsStrings.RUpperButton}"
  Clicked="OnPunchClicked" CommandParameter="rear_upper"  x:Name="RUpperButton"/>
                 <Button Text="{x:Static lang:objectsStrings.BJabButton}
@@ -104,8 +92,8 @@ Clicked="ViewWorkouts" CommandParameter="workout2" x:Name="ViewButton"/>
             </VerticalStackLayout>
 
             <!-- Tlačítka pro obranu -->
-            <Label Text="{x:Static lang:objectsStrings.DefenceButton}" FontSize="20" FontAttributes="Bold" x:Name="DefenceButton"/>
-            <VerticalStackLayout Spacing="5">
+            <Label Text="{x:Static lang:objectsStrings.DefenceButton}" FontSize="22" FontAttributes="Bold" x:Name="DefenceButton"  HorizontalOptions="Center" Margin="0,10,0,0"/>
+                <VerticalStackLayout Spacing="5">
                 <Button Text="{x:Static lang:objectsStrings.RSlipButton}"
  Clicked="OnDefenceClicked" CommandParameter="r_slip"  x:Name="RSlipButton"/>
                 <Button Text="{x:Static lang:objectsStrings.LSlipButton}"
@@ -133,7 +121,7 @@ Clicked="OnDefenceClicked" CommandParameter="r_catch"  x:Name="RCButton"/>
             </VerticalStackLayout>
 
             <!-- Tlačítka pro pohyby -->
-            <Label Text="{x:Static lang:objectsStrings.BasicMovementButton}" FontSize="20" FontAttributes="Bold" x:Name="MovementButton"/>
+            <Label Text="{x:Static lang:objectsStrings.MovementButton}" FontSize="22" FontAttributes="Bold" x:Name="MovementButton" HorizontalOptions="Center" Margin="0,10,0,0"/>
             <VerticalStackLayout Spacing="5">
                 <Button Text="{x:Static lang:objectsStrings.StRButton}
 " Clicked="OnMovementClicked" CommandParameter="step_right"  x:Name="StRButton"

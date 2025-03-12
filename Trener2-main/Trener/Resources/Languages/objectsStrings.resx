@@ -289,6 +289,9 @@
   <data name="moveandjab" xml:space="preserve">
     <value>Move around and jab</value>
   </data>
+  <data name="Movement" xml:space="preserve">
+    <value>Movement</value>
+  </data>
   <data name="MovementButton" xml:space="preserve">
     <value>Movement</value>
   </data>
@@ -299,10 +302,13 @@
     <value>Only movement</value>
   </data>
   <data name="MYOWorkoutButton" xml:space="preserve">
-    <value>MAKE YOUR OWN WORKOUT</value>
+    <value>OWN WORKOUTS</value>
   </data>
   <data name="nameMessage" xml:space="preserve">
     <value>Enter name!</value>
+  </data>
+  <data name="NameOfWorkout" xml:space="preserve">
+    <value>Name of workout</value>
   </data>
   <data name="nextRound" xml:space="preserve">
     <value>Next round</value>
@@ -378,6 +384,9 @@
   </data>
   <data name="SaveButton" xml:space="preserve">
     <value>Save workout</value>
+  </data>
+  <data name="SelectAWorkout" xml:space="preserve">
+    <value>Select a workout</value>
   </data>
   <data name="semi_pro" xml:space="preserve">
     <value>Semi-professional</value>

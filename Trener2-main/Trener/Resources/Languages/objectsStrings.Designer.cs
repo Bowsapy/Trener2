@@ -585,6 +585,15 @@ namespace Trener.Resources.Languages {
         /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Movement.
         /// </summary>
+        internal static string Movement {
+            get {
+                return ResourceManager.GetString("Movement", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Movement.
+        /// </summary>
         internal static string MovementButton {
             get {
                 return ResourceManager.GetString("MovementButton", resourceCulture);
@@ -601,7 +610,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný MAKE YOUR OWN WORKOUT.
+        ///   Vyhledá lokalizovaný řetězec podobný OWN WORKOUTS.
         /// </summary>
         internal static string MYOWorkoutButton {
             get {
@@ -615,6 +624,15 @@ namespace Trener.Resources.Languages {
         internal static string nameMessage {
             get {
                 return ResourceManager.GetString("nameMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Name of workout.
+        /// </summary>
+        internal static string NameOfWorkout {
+            get {
+                return ResourceManager.GetString("NameOfWorkout", resourceCulture);
             }
         }
         
@@ -840,6 +858,15 @@ namespace Trener.Resources.Languages {
         internal static string SaveButton {
             get {
                 return ResourceManager.GetString("SaveButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Select a workout.
+        /// </summary>
+        internal static string SelectAWorkout {
+            get {
+                return ResourceManager.GetString("SelectAWorkout", resourceCulture);
             }
         }
         

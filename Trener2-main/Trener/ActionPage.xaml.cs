@@ -162,13 +162,36 @@ namespace Trener
 
         private void UpdateComboLabelFontSize(int comboLength)
         {
-            int fontSize = comboLength > 8 ? 50 : comboLength > 4 ? 80 : 100;
+
+            int fontSize;
+
+            if (comboLength > 15)
+            {
+                fontSize = 20;
+            }
+            if (comboLength > 10)
+            {
+                fontSize = 30;
+            }
+            else if (comboLength > 8)
+            {
+                fontSize = 60;
+            }
+            else if (comboLength > 4)
+            {
+                fontSize = 80;
+            }
+            else
+            {
+                fontSize = 100;
+            }
             combo_label.FontSize = fontSize;
+
         }
 
         private void UpdateStrikeLabelBackground(bool isAdvice)
         {
-            strike_label.BackgroundColor = isAdvice ? Color.FromRgb(0, 255, 0) : Color.FromHex("#9D00FF");
+            strike_label.BackgroundColor = isAdvice ? Color.FromRgb(0, 255, 0) : Color.FromHex("#9370DB");
         }
 
 
@@ -200,7 +223,6 @@ namespace Trener
         private async Task ExecuteStrikes(int speed, List<IStrike> currentStrikes, bool isAdvice, CancellationToken token)
         {
             // Proměnná pro sledování aktuální barvy
-            bool isRed = true; // Začneme s červenou barvou
 
             foreach (var strike in currentStrikes)
             {
@@ -225,14 +247,13 @@ namespace Trener
                     }
 
                     // Po každém úderu změníme barvu na opačnou
-                    isRed = !isRed;
 
                     await Task.Delay(speed, token); // Zpoždění mezi údery
 
                 }
 
                 ChangeTextOnLabel(strike_label, " ");
-                strike_label.BackgroundColor = Color.FromRgb(138, 43, 226);
+                strike_label.BackgroundColor = Color.FromHex("#9370DB");
 
 
             }

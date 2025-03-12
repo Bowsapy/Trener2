@@ -43,46 +43,7 @@ VerticalOptions="FillAndExpand"
 />
 
         <!-- Tlačítka -->
-        <Button  Text="?" x:Name="butStart"   FontSize="40" 
-               BackgroundColor="Green"
-               TextColor="White"
-               BorderColor="White"
-               Margin="10,10"
-               BorderWidth="2" 
-               FontAttributes="Bold"
-               Grid.Row="0"
-               Grid.Column="0"/>
-
-        <Button  Text="?"   FontSize="40" 
-               BackgroundColor="Green"
-               TextColor="White"
-               BorderColor="White"
-               Margin="10,10"
-               BorderWidth="2" 
-               FontAttributes="Bold"
-               Grid.Row="1"
-               Grid.Column="0"/>
-
-        <Button  Text="?"   FontSize="40" 
-               BackgroundColor="Green"
-               TextColor="White"
-               BorderColor="White"
-               Margin="10,10"
-               BorderWidth="2" 
-               FontAttributes="Bold"
-               Grid.Row="2"
-               Grid.Column="0"
-               />
-        <Button  Text="?"   FontSize="40" 
-         BackgroundColor="Green"
-         TextColor="White"
-         BorderColor="White"
-         Margin="10,10"
-         BorderWidth="2" 
-         FontAttributes="Bold"
-         Grid.Row="3"
-         Grid.Column="0"
-         />
+   
 
 
         <Button Text="{x:Static lang:objectsStrings.LCombosButton}"
@@ -93,11 +54,13 @@ VerticalOptions="FillAndExpand"
                BorderWidth="2" 
                FontAttributes="Bold"
                Grid.Row="0"
-               Grid.Column="1"
+               Grid.Column="0"
                         LineBreakMode="WordWrap"
                     Command="{Binding StartTechWorkout}" 
 CommandParameter="LONGER COMBOS"
                                                                    x:Name="LCombosButton"
+                Grid.ColumnSpan="2"
+                FontSize="20"
 
                />
 
@@ -109,10 +72,12 @@ CommandParameter="LONGER COMBOS"
                BorderWidth="2" 
                FontAttributes="Bold"
                Grid.Row="1"
-               Grid.Column="1"
+               Grid.Column="0"
                         LineBreakMode="WordWrap"
                     Command="{Binding StartTechWorkout}" 
 CommandParameter="HEADMOVEMENT"
+                                Grid.ColumnSpan="2"
+                FontSize="20"
                                                                    x:Name="HMButton"
 
                />
@@ -125,11 +90,12 @@ CommandParameter="HEADMOVEMENT"
                BorderWidth="2" 
                FontAttributes="Bold"
                Grid.Row="2"
-               Grid.Column="1"
+               Grid.Column="0"
                         LineBreakMode="WordWrap"
                     Command="{Binding StartTechWorkout}" 
 CommandParameter="LONGER COMBOS WITH MOVEMENT"
-                 
+                                 Grid.ColumnSpan="2"
+                FontSize="20"
                                                                                     x:Name="CMButton"
 
                />
@@ -141,10 +107,12 @@ CommandParameter="LONGER COMBOS WITH MOVEMENT"
          BorderWidth="2" 
          FontAttributes="Bold"
          Grid.Row="3"
-         Grid.Column="1"
+         Grid.Column="0"
                   LineBreakMode="WordWrap"
                     Command="{Binding StartTechWorkout}" 
 CommandParameter="LONGER COMBOS WITH ALL"
+                                Grid.ColumnSpan="2"
+                FontSize="20"
                                                                                                x:Name="AllButton"
     
          />

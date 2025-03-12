@@ -234,12 +234,7 @@ public partial class MakeYourOwnPage : ContentPage
     {
     
         string text = WorkoutNameEntry.Text;
-        if (SpeedPicker.SelectedItem == null)
-
-        {
-            await DisplayAlert("Error", Trener.Resources.Languages.objectsStrings.speedMessage, "OK");
-            return;
-        }
+       
 
         if (string.IsNullOrEmpty(text))
         {
@@ -264,13 +259,10 @@ public partial class MakeYourOwnPage : ContentPage
     }
     public async void ReopenPage()
     {
-        own_workout = new WorkoutClass();
-
-        await Application.Current.MainPage.Navigation.PopAsync();
-        await Application.Current.MainPage.Navigation.PushAsync(new MakeYourOwnPage());
-
+        await Application.Current.MainPage.Navigation.PopToRootAsync(); // ✅ Vrátí se na hlavní stránku
 
     }
+
     public async void DeleteCurWorkout(object sender, EventArgs e)
     {
         ReopenPage();

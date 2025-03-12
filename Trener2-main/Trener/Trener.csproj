@@ -56,7 +56,7 @@
 		<MauiIcon Include="Resources\AppIcon\best2.svg" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Images\bag2.svg" BaseSize="1410,2550" />
+		<MauiSplashScreen Include="Resources\Images\bag2.svg" BaseSize="600,1000" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />

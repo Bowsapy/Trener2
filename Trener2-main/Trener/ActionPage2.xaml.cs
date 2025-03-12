@@ -193,8 +193,9 @@ namespace Trener
             end = true;
             cts.Cancel();
 
-            await Application.Current.MainPage.Navigation.PopAsync();
-            await Application.Current.MainPage.Navigation.PushAsync(new CardioPage());
+     
+
+            await Application.Current.MainPage.Navigation.PopToRootAsync(); // ✅ Vrátí se na hlavní stránku
         }
 
         private void ChangeTextOnLabel(Label label, string text)

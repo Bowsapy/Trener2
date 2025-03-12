@@ -288,6 +288,9 @@
   <data name="moveandjab" xml:space="preserve">
     <value>Hýbej se a používej přední direkt</value>
   </data>
+  <data name="Movement" xml:space="preserve">
+    <value>Pohyb</value>
+  </data>
   <data name="MovementButton" xml:space="preserve">
     <value>Pohyb</value>
   </data>
@@ -302,6 +305,9 @@
   </data>
   <data name="nameMessage" xml:space="preserve">
     <value>Zadej název!</value>
+  </data>
+  <data name="NameOfWorkout" xml:space="preserve">
+    <value>Jméno workoutu</value>
   </data>
   <data name="nextRound" xml:space="preserve">
     <value>Další kolo</value>
@@ -377,6 +383,9 @@
   </data>
   <data name="SaveButton" xml:space="preserve">
     <value>Uložit workout</value>
+  </data>
+  <data name="SelectAWorkout" xml:space="preserve">
+    <value>Vyber si workout</value>
   </data>
   <data name="semi_pro" xml:space="preserve">
     <value>Poloprofesionál</value>

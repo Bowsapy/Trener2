@@ -326,6 +326,11 @@
               Vyhledá lokalizovaný řetězec podobný Move around and jab.
             </summary>
         </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.Movement">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Movement.
+            </summary>
+        </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.MovementButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Movement.
@@ -338,12 +343,17 @@
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.MYOWorkoutButton">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný MAKE YOUR OWN WORKOUT.
+              Vyhledá lokalizovaný řetězec podobný OWN WORKOUTS.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.nameMessage">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Enter name!.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.NameOfWorkout">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Name of workout.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.nextRound">
@@ -469,6 +479,11 @@
         <member name="P:Trener.Resources.Languages.objectsStrings.SaveButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Save workout.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.SelectAWorkout">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Select a workout.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.semi_pro">

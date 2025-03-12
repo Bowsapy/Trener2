@@ -3,13 +3,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trener.EndOfWorkoutPage"
              xmlns:lang="clr-namespace:Trener.Resources.Languages"
+             BackgroundImageSource="trophy.png">
 
-             >
+    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Spacing="20" Padding="30">
 
-    
-    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Spacing="20">
-        <Label Text="{x:Static lang:objectsStrings.good_job}" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" TextColor="Green"/>
-        <Label Text="{x:Static lang:objectsStrings.completion}" FontSize="20" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" TextColor="Gray"/>
-        <Button Text="{x:Static lang:objectsStrings.BackButton}" HorizontalOptions="Center" VerticalOptions="End" Clicked="OnBackClicked"/>
+        <Frame BackgroundColor="#512BD4" CornerRadius="15" Padding="10">
+            <Label Text="{x:Static lang:objectsStrings.good_job}" 
+                   FontSize="57" FontAttributes="Bold" 
+
+                   HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+        </Frame>
+
+        <Frame BackgroundColor="#512BD4" Opacity="1" CornerRadius="15" Padding="10">
+            <Label Text="{x:Static lang:objectsStrings.completion}" 
+                   FontSize="25" HorizontalOptions="Center" 
+                   TextColor="Black"
+                    FontAttributes="Bold" 
+                   />
+        </Frame>
+
+        <Button Text="{x:Static lang:objectsStrings.BackButton}" 
+          TextColor="Black" 
+                FontAttributes="Bold"
+                FontSize="20" CornerRadius="100"
+                Padding="10" WidthRequest="200"
+                VerticalOptions="Center"
+                BackgroundColor="#512BD4"
+                HorizontalOptions="Center" Clicked="OnBackClicked"/>
+
     </VerticalStackLayout>
 </ContentPage>

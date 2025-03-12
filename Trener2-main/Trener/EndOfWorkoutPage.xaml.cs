@@ -14,5 +14,10 @@ namespace Trener
             // Navigace zpět
             await Application.Current.MainPage.Navigation.PushAsync(new Menu0Page());
         }
+        protected override bool OnBackButtonPressed()
+        {
+            return true; // Zakáže tlačítko zpět
+        }
+
     }
 }

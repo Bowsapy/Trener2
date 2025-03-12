@@ -41,48 +41,6 @@
  
   />
 
-        <!-- Tlačítka -->
-        <Button  Text="?" x:Name="butStart"   FontSize="40" 
-                 BackgroundColor="Green"
-                 TextColor="White"
-                 BorderColor="White"
-                 Margin="10,10"
-                 BorderWidth="2" 
-                 FontAttributes="Bold"
-                 Grid.Row="0"
-                 Grid.Column="0"/>
-
-        <Button  Text="?"   FontSize="40" 
-                 BackgroundColor="Green"
-                 TextColor="White"
-                 BorderColor="White"
-                 Margin="10,10"
-                 BorderWidth="2" 
-                 FontAttributes="Bold"
-                 Grid.Row="1"
-                 Grid.Column="0"/>
-
-        <Button  Text="?"   FontSize="40" 
-                 BackgroundColor="Green"
-                 TextColor="White"
-                 BorderColor="White"
-                 Margin="10,10"
-                 BorderWidth="2" 
-                 FontAttributes="Bold"
-                 Grid.Row="2"
-                 Grid.Column="0"
-                 />
-        <Button  Text="?"   FontSize="40" 
-           BackgroundColor="Green"
-           TextColor="White"
-           BorderColor="White"
-           Margin="10,10"
-           BorderWidth="2" 
-           FontAttributes="Bold"
-           Grid.Row="3"
-           Grid.Column="0"
-           />
-
         <Button Text="{x:Static lang:objectsStrings.BasicStrikesButton}"
                  BackgroundColor="red"
                  TextColor="White"
@@ -91,11 +49,13 @@
                  BorderWidth="2" 
                  FontAttributes="Bold"
                  Grid.Row="0"
-                 Grid.Column="1"
+                 Grid.Column="0"
                           LineBreakMode="WordWrap"
                           Command="{Binding StartTechWorkout}" 
       CommandParameter="BASIC STRIKES"
                       x:Name="BasicStrikesButton"
+                                Grid.ColumnSpan="2"
+                FontSize="20"
 
                  />
 
@@ -107,10 +67,12 @@
                  BorderWidth="2" 
                  FontAttributes="Bold"
                  Grid.Row="1"
-                 Grid.Column="1"
+                 Grid.Column="0"
                           LineBreakMode="WordWrap"
                                      Command="{Binding StartTechWorkout}" 
                                        x:Name="BasicDefenceButton"
+                                Grid.ColumnSpan="2"
+                FontSize="20"
 
 CommandParameter="BASIC DEFENCE"
                  />
@@ -123,11 +85,13 @@ CommandParameter="BASIC DEFENCE"
                  BorderWidth="2" 
                  FontAttributes="Bold"
                  Grid.Row="2"
-                 Grid.Column="1"
+                 Grid.Column="0"
 
                           LineBreakMode="WordWrap"
                                      Command="{Binding StartTechWorkout}" 
                                        x:Name="BasicMovementButton"
+                                Grid.ColumnSpan="2"
+                FontSize="20"
 
 CommandParameter="BASIC MOVEMENT"
                  />
@@ -139,12 +103,13 @@ CommandParameter="BASIC MOVEMENT"
            BorderWidth="2" 
            FontAttributes="Bold"
            Grid.Row="3"
-           Grid.Column="1"
+           Grid.Column="0"
                     LineBreakMode="WordWrap"
                     Command="{Binding StartTechWorkout}" 
 CommandParameter="BASIC ALL"
                                                         x:Name="AllButton"
-
+                Grid.ColumnSpan="2"
+                FontSize="20"
            />
 
 

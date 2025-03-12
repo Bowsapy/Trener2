@@ -745,6 +745,21 @@
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-400.png">
       <PackagePath>loading.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stairs.scale-100.png">
+      <PackagePath>stairs.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stairs.scale-125.png">
+      <PackagePath>stairs.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stairs.scale-150.png">
+      <PackagePath>stairs.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stairs.scale-200.png">
+      <PackagePath>stairs.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stairs.scale-400.png">
+      <PackagePath>stairs.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trace.scale-100.png">
       <PackagePath>trace.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -789,6 +804,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trener2.scale-400.png">
       <PackagePath>trener2.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trophy.scale-100.png">
+      <PackagePath>trophy.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trophy.scale-125.png">
+      <PackagePath>trophy.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trophy.scale-150.png">
+      <PackagePath>trophy.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trophy.scale-200.png">
+      <PackagePath>trophy.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trophy.scale-400.png">
+      <PackagePath>trophy.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Trener.deps.json">
       <PackagePath>Trener.deps.json</PackagePath>
