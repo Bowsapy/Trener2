@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-12T11:16:03.478</Modified>
+      <Modified>2025-03-14T12:58:54.686</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-03-12T11:16:03.254</Modified>
+      <Modified>2025-03-14T12:52:04.488</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Trener.runtimeconfig.json">
       <PackagePath>Trener.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Trener.dll">
       <PackagePath>Trener.dll</PackagePath>
-      <Modified>2025-03-12T11:16:01.665</Modified>
+      <Modified>2025-03-14T12:58:53.881</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Trener.exe</PackagePath>
-      <Modified>2025-03-12T11:16:01.713</Modified>
+      <Modified>2025-03-14T12:58:53.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -1095,15 +1095,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Trener.deps.json">
       <PackagePath>Trener.deps.json</PackagePath>
-      <Modified>2025-03-12T11:16:03.017</Modified>
+      <Modified>2025-03-14T12:52:04.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\cs\Trener.resources.dll">
       <PackagePath>cs\Trener.resources.dll</PackagePath>
-      <Modified>2025-03-12T11:16:02.632</Modified>
+      <Modified>2025-03-14T12:58:54.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\en\Trener.resources.dll">
       <PackagePath>en\Trener.resources.dll</PackagePath>
-      <Modified>2025-03-12T11:16:02.692</Modified>
+      <Modified>2025-03-14T12:58:54.459</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

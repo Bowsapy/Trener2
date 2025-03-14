@@ -61,7 +61,7 @@ namespace Trener
             double divisor = 1;
 
             // Zobrazení času na pozadí
-            _ = Task.Run(() => ZobrazCas(token));
+            _ = Task.Run(() => ShowTime(token));
 
             try
             {
@@ -210,11 +210,12 @@ namespace Trener
                 currentRep++;
                 if (!isAdvice && !skipped)
                 {
+                    ChangeTextOnLabel(rep_label, $"{currentRep}/{combo.Reps}");
+
                     strike_label.BackgroundColor = Color.FromRgb(255, 0, 0);
                     await PlaySoundSequentially(GenericSounds.PlayGoSound, token);
                 }
 
-                ChangeTextOnLabel(rep_label, $"{currentRep}/{combo.Reps}");
                 await ExecuteStrikes(speed, combo.Strikes, isAdvice, token);
 
                 if (!isAdvice) await Task.Delay(200, token);
@@ -335,7 +336,7 @@ namespace Trener
             return user;
         }
 
-        private async Task ZobrazCas(CancellationToken token)
+        private async Task ShowTime(CancellationToken token)
         {
             await Task.Run(async () =>
             {

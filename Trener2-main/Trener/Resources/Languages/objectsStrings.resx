@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutAppButton" xml:space="preserve">
-    <value>ABOUT APP</value>
+    <value>STRIKES</value>
   </data>
   <data name="AddCButton" xml:space="preserve">
     <value>Add combo</value>
@@ -147,11 +147,20 @@
   <data name="basic_strikes_introText" xml:space="preserve">
     <value>Only single punches</value>
   </data>
+  <data name="BBDesc" xml:space="preserve">
+    <value>BB - Body Block: Blocking straight punches to the body by keeping elbows together.</value>
+  </data>
   <data name="BCrossButton" xml:space="preserve">
     <value>Body cross</value>
   </data>
   <data name="BJabButton" xml:space="preserve">
     <value>Body jab</value>
+  </data>
+  <data name="BodyCrossDesc" xml:space="preserve">
+    <value>2b - Body Cross: A cross aimed at the opponent’s body.</value>
+  </data>
+  <data name="BodyJabDesc" xml:space="preserve">
+    <value>1b - Body Jab: A jab aimed at the opponent’s body.</value>
   </data>
   <data name="burpees" xml:space="preserve">
     <value>Burpees</value>
@@ -188,6 +197,12 @@
   </data>
   <data name="CrossButton" xml:space="preserve">
     <value>Cross</value>
+  </data>
+  <data name="CrossDesc" xml:space="preserve">
+    <value>2 - Cross: A powerful straight punch thrown with the rear hand.</value>
+  </data>
+  <data name="DDesc" xml:space="preserve">
+    <value>Duck: Squatting to avoid straight punches.</value>
   </data>
   <data name="DefenceButton" xml:space="preserve">
     <value>Defence</value>
@@ -238,6 +253,9 @@
   <data name="JabButton" xml:space="preserve">
     <value>Jab </value>
   </data>
+  <data name="JabDesc" xml:space="preserve">
+    <value>1 - Jab: A quick, straight punch with the lead hand, the most commonly used punch in boxing.</value>
+  </data>
   <data name="keepmoving" xml:space="preserve">
     <value>Keep moving</value>
   </data>
@@ -246,6 +264,12 @@
   </data>
   <data name="LBBButton" xml:space="preserve">
     <value>Lead bodyblock</value>
+  </data>
+  <data name="LBBDesc" xml:space="preserve">
+    <value>LBB - Lead Body Block: Blocking a body hook by tilting toward the lead side.</value>
+  </data>
+  <data name="LBDesc" xml:space="preserve">
+    <value>LB - Lead Block: Blocking a straight punch with the lead hand</value>
   </data>
   <data name="LBHook" xml:space="preserve">
     <value>Lead hook body</value>
@@ -256,8 +280,23 @@
   <data name="LCButton" xml:space="preserve">
     <value>Lead catch</value>
   </data>
+  <data name="LCDesc" xml:space="preserve">
+    <value>LC - Lead Catch: Blocking a hook with the lead hand.</value>
+  </data>
   <data name="LCombosButton" xml:space="preserve">
     <value>Longer combos</value>
+  </data>
+  <data name="LeadBodyHookDesc" xml:space="preserve">
+    <value>3b - Lead Body Hook: A lead hook aimed at the opponent’s body.</value>
+  </data>
+  <data name="LeadHookDesc" xml:space="preserve">
+    <value>3 - Lead Hook: A hooking punch thrown with the lead hand.</value>
+  </data>
+  <data name="LeadUpperDesc" xml:space="preserve">
+    <value>5 - Lead Uppercut: A rising punch thrown with the lead hand, useful for close-range attacks.</value>
+  </data>
+  <data name="LeadUppperBodyDesc" xml:space="preserve">
+    <value>5b - Lead Body Uppercut: A lead uppercut targeting the opponent’s body.</value>
   </data>
   <data name="LearnTechButton" xml:space="preserve">
     <value>LEARN TECHNIQUE</value>
@@ -276,6 +315,12 @@
   </data>
   <data name="LRButton" xml:space="preserve">
     <value>Lead roll</value>
+  </data>
+  <data name="LRDesc" xml:space="preserve">
+    <value>LR - Lead Roll: Avoiding a hook by rolling toward the lead foot.</value>
+  </data>
+  <data name="LSDesc" xml:space="preserve">
+    <value>LS - Lead Slip: Dodging a straight punch by moving toward the lead foot.</value>
   </data>
   <data name="LSlipButton" xml:space="preserve">
     <value>Lead slip</value>
@@ -355,6 +400,12 @@
   <data name="RBBButton" xml:space="preserve">
     <value>Rear Bodyblock</value>
   </data>
+  <data name="RBBDesc" xml:space="preserve">
+    <value>RBB - Rear Bodyblock: Blocking a body hook by tilting toward the rear side.</value>
+  </data>
+  <data name="RBDesc" xml:space="preserve">
+    <value>LB - Lead Block: Blocking a straight punch with the rear hand</value>
+  </data>
   <data name="RBHookButton" xml:space="preserve">
     <value>Rear body hook</value>
   </data>
@@ -364,8 +415,26 @@
   <data name="RCButton" xml:space="preserve">
     <value>Rear catch</value>
   </data>
+  <data name="RCDesc" xml:space="preserve">
+    <value>RC - Rear Catch: Blocking a hook with the rear hand.</value>
+  </data>
+  <data name="RearHookBodyDesc" xml:space="preserve">
+    <value>4b - Rear Body Hook: A rear hook aimed at the opponent’s body.</value>
+  </data>
+  <data name="RearHookDesc" xml:space="preserve">
+    <value>4 - Rear Hook: A hooking punch thrown with the rear hand for more power.</value>
+  </data>
+  <data name="RearUpperBodyDesc" xml:space="preserve">
+    <value>6b - Rear Body Uppercut: A rear uppercut targeting the opponent’s body.</value>
+  </data>
+  <data name="RearUpperDesc" xml:space="preserve">
+    <value>6 - Rear Uppercut: A powerful uppercut thrown with the rear hand.</value>
+  </data>
   <data name="repText" xml:space="preserve">
     <value>Rep</value>
+  </data>
+  <data name="SBDesc" xml:space="preserve">
+    <value>SB - Step Backwards: Moving backwards by stepping with the rear foot first, followed by the lead foot.</value>
   </data>
   <data name="RHookButton" xml:space="preserve">
     <value>Rear hook</value>
@@ -375,6 +444,12 @@
   </data>
   <data name="RRButton" xml:space="preserve">
     <value>Rear roll</value>
+  </data>
+  <data name="RRDesc" xml:space="preserve">
+    <value>RR - Rear Roll: Avoiding a hook by rolling toward the rear foot.</value>
+  </data>
+  <data name="RSDesc" xml:space="preserve">
+    <value>RS - Rear Slip: Dodging a straight punch by moving toward the rear foot.</value>
   </data>
   <data name="RSlipButton" xml:space="preserve">
     <value>Rear slip</value>
@@ -390,6 +465,9 @@
   </data>
   <data name="semi_pro" xml:space="preserve">
     <value>Semi-professional</value>
+  </data>
+  <data name="SFDesc" xml:space="preserve">
+    <value>SF - Step Forward: Moving forward by stepping with the lead foot first, followed by the rear foot."</value>
   </data>
   <data name="shadowboxing" xml:space="preserve">
     <value>Shadow boxing</value>
@@ -477,5 +555,27 @@
   </data>
   <data name="ViewButton" xml:space="preserve">
     <value>View your own workouts</value>
+  </data>
+  <data name="SRDesc" xml:space="preserve">
+    <value>SR - Step Right: Moving right by stepping with right foot first, followed by the left foot.
+</value>
+  </data>
+  <data name="SLDesc" xml:space="preserve">
+    <value>SL - Step Left: Moving left by stepping with left foot first, followed by the right foot.</value>
+  </data>
+  <data name="ISDesc" xml:space="preserve">
+    <value>ISS - Inside Sidestep: Avoiding a straight punch by stepping with the lead foot toward the rear side and pivoting.</value>
+  </data>
+  <data name="OSDesc" xml:space="preserve">
+    <value>OSS - Outside Sidestep: Avoiding a straight punch by stepping with the lead foot further to the lead side and pivoting.</value>
+  </data>
+  <data name="StanceDesc" xml:space="preserve">
+    <value>Stance</value>
+  </data>
+  <data name="OrthodoxDesc" xml:space="preserve">
+    <value>For Orthodox (Right-Handed Boxer): Lead - Left, Rear - Right</value>
+  </data>
+  <data name="SouthpawDesc" xml:space="preserve">
+    <value>For Southpaw (Left-Handed Boxer): Lead - Right, Rear - Left</value>
   </data>
 </root>

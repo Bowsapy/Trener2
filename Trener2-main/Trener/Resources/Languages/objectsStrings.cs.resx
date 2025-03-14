@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutAppButton" xml:space="preserve">
-    <value>O APLIKACI</value>
+    <value>TECHNIKY</value>
   </data>
   <data name="AddCButton" xml:space="preserve">
     <value>Přidej kombo</value>
@@ -147,11 +147,20 @@
   <data name="basic_strikes_introText" xml:space="preserve">
     <value>Jenom jednotlivý údery</value>
   </data>
+  <data name="BBDesc" xml:space="preserve">
+    <value>BB - Bodyblock: Blokování přímých úderů na tělo udržením loktů u sebe.</value>
+  </data>
   <data name="BCrossButton" xml:space="preserve">
     <value>Zadní direkt tělo</value>
   </data>
   <data name="BJabButton" xml:space="preserve">
     <value>Přední direkt tělo</value>
+  </data>
+  <data name="BodyCrossDesc" xml:space="preserve">
+    <value>2b - Zadní direkt tělo: Zadní direkt do těla</value>
+  </data>
+  <data name="BodyJabDesc" xml:space="preserve">
+    <value>1b - Přední direkt tělo: Přední direkt zaměřený na tělo protivníka.</value>
   </data>
   <data name="burpees" xml:space="preserve">
     <value>Angličáky</value>
@@ -188,6 +197,12 @@
   </data>
   <data name="CrossButton" xml:space="preserve">
     <value>Zadní direkt</value>
+  </data>
+  <data name="CrossDesc" xml:space="preserve">
+    <value>2 - Zadní direkt: Silný, přímý úder provedený zadní rukou.</value>
+  </data>
+  <data name="DDesc" xml:space="preserve">
+    <value>Dřep: Podřepnutí pro vyhnutí se přímým úderům.</value>
   </data>
   <data name="DefenceButton" xml:space="preserve">
     <value>Obrana</value>
@@ -237,6 +252,9 @@
   <data name="JabButton" xml:space="preserve">
     <value>Přední direkt</value>
   </data>
+  <data name="JabDesc" xml:space="preserve">
+    <value>1 - Přední direkt: Rychlý, přímý úder přední rukou, nejčastěji používaný úder v boxu.</value>
+  </data>
   <data name="keepmoving" xml:space="preserve">
     <value>Pořád se hýbej</value>
   </data>
@@ -245,6 +263,12 @@
   </data>
   <data name="LBBButton" xml:space="preserve">
     <value>Přední bodyblock</value>
+  </data>
+  <data name="LBBDesc" xml:space="preserve">
+    <value>LBB - Přední bodyblock: Blokování tělesného háku nakloněním těla směrem k přední noze.</value>
+  </data>
+  <data name="LBDesc" xml:space="preserve">
+    <value>LB - Přední blok: Blokování přímého úderu přední rukou.</value>
   </data>
   <data name="LBHook" xml:space="preserve">
     <value>Přední hák tělo</value>
@@ -255,8 +279,23 @@
   <data name="LCButton" xml:space="preserve">
     <value>Přední catch</value>
   </data>
+  <data name="LCDesc" xml:space="preserve">
+    <value>LC - Přední catch: Blokování háku přední rukou.</value>
+  </data>
   <data name="LCombosButton" xml:space="preserve">
     <value>Delší kombinace</value>
+  </data>
+  <data name="LeadBodyHookDesc" xml:space="preserve">
+    <value>3b- Přední hák tělo: Přední hák zaměřený na tělo protivníka.</value>
+  </data>
+  <data name="LeadHookDesc" xml:space="preserve">
+    <value>3 - Přední hák: Hák provedený přední rukou.</value>
+  </data>
+  <data name="LeadUpperDesc" xml:space="preserve">
+    <value>5 - Přední zvedák: zvedák přední rukou, užitečný pro útoky na krátkou vzdálenost.</value>
+  </data>
+  <data name="LeadUppperBodyDesc" xml:space="preserve">
+    <value>5b - Přední zvedák tělo: Přední zvedák zaměřený na tělo protivníka.</value>
   </data>
   <data name="LearnTechButton" xml:space="preserve">
     <value>NAUČ SE TECHNIKU</value>
@@ -275,6 +314,12 @@
   </data>
   <data name="LRButton" xml:space="preserve">
     <value>Přední roll</value>
+  </data>
+  <data name="LRDesc" xml:space="preserve">
+    <value>LR - Přední roll: Vyhnutí se háku pohybem hlavy směrem k přední noze.</value>
+  </data>
+  <data name="LSDesc" xml:space="preserve">
+    <value>LS - Přední slip: Vyhnutí se přímému úderu pohybem směrem k přední noze.</value>
   </data>
   <data name="LSlipButton" xml:space="preserve">
     <value>Přední slip</value>
@@ -354,6 +399,12 @@
   <data name="RBBButton" xml:space="preserve">
     <value>Zadní bodyblock</value>
   </data>
+  <data name="RBBDesc" xml:space="preserve">
+    <value>RBB - Zadní bodyblock: Blokování tělesného háku nakloněním těla směrem k zadní straně.</value>
+  </data>
+  <data name="RBDesc" xml:space="preserve">
+    <value>RB - Zadní blok: Blokování přímého úderu zadní rukou.</value>
+  </data>
   <data name="RBHookButton" xml:space="preserve">
     <value>Zadní hák tělo</value>
   </data>
@@ -363,8 +414,26 @@
   <data name="RCButton" xml:space="preserve">
     <value>Zadní catch</value>
   </data>
+  <data name="RCDesc" xml:space="preserve">
+    <value>RC - Zadní catch: Blokování háku zadní rukou.</value>
+  </data>
+  <data name="RearHookBodyDesc" xml:space="preserve">
+    <value>4b - Zadní hák tělo: Zadní hák zaměřený na tělo protivníka.</value>
+  </data>
+  <data name="RearHookDesc" xml:space="preserve">
+    <value>4 - Zadní hák: Silný hák zadní rukou</value>
+  </data>
+  <data name="RearUpperBodyDesc" xml:space="preserve">
+    <value>6b - Zadní zvedák tělo: Zadní zvedák zaměřený na tělo protivníka.</value>
+  </data>
+  <data name="RearUpperDesc" xml:space="preserve">
+    <value>6 - Zadní zvedák: Silný zvedák zadní rukou.</value>
+  </data>
   <data name="repText" xml:space="preserve">
     <value>Opak.</value>
+  </data>
+  <data name="SBDesc" xml:space="preserve">
+    <value>SB - Úkrok vzad: Pohyb vzad krokem zadní nohou, následovaný krokem přední nohou</value>
   </data>
   <data name="RHookButton" xml:space="preserve">
     <value>Zadní hák</value>
@@ -374,6 +443,12 @@
   </data>
   <data name="RRButton" xml:space="preserve">
     <value>Zadní roll</value>
+  </data>
+  <data name="RRDesc" xml:space="preserve">
+    <value>RR - Zadní roll: Vyhnutí se háku pohybem hlavy směrem k zadní noze.</value>
+  </data>
+  <data name="RSDesc" xml:space="preserve">
+    <value>RS - Zadní slip: Vyhnutí se přímému úderu pohybem směrem k zadní noze.</value>
   </data>
   <data name="RSlipButton" xml:space="preserve">
     <value>Zadní slip</value>
@@ -389,6 +464,9 @@
   </data>
   <data name="semi_pro" xml:space="preserve">
     <value>Poloprofesionál</value>
+  </data>
+  <data name="SFDesc" xml:space="preserve">
+    <value>SF - Úkrok dopředu: Pohyb vpřed krokem s přední nohou, následovaný krokem zadní nohy.</value>
   </data>
   <data name="shadowboxing" xml:space="preserve">
     <value>Stínový box</value>
@@ -476,5 +554,26 @@
   </data>
   <data name="ViewButton" xml:space="preserve">
     <value>Zobrazit vlastní workouty</value>
+  </data>
+  <data name="SRDesc" xml:space="preserve">
+    <value>SR - Úkrok doprava : Pohyb doprava krokem pravou nohou, následovaný krokem levou nohy</value>
+  </data>
+  <data name="SLDesc" xml:space="preserve">
+    <value>SL - Úkrok doleva: Moving left by stepping with left foot first, followed by the right foot.</value>
+  </data>
+  <data name="ISDesc" xml:space="preserve">
+    <value>ISS - Vnitřní sidestep: Vyhnutí se přímému úderu krokem přední nohou směrem k zadní straně a následným pivotem.</value>
+  </data>
+  <data name="OSDesc" xml:space="preserve">
+    <value>OSS - Vnější sidestep: Vyhnutí se přímému úderu krokem přední nohou směrem k přední straně a následným pivotem.</value>
+  </data>
+  <data name="StanceDesc" xml:space="preserve">
+    <value>Postoj</value>
+  </data>
+  <data name="OrthodoxDesc" xml:space="preserve">
+    <value>Pro orthodoxního boxera (pravák): Přední - Levá, Zadní - Pravá.</value>
+  </data>
+  <data name="SouthpawDesc" xml:space="preserve">
+    <value>Pro southpaw boxera (levák): Přední - Pravá, Zadní - Levá.</value>
   </data>
 </root>

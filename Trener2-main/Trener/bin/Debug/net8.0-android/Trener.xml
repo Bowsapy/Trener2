@@ -38,7 +38,7 @@
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.AboutAppButton">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný ABOUT APP.
+              Vyhledá lokalizovaný řetězec podobný STRIKES.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.add_countersText">
@@ -86,6 +86,11 @@
               Vyhledá lokalizovaný řetězec podobný Basic strikes.
             </summary>
         </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.BBDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný BB - Body Block: Blocking straight punches to the body by keeping elbows together..
+            </summary>
+        </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.BCrossButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Body cross.
@@ -94,6 +99,16 @@
         <member name="P:Trener.Resources.Languages.objectsStrings.BJabButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Body jab.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.BodyCrossDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný 2b - Body Cross: A cross aimed at the opponent’s body..
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.BodyJabDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný 1b - Body Jab: A jab aimed at the opponent’s body..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.burpees">
@@ -154,6 +169,16 @@
         <member name="P:Trener.Resources.Languages.objectsStrings.CrossButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Cross.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.CrossDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný 2 - Cross: A powerful straight punch thrown with the rear hand..
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.DDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Duck: Squatting to avoid straight punches..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.defence_onlyText">
@@ -231,9 +256,19 @@
               Vyhledá lokalizovaný řetězec podobný Inside sidestep.
             </summary>
         </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.ISDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný ISS - Inside Sidestep: Avoiding a straight punch by stepping with the lead foot toward the rear side and pivoting..
+            </summary>
+        </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.JabButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Jab .
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.JabDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný 1 - Jab: A quick, straight punch with the lead hand, the most commonly used punch in boxing..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.keepmoving">
@@ -251,6 +286,16 @@
               Vyhledá lokalizovaný řetězec podobný Lead bodyblock.
             </summary>
         </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LBBDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný LBB - Lead Body Block: Blocking a body hook by tilting toward the lead side..
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LBDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný LB - Lead Block: Blocking a straight punch with the lead hand.
+            </summary>
+        </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.LBHook">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Lead hook body.
@@ -266,9 +311,34 @@
               Vyhledá lokalizovaný řetězec podobný Lead catch.
             </summary>
         </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LCDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný LC - Lead Catch: Blocking a hook with the lead hand..
+            </summary>
+        </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.LCombosButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Longer combos.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LeadBodyHookDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný 3b - Lead Body Hook: A lead hook aimed at the opponent’s body..
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LeadHookDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný 3 - Lead Hook: A hooking punch thrown with the lead hand..
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LeadUpperDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný 5 - Lead Uppercut: A rising punch thrown with the lead hand, useful for close-range attacks..
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LeadUppperBodyDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný 5b - Lead Body Uppercut: A lead uppercut targeting the opponent’s body..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.LearnTechButton">
@@ -299,6 +369,16 @@
         <member name="P:Trener.Resources.Languages.objectsStrings.LRButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Lead roll.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LRDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný LR - Lead Roll: Avoiding a hook by rolling toward the lead foot..
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.LSDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný LS - Lead Slip: Dodging a straight punch by moving toward the lead foot..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.LSlipButton">
@@ -371,9 +451,19 @@
               Vyhledá lokalizovaný řetězec podobný Only straight punches.
             </summary>
         </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.OrthodoxDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný For Orthodox (Right-Handed Boxer): Lead - Left, Rear - Right.
+            </summary>
+        </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.OSButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Outside sidestep.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.OSDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný OSS - Outside Sidestep: Avoiding a straight punch by stepping with the lead foot further to the lead side and pivoting..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.Outside_sidestep">
@@ -431,6 +521,16 @@
               Vyhledá lokalizovaný řetězec podobný Rear Bodyblock.
             </summary>
         </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RBBDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný RBB - Rear Bodyblock: Blocking a body hook by tilting toward the rear side..
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RBDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný LB - Lead Block: Blocking a straight punch with the rear hand.
+            </summary>
+        </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.RBHookButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Rear body hook.
@@ -444,6 +544,31 @@
         <member name="P:Trener.Resources.Languages.objectsStrings.RCButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Rear catch.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RCDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný RC - Rear Catch: Blocking a hook with the rear hand..
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RearHookBodyDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný 4b - Rear Body Hook: A rear hook aimed at the opponent’s body..
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RearHookDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný 4 - Rear Hook: A hooking punch thrown with the rear hand for more power..
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RearUpperBodyDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný 6b - Rear Body Uppercut: A rear uppercut targeting the opponent’s body..
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RearUpperDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný 6 - Rear Uppercut: A powerful uppercut thrown with the rear hand..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.repText">
@@ -466,6 +591,16 @@
               Vyhledá lokalizovaný řetězec podobný Rear roll.
             </summary>
         </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RRDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný RR - Rear Roll: Avoiding a hook by rolling toward the rear foot..
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.RSDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný RS - Rear Slip: Dodging a straight punch by moving toward the rear foot..
+            </summary>
+        </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.RSlipButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Rear slip.
@@ -481,6 +616,11 @@
               Vyhledá lokalizovaný řetězec podobný Save workout.
             </summary>
         </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.SBDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný SB - Step Backwards: Moving backwards by stepping with the rear foot first, followed by the lead foot..
+            </summary>
+        </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.SelectAWorkout">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Select a workout.
@@ -489,6 +629,11 @@
         <member name="P:Trener.Resources.Languages.objectsStrings.semi_pro">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Semi-professional.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.SFDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný SF - Step Forward: Moving forward by stepping with the lead foot first, followed by the rear foot.&quot;.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.shadowboxing">
@@ -526,6 +671,16 @@
               Vyhledá lokalizovaný řetězec podobný Skip.
             </summary>
         </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.SLDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný SL - Step Left: Moving left by stepping with left foot first, followed by the right foot..
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.SouthpawDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný For Southpaw (Left-Handed Boxer): Lead - Right, Rear - Left.
+            </summary>
+        </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.speed">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Speed.
@@ -539,6 +694,17 @@
         <member name="P:Trener.Resources.Languages.objectsStrings.squats">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Squats.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.SRDesc">
+             <summary>
+               Vyhledá lokalizovaný řetězec podobný SR - Step Right: Moving right by stepping with right foot first, followed by the left foot.
+            .
+             </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.StanceDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Stance.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.startwithjab">

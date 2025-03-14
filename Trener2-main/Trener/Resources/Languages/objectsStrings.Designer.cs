@@ -61,7 +61,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný ABOUT APP.
+        ///   Vyhledá lokalizovaný řetězec podobný STRIKES.
         /// </summary>
         internal static string AboutAppButton {
             get {
@@ -151,6 +151,15 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný BB - Body Block: Blocking straight punches to the body by keeping elbows together..
+        /// </summary>
+        internal static string BBDesc {
+            get {
+                return ResourceManager.GetString("BBDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Body cross.
         /// </summary>
         internal static string BCrossButton {
@@ -165,6 +174,24 @@ namespace Trener.Resources.Languages {
         internal static string BJabButton {
             get {
                 return ResourceManager.GetString("BJabButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný 2b - Body Cross: A cross aimed at the opponent’s body..
+        /// </summary>
+        internal static string BodyCrossDesc {
+            get {
+                return ResourceManager.GetString("BodyCrossDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný 1b - Body Jab: A jab aimed at the opponent’s body..
+        /// </summary>
+        internal static string BodyJabDesc {
+            get {
+                return ResourceManager.GetString("BodyJabDesc", resourceCulture);
             }
         }
         
@@ -273,6 +300,24 @@ namespace Trener.Resources.Languages {
         internal static string CrossButton {
             get {
                 return ResourceManager.GetString("CrossButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný 2 - Cross: A powerful straight punch thrown with the rear hand..
+        /// </summary>
+        internal static string CrossDesc {
+            get {
+                return ResourceManager.GetString("CrossDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Duck: Squatting to avoid straight punches..
+        /// </summary>
+        internal static string DDesc {
+            get {
+                return ResourceManager.GetString("DDesc", resourceCulture);
             }
         }
         
@@ -412,11 +457,29 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný ISS - Inside Sidestep: Avoiding a straight punch by stepping with the lead foot toward the rear side and pivoting..
+        /// </summary>
+        internal static string ISDesc {
+            get {
+                return ResourceManager.GetString("ISDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Jab .
         /// </summary>
         internal static string JabButton {
             get {
                 return ResourceManager.GetString("JabButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný 1 - Jab: A quick, straight punch with the lead hand, the most commonly used punch in boxing..
+        /// </summary>
+        internal static string JabDesc {
+            get {
+                return ResourceManager.GetString("JabDesc", resourceCulture);
             }
         }
         
@@ -448,6 +511,24 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný LBB - Lead Body Block: Blocking a body hook by tilting toward the lead side..
+        /// </summary>
+        internal static string LBBDesc {
+            get {
+                return ResourceManager.GetString("LBBDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný LB - Lead Block: Blocking a straight punch with the lead hand.
+        /// </summary>
+        internal static string LBDesc {
+            get {
+                return ResourceManager.GetString("LBDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Lead hook body.
         /// </summary>
         internal static string LBHook {
@@ -475,11 +556,56 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný LC - Lead Catch: Blocking a hook with the lead hand..
+        /// </summary>
+        internal static string LCDesc {
+            get {
+                return ResourceManager.GetString("LCDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Longer combos.
         /// </summary>
         internal static string LCombosButton {
             get {
                 return ResourceManager.GetString("LCombosButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný 3b - Lead Body Hook: A lead hook aimed at the opponent’s body..
+        /// </summary>
+        internal static string LeadBodyHookDesc {
+            get {
+                return ResourceManager.GetString("LeadBodyHookDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný 3 - Lead Hook: A hooking punch thrown with the lead hand..
+        /// </summary>
+        internal static string LeadHookDesc {
+            get {
+                return ResourceManager.GetString("LeadHookDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný 5 - Lead Uppercut: A rising punch thrown with the lead hand, useful for close-range attacks..
+        /// </summary>
+        internal static string LeadUpperDesc {
+            get {
+                return ResourceManager.GetString("LeadUpperDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný 5b - Lead Body Uppercut: A lead uppercut targeting the opponent’s body..
+        /// </summary>
+        internal static string LeadUppperBodyDesc {
+            get {
+                return ResourceManager.GetString("LeadUppperBodyDesc", resourceCulture);
             }
         }
         
@@ -534,6 +660,24 @@ namespace Trener.Resources.Languages {
         internal static string LRButton {
             get {
                 return ResourceManager.GetString("LRButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný LR - Lead Roll: Avoiding a hook by rolling toward the lead foot..
+        /// </summary>
+        internal static string LRDesc {
+            get {
+                return ResourceManager.GetString("LRDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný LS - Lead Slip: Dodging a straight punch by moving toward the lead foot..
+        /// </summary>
+        internal static string LSDesc {
+            get {
+                return ResourceManager.GetString("LSDesc", resourceCulture);
             }
         }
         
@@ -664,11 +808,29 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný For Orthodox (Right-Handed Boxer): Lead - Left, Rear - Right.
+        /// </summary>
+        internal static string OrthodoxDesc {
+            get {
+                return ResourceManager.GetString("OrthodoxDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Outside sidestep.
         /// </summary>
         internal static string OSButton {
             get {
                 return ResourceManager.GetString("OSButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný OSS - Outside Sidestep: Avoiding a straight punch by stepping with the lead foot further to the lead side and pivoting..
+        /// </summary>
+        internal static string OSDesc {
+            get {
+                return ResourceManager.GetString("OSDesc", resourceCulture);
             }
         }
         
@@ -772,6 +934,24 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný RBB - Rear Bodyblock: Blocking a body hook by tilting toward the rear side..
+        /// </summary>
+        internal static string RBBDesc {
+            get {
+                return ResourceManager.GetString("RBBDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný LB - Lead Block: Blocking a straight punch with the rear hand.
+        /// </summary>
+        internal static string RBDesc {
+            get {
+                return ResourceManager.GetString("RBDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Rear body hook.
         /// </summary>
         internal static string RBHookButton {
@@ -795,6 +975,51 @@ namespace Trener.Resources.Languages {
         internal static string RCButton {
             get {
                 return ResourceManager.GetString("RCButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný RC - Rear Catch: Blocking a hook with the rear hand..
+        /// </summary>
+        internal static string RCDesc {
+            get {
+                return ResourceManager.GetString("RCDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný 4b - Rear Body Hook: A rear hook aimed at the opponent’s body..
+        /// </summary>
+        internal static string RearHookBodyDesc {
+            get {
+                return ResourceManager.GetString("RearHookBodyDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný 4 - Rear Hook: A hooking punch thrown with the rear hand for more power..
+        /// </summary>
+        internal static string RearHookDesc {
+            get {
+                return ResourceManager.GetString("RearHookDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný 6b - Rear Body Uppercut: A rear uppercut targeting the opponent’s body..
+        /// </summary>
+        internal static string RearUpperBodyDesc {
+            get {
+                return ResourceManager.GetString("RearUpperBodyDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný 6 - Rear Uppercut: A powerful uppercut thrown with the rear hand..
+        /// </summary>
+        internal static string RearUpperDesc {
+            get {
+                return ResourceManager.GetString("RearUpperDesc", resourceCulture);
             }
         }
         
@@ -835,6 +1060,24 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný RR - Rear Roll: Avoiding a hook by rolling toward the rear foot..
+        /// </summary>
+        internal static string RRDesc {
+            get {
+                return ResourceManager.GetString("RRDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný RS - Rear Slip: Dodging a straight punch by moving toward the rear foot..
+        /// </summary>
+        internal static string RSDesc {
+            get {
+                return ResourceManager.GetString("RSDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Rear slip.
         /// </summary>
         internal static string RSlipButton {
@@ -862,6 +1105,15 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný SB - Step Backwards: Moving backwards by stepping with the rear foot first, followed by the lead foot..
+        /// </summary>
+        internal static string SBDesc {
+            get {
+                return ResourceManager.GetString("SBDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Select a workout.
         /// </summary>
         internal static string SelectAWorkout {
@@ -876,6 +1128,15 @@ namespace Trener.Resources.Languages {
         internal static string semi_pro {
             get {
                 return ResourceManager.GetString("semi_pro", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný SF - Step Forward: Moving forward by stepping with the lead foot first, followed by the rear foot.&quot;.
+        /// </summary>
+        internal static string SFDesc {
+            get {
+                return ResourceManager.GetString("SFDesc", resourceCulture);
             }
         }
         
@@ -943,6 +1204,24 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný SL - Step Left: Moving left by stepping with left foot first, followed by the right foot..
+        /// </summary>
+        internal static string SLDesc {
+            get {
+                return ResourceManager.GetString("SLDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný For Southpaw (Left-Handed Boxer): Lead - Right, Rear - Left.
+        /// </summary>
+        internal static string SouthpawDesc {
+            get {
+                return ResourceManager.GetString("SouthpawDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Speed.
         /// </summary>
         internal static string speed {
@@ -966,6 +1245,25 @@ namespace Trener.Resources.Languages {
         internal static string squats {
             get {
                 return ResourceManager.GetString("squats", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný SR - Step Right: Moving right by stepping with right foot first, followed by the left foot.
+        ///.
+        /// </summary>
+        internal static string SRDesc {
+            get {
+                return ResourceManager.GetString("SRDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Stance.
+        /// </summary>
+        internal static string StanceDesc {
+            get {
+                return ResourceManager.GetString("StanceDesc", resourceCulture);
             }
         }
         

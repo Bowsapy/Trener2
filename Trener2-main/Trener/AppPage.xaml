@@ -1,26 +1,49 @@
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trener.AppPage"
-             Title="O aplikaci">
+             xmlns:lang="clr-namespace:Trener.Resources.Languages">
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
+            <Label Text="{x:Static lang:objectsStrings.StanceDesc}" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Label Text="{x:Static lang:objectsStrings.OrthodoxDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.SouthpawDesc}" FontSize="18" Margin="10"/>
 
-        <ScrollView Grid.Row="0">
-            <StackLayout>
-                <Label 
-                    Text="Aplikační software (zkráceně aplikace, slangově apka nebo appka[1]) je v informatice programové vybavení počítače (tj. software), které umožňuje provádět nějakou užitečnou činnost (řešení konkrétního problému, interaktivní tvorbu uživatele – např. textový procesor apod.).[2] Aplikace využívají pro interakci s uživatelem grafické nebo textové rozhraní, případně příkazový řádek. Aplikace se může skládat z několika počítačových programů. Mezi aplikace neřadíme systémový software (tj. jádro a další součásti operačního systému, např. služba Windows, démon).ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssAplikační software (zkráceně aplikace, slangově apka nebo appka[1]) je v informatice programové vybavení počítače (tj. software), které umožňuje provádět nějakou užitečnou činnost (řešení konkrétního problému, interaktivní tvorbu uživatele – např. textový procesor apod.).[2] Aplikace využívají pro interakci s uživatelem grafické nebo textové rozhraní, případně příkazový řádek. Aplikace se může skládat z několika počítačových programů. Mezi aplikace neřadíme systémový software (tj. jádro a další součásti operačního systému, např. služba Windows, démon).ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss Aplikační software (zkráceně aplikace, slangově apka nebo appka[1]) je v informatice programové vybavení počítače (tj. software), které umožňuje provádět nějakou užitečnou činnost (řešení konkrétního problému, interaktivní tvorbu uživatele – např. textový procesor apod.).[2] Aplikace využívají pro interakci s uživatelem grafické nebo textové rozhraní, případně příkazový řádek. Aplikace se může skládat z několika počítačových programů. Mezi aplikace neřadíme systémový software (tj. jádro a další součásti operačního systému, např. služba Windows, démon).ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"
-                    VerticalOptions="Center" 
-                    HorizontalOptions="Center" 
-                    WidthRequest="300"/>
-            </StackLayout>
-        </ScrollView>
+            <Label Text="{x:Static lang:objectsStrings.PunchesButton}" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center"  Margin="0,30,0,0"/>
+            <Label Text="{x:Static lang:objectsStrings.JabDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.BodyJabDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.CrossDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.BodyCrossDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.LeadHookDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.LeadBodyHookDesc} " FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.RearHookDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.RearHookBodyDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.LeadUpperDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.LeadUppperBodyDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.RearUpperDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.RearUpperBodyDesc}" FontSize="18" Margin="10"/>
 
-        <Button Grid.Row="1"
-                Text ="Zpět"
-                Clicked="Click"/>
-    </Grid>
+            <Label Text="{x:Static lang:objectsStrings.DefenceButton}" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,30,0,0"/>
+            <Label Text="{x:Static lang:objectsStrings.LBDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.RBDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.LCDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.RCDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.LSDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.RSDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.LRDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.RRDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.LBDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.RBBDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.BBDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.DDesc}" FontSize="18" Margin="10"/>
+
+            <Label Text="{x:Static lang:objectsStrings.MovementButton}" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center"  Margin="0,30,0,0"/>
+            <Label Text="{x:Static lang:objectsStrings.SFDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.SBDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.SLDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.SRDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.ISDesc}" FontSize="18" Margin="10"/>
+            <Label Text="{x:Static lang:objectsStrings.OSDesc}" FontSize="18" Margin="10"/>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

@@ -1685,7 +1685,6 @@ C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\assets\zh-Hant\Microsoft.Maui.Controls.resources.dll
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\assets\_Microsoft.Android.Resource.Designer.dll
-C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\AndroidManifest.xml
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\AndroidManifest.xml
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\src\mono\MonoRuntimeProvider.java
@@ -1695,7 +1694,6 @@ C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\static.flag
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\__environment__.txt
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\buildid.txt
-C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\environment.arm64-v8a.ll
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\src\androidx\activity\ktx\R.java
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\src\androidx\activity\R.java
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\src\androidx\annotation\experimental\R.java
@@ -2195,13 +2193,6 @@ C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\bin\packaged_resources
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\src\com\companyname\trener\R.java
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\_CompileJava.FileList.txt
-C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll
-C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.o
-C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\environment.arm64-v8a.o
-C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.o
-C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\marshal_methods.arm64-v8a.o
-C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\jni_remap.arm64-v8a.o
-C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\bin\classes.dex
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\bin\classes2.dex
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -2223,3 +2214,12 @@ C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Semibold.ttf
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\resizetizer\A52E68AE06E1868A-files.cache
+C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
+C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\environment.arm64-v8a.ll
+C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll
+C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.o
+C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\environment.arm64-v8a.o
+C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.o
+C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\marshal_methods.arm64-v8a.o
+C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\android\jni_remap.arm64-v8a.o
+C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
