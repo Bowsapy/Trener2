@@ -1,7 +1,9 @@
 ﻿obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\bag.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\bag2.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\file.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\gym.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\loading.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\room.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\stairs.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\trace.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\trena.png
@@ -9,8 +11,10 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\trener2.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\trophy.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\bag.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\bag2.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\file.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\gym.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\loading.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\room.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\stairs.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\trace.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\trena.png
@@ -18,8 +22,10 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\trener2.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\trophy.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\bag.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\bag2.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\file.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\gym.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\loading.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\room.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\stairs.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\trace.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\trena.png
@@ -27,8 +33,10 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\trener2.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\trophy.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\bag.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\bag2.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\file.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\gym.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\loading.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\room.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\stairs.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\trace.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\trena.png
@@ -36,8 +44,10 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\trener2.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\trophy.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\bag.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\bag2.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\file.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\gym.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\loading.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\room.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\stairs.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\trace.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\trena.png

@@ -122,7 +122,7 @@
             </Grid.ColumnDefinitions>
 
             <Label x:Name="time_label" 
-                   Text="0"
+                   Text="0/0"
                    BackgroundColor="Beige"
                    FontSize="30"
                    Grid.Column="0"
@@ -130,7 +130,7 @@
                    Padding="10"
                    TextColor="Purple"/>
             <Label x:Name="rep_label" 
-                   Text="0"
+                   Text="0/0"
                    BackgroundColor="Beige"
                    FontSize="30"
                    Grid.Column="1"
@@ -138,7 +138,7 @@
                    Padding="10"
                    TextColor="Purple"/>
             <Label x:Name="count_label" 
-                   Text="0"
+                   Text="0/0"
                    BackgroundColor="Beige"
                    FontSize="30"
                    Grid.Column="2"
@@ -162,7 +162,7 @@
                     BackgroundColor="MediumPurple"
                     TextColor="White" />
             <Button Text="{Binding Source={x:Static lang:objectsStrings.skipText}}"
-                    Clicked="SkipniFunc"
+                    Clicked="SkipFunc"
                     Grid.Column="1"
                     BackgroundColor="MediumPurple"
                     TextColor="White" />

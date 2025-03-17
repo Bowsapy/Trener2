@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutAppButton" xml:space="preserve">
-    <value>TECHNIKY</value>
+    <value>INFO</value>
   </data>
   <data name="AddCButton" xml:space="preserve">
     <value>Přidej kombo</value>
@@ -268,7 +268,7 @@
     <value>LBB - Přední bodyblock: Blokování tělesného háku nakloněním těla směrem k přední noze.</value>
   </data>
   <data name="LBDesc" xml:space="preserve">
-    <value>LB - Přední blok: Blokování přímého úderu přední rukou.</value>
+    <value>LBlock - Přední blok: Blokování přímého úderu přední rukou.</value>
   </data>
   <data name="LBHook" xml:space="preserve">
     <value>Přední hák tělo</value>
@@ -280,7 +280,7 @@
     <value>Přední catch</value>
   </data>
   <data name="LCDesc" xml:space="preserve">
-    <value>LC - Přední catch: Blokování háku přední rukou.</value>
+    <value>LCatch - Přední catch: Blokování háku přední rukou.</value>
   </data>
   <data name="LCombosButton" xml:space="preserve">
     <value>Delší kombinace</value>
@@ -316,10 +316,10 @@
     <value>Přední roll</value>
   </data>
   <data name="LRDesc" xml:space="preserve">
-    <value>LR - Přední roll: Vyhnutí se háku pohybem hlavy směrem k přední noze.</value>
+    <value>LRoll - Přední roll: Vyhnutí se háku pohybem hlavy směrem k přední noze.</value>
   </data>
   <data name="LSDesc" xml:space="preserve">
-    <value>LS - Přední slip: Vyhnutí se přímému úderu pohybem směrem k přední noze.</value>
+    <value>LSlip - Přední slip: Vyhnutí se přímému úderu pohybem směrem k přední noze.</value>
   </data>
   <data name="LSlipButton" xml:space="preserve">
     <value>Přední slip</value>
@@ -415,7 +415,7 @@
     <value>Zadní catch</value>
   </data>
   <data name="RCDesc" xml:space="preserve">
-    <value>RC - Zadní catch: Blokování háku zadní rukou.</value>
+    <value>RCatch - Zadní catch: Blokování háku zadní rukou.</value>
   </data>
   <data name="RearHookBodyDesc" xml:space="preserve">
     <value>4b - Zadní hák tělo: Zadní hák zaměřený na tělo protivníka.</value>
@@ -433,7 +433,7 @@
     <value>Opak.</value>
   </data>
   <data name="SBDesc" xml:space="preserve">
-    <value>SB - Úkrok vzad: Pohyb vzad krokem zadní nohou, následovaný krokem přední nohou</value>
+    <value>StepB - Úkrok vzad: Pohyb vzad krokem zadní nohou, následovaný krokem přední nohou</value>
   </data>
   <data name="RHookButton" xml:space="preserve">
     <value>Zadní hák</value>
@@ -445,10 +445,10 @@
     <value>Zadní roll</value>
   </data>
   <data name="RRDesc" xml:space="preserve">
-    <value>RR - Zadní roll: Vyhnutí se háku pohybem hlavy směrem k zadní noze.</value>
+    <value>RRoll - Zadní roll: Vyhnutí se háku pohybem hlavy směrem k zadní noze.</value>
   </data>
   <data name="RSDesc" xml:space="preserve">
-    <value>RS - Zadní slip: Vyhnutí se přímému úderu pohybem směrem k zadní noze.</value>
+    <value>RSlip - Zadní slip: Vyhnutí se přímému úderu pohybem směrem k zadní noze.</value>
   </data>
   <data name="RSlipButton" xml:space="preserve">
     <value>Zadní slip</value>
@@ -466,7 +466,7 @@
     <value>Poloprofesionál</value>
   </data>
   <data name="SFDesc" xml:space="preserve">
-    <value>SF - Úkrok dopředu: Pohyb vpřed krokem s přední nohou, následovaný krokem zadní nohy.</value>
+    <value>StepF - Úkrok dopředu: Pohyb vpřed krokem s přední nohou, následovaný krokem zadní nohy.</value>
   </data>
   <data name="shadowboxing" xml:space="preserve">
     <value>Stínový box</value>
@@ -556,16 +556,16 @@
     <value>Zobrazit vlastní workouty</value>
   </data>
   <data name="SRDesc" xml:space="preserve">
-    <value>SR - Úkrok doprava : Pohyb doprava krokem pravou nohou, následovaný krokem levou nohy</value>
+    <value>StepR - Úkrok doprava : Pohyb doprava krokem pravou nohou, následovaný krokem levou nohy</value>
   </data>
   <data name="SLDesc" xml:space="preserve">
-    <value>SL - Úkrok doleva: Moving left by stepping with left foot first, followed by the right foot.</value>
+    <value>StepL - Úkrok doleva:  Pohyb doleva krokem levou nohou, následovaný krokem pravé nohy</value>
   </data>
   <data name="ISDesc" xml:space="preserve">
-    <value>ISS - Vnitřní sidestep: Vyhnutí se přímému úderu krokem přední nohou směrem k zadní straně a následným pivotem.</value>
+    <value>ISStep - Vnitřní sidestep: Vyhnutí se přímému úderu krokem přední nohou směrem k zadní straně a následným pivotem.</value>
   </data>
   <data name="OSDesc" xml:space="preserve">
-    <value>OSS - Vnější sidestep: Vyhnutí se přímému úderu krokem přední nohou směrem k přední straně a následným pivotem.</value>
+    <value>OSStep - Vnější sidestep: Vyhnutí se přímému úderu krokem přední nohou směrem k přední straně a následným pivotem.</value>
   </data>
   <data name="StanceDesc" xml:space="preserve">
     <value>Postoj</value>

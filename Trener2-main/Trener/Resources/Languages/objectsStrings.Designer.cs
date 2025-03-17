@@ -61,7 +61,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný STRIKES.
+        ///   Vyhledá lokalizovaný řetězec podobný INFO.
         /// </summary>
         internal static string AboutAppButton {
             get {
@@ -457,7 +457,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný ISS - Inside Sidestep: Avoiding a straight punch by stepping with the lead foot toward the rear side and pivoting..
+        ///   Vyhledá lokalizovaný řetězec podobný ISStep - Inside Sidestep: Avoiding a straight punch by stepping with the lead foot toward the rear side and pivoting..
         /// </summary>
         internal static string ISDesc {
             get {
@@ -520,7 +520,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný LB - Lead Block: Blocking a straight punch with the lead hand.
+        ///   Vyhledá lokalizovaný řetězec podobný LBlock - Lead Block: Blocking a straight punch with the lead hand.
         /// </summary>
         internal static string LBDesc {
             get {
@@ -556,7 +556,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný LC - Lead Catch: Blocking a hook with the lead hand..
+        ///   Vyhledá lokalizovaný řetězec podobný LCatch - Lead Catch: Blocking a hook with the lead hand..
         /// </summary>
         internal static string LCDesc {
             get {
@@ -664,7 +664,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný LR - Lead Roll: Avoiding a hook by rolling toward the lead foot..
+        ///   Vyhledá lokalizovaný řetězec podobný LRoll - Lead Roll: Avoiding a hook by rolling toward the lead foot..
         /// </summary>
         internal static string LRDesc {
             get {
@@ -673,7 +673,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný LS - Lead Slip: Dodging a straight punch by moving toward the lead foot..
+        ///   Vyhledá lokalizovaný řetězec podobný LSlip - Lead Slip: Dodging a straight punch by moving toward the lead foot..
         /// </summary>
         internal static string LSDesc {
             get {
@@ -826,7 +826,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný OSS - Outside Sidestep: Avoiding a straight punch by stepping with the lead foot further to the lead side and pivoting..
+        ///   Vyhledá lokalizovaný řetězec podobný OSStep - Outside Sidestep: Avoiding a straight punch by stepping with the lead foot further to the lead side and pivoting..
         /// </summary>
         internal static string OSDesc {
             get {
@@ -943,7 +943,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný LB - Lead Block: Blocking a straight punch with the rear hand.
+        ///   Vyhledá lokalizovaný řetězec podobný RBlock - Rear Block: Blocking a straight punch with the rear hand.
         /// </summary>
         internal static string RBDesc {
             get {
@@ -979,7 +979,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný RC - Rear Catch: Blocking a hook with the rear hand..
+        ///   Vyhledá lokalizovaný řetězec podobný RCatch- Rear Catch: Blocking a hook with the rear hand..
         /// </summary>
         internal static string RCDesc {
             get {
@@ -1060,7 +1060,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný RR - Rear Roll: Avoiding a hook by rolling toward the rear foot..
+        ///   Vyhledá lokalizovaný řetězec podobný RRoll - Rear Roll: Avoiding a hook by rolling toward the rear foot..
         /// </summary>
         internal static string RRDesc {
             get {
@@ -1069,7 +1069,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný RS - Rear Slip: Dodging a straight punch by moving toward the rear foot..
+        ///   Vyhledá lokalizovaný řetězec podobný RSlip - Rear Slip: Dodging a straight punch by moving toward the rear foot..
         /// </summary>
         internal static string RSDesc {
             get {
@@ -1105,7 +1105,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný SB - Step Backwards: Moving backwards by stepping with the rear foot first, followed by the lead foot..
+        ///   Vyhledá lokalizovaný řetězec podobný StepB - Step Backwards: Moving backwards by stepping with the rear foot first, followed by the lead foot..
         /// </summary>
         internal static string SBDesc {
             get {
@@ -1132,7 +1132,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný SF - Step Forward: Moving forward by stepping with the lead foot first, followed by the rear foot.&quot;.
+        ///   Vyhledá lokalizovaný řetězec podobný StepF - Step Forward: Moving forward by stepping with the lead foot first, followed by the rear foot.&quot;.
         /// </summary>
         internal static string SFDesc {
             get {
@@ -1204,7 +1204,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný SL - Step Left: Moving left by stepping with left foot first, followed by the right foot..
+        ///   Vyhledá lokalizovaný řetězec podobný StepL - Step Left: Moving left by stepping with left foot first, followed by the right foot..
         /// </summary>
         internal static string SLDesc {
             get {
@@ -1249,7 +1249,7 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
-        ///   Vyhledá lokalizovaný řetězec podobný SR - Step Right: Moving right by stepping with right foot first, followed by the left foot.
+        ///   Vyhledá lokalizovaný řetězec podobný StepR - Step Right: Moving right by stepping with right foot first, followed by the left foot.
         ///.
         /// </summary>
         internal static string SRDesc {

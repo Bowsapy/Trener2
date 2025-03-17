@@ -2,53 +2,54 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trener.ProgressPage"
+             BackgroundImageSource="file.png"
              xmlns:local="clr-namespace:Trener">
 
     <ContentPage.BindingContext>
         <local:YourViewModel />
     </ContentPage.BindingContext>
 
-    <StackLayout Padding="30" BackgroundColor="Beige">
-       
-        <!-- Nadpis s uživatelským jménem -->
-        <Label x:Name="name_label"
-               Text="Uživatelské jméno"
-               FontSize="27"
-               HorizontalOptions="Center" 
-                FontAttributes="Bold"
-               />
+    <StackLayout Padding="30">
 
-        <Label x:Name="progress_label"
-          Text="Uživatelské jméno"
-          FontSize="20"
-          HorizontalOptions="Center"
-               TextColor="Black"
-               />
+        <!-- Nadpis s uživatelským jménem obalený do Frame -->
+        <Frame BackgroundColor="#CCFFFFFF" Padding="10" CornerRadius="10">
+            <StackLayout>
+                <Label x:Name="name_label"
+                       Text="Uživatelské jméno"
+                       FontSize="27"
+                       HorizontalOptions="Center" 
+                       FontAttributes="Bold"/>
+
+                <Label x:Name="progress_label"
+                       Text="Pokrok uživatele"
+                       FontSize="20"
+                       HorizontalOptions="Center"
+                       TextColor="Black"/>
+            </StackLayout>
+        </Frame>
+
         <!-- Seznam workoutů -->
         <ListView x:Name="workoutListView"
                   SeparatorVisibility="Default"
                   HasUnevenRows="True"
                   Margin="0,10,0,0"
-                  
-                  >
+                  ItemsSource="{Binding Workouts}">
+
             <!-- Šablona pro zobrazení workoutu -->
             <ListView.ItemTemplate>
-                
                 <DataTemplate>
                     <ViewCell>
-
-                            <StackLayout Padding="20" BackgroundColor="White" >
-                            <Label Text="{Binding WorkoutName}" x:Name="workout_label" FontSize="18"  FontAttributes="Bold" />
-                            <Label Text="{Binding Date}" FontSize="14" x:Name="date_label" TextColor="Black" 
-                                   
-                                   />
-                                
-
-                            </StackLayout>
-
+                        <Border StrokeThickness="1" Stroke="Black" Padding="10" BackgroundColor="White">
+                            <VerticalStackLayout>
+                                <Label Text="{Binding WorkoutName}" FontSize="18" FontAttributes="Bold" />
+                                <Label Text="{Binding Date}" FontSize="14" TextColor="Black"/>
+                            </VerticalStackLayout>
+                        </Border>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
+
         </ListView>
+
     </StackLayout>
 </ContentPage>

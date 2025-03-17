@@ -202,5 +202,17 @@ namespace Trener
         {
             label.Text = text;
         }
+        private void UpdateComboLabelFontSize(int comboLength)
+        {
+            // Maximální a minimální velikost písma
+            int maxFontSize = 150;
+            int minFontSize = 20;
+
+            // Dynamická změna fontu (například klesá s rostoucím comboLength)
+            int fontSize = Math.Max(minFontSize, maxFontSize - comboLength * 8);
+
+            combo_label.FontSize = fontSize;
+        }
+
     }
 }

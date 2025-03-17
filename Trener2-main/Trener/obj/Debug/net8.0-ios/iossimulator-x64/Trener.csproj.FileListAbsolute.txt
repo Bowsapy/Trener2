@@ -627,9 +627,6 @@ C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-ios\ios
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet-nativeaot.a
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet.a
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
-C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
-C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.inputs
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-ios\iossimulator-x64\mauifont.inputs
@@ -713,3 +710,6 @@ C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-ios\ios
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-ios\iossimulator-x64\Trener.pdb
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-ios\iossimulator-x64\Trener.genruntimeconfig.cache
 C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-ios\iossimulator-x64\ref\Trener.dll
+C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
+C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf
+C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Semibold.ttf

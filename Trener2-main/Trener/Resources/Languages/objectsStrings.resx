@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutAppButton" xml:space="preserve">
-    <value>STRIKES</value>
+    <value>INFO</value>
   </data>
   <data name="AddCButton" xml:space="preserve">
     <value>Add combo</value>
@@ -269,7 +269,7 @@
     <value>LBB - Lead Body Block: Blocking a body hook by tilting toward the lead side.</value>
   </data>
   <data name="LBDesc" xml:space="preserve">
-    <value>LB - Lead Block: Blocking a straight punch with the lead hand</value>
+    <value>LBlock - Lead Block: Blocking a straight punch with the lead hand</value>
   </data>
   <data name="LBHook" xml:space="preserve">
     <value>Lead hook body</value>
@@ -281,7 +281,7 @@
     <value>Lead catch</value>
   </data>
   <data name="LCDesc" xml:space="preserve">
-    <value>LC - Lead Catch: Blocking a hook with the lead hand.</value>
+    <value>LCatch - Lead Catch: Blocking a hook with the lead hand.</value>
   </data>
   <data name="LCombosButton" xml:space="preserve">
     <value>Longer combos</value>
@@ -317,10 +317,10 @@
     <value>Lead roll</value>
   </data>
   <data name="LRDesc" xml:space="preserve">
-    <value>LR - Lead Roll: Avoiding a hook by rolling toward the lead foot.</value>
+    <value>LRoll - Lead Roll: Avoiding a hook by rolling toward the lead foot.</value>
   </data>
   <data name="LSDesc" xml:space="preserve">
-    <value>LS - Lead Slip: Dodging a straight punch by moving toward the lead foot.</value>
+    <value>LSlip - Lead Slip: Dodging a straight punch by moving toward the lead foot.</value>
   </data>
   <data name="LSlipButton" xml:space="preserve">
     <value>Lead slip</value>
@@ -404,7 +404,7 @@
     <value>RBB - Rear Bodyblock: Blocking a body hook by tilting toward the rear side.</value>
   </data>
   <data name="RBDesc" xml:space="preserve">
-    <value>LB - Lead Block: Blocking a straight punch with the rear hand</value>
+    <value>RBlock - Rear Block: Blocking a straight punch with the rear hand</value>
   </data>
   <data name="RBHookButton" xml:space="preserve">
     <value>Rear body hook</value>
@@ -416,7 +416,7 @@
     <value>Rear catch</value>
   </data>
   <data name="RCDesc" xml:space="preserve">
-    <value>RC - Rear Catch: Blocking a hook with the rear hand.</value>
+    <value>RCatch- Rear Catch: Blocking a hook with the rear hand.</value>
   </data>
   <data name="RearHookBodyDesc" xml:space="preserve">
     <value>4b - Rear Body Hook: A rear hook aimed at the opponent’s body.</value>
@@ -434,7 +434,7 @@
     <value>Rep</value>
   </data>
   <data name="SBDesc" xml:space="preserve">
-    <value>SB - Step Backwards: Moving backwards by stepping with the rear foot first, followed by the lead foot.</value>
+    <value>StepB - Step Backwards: Moving backwards by stepping with the rear foot first, followed by the lead foot.</value>
   </data>
   <data name="RHookButton" xml:space="preserve">
     <value>Rear hook</value>
@@ -446,10 +446,10 @@
     <value>Rear roll</value>
   </data>
   <data name="RRDesc" xml:space="preserve">
-    <value>RR - Rear Roll: Avoiding a hook by rolling toward the rear foot.</value>
+    <value>RRoll - Rear Roll: Avoiding a hook by rolling toward the rear foot.</value>
   </data>
   <data name="RSDesc" xml:space="preserve">
-    <value>RS - Rear Slip: Dodging a straight punch by moving toward the rear foot.</value>
+    <value>RSlip - Rear Slip: Dodging a straight punch by moving toward the rear foot.</value>
   </data>
   <data name="RSlipButton" xml:space="preserve">
     <value>Rear slip</value>
@@ -467,7 +467,7 @@
     <value>Semi-professional</value>
   </data>
   <data name="SFDesc" xml:space="preserve">
-    <value>SF - Step Forward: Moving forward by stepping with the lead foot first, followed by the rear foot."</value>
+    <value>StepF - Step Forward: Moving forward by stepping with the lead foot first, followed by the rear foot."</value>
   </data>
   <data name="shadowboxing" xml:space="preserve">
     <value>Shadow boxing</value>
@@ -557,17 +557,17 @@
     <value>View your own workouts</value>
   </data>
   <data name="SRDesc" xml:space="preserve">
-    <value>SR - Step Right: Moving right by stepping with right foot first, followed by the left foot.
+    <value>StepR - Step Right: Moving right by stepping with right foot first, followed by the left foot.
 </value>
   </data>
   <data name="SLDesc" xml:space="preserve">
-    <value>SL - Step Left: Moving left by stepping with left foot first, followed by the right foot.</value>
+    <value>StepL - Step Left: Moving left by stepping with left foot first, followed by the right foot.</value>
   </data>
   <data name="ISDesc" xml:space="preserve">
-    <value>ISS - Inside Sidestep: Avoiding a straight punch by stepping with the lead foot toward the rear side and pivoting.</value>
+    <value>ISStep - Inside Sidestep: Avoiding a straight punch by stepping with the lead foot toward the rear side and pivoting.</value>
   </data>
   <data name="OSDesc" xml:space="preserve">
-    <value>OSS - Outside Sidestep: Avoiding a straight punch by stepping with the lead foot further to the lead side and pivoting.</value>
+    <value>OSStep - Outside Sidestep: Avoiding a straight punch by stepping with the lead foot further to the lead side and pivoting.</value>
   </data>
   <data name="StanceDesc" xml:space="preserve">
     <value>Stance</value>

@@ -56,6 +56,11 @@ best2WideTile.scale-125.png
 best2WideTile.scale-150.png
 best2WideTile.scale-200.png
 best2WideTile.scale-400.png
+file.scale-100.png
+file.scale-125.png
+file.scale-150.png
+file.scale-200.png
+file.scale-400.png
 gym.scale-100.png
 gym.scale-125.png
 gym.scale-150.png
@@ -66,6 +71,11 @@ loading.scale-125.png
 loading.scale-150.png
 loading.scale-200.png
 loading.scale-400.png
+room.scale-100.png
+room.scale-125.png
+room.scale-150.png
+room.scale-200.png
+room.scale-400.png
 stairs.scale-100.png
 stairs.scale-125.png
 stairs.scale-150.png

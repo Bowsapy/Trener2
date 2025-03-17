@@ -162,32 +162,16 @@ namespace Trener
 
         private void UpdateComboLabelFontSize(int comboLength)
         {
+            // Maximální a minimální velikost písma
+            int maxFontSize = 150;
+            int minFontSize = 20;
 
-            int fontSize;
+            // Dynamická změna fontu (například klesá s rostoucím comboLength)
+            int fontSize = Math.Max(minFontSize, maxFontSize - comboLength * 8);
 
-            if (comboLength > 15)
-            {
-                fontSize = 20;
-            }
-            if (comboLength > 10)
-            {
-                fontSize = 30;
-            }
-            else if (comboLength > 8)
-            {
-                fontSize = 60;
-            }
-            else if (comboLength > 4)
-            {
-                fontSize = 80;
-            }
-            else
-            {
-                fontSize = 100;
-            }
             combo_label.FontSize = fontSize;
-
         }
+
 
         private void UpdateStrikeLabelBackground(bool isAdvice)
         {
@@ -269,7 +253,7 @@ namespace Trener
             await combo.PlaySound(token);
         }
 
-        private void SkipniFunc(object sender, EventArgs e)
+        private void SkipFunc(object sender, EventArgs e)
         {
             skipped = true;
         }

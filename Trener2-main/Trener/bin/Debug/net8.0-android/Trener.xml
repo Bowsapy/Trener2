@@ -38,7 +38,7 @@
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.AboutAppButton">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný STRIKES.
+              Vyhledá lokalizovaný řetězec podobný INFO.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.add_countersText">
@@ -258,7 +258,7 @@
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.ISDesc">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný ISS - Inside Sidestep: Avoiding a straight punch by stepping with the lead foot toward the rear side and pivoting..
+              Vyhledá lokalizovaný řetězec podobný ISStep - Inside Sidestep: Avoiding a straight punch by stepping with the lead foot toward the rear side and pivoting..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.JabButton">
@@ -293,7 +293,7 @@
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.LBDesc">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný LB - Lead Block: Blocking a straight punch with the lead hand.
+              Vyhledá lokalizovaný řetězec podobný LBlock - Lead Block: Blocking a straight punch with the lead hand.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.LBHook">
@@ -313,7 +313,7 @@
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.LCDesc">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný LC - Lead Catch: Blocking a hook with the lead hand..
+              Vyhledá lokalizovaný řetězec podobný LCatch - Lead Catch: Blocking a hook with the lead hand..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.LCombosButton">
@@ -373,12 +373,12 @@
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.LRDesc">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný LR - Lead Roll: Avoiding a hook by rolling toward the lead foot..
+              Vyhledá lokalizovaný řetězec podobný LRoll - Lead Roll: Avoiding a hook by rolling toward the lead foot..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.LSDesc">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný LS - Lead Slip: Dodging a straight punch by moving toward the lead foot..
+              Vyhledá lokalizovaný řetězec podobný LSlip - Lead Slip: Dodging a straight punch by moving toward the lead foot..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.LSlipButton">
@@ -463,7 +463,7 @@
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.OSDesc">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný OSS - Outside Sidestep: Avoiding a straight punch by stepping with the lead foot further to the lead side and pivoting..
+              Vyhledá lokalizovaný řetězec podobný OSStep - Outside Sidestep: Avoiding a straight punch by stepping with the lead foot further to the lead side and pivoting..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.Outside_sidestep">
@@ -528,7 +528,7 @@
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.RBDesc">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný LB - Lead Block: Blocking a straight punch with the rear hand.
+              Vyhledá lokalizovaný řetězec podobný RBlock - Rear Block: Blocking a straight punch with the rear hand.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.RBHookButton">
@@ -548,7 +548,7 @@
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.RCDesc">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný RC - Rear Catch: Blocking a hook with the rear hand..
+              Vyhledá lokalizovaný řetězec podobný RCatch- Rear Catch: Blocking a hook with the rear hand..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.RearHookBodyDesc">
@@ -593,12 +593,12 @@
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.RRDesc">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný RR - Rear Roll: Avoiding a hook by rolling toward the rear foot..
+              Vyhledá lokalizovaný řetězec podobný RRoll - Rear Roll: Avoiding a hook by rolling toward the rear foot..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.RSDesc">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný RS - Rear Slip: Dodging a straight punch by moving toward the rear foot..
+              Vyhledá lokalizovaný řetězec podobný RSlip - Rear Slip: Dodging a straight punch by moving toward the rear foot..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.RSlipButton">
@@ -618,7 +618,7 @@
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.SBDesc">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný SB - Step Backwards: Moving backwards by stepping with the rear foot first, followed by the lead foot..
+              Vyhledá lokalizovaný řetězec podobný StepB - Step Backwards: Moving backwards by stepping with the rear foot first, followed by the lead foot..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.SelectAWorkout">
@@ -633,7 +633,7 @@
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.SFDesc">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný SF - Step Forward: Moving forward by stepping with the lead foot first, followed by the rear foot.&quot;.
+              Vyhledá lokalizovaný řetězec podobný StepF - Step Forward: Moving forward by stepping with the lead foot first, followed by the rear foot.&quot;.
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.shadowboxing">
@@ -673,7 +673,7 @@
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.SLDesc">
             <summary>
-              Vyhledá lokalizovaný řetězec podobný SL - Step Left: Moving left by stepping with left foot first, followed by the right foot..
+              Vyhledá lokalizovaný řetězec podobný StepL - Step Left: Moving left by stepping with left foot first, followed by the right foot..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.SouthpawDesc">
@@ -698,7 +698,7 @@
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.SRDesc">
              <summary>
-               Vyhledá lokalizovaný řetězec podobný SR - Step Right: Moving right by stepping with right foot first, followed by the left foot.
+               Vyhledá lokalizovaný řetězec podobný StepR - Step Right: Moving right by stepping with right foot first, followed by the left foot.
             .
              </summary>
         </member>
