@@ -41,6 +41,11 @@
               Vyhledá lokalizovaný řetězec podobný INFO.
             </summary>
         </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.AboutAppDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný The main purpose of the app is to conduct independent technical training of the trainee, as on the bag or during shadow boxing, it serves as an audiovisual trainer, where it reports and visually shows the user in real time what punches and movements to use. .
+            </summary>
+        </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.add_countersText">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Add counters.
@@ -119,6 +124,21 @@
         <member name="P:Trener.Resources.Languages.objectsStrings.Champ">
             <summary>
               Vyhledá lokalizovaný řetězec podobný Champion.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.Circuit1Desc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Shadowboxing circuit: Shadowboxing + (pushups, squats, burpees).
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.Circuit2Desc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Skipping rope circuit: Skipping rope + (pushups, squats, burpees).
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.CircuitDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Circuit: A classic circuit training where the user alternates strength exercises with jump rope or freestyle shadowboxing..
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.closefighting">
@@ -226,9 +246,24 @@
               Vyhledá lokalizovaný řetězec podobný Finish combo with bodyshot.
             </summary>
         </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.Freestyle1Desc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Freestyle1: Move around and jab, two punch combos only,Only straight punches, Finish combo with bodyshot, Use your lead hand only, Only hooks and uppercut, Only counters, Closefighting.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.Freestyle2Desc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Freestyle2: Dodge and counter, Start every combo with jab, Finish combo with bodyshot, Move around and jab, Use you lead hand only, Only hooks and uppercuts,Only counters,.
+            </summary>
+        </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.FreestyleButton">
             <summary>
               Vyhledá lokalizovaný řetězec podobný FREESTYLE WORKOUTS.
+            </summary>
+        </member>
+        <member name="P:Trener.Resources.Languages.objectsStrings.FreestyleDesc">
+            <summary>
+              Vyhledá lokalizovaný řetězec podobný Freestyle workout: A workout where user is guided by more general instructions .
             </summary>
         </member>
         <member name="P:Trener.Resources.Languages.objectsStrings.good_job">

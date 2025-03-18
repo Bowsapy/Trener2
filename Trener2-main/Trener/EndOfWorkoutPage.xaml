@@ -3,11 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trener.EndOfWorkoutPage"
              xmlns:lang="clr-namespace:Trener.Resources.Languages"
-             BackgroundImageSource="trophy.png">
+             BackgroundImageSource="ring.png">
 
     <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Spacing="20" Padding="30">
 
-        <Frame BackgroundColor="#512BD4" CornerRadius="15" Padding="10">
+        <Frame BackgroundColor="#512BD4" CornerRadius="15" Padding="0">
             <Label Text="{x:Static lang:objectsStrings.good_job}" 
                    FontSize="57" FontAttributes="Bold" 
 

@@ -111,6 +111,24 @@ CommandParameter="CARDIO 2"
 
                  
            />
+        <Button Text="{x:Static lang:objectsStrings.AboutAppButton}"
+  FontSize="20" 
+           BackgroundColor="Red"
+           TextColor="White"
+           BorderColor="White"
+           Margin="10,10"
+           BorderWidth="2" 
+           FontAttributes="Bold"
+           Grid.Row="4"
+           Grid.Column="0"
+                    LineBreakMode="WordWrap"
+                                  x:Name="AboutFW"
+
+                                                      Command="{Binding NavigateCommandToRight}" 
+CommandParameter="InfoFW"
+
+                 
+           />
 
 
 

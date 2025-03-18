@@ -27,6 +27,7 @@ namespace Trener
                 case "START":
                     pageToNavigate = new Menu1Page();
                     break;
+
                 case "ABOUT APP":
                     pageToNavigate = new AppPage();
                     break;
@@ -65,6 +66,9 @@ namespace Trener
                     break;
                 case "OWN":
                     pageToNavigate = new MakeYourOwnPage();
+                    break;
+                case "InfoFW":
+                    pageToNavigate = new AboutFW();
                     break;
                 case "QUIT":
                     Application.Current.Quit();

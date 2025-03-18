@@ -760,6 +760,21 @@
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-400.png">
       <PackagePath>loading.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ring.scale-100.png">
+      <PackagePath>ring.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ring.scale-125.png">
+      <PackagePath>ring.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ring.scale-150.png">
+      <PackagePath>ring.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ring.scale-200.png">
+      <PackagePath>ring.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ring.scale-400.png">
+      <PackagePath>ring.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\room.scale-100.png">
       <PackagePath>room.scale-100.png</PackagePath>
     </AppxPackagedFile>

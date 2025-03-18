@@ -576,4 +576,25 @@
   <data name="SouthpawDesc" xml:space="preserve">
     <value>Pro southpaw boxera (levák): Přední - Pravá, Zadní - Levá.</value>
   </data>
+  <data name="AboutAppDesc" xml:space="preserve">
+    <value>Hlavní účel aplikace Trener je vedení samostatného technického tréninku svěřence, jak na pytli nebo při stínovém boxu, slouží tedy jako audiovizuální trenér, kde uživateli v reálném čase hlásí a vizuálně zobrazuje jaké údery a pohyby má dotyčný použít. </value>
+  </data>
+  <data name="FreestyleDesc" xml:space="preserve">
+    <value>Freestyle workout: workout při kterém je uživatel veden obecnými pokyny</value>
+  </data>
+  <data name="Freestyle1Desc" xml:space="preserve">
+    <value>Freestyle1: Hýbej se a používej přední direkt,jenom dvouúderové kombinace,Jen přímé údery, Zakonči kombo úderem na spodek,Jen kontry,Jen háky a zvedáky, Jen kontry, Box na blízko,</value>
+  </data>
+  <data name="Freestyle2Desc" xml:space="preserve">
+    <value>Freestyle2: Vyhni se a zakontruj, začínej předním direktem, Zakonči kombo spodkem,hýbej se a používej přední direkt, používej jen přední ruku, jen háky a zvedáky, jen kontry,</value>
+  </data>
+  <data name="Circuit1Desc" xml:space="preserve">
+    <value>Stínování kruháč: Stínový box + (kliky,Dřepy, Angličáky)</value>
+  </data>
+  <data name="Circuit2Desc" xml:space="preserve">
+    <value>Švihadlo kruháč: Švihadlo + (kliky,Dřepy, Angličáky)</value>
+  </data>
+  <data name="CircuitDesc" xml:space="preserve">
+    <value>Kruháč: Klasický kruhový trénink, kde uživatel střídá silové cviky se švihadlem/stínováním ve volném stylu.</value>
+  </data>
 </root>

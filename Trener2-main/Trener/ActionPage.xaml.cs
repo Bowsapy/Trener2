@@ -25,40 +25,27 @@ namespace Trener
 
         public ActionPage(WorkoutClass workout)
         {
-            this.speed = workout.speed;  // ✅ Opraveno
+            this.speed = workout.speed;  
             this.workout = workout;
             InitializeComponent();
-            NavigationPage.SetHasNavigationBar(this, false);
+            Shell.SetNavBarIsVisible(this, false);
 
             Action();
 
         }
         protected override bool OnBackButtonPressed()
         {
-            return true; // Zakáže tlačítko zpět
+            return true; 
         }
 
-
-        public void OnBackButtonClicked(object sender, EventArgs e)
-        {
-            App.Current.MainPage = new NavigationPage(new Tech1Page());
-        }
 
         async public void Action()
         {
 
 
-
-
-
-
             cts = new CancellationTokenSource();
             CancellationToken token = cts.Token;
             int currentComIndex = 0;
-            //int remainingRounds = workout.GetNumOfRounds();
-            int remainingRounds = 1;
-            int currentRound = 1;
-            double divisor = 1;
 
             // Zobrazení času na pozadí
             _ = Task.Run(() => ShowTime(token));
@@ -85,7 +72,6 @@ namespace Trener
 
 
 
-                    UpdateRoundAndComboLabels(currentRound, currentComIndex);
                     ComboClass combo = workout.Combos[currentComIndex];
                     bool isAdvice = combo.Strikes[0] is AdviceClass;
 
@@ -97,7 +83,6 @@ namespace Trener
                     await PlaySoundAsync(combo, token);
                     await Task.Delay(100, token);
 
-                    // Start executing the combo
                     await ExecuteCombo(speed, combo, isAdvice, token);
 
                     currentComIndex++;
@@ -154,11 +139,6 @@ namespace Trener
             });
         }
 
-
-        private void UpdateRoundAndComboLabels(int currentRound, int currentComIndex)
-        {
-            ChangeTextOnLabel(count_label, $"{currentComIndex + 1}/{workout.Combos.Count}");
-        }
 
         private void UpdateComboLabelFontSize(int comboLength)
         {
@@ -231,7 +211,6 @@ namespace Trener
 
                     }
 
-                    // Po každém úderu změníme barvu na opačnou
 
                     await Task.Delay(speed, token); // Zpoždění mezi údery
 

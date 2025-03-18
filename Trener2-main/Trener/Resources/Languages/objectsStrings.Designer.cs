@@ -70,6 +70,15 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný The main purpose of the app is to conduct independent technical training of the trainee, as on the bag or during shadow boxing, it serves as an audiovisual trainer, where it reports and visually shows the user in real time what punches and movements to use. .
+        /// </summary>
+        internal static string AboutAppDesc {
+            get {
+                return ResourceManager.GetString("AboutAppDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný Add counters.
         /// </summary>
         internal static string add_countersText {
@@ -210,6 +219,33 @@ namespace Trener.Resources.Languages {
         internal static string Champ {
             get {
                 return ResourceManager.GetString("Champ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Shadowboxing circuit: Shadowboxing + (pushups, squats, burpees).
+        /// </summary>
+        internal static string Circuit1Desc {
+            get {
+                return ResourceManager.GetString("Circuit1Desc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Skipping rope circuit: Skipping rope + (pushups, squats, burpees).
+        /// </summary>
+        internal static string Circuit2Desc {
+            get {
+                return ResourceManager.GetString("Circuit2Desc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Circuit: A classic circuit training where the user alternates strength exercises with jump rope or freestyle shadowboxing..
+        /// </summary>
+        internal static string CircuitDesc {
+            get {
+                return ResourceManager.GetString("CircuitDesc", resourceCulture);
             }
         }
         
@@ -403,11 +439,38 @@ namespace Trener.Resources.Languages {
         }
         
         /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Freestyle1: Move around and jab, two punch combos only,Only straight punches, Finish combo with bodyshot, Use your lead hand only, Only hooks and uppercut, Only counters, Closefighting.
+        /// </summary>
+        internal static string Freestyle1Desc {
+            get {
+                return ResourceManager.GetString("Freestyle1Desc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Freestyle2: Dodge and counter, Start every combo with jab, Finish combo with bodyshot, Move around and jab, Use you lead hand only, Only hooks and uppercuts,Only counters,.
+        /// </summary>
+        internal static string Freestyle2Desc {
+            get {
+                return ResourceManager.GetString("Freestyle2Desc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Vyhledá lokalizovaný řetězec podobný FREESTYLE WORKOUTS.
         /// </summary>
         internal static string FreestyleButton {
             get {
                 return ResourceManager.GetString("FreestyleButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledá lokalizovaný řetězec podobný Freestyle workout: A workout where user is guided by more general instructions .
+        /// </summary>
+        internal static string FreestyleDesc {
+            get {
+                return ResourceManager.GetString("FreestyleDesc", resourceCulture);
             }
         }
         

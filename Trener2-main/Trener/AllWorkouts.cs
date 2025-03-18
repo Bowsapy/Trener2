@@ -564,7 +564,7 @@ public static class CombosGuides
 public static ComboClass closefighting = new ComboClass(new List<IStrike> { AllStrikes.Guides.closefighting }, 30);
 public static ComboClass countersonly = new ComboClass(new List<IStrike> { AllStrikes.Guides.countersonly }, 30);
 public static ComboClass finishwithbodyshot = new ComboClass(new List<IStrike> { AllStrikes.Guides.finishwithbodyshot }, 30);
-public static ComboClass headmovmentandcounter = new ComboClass(new List<IStrike> { AllStrikes.Guides.headmovmentandcounter }, 0);
+public static ComboClass headmovmentandcounter = new ComboClass(new List<IStrike> { AllStrikes.Guides.headmovmentandcounter }, 30);
 public static ComboClass movenadjab = new ComboClass(new List<IStrike> { AllStrikes.Guides.moveandjab }, 30);
 public static ComboClass onlyhooksandupper = new ComboClass(new List<IStrike> { AllStrikes.Guides.onlyhooksandupper }, 30);
 public static ComboClass onlystraightpunches = new ComboClass(new List<IStrike> { AllStrikes.Guides.onlystraightpunches }, 30);
@@ -943,8 +943,8 @@ public static class Core
 }
 public static class Guided
 {
-    public static FitnessWorkoutClass guidedone = new FitnessWorkoutClass("Freestyle 1", new List<ComboClass> { AllCombos.CombosGuides.movenadjab, AllCombos.CombosGuides.twopunchcombos, AllCombos.CombosGuides.onlystraightpunches, AllCombos.CombosGuides.finishwithbodyshot, AllCombos.CombosGuides.countersonly, AllCombos.CombosGuides.onlyhooksandupper, AllCombos.CombosGuides.countersonly, AllCombos.CombosGuides.closefighting }, 3, 0, 0);
-    public static FitnessWorkoutClass guidedone2 = new FitnessWorkoutClass("Freestyle 2", new List<ComboClass> { AllCombos.CombosGuides.movenadjab, AllCombos.CombosGuides.twopunchcombos, AllCombos.CombosGuides.onlystraightpunches, AllCombos.CombosGuides.finishwithbodyshot, AllCombos.CombosGuides.countersonly, AllCombos.CombosGuides.onlyhooksandupper, AllCombos.CombosGuides.countersonly, AllCombos.CombosGuides.closefighting }, 3, 0, 0);
+    public static FitnessWorkoutClass guidedone = new FitnessWorkoutClass("Freestyle 1", new List<ComboClass> { AllCombos.CombosGuides.movenadjab, AllCombos.CombosGuides.twopunchcombos, AllCombos.CombosGuides.onlystraightpunches, AllCombos.CombosGuides.finishwithbodyshot, AllCombos.CombosGuides.useonlyleadhand, AllCombos.CombosGuides.onlyhooksandupper, AllCombos.CombosGuides.countersonly, AllCombos.CombosGuides.closefighting }, 3, 0, 0);
+    public static FitnessWorkoutClass guidedone2 = new FitnessWorkoutClass("Freestyle 2", new List<ComboClass> { AllCombos.CombosGuides.headmovmentandcounter, AllCombos.CombosGuides.startwithjab, AllCombos.CombosGuides.finishwithbodyshot, AllCombos.CombosGuides.movenadjab, AllCombos.CombosGuides.useonlyleadhand, AllCombos.CombosGuides.onlyhooksandupper, AllCombos.CombosGuides.countersonly}, 3, 0, 0);
 
 }
 

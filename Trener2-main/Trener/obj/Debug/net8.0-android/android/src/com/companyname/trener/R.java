@@ -11594,15 +11594,16 @@ public final class R {
     public static final int notification_template_icon_low_bg=0x7f0700e3;
     public static final int notification_tile_bg=0x7f0700e4;
     public static final int notify_panel_notification_icon_bg=0x7f0700e5;
-    public static final int room=0x7f0700e6;
-    public static final int stairs=0x7f0700e7;
-    public static final int test_level_drawable=0x7f0700e8;
-    public static final int tooltip_frame_dark=0x7f0700e9;
-    public static final int tooltip_frame_light=0x7f0700ea;
-    public static final int trace=0x7f0700eb;
-    public static final int trena=0x7f0700ec;
-    public static final int trener2=0x7f0700ed;
-    public static final int trophy=0x7f0700ee;
+    public static final int ring=0x7f0700e6;
+    public static final int room=0x7f0700e7;
+    public static final int stairs=0x7f0700e8;
+    public static final int test_level_drawable=0x7f0700e9;
+    public static final int tooltip_frame_dark=0x7f0700ea;
+    public static final int tooltip_frame_light=0x7f0700eb;
+    public static final int trace=0x7f0700ec;
+    public static final int trena=0x7f0700ed;
+    public static final int trener2=0x7f0700ee;
+    public static final int trophy=0x7f0700ef;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

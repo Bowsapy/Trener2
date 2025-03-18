@@ -51,6 +51,7 @@ public partial class ProgressPage : ContentPage
             {
                 WorkoutName = workout.workoutName, // Název workoutu
                 Date = workout.dateTime.ToString("dd.MM.yyyy HH:mm") // Datum ve čitelné podobě
+
             })
             .ToList();
 

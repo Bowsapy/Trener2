@@ -21,19 +21,23 @@ namespace Trener
         User user2 = new User();
 
 
+
         public ActionPage2(FitnessWorkoutClass workout)
         {
+            Shell.SetNavBarIsVisible(this, false);
+
             this.workout = workout;
             InitializeComponent();
-            NavigationPage.SetHasNavigationBar(this, false);
+            NavigationPage.SetHasNavigationBar(this, false); // Skryje horní lištu (toolbar)
 
             Action();
         }
 
-        public void OnBackButtonClicked(object sender, EventArgs e)
-        {
-            App.Current.MainPage = new NavigationPage(new Tech1Page());
-        }
+ 
+
+
+
+
 
         public async void Action()
         {
@@ -55,8 +59,8 @@ namespace Trener
 
                     ComboClass currentCombo = combos[index];
                     ChangeTextOnLabel(combo_label, currentCombo.Name);
-
                     UpdateNextRoundLabel(index, combos);
+
                     UpdateCountLabel(index, combos.Count);
 
                     //combo_label.Text = currentCombo.GetName[0].;
@@ -112,7 +116,7 @@ namespace Trener
             }
             else
             {
-                ChangeTextOnLabel(nextR_label, "Last round:");
+                ChangeTextOnLabel(nextR_label, "-");
             }
         }
         private void UpdateCountLabel(int index, int totalCombos)
@@ -160,17 +164,7 @@ namespace Trener
             }
         }
 
-        private async Task PlayBreakAndNextExerciseAsync(ComboClass nextCombo, CancellationToken token)
-        {
-            await GenericSounds.PlayBreakSound(token);
-            ChangeTextOnLabel(combo_label, "Break");
-            SetComboLabelColor(Color.FromRgb(0, 255, 0));
 
-            await Task.Delay(1000, token);
-            await Task.Delay(1500, token);
-            await PlaySoundAsync(nextCombo, token);
-            await StartTimerAsync(workout.Getbreaktime() + 1, token);
-        }
 
         private void StopFunc(object sender, EventArgs e)
         {
@@ -182,10 +176,7 @@ namespace Trener
         {
             skipped = true;
         }
-        protected override bool OnBackButtonPressed()
-        {
-            return true; // Zakáže tlačítko zpět
-        }
+
 
 
         private async void EndFunc(object sender, EventArgs e)
@@ -209,10 +200,11 @@ namespace Trener
             int minFontSize = 20;
 
             // Dynamická změna fontu (například klesá s rostoucím comboLength)
-            int fontSize = Math.Max(minFontSize, maxFontSize - comboLength * 8);
+            int fontSize = Math.Max(minFontSize, maxFontSize - comboLength * 5);
 
             combo_label.FontSize = fontSize;
         }
+
 
     }
 }

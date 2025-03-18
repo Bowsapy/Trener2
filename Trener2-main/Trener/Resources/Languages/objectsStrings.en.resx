@@ -578,4 +578,25 @@
   <data name="SouthpawDesc" xml:space="preserve">
     <value>For Southpaw (Left-Handed Boxer): Lead - Right, Rear - Left</value>
   </data>
+  <data name="AboutAppDesc" xml:space="preserve">
+    <value>The main purpose of the app is to conduct independent technical training of the trainee, as on the bag or during shadow boxing, it serves as an audiovisual trainer, where it reports and visually shows the user in real time what punches and movements to use. </value>
+  </data>
+  <data name="FreestyleDesc" xml:space="preserve">
+    <value>Freestyle workout: A workout where user is guided by more general instructions </value>
+  </data>
+  <data name="Freestyle1Desc" xml:space="preserve">
+    <value>Freestyle1: Move around and jab, two punch combos only,Only straight punches, Finish combo with bodyshot, Use your lead hand only, Only hooks and uppercut, Only counters, Closefighting</value>
+  </data>
+  <data name="Freestyle2Desc" xml:space="preserve">
+    <value>Freestyle2: Dodge and counter, Start every combo with jab, Finish combo with bodyshot, Move around and jab, Use you lead hand only, Only hooks and uppercuts,Only counters,</value>
+  </data>
+  <data name="Circuit1Desc" xml:space="preserve">
+    <value>Shadowboxing circuit: Shadowboxing + (pushups, squats, burpees)</value>
+  </data>
+  <data name="Circuit2Desc" xml:space="preserve">
+    <value>Skipping rope circuit: Skipping rope + (pushups, squats, burpees)</value>
+  </data>
+  <data name="CircuitDesc" xml:space="preserve">
+    <value>Circuit: A classic circuit training where the user alternates strength exercises with jump rope or freestyle shadowboxing.</value>
+  </data>
 </root>
