@@ -33,10 +33,7 @@ namespace Trener
             Action();
 
         }
-        protected override bool OnBackButtonPressed()
-        {
-            return true; 
-        }
+
 
 
         async public void Action()
@@ -75,9 +72,12 @@ namespace Trener
                     ComboClass combo = workout.Combos[currentComIndex];
                     bool isAdvice = combo.Strikes[0] is AdviceClass;
 
+                    UpdateCountLabel(currentComIndex, workout.Combos.Count);
+                    UpdateComboLabelFontSize(combo.Name.Length);
+
                     combo_label.Text = combo.Name;
 
-                    UpdateComboLabelFontSize(combo.Name.Length);
+                   
                     UpdateStrikeLabelBackground(isAdvice);
 
                     await PlaySoundAsync(combo, token);
@@ -126,6 +126,12 @@ namespace Trener
             }
         }
 
+        private void UpdateCountLabel(int index, int totalCombos)
+        {
+            ChangeTextOnLabel(count_label, $"{index + 1}/{totalCombos}");
+
+        }
+
         private async Task CheckPauseAsync(CancellationToken token)
         {
 
@@ -142,14 +148,17 @@ namespace Trener
 
         private void UpdateComboLabelFontSize(int comboLength)
         {
-            // Maximální a minimální velikost písma
-            int maxFontSize = 150;
-            int minFontSize = 20;
-
-            // Dynamická změna fontu (například klesá s rostoucím comboLength)
-            int fontSize = Math.Max(minFontSize, maxFontSize - comboLength * 8);
-
-            combo_label.FontSize = fontSize;
+            if (comboLength > 15)
+            {
+                combo_label.FontSize = 24;
+            }
+            else if( comboLength > 11) {
+                combo_label.FontSize = 30;
+            }
+            else
+            {
+                combo_label.FontSize = 52;
+            }
         }
 
 
@@ -237,13 +246,6 @@ namespace Trener
             skipped = true;
         }
 
-        private async Task StopAll(CancellationToken token)
-        {
-            while (stopped && !token.IsCancellationRequested)
-            {
-                await Task.Delay(1000, token);
-            }
-        }
 
         private void StopFunc(object sender, EventArgs e)
         {

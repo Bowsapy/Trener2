@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-18T20:34:30.544</Modified>
+      <Modified>2025-03-19T08:57:14.672</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-03-18T20:34:30.324</Modified>
+      <Modified>2025-03-19T08:57:14.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Trener.runtimeconfig.json">
       <PackagePath>Trener.runtimeconfig.json</PackagePath>
-      <Modified>2025-03-18T18:29:18.049</Modified>
+      <Modified>2025-03-19T08:27:13.724</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Trener.dll">
       <PackagePath>Trener.dll</PackagePath>
-      <Modified>2025-03-18T20:34:28.635</Modified>
+      <Modified>2025-03-19T08:57:13.448</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Trener.exe</PackagePath>
-      <Modified>2025-03-18T20:34:28.684</Modified>
+      <Modified>2025-03-19T08:57:13.500</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -703,23 +703,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-100.png">
       <PackagePath>bag2SplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:12.629</Modified>
+      <Modified>2025-03-18T21:03:25.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-125.png">
       <PackagePath>bag2SplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:12.668</Modified>
+      <Modified>2025-03-18T21:03:25.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-150.png">
       <PackagePath>bag2SplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:12.709</Modified>
+      <Modified>2025-03-18T21:03:25.692</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-200.png">
       <PackagePath>bag2SplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:12.769</Modified>
+      <Modified>2025-03-18T21:03:25.759</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\bag2SplashScreen.scale-400.png">
       <PackagePath>bag2SplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:12.910</Modified>
+      <Modified>2025-03-18T21:03:25.909</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -731,439 +731,439 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag.scale-100.png">
       <PackagePath>bag.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag.scale-125.png">
       <PackagePath>bag.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag.scale-150.png">
       <PackagePath>bag.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag.scale-200.png">
       <PackagePath>bag.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag.scale-400.png">
       <PackagePath>bag.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag2.scale-100.png">
       <PackagePath>bag2.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.628</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag2.scale-125.png">
       <PackagePath>bag2.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.628</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag2.scale-150.png">
       <PackagePath>bag2.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.628</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag2.scale-200.png">
       <PackagePath>bag2.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.628</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bag2.scale-400.png">
       <PackagePath>bag2.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2.ico">
       <PackagePath>best2.ico</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2LargeTile.scale-100.png">
       <PackagePath>best2LargeTile.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.616</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2LargeTile.scale-125.png">
       <PackagePath>best2LargeTile.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.616</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2LargeTile.scale-150.png">
       <PackagePath>best2LargeTile.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.610</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2LargeTile.scale-200.png">
       <PackagePath>best2LargeTile.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.610</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2LargeTile.scale-400.png">
       <PackagePath>best2LargeTile.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.610</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>best2Logo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>best2Logo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>best2Logo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>best2Logo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>best2Logo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-unplated_targetsize-16.png">
       <PackagePath>best2Logo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-unplated_targetsize-24.png">
       <PackagePath>best2Logo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-unplated_targetsize-256.png">
       <PackagePath>best2Logo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-unplated_targetsize-32.png">
       <PackagePath>best2Logo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.altform-unplated_targetsize-48.png">
       <PackagePath>best2Logo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.scale-100.png">
       <PackagePath>best2Logo.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.scale-125.png">
       <PackagePath>best2Logo.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.scale-150.png">
       <PackagePath>best2Logo.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.scale-200.png">
       <PackagePath>best2Logo.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.scale-400.png">
       <PackagePath>best2Logo.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.targetsize-16.png">
       <PackagePath>best2Logo.targetsize-16.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.targetsize-24.png">
       <PackagePath>best2Logo.targetsize-24.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.targetsize-256.png">
       <PackagePath>best2Logo.targetsize-256.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.targetsize-32.png">
       <PackagePath>best2Logo.targetsize-32.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2Logo.targetsize-48.png">
       <PackagePath>best2Logo.targetsize-48.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2MediumTile.scale-100.png">
       <PackagePath>best2MediumTile.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.618</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2MediumTile.scale-125.png">
       <PackagePath>best2MediumTile.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.618</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2MediumTile.scale-150.png">
       <PackagePath>best2MediumTile.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.618</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2MediumTile.scale-200.png">
       <PackagePath>best2MediumTile.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.616</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2MediumTile.scale-400.png">
       <PackagePath>best2MediumTile.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.616</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2SmallTile.scale-100.png">
       <PackagePath>best2SmallTile.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2SmallTile.scale-125.png">
       <PackagePath>best2SmallTile.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2SmallTile.scale-150.png">
       <PackagePath>best2SmallTile.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2SmallTile.scale-200.png">
       <PackagePath>best2SmallTile.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2SmallTile.scale-400.png">
       <PackagePath>best2SmallTile.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2StoreLogo.scale-100.png">
       <PackagePath>best2StoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2StoreLogo.scale-125.png">
       <PackagePath>best2StoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2StoreLogo.scale-150.png">
       <PackagePath>best2StoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2StoreLogo.scale-200.png">
       <PackagePath>best2StoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2StoreLogo.scale-400.png">
       <PackagePath>best2StoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.619</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2WideTile.scale-100.png">
       <PackagePath>best2WideTile.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.616</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2WideTile.scale-125.png">
       <PackagePath>best2WideTile.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.616</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2WideTile.scale-150.png">
       <PackagePath>best2WideTile.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.616</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2WideTile.scale-200.png">
       <PackagePath>best2WideTile.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.616</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\best2WideTile.scale-400.png">
       <PackagePath>best2WideTile.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.616</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\file.scale-100.png">
       <PackagePath>file.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.630</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\file.scale-125.png">
       <PackagePath>file.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.630</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\file.scale-150.png">
       <PackagePath>file.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.630</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\file.scale-200.png">
       <PackagePath>file.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.630</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\file.scale-400.png">
       <PackagePath>file.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.630</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gym.scale-100.png">
       <PackagePath>gym.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.629</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gym.scale-125.png">
       <PackagePath>gym.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.629</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gym.scale-150.png">
       <PackagePath>gym.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.628</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gym.scale-200.png">
       <PackagePath>gym.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.628</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gym.scale-400.png">
       <PackagePath>gym.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.628</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-100.png">
       <PackagePath>loading.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-125.png">
       <PackagePath>loading.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-150.png">
       <PackagePath>loading.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-200.png">
       <PackagePath>loading.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-400.png">
       <PackagePath>loading.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ring.scale-100.png">
       <PackagePath>ring.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ring.scale-125.png">
       <PackagePath>ring.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ring.scale-150.png">
       <PackagePath>ring.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ring.scale-200.png">
       <PackagePath>ring.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ring.scale-400.png">
       <PackagePath>ring.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.559</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\room.scale-100.png">
       <PackagePath>room.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.630</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\room.scale-125.png">
       <PackagePath>room.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.630</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\room.scale-150.png">
       <PackagePath>room.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.630</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\room.scale-200.png">
       <PackagePath>room.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.630</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\room.scale-400.png">
       <PackagePath>room.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.630</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stairs.scale-100.png">
       <PackagePath>stairs.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.610</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stairs.scale-125.png">
       <PackagePath>stairs.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.610</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stairs.scale-150.png">
       <PackagePath>stairs.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.610</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stairs.scale-200.png">
       <PackagePath>stairs.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.610</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stairs.scale-400.png">
       <PackagePath>stairs.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.610</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trace.scale-100.png">
       <PackagePath>trace.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trace.scale-125.png">
       <PackagePath>trace.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trace.scale-150.png">
       <PackagePath>trace.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trace.scale-200.png">
       <PackagePath>trace.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trace.scale-400.png">
       <PackagePath>trace.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trena.scale-100.png">
       <PackagePath>trena.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.629</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trena.scale-125.png">
       <PackagePath>trena.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.629</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trena.scale-150.png">
       <PackagePath>trena.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.629</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trena.scale-200.png">
       <PackagePath>trena.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.629</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trena.scale-400.png">
       <PackagePath>trena.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.629</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trener2.scale-100.png">
       <PackagePath>trener2.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.632</Modified>
+      <Modified>2025-03-18T21:03:30.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trener2.scale-125.png">
       <PackagePath>trener2.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.632</Modified>
+      <Modified>2025-03-18T21:03:30.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trener2.scale-150.png">
       <PackagePath>trener2.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.632</Modified>
+      <Modified>2025-03-18T21:03:30.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trener2.scale-200.png">
       <PackagePath>trener2.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.632</Modified>
+      <Modified>2025-03-18T21:03:30.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trener2.scale-400.png">
       <PackagePath>trener2.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.630</Modified>
+      <Modified>2025-03-18T21:03:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trophy.scale-100.png">
       <PackagePath>trophy.scale-100.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trophy.scale-125.png">
       <PackagePath>trophy.scale-125.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trophy.scale-150.png">
       <PackagePath>trophy.scale-150.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trophy.scale-200.png">
       <PackagePath>trophy.scale-200.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trophy.scale-400.png">
       <PackagePath>trophy.scale-400.png</PackagePath>
-      <Modified>2025-03-18T17:03:17.624</Modified>
+      <Modified>2025-03-18T21:03:30.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Trener.deps.json">
       <PackagePath>Trener.deps.json</PackagePath>
-      <Modified>2025-03-18T20:34:30.023</Modified>
+      <Modified>2025-03-19T08:57:14.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\cs\Trener.resources.dll">
       <PackagePath>cs\Trener.resources.dll</PackagePath>
-      <Modified>2025-03-18T20:34:29.624</Modified>
+      <Modified>2025-03-19T08:57:13.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\source\repos\Trener2\Trener2-main\Trener\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\en\Trener.resources.dll">
       <PackagePath>en\Trener.resources.dll</PackagePath>
-      <Modified>2025-03-18T20:34:29.684</Modified>
+      <Modified>2025-03-19T08:57:14.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\janst\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

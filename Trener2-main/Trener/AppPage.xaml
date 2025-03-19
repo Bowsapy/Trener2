@@ -10,7 +10,7 @@
 
             <VerticalStackLayout Padding="10"                           
  >
-                <Label Text="{x:Static lang:objectsStrings.AboutAppDesc}"> </Label>
+                <Label Text="{x:Static lang:objectsStrings.AboutAppDesc}" FontSize="18" Margin="10"  TextColor="Black"/> 
                 <Label Text="{x:Static lang:objectsStrings.StanceDesc}" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center"  TextColor="Black"/>
                 <Label Text="{x:Static lang:objectsStrings.OrthodoxDesc}" FontSize="18" Margin="10"  TextColor="Black"/>
                 <Label Text="{x:Static lang:objectsStrings.SouthpawDesc}" FontSize="18" Margin="10"  TextColor="Black"/>

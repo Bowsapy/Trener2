@@ -7,23 +7,28 @@
 
     <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Spacing="20" Padding="30">
 
-        <Frame BackgroundColor="#512BD4" CornerRadius="15" Padding="0">
+        <Frame BackgroundColor="#512BD4" CornerRadius="20" Padding="10" HasShadow="True">
             <Label Text="{x:Static lang:objectsStrings.good_job}" 
-                   FontSize="57" FontAttributes="Bold" 
-
-                   HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+           FontSize="57" 
+           FontAttributes="Bold"
+           HorizontalTextAlignment="Center"
+           VerticalTextAlignment="Center"
+           HorizontalOptions="CenterAndExpand" 
+           VerticalOptions="CenterAndExpand"
+           TextColor="White"/>
         </Frame>
+
 
         <Frame BackgroundColor="#512BD4" Opacity="1" CornerRadius="15" Padding="10">
             <Label Text="{x:Static lang:objectsStrings.completion}" 
                    FontSize="25" HorizontalOptions="Center" 
-                   TextColor="Black"
+                   TextColor="White"
                     FontAttributes="Bold" 
                    />
         </Frame>
 
         <Button Text="{x:Static lang:objectsStrings.BackButton}" 
-          TextColor="Black" 
+          TextColor="White" 
                 FontAttributes="Bold"
                 FontSize="20" CornerRadius="100"
                 Padding="10" WidthRequest="200"

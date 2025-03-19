@@ -62,10 +62,9 @@ namespace Trener
                     UpdateNextRoundLabel(index, combos);
 
                     UpdateCountLabel(index, combos.Count);
+                    SetFComboLabelFontSize(currentCombo.Name);                 
 
-                    //combo_label.Text = currentCombo.GetName[0].;
-
-                    await PlaySoundAsync(currentCombo, token);
+                                        await PlaySoundAsync(currentCombo, token);
                     SetComboLabelColor(Color.FromRgb(255, 0, 0));
 
                     await GenericSounds.PlayGoSound(token);
@@ -101,6 +100,13 @@ namespace Trener
             {
                 cts.Dispose(); // Uvolni zdroj po skončení.
             }
+        }
+
+        private void SetFComboLabelFontSize(string combo)
+        {
+            int fontsize;
+           fontsize  =(-2)* (combo.Length) + 95;
+            
         }
 
         private async Task PlayGetReadyAsync(CancellationToken token)

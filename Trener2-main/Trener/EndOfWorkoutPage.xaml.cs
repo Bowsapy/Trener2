@@ -6,6 +6,8 @@ namespace Trener
     {
         public EndOfWorkoutPage()
         {
+            Shell.SetNavBarIsVisible(this, false);
+
             InitializeComponent();
         }
 

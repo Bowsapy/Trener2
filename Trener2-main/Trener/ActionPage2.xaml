@@ -25,7 +25,7 @@
            x:Name="combo_label" 
            TextColor="White"
            FontAttributes="Bold"
-           FontSize="45"
+           FontSize="35"
            VerticalTextAlignment="Center"
            HorizontalTextAlignment="Center"
            LineBreakMode="WordWrap"
