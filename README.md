@@ -23,7 +23,7 @@ The app was built using **.NET MAUI (Multi-platform App UI)** — a cross-platfo
 * Tracking progress
 * Create and manage custom workout sessions
 * Choose from +20 workouts
-*The entire app is available in both Czech and English (including sound instructions)
+* The entire app is available in both Czech and English (including sound instructions)
 
 <br>
 
