@@ -1,5 +1,5 @@
 # 🥊 Trener
-A note: Code is a one big mess (it was my first big project, in the beginning I didnt know anything about Developing Android apps)
+Note: This code is quite messy, as it was my first major project and I had little knowledge of Android app development at the time.
 
 **Trener** is a mobile app for **Android OS** that serves as a personal coach for boxing training. It helps users train technique, improve fitness, and track their progress – all from the comfort of home, without the need for a coach or gym. The app functions as an audiovisual trainer, using voice instructions and visual cues to guide the user through each workout.
 
